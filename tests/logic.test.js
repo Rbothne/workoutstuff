@@ -113,3 +113,69 @@ test('nextMove: only suggests from the moves it is given', () => {
   const noGear = L.visibleMoves(moves, []);
   assert.deepEqual(L.nextMove(credits, 4, noGear), { bar: 'pull', moveId: null });
 });
+
+const base = { equipment: [], dumbbells: [], routine: L.DEFAULT_ROUTINE };
+const today = '2026-11-22';
+
+test('planSession: with no equipment it lists the routine moves he can do, three sets each', () => {
+  const plan = L.planSession(moves, base, [], today);
+  assert.deepEqual(plan.map((r) => r.move.id), ['landing', 'squat', 'pushup', 'deadbug', 'bridge']);
+  const squat = plan[1];
+  assert.equal(squat.sets.length, 3);
+  assert.deepEqual(squat.sets[0], { weight: 0, reps: 8 });
+  assert.equal(squat.first, true);
+  assert.equal(squat.done, false);
+});
+
+test('planSession: a first-time dumbbell move starts on the lightest weight that suits it', () => {
+  const plan = L.planSession(moves, { ...base, dumbbells: [20, 50] }, [], today);
+  const byId = Object.fromEntries(plan.map((r) => [r.move.id, r]));
+  assert.equal(byId.row.sets[0].weight, 20);
+  assert.equal(byId.hinge.sets[0].weight, 20);
+  assert.equal(byId.squat.sets[0].weight, 0);
+});
+
+test('planSession: fills in the suggestion from the last session', () => {
+  const entries = [{ id: '2026-11-15_squat', date: '2026-11-15', moveId: 'squat', sets: sets([20, 12], [20, 12], [20, 12]) }];
+  const plan = L.planSession(moves, { ...base, dumbbells: [20, 50] }, entries, today);
+  const squat = plan.find((r) => r.move.id === 'squat');
+  assert.deepEqual(squat.sets, sets([50, 8], [50, 8], [50, 8]));
+  assert.equal(squat.first, false);
+});
+
+test('planSession: what was already logged today is shown as logged, not replaced by a suggestion', () => {
+  const entries = [
+    { id: '2026-11-22_squat', date: today, moveId: 'squat', sets: sets([20, 9], [20, 8]) },
+    { id: '2026-11-15_squat', date: '2026-11-15', moveId: 'squat', sets: sets([20, 12]) },
+  ];
+  const squat = L.planSession(moves, base, entries, today).find((r) => r.move.id === 'squat');
+  assert.deepEqual(squat.sets, sets([20, 9], [20, 8]));
+  assert.equal(squat.done, true);
+});
+
+test('planSession: a routine entry for a move that no longer exists is skipped', () => {
+  const plan = L.planSession(moves, { ...base, routine: ['gone', 'squat'] }, [], today);
+  assert.deepEqual(plan.map((r) => r.move.id), ['squat']);
+});
+
+test('stepWeight: moves through the dumbbells he owns', () => {
+  assert.equal(L.stepWeight(move('row'), 20, 1, [20, 30, 50]), 30);
+  assert.equal(L.stepWeight(move('row'), 20, -1, [20, 30, 50]), 20);
+  assert.equal(L.stepWeight(move('row'), 50, 1, [20, 30, 50]), 50);
+});
+
+test('stepWeight: an optional-weight move can drop back to bodyweight', () => {
+  assert.equal(L.stepWeight(move('squat'), 20, -1, [20, 50]), 0);
+  assert.equal(L.stepWeight(move('squat'), 0, 1, [20, 50]), 20);
+});
+
+test('stepWeight: with no dumbbells ticked it moves in 5 lb steps and never below zero', () => {
+  assert.equal(L.stepWeight(move('row'), 20, 1, []), 25);
+  assert.equal(L.stepWeight(move('row'), 0, -1, []), 0);
+});
+
+test('planSession: a dumbbell move with no suitable weight starts on the lightest one he owns, never bodyweight', () => {
+  const plan = L.planSession(moves, { ...base, dumbbells: [50] }, [], today);
+  assert.equal(plan.find((r) => r.move.id === 'row').sets[0].weight, 50);
+  assert.equal(plan.find((r) => r.move.id === 'squat').sets[0].weight, 0);
+});

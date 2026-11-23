@@ -8,7 +8,6 @@
   var EQUIP_LABEL = { none: 'no equipment', dumbbells: 'dumbbells', bench: 'bench', 'pullup-bar': 'pull-up bar', band: 'resistance band', step: 'step or box', treadmill: 'treadmill' };
   var WEIGHTS = [5, 8, 10, 12, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70];
   var SETTINGS_KEY = 'onemove.settings';
-  var DONE_KEY = 'onemove.done';
 
   function read(key, fallback) {
     try { return JSON.parse(localStorage.getItem(key)) || fallback; } catch (e) { return fallback; }
@@ -28,6 +27,10 @@
   var settings = read(SETTINGS_KEY, {});
   if (!Array.isArray(settings.equipment)) settings.equipment = [];
   if (!Array.isArray(settings.dumbbells)) settings.dumbbells = [];
+  if (!Array.isArray(settings.routine)) settings.routine = OneMove.DEFAULT_ROUTINE.slice();
+  // Until the store is open, settings live in this browser. track.js swaps in the store.
+  var persist = function (s) { write(SETTINGS_KEY, s); };
+  var listeners = [];
 
   function owned() {
     return settings.equipment.concat(settings.dumbbells.length ? ['dumbbells'] : []);
@@ -118,6 +121,19 @@
         }
       }
     }
+    if (move.logged) {
+      var inRoutine = settings.routine.indexOf(move.id) !== -1;
+      var b = el('button', 'chip', inRoutine ? 'In my routine' : 'Add to my routine');
+      b.type = 'button';
+      b.setAttribute('aria-pressed', inRoutine ? 'true' : 'false');
+      b.addEventListener('click', function () {
+        toggle(settings.routine, move.id);
+        changed();
+      });
+      var wrap = el('span', 'routine');
+      wrap.appendChild(b);
+      lines.push(wrap);
+    }
     return lines;
   }
   function renderCards() {
@@ -138,10 +154,8 @@
 
   // ---------- today ----------
   var now = new Date();
-  function dayKey(d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
   var dayNum = Math.floor((now.getTime() - now.getTimezoneOffset() * 60000) / 86400000);
   var todayId = null;
-  var log = read(DONE_KEY, {});
 
   function renderToday() {
     var move = moves.length ? OneMove.todayMove(moves, owned(), dayNum) : null;
@@ -157,31 +171,12 @@
     var card = todayId ? $('m-' + todayId) : null;
     if (card) { card.open = true; card.scrollIntoView({ block: 'start' }); }
   });
-  function paintDone() {
-    var on = !!log[dayKey(now)];
-    var done = $('done');
-    done.setAttribute('aria-pressed', on ? 'true' : 'false');
-    done.textContent = on ? 'Done today' : 'Mark done';
-    var week = $('week');
-    week.textContent = '';
-    for (var i = 6; i >= 0; i--) {
-      var d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
-      week.appendChild(el('i', log[dayKey(d)] ? 'on' : ''));
-    }
-  }
-  $('done').addEventListener('click', function () {
-    var k = dayKey(now);
-    if (log[k]) delete log[k]; else log[k] = true;
-    write(DONE_KEY, log);
-    paintDone();
-  });
-  paintDone();
-
   function changed() {
-    write(SETTINGS_KEY, settings);
+    persist(settings);
     renderGear();
     renderCards();
     renderToday();
+    listeners.forEach(function (fn) { fn(); });
   }
 
   // ---------- load ----------
@@ -193,8 +188,24 @@
       renderGear();
       renderCards();
       renderToday();
+      listeners.forEach(function (fn) { fn(); });
     })
     .catch(function () { $('moves-error').hidden = false; });
 
-  window.OneMoveApp = { getMoves: function () { return moves; }, getSettings: function () { return settings; }, owned: owned, el: el, $: $ };
+  window.OneMoveApp = {
+    el: el,
+    $: $,
+    getMoves: function () { return moves; },
+    getSettings: function () { return settings; },
+    getTodayId: function () { return todayId; },
+    onChange: function (fn) { listeners.push(fn); },
+    // Called once the store is open: its settings replace the browser copy and later changes save to it.
+    useStore: function (stored, save) {
+      settings = stored;
+      persist = save;
+      renderGear();
+      if (moves.length) { renderCards(); renderToday(); }
+      listeners.forEach(function (fn) { fn(); });
+    },
+  };
 })();

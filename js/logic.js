@@ -107,7 +107,58 @@
     return { bar: bar, moveId: fit ? fit.id : null };
   }
 
+  var SETS_PER_MOVE = 3;
+
+  // The day's lifting sheet: his routine, limited to what his equipment allows, each move pre-filled.
+  function planSession(moves, settings, entries, todayKey) {
+    var owned = settings.equipment.concat(settings.dumbbells.length ? ['dumbbells'] : []);
+    var visible = {};
+    visibleMoves(moves, owned).forEach(function (m) { visible[m.id] = m; });
+    var rows = [];
+    settings.routine.forEach(function (id) {
+      var move = visible[id];
+      if (!move || !move.logged) return;
+      var mine = (entries || []).filter(function (e) { return e.moveId === id; })
+        .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+      var todays = mine.filter(function (e) { return e.date === todayKey; })[0];
+      var last = mine.filter(function (e) { return e.date < todayKey; })[0];
+      var sets;
+      if (todays) {
+        sets = todays.sets.map(function (s) { return { weight: s.weight, reps: s.reps }; });
+      } else {
+        var next = last ? suggestNext(move, last.sets, settings.dumbbells) : null;
+        if (!next) {
+          var start = 0;
+          if (move.load && move.equipment.indexOf('dumbbells') !== -1 && settings.dumbbells.length) {
+            var fit = suitableWeights(move, settings.dumbbells, null);
+            // Nothing suitable: the move still needs a dumbbell, so use the lightest he has.
+            start = fit.length ? fit[0] : Math.min.apply(null, settings.dumbbells);
+          }
+          next = { weight: start, reps: move.min };
+        }
+        sets = [];
+        for (var i = 0; i < SETS_PER_MOVE; i++) sets.push({ weight: next.weight, reps: next.reps });
+      }
+      rows.push({ move: move, sets: sets, first: !last && !todays, done: !!todays, last: last || null });
+    });
+    return rows;
+  }
+
+  function stepWeight(move, weight, dir, owned) {
+    var sorted = (owned || []).slice().sort(function (a, b) { return a - b; });
+    if (!sorted.length) return Math.max(0, weight + dir * 5);
+    if (dir > 0) {
+      var up = sorted.filter(function (w) { return w > weight; });
+      return up.length ? up[0] : weight;
+    }
+    var down = sorted.filter(function (w) { return w < weight; });
+    if (down.length) return down[down.length - 1];
+    return move.equipment.indexOf('dumbbells') === -1 ? 0 : weight;
+  }
+
   return {
+    planSession: planSession,
+    stepWeight: stepWeight,
     BARS: BARS,
     dateKey: dateKey,
     dayOfYear: dayOfYear,
