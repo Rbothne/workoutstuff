@@ -1,0 +1,1851 @@
+[
+ {
+  "id": "eating",
+  "kind": "topic",
+  "title": "Eating well",
+  "bluf": [
+   {
+    "text": "Fill about half of most plates with vegetables and fruit. Five portions a day is the common target.",
+    "cites": [
+     1,
+     6,
+     5
+    ]
+   },
+   {
+    "text": "Build a meal from a staple, a main and a side, mostly from plants, with fish once or twice a week.",
+    "cites": [
+     2,
+     6,
+     5
+    ]
+   },
+   {
+    "text": "Make water or unsweetened tea your default drink.",
+    "cites": [
+     2,
+     4,
+     6
+    ]
+   },
+   {
+    "text": "Keep sweets, salty snacks and sugary drinks occasional, and serve them on a plate instead of eating from the package.",
+    "cites": [
+     1,
+     4,
+     10
+    ]
+   },
+   {
+    "text": "Eat regular meals, slowly, and with other people when you can.",
+    "cites": [
+     4,
+     6,
+     5
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the guidelines share",
+    "paragraphs": [
+     {
+      "text": "Japan, South Korea, China, Germany and the World Health Organization all put plants at the centre. The WHO asks for at least 400 g of fruit and vegetables a day, Germany for at least five portions, and China for 300 to 500 g of vegetables plus 200 to 350 g of fruit.",
+      "cites": [
+       1,
+       6,
+       5
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "All of them limit salt, sugar and fat. The WHO and China both set salt under 5 g a day and added or free sugar under about 50 g, and Korea tells people to choose foods lower in salt, sugar and fat.",
+      "cites": [
+       1,
+       5,
+       4
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
+      "cites": [
+       6,
+       5,
+       4,
+       2
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Fish is in, and red and processed meat is limited. Germany suggests fish once or twice a week and no more than 300 g of meat and sausage a week. China suggests 300 to 500 g of fish a week. Japan asks for a mix of vegetables, beans and fish.",
+      "cites": [
+       6,
+       5,
+       2
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "They also advise on how to eat, not only what. Korea says not to skip breakfast, to avoid overeating and to eat with family often. Germany says to eat slowly and enjoy it. Japan says to enjoy meals at regular hours, and China to keep three regular meals.",
+      "cites": [
+       4,
+       6,
+       2,
+       5
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Where they differ",
+    "paragraphs": [
+     {
+      "text": "Japan builds the day on grain dishes such as rice, with vegetable dishes next and fish, egg and meat dishes after that. Its guide describes meals as a staple, a main and side dishes.",
+      "cites": [
+       2,
+       3
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Germany leans furthest toward plants, adding legumes at least weekly, a small handful of nuts daily and whole grains. China is the most specific on variety, asking for 12 different foods a day and 25 a week.",
+      "cites": [
+       6,
+       5
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Every one of these food guides also includes physical activity. Japan draws a runner on top of its guide, and China names about 6,000 steps a day.",
+      "cites": [
+       2,
+       5,
+       4,
+       6
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "What studies add",
+    "paragraphs": [
+     {
+      "text": "In Japan, 79,594 adults were followed for about 15 years. Those who followed the national food guide most closely had a 15% lower death rate than those who followed it least. This is an observational study, so it shows a link and not a cause.",
+      "cites": [
+       7
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Across 185 prospective studies and 58 trials, people who ate the most fibre had 15 to 30% lower rates of death, heart disease, stroke, type 2 diabetes and colorectal cancer than those who ate the least. The benefit was greatest at 25 to 29 g a day.",
+      "cites": [
+       8
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "People eat more when the portion, package or plate is larger. A Cochrane review of 58 studies found a small to moderate effect, stronger in adults.",
+      "cites": [
+       10
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In a year-long trial of 97 women, the group told to add water-rich fruit and vegetables lost more weight than the group told only to cut fat, and reported less hunger.",
+      "cites": [
+       11
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Higher-protein meals are modestly more filling. One review suggests 1.2 to 1.6 g of protein per kg of body weight a day, with 25 to 30 g at a meal, and notes that long-term results are mixed.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt. Nobody is expected to hit them at every meal.",
+      "cites": [
+       1
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "A country's good health has many causes besides its food: healthcare, income, how much people walk, smoking and drinking. These guidelines show what several health authorities agree on. They do not prove that diet alone explains why people in those countries live long.",
+      "cites": [],
+      "strength": null
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Healthy diet",
+    "publisher": "World Health Organization fact sheet, 2026",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "Food-based dietary guidelines: Japan",
+    "publisher": "Food and Agriculture Organization of the United Nations, summarising the Japanese government guidelines",
+    "url": "https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/japan/en/",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 3,
+    "title": "Nutrition policy in Japan: documents and links",
+    "publisher": "Ministry of Health, Labour and Welfare, Japan",
+    "url": "https://www.mhlw.go.jp/nutrition_policy/en/related",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 4,
+    "title": "Food-based dietary guidelines: Republic of Korea",
+    "publisher": "Food and Agriculture Organization of the United Nations, summarising the General Dietary Guidelines for Koreans (2016)",
+    "url": "https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/republic-of-korea/en/",
+    "kind": "authority",
+    "country": "KR"
+   },
+   {
+    "n": 5,
+    "title": "Eight key recommendations from Dietary Guidelines for Chinese Residents (2022)",
+    "publisher": "Chinese Center for Disease Control and Prevention, 2022",
+    "url": "https://en.chinacdc.cn/health_topics/nutrition_health/202206/t20220616_259702.html",
+    "kind": "authority",
+    "country": "CN"
+   },
+   {
+    "n": 6,
+    "title": "Food-based dietary guidelines: Germany",
+    "publisher": "Food and Agriculture Organization of the United Nations, summarising the German Nutrition Society's \"Eat and drink well\" (2024)",
+    "url": "https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/germany/en/",
+    "kind": "authority",
+    "country": "DE"
+   },
+   {
+    "n": 7,
+    "title": "Quality of diet and mortality among Japanese men and women: Japan Public Health Center based prospective study",
+    "publisher": "The BMJ, 2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804125",
+    "kind": "journal",
+    "country": "JP"
+   },
+   {
+    "n": 8,
+    "title": "Carbohydrate quality and human health: a series of systematic reviews and meta-analyses",
+    "publisher": "The Lancet, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30638909/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 9,
+    "title": "The role of protein in weight loss and maintenance",
+    "publisher": "American Journal of Clinical Nutrition, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25926512/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 10,
+    "title": "Portion, package or tableware size for changing selection and consumption of food, alcohol and tobacco",
+    "publisher": "Cochrane Database of Systematic Reviews, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26368271/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 11,
+    "title": "Dietary energy density in the treatment of obesity: a year-long trial comparing 2 weight-loss diets",
+    "publisher": "American Journal of Clinical Nutrition, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17556681/",
+    "kind": "journal",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "energy",
+  "kind": "topic",
+  "title": "Energy and tiredness",
+  "bluf": [
+   {
+    "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "text": "Break up long sitting with a few minutes of walking each hour.",
+    "cites": [
+     4,
+     3
+    ]
+   },
+   {
+    "text": "Protect seven or more hours of sleep a night.",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
+    "cites": [
+     6
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Movement produces energy",
+    "paragraphs": [
+     {
+      "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality. The effects were small to moderate.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter. The trial was small.",
+      "cites": [
+       2
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "In a trial of 30 sedentary adults, a five-minute walk every hour raised energy, improved mood and reduced fatigue and food cravings compared with six hours of unbroken sitting.",
+      "cites": [
+       4
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Exercise is also an effective treatment for depression, which often sits behind low energy. Across 218 trials, walking or jogging and strength training both helped, though the reviewers rated their confidence as low.",
+      "cites": [
+       7
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Feeling tired is common. In 2024, three in ten US adults slept less than seven hours a night, which is below what sleep specialists recommend.",
+      "cites": [
+       8,
+       5
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Tiredness is rarely a sign of serious illness. Among people who saw a family doctor for it, 4.3% had a serious physical disease and 2.8% had anaemia, while 18.5% had depression.",
+      "cites": [
+       6
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The WHO guideline says some activity is better than none and that sitting time should be reduced. There is no minimum amount below which movement stops counting.",
+      "cites": [
+       3
+      ],
+      "strength": "guideline"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "The effect of chronic exercise on energy and fatigue states: a systematic review and meta-analysis of randomized trials",
+    "publisher": "Frontiers in Psychology, 2022",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.907637/full",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "A randomized controlled trial of the effect of aerobic exercise training on feelings of energy and fatigue in sedentary young adults with persistent fatigue",
+    "publisher": "Psychotherapy and Psychosomatics, 2008",
+    "url": "https://karger.com/pps/article/77/3/167/282404/A-Randomized-Controlled-Trial-of-the-Effect-of",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 3,
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "publisher": "World Health Organization, in British Journal of Sports Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Effect of frequent interruptions of prolonged sitting on self-perceived levels of energy, mood, food cravings and cognitive function",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27809874/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 5,
+    "title": "Seven or more hours of sleep per night: a health necessity for adults",
+    "publisher": "American Academy of Sleep Medicine and Sleep Research Society, 2015",
+    "url": "https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 6,
+    "title": "The differential diagnosis of tiredness: a systematic review",
+    "publisher": "BMC Family Practice, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27765009/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 7,
+    "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
+    "publisher": "The BMJ, 2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 8,
+    "title": "Short sleep duration and sleep difficulties among adults: United States, 2024",
+    "publisher": "US Centers for Disease Control and Prevention, National Center for Health Statistics, 2026",
+    "url": "https://www.cdc.gov/nchs/products/databriefs/db559.htm",
+    "kind": "authority",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "sleep-appetite",
+  "kind": "topic",
+  "title": "Sleep and appetite",
+  "bluf": [
+   {
+    "text": "Treat the day after a short night as a day you will be hungrier, and decide what you will eat in advance.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Keep a steady wake time and aim for seven hours or more.",
+    "cites": [
+     4
+    ]
+   },
+   {
+    "text": "Put evening snacks on a plate or in a bowl and put the package away.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "text": "Make less-processed food the easy option at home, and fill up on fruit and vegetables first.",
+    "cites": [
+     2,
+     6
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Why you overeat",
+    "paragraphs": [
+     {
+      "text": "After a short night people eat more. Pooled sleep-restriction experiments found about 385 kcal more eaten the next day, with no increase in energy burned.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The kind of food matters. In a tightly controlled trial, 20 adults ate about 508 kcal a day more on an ultra-processed diet than on an unprocessed one, even though the meals offered were matched for calories, sugar, fat and fibre. They gained 0.9 kg in two weeks on one diet and lost 0.9 kg on the other.",
+      "cites": [
+       2
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "The container matters too. Larger portions, packages and plates lead people to eat more, according to a Cochrane review of 58 studies.",
+      "cites": [
+       3
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Foods with a lot of water and fibre fill you up for less. In a year-long trial, women who added fruit and vegetables reported less hunger than women who only cut fat.",
+      "cites": [
+       6
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Sleep specialists recommend seven or more hours a night for adults. Three in ten US adults get less.",
+      "cites": [
+       4,
+       5
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Eating more when tired, or when the bag is open in front of you, is what the experiments show most people do. It is a predictable response to the situation, and the situation is the part you can change.",
+      "cites": [
+       1,
+       3
+      ],
+      "strength": "strong"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "The effects of partial sleep deprivation on energy balance: a systematic review and meta-analysis",
+    "publisher": "European Journal of Clinical Nutrition, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27804960/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake",
+    "publisher": "Cell Metabolism, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31105044/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 3,
+    "title": "Portion, package or tableware size for changing selection and consumption of food, alcohol and tobacco",
+    "publisher": "Cochrane Database of Systematic Reviews, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26368271/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Seven or more hours of sleep per night: a health necessity for adults",
+    "publisher": "American Academy of Sleep Medicine and Sleep Research Society, 2015",
+    "url": "https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 5,
+    "title": "Short sleep duration and sleep difficulties among adults: United States, 2024",
+    "publisher": "US Centers for Disease Control and Prevention, National Center for Health Statistics, 2026",
+    "url": "https://www.cdc.gov/nchs/products/databriefs/db559.htm",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 6,
+    "title": "Dietary energy density in the treatment of obesity: a year-long trial comparing 2 weight-loss diets",
+    "publisher": "American Journal of Clinical Nutrition, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17556681/",
+    "kind": "journal",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "strength",
+  "kind": "topic",
+  "title": "Why muscle matters",
+  "bluf": [
+   {
+    "text": "Do some muscle-strengthening work twice a week. Thirty to sixty minutes in total is where the largest benefit was seen.",
+    "cites": [
+     1,
+     3
+    ]
+   },
+   {
+    "text": "If twice is too much, do one short session. Beginners still get stronger.",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "text": "Lift for strength and long-term health, and do not expect it to burn many calories.",
+    "cites": [
+     6,
+     7
+    ]
+   },
+   {
+    "text": "If you are losing weight, keep lifting so that you lose fat and keep muscle.",
+    "cites": [
+     4
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What strength work does",
+    "paragraphs": [
+     {
+      "text": "Across 16 cohort studies, people who did muscle-strengthening activity had a 10 to 17% lower risk of early death, heart disease, cancer and diabetes. The largest reduction was at about 30 to 60 minutes a week. These are observational studies.",
+      "cites": [
+       1
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "During weight loss, resistance training prevented about 93% of the muscle loss that dieting alone caused. The six trials were in older adults with obesity, so the size of the effect may differ for younger people.",
+      "cites": [
+       4
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Resistance training does not add to weight loss, but it may increase lean mass and fat loss and is associated with lower health risk.",
+      "cites": [
+       7
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Muscle and resting calorie burn",
+    "paragraphs": [
+     {
+      "text": "A kilogram of muscle at rest uses about 13 kcal a day. Fat uses about 4.5, while the liver and brain use 200 or more per kilogram. Adding two kilograms of muscle therefore adds roughly 26 kcal a day at rest, so the popular idea that muscle burns a lot of calories passively is overstated.",
+      "cites": [
+       6
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
+      "cites": [
+       3,
+       2
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Beginners do not need much. One weekly session, with fewer than three sets per exercise and light loads, is enough to gain strength for at least the first 12 weeks. This comes from a narrative review, which is weaker evidence than a trial.",
+      "cites": [
+       5
+      ],
+      "strength": "weak"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+    "publisher": "British Journal of Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35228201/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "publisher": "World Health Organization, in British Journal of Sports Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 3,
+    "title": "Adult activity: an overview",
+    "publisher": "US Centers for Disease Control and Prevention, 2023",
+    "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 4,
+    "title": "Resistance training prevents muscle loss induced by caloric restriction in obese elderly individuals: a systematic review and meta-analysis",
+    "publisher": "Nutrients, 2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5946208/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 5,
+    "title": "Minimalist training: is lower dosage or intensity resistance training effective to improve physical fitness? A narrative review",
+    "publisher": "Sports Medicine, 2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10933173/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Specific metabolic rates of major organs and tissues across adulthood: evaluation by mechanistic model of resting energy expenditure",
+    "publisher": "American Journal of Clinical Nutrition, 2010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980962",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 7,
+    "title": "Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults",
+    "publisher": "American College of Sports Medicine position stand, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
+    "kind": "authority",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "weight",
+  "kind": "topic",
+  "title": "Body weight",
+  "bluf": [
+   {
+    "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
+    "cites": [
+     1,
+     2
+    ]
+   },
+   {
+    "text": "Expect slow change. One to two pounds a week is the pace most likely to last.",
+    "cites": [
+     7
+    ]
+   },
+   {
+    "text": "Choose changes you could still be doing a year from now.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "text": "Treat BMI as a rough screen, not a verdict on your health.",
+    "cites": [
+     6
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Diet, exercise and the scale",
+    "paragraphs": [
+     {
+      "text": "In trials that compared them directly, programmes combining diet and activity beat activity-only programmes by about 6.3 kg after 12 to 18 months, and beat diet-only programmes by about 1.7 kg at 12 months. Most of the weight loss comes from the diet side.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The American College of Sports Medicine says 150 to 250 minutes of moderate activity a week prevents weight gain but produces only modest loss by itself, and that keeping weight off afterwards is helped by more than 250 minutes.",
+      "cites": [
+       2
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
+      "cites": [
+       3
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Muscle does not change this much: a kilogram of it uses about 13 kcal a day at rest.",
+      "cites": [
+       8
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Keeping it off",
+    "paragraphs": [
+     {
+      "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year. People in a US registry who have kept weight off for years report about an hour of activity a day, regular breakfast, weighing themselves, and eating the same way on weekends as on weekdays. They are a self-selected group, so these are habits they share and not proven causes.",
+      "cites": [
+       4
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Five years after a structured weight-loss programme, the average person had kept off about 3 kg.",
+      "cites": [
+       5
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity. At 5 ft 9 in and 185 lb, BMI works out to about 27.3. The CDC calls BMI a screening measure to be considered with other factors.",
+      "cites": [
+       6
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "People who lose about one to two pounds a week are more likely to keep it off, and even modest loss can improve blood pressure, cholesterol and blood sugar.",
+      "cites": [
+       7
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Regaining some weight is the usual outcome, as the five-year figure shows. It reflects how hard maintenance is for most people.",
+      "cites": [
+       5
+      ],
+      "strength": "strong"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Diet or exercise interventions vs combined behavioral weight management programs: a systematic review and meta-analysis of direct comparisons",
+    "publisher": "Journal of the Academy of Nutrition and Dietetics, 2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4180002/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults",
+    "publisher": "American College of Sports Medicine position stand, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 3,
+    "title": "Does increased exercise or physical activity alter ad-libitum daily energy intake or macronutrient composition in healthy adults? A systematic review",
+    "publisher": "PLoS One, 2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3893086",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Long-term weight loss maintenance",
+    "publisher": "American Journal of Clinical Nutrition, 2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16002825/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 5,
+    "title": "Long-term weight-loss maintenance: a meta-analysis of US studies",
+    "publisher": "American Journal of Clinical Nutrition, 2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11684524/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 6,
+    "title": "Adult BMI categories",
+    "publisher": "US Centers for Disease Control and Prevention, 2024",
+    "url": "https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 7,
+    "title": "Steps for losing weight",
+    "publisher": "US Centers for Disease Control and Prevention, 2025",
+    "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "Specific metabolic rates of major organs and tissues across adulthood: evaluation by mechanistic model of resting energy expenditure",
+    "publisher": "American Journal of Clinical Nutrition, 2010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980962",
+    "kind": "journal",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "habits",
+  "kind": "topic",
+  "title": "Building habits",
+  "bluf": [
+   {
+    "text": "Give a new habit about two months before you judge whether it has stuck.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "After a missed day, the only job is to do the next one.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "text": "Track with one tap and look back once a week. Heavy logging is what people quit.",
+    "cites": [
+     3,
+     5
+    ]
+   },
+   {
+    "text": "Choose activity that feels good while you are doing it.",
+    "cites": [
+     6,
+     4
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What helps",
+    "paragraphs": [
+     {
+      "text": "In a field experiment with 61,293 gym members and 54 different programmes, the best performer offered a small reward for coming back after a missed workout. It raised weekly visits by 27%.",
+      "cites": [
+       2
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Programmes that combined self-monitoring with another self-regulation step, such as setting a goal or reviewing progress, worked better than those that did not (an effect of 0.42 against 0.26 across 122 evaluations).",
+      "cites": [
+       3
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "People who feel better during moderate exercise are more likely to be active later. How they feel after the session did not predict it.",
+      "cites": [
+       6
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Across 66 studies, doing exercise for your own reasons, because you enjoy or value it, was consistently linked to exercising more.",
+      "cites": [
+       4
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Habits take longer than the popular 21 days. In the studies that timed it, the middle person took 59 to 66 days, and individuals ranged from 4 to 335 days. Most of these studies were rated at high risk of bias.",
+      "cites": [
+       1
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Most nudges fade. In the gym experiment, only 8% of programmes still had a measurable effect after they ended.",
+      "cites": [
+       2
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Dropping a tracking app is the norm. In one food-photo app, 2.58% of about 190,000 users kept using it actively.",
+      "cites": [
+       5
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Cramming your activity into one or two days is fine. In 350,978 adults, people who did so had similar death rates to people who spread the same activity across the week.",
+      "cites": [
+       7
+      ],
+      "strength": "moderate"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Time to form a habit: a systematic review and meta-analysis of health behaviour habit formation and its determinants",
+    "publisher": "Healthcare, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39685110/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "Megastudies improve the impact of applied behavioural science",
+    "publisher": "Nature, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34880497/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 3,
+    "title": "Effective techniques in healthy eating and physical activity interventions: a meta-regression",
+    "publisher": "Health Psychology, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19916637/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Exercise, physical activity, and self-determination theory: a systematic review",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3441783/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 5,
+    "title": "Factors related to sustained use of a free mobile app for dietary self-monitoring with photography and peer feedback: retrospective cohort study",
+    "publisher": "Journal of Medical Internet Research, 2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4004142",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Can the affective response to exercise predict future motives and physical activity behavior? A systematic review of published evidence",
+    "publisher": "Annals of Behavioral Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25921307/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 7,
+    "title": "Association of the \"weekend warrior\" and other leisure-time physical activity patterns with all-cause and cause-specific mortality",
+    "publisher": "JAMA Internal Medicine, 2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257680",
+    "kind": "journal",
+    "country": "US"
+   }
+  ]
+ },
+ {
+  "id": "injury",
+  "kind": "topic",
+  "title": "Staying uninjured",
+  "bluf": [
+   {
+    "text": "If you have ever sprained an ankle, do balance work every week.",
+    "cites": [
+     2,
+     3
+    ]
+   },
+   {
+    "text": "Practise soft, quiet landings before you add more jumping.",
+    "cites": [
+     1,
+     7
+    ]
+   },
+   {
+    "text": "When climbing, build up slowly and use an open hand where you can instead of a hard crimp.",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "text": "Treat falling as a skill. Most bouldering fall injuries are to the legs and ankles.",
+    "cites": [
+     6
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Ankles",
+    "paragraphs": [
+     {
+      "text": "Ankle sprains are the commonest acute volleyball injury, and up to 80% happen to an ankle that was sprained before.",
+      "cites": [
+       1
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "In a trial across 116 volleyball teams, balance-board training reduced ankle sprains, and the benefit was significant only for players who had sprained an ankle before. Players with a history of knee injury had more overuse knee problems on the programme.",
+      "cites": [
+       2
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Pooled across 17 studies, balance training cut the risk of an ankle sprain by about 40%, and by about half in people with a previous sprain. Ankle braces performed about as well.",
+      "cites": [
+       3
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "For preventing a repeat sprain, an overview of 46 reviews found strong evidence for bracing and moderate evidence for balance and control training.",
+      "cites": [
+       4
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Knees, jumping and fingers",
+    "paragraphs": [
+     {
+      "text": "Volleyball injury reviews recommend landing technique and balance training as the main prevention measures.",
+      "cites": [
+       1
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Jump training does raise vertical jump in volleyball players, across 14 trials.",
+      "cites": [
+       7
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury. Body weight and BMI were not linked to injury. The 34 studies were of low average quality.",
+      "cites": [
+       5
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain. In 85% of cases the fall was not intended.",
+      "cites": [
+       6
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Sore knees are common in volleyball. Jumper's knee affects about 40 to 50% of male indoor players, and shoulder pain accounts for 8 to 20% of injuries.",
+      "cites": [
+       1
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Muscle soreness for a day or two after something new is expected. Pain inside a joint that is still there the next morning is the signal to back off and have it looked at.",
+      "cites": [],
+      "strength": null
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Strategies for the prevention of volleyball related injuries",
+    "publisher": "British Journal of Sports Medicine, 2006",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564299",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "The effect of a proprioceptive balance board training program for the prevention of ankle sprains: a prospective controlled trial",
+    "publisher": "American Journal of Sports Medicine, 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15310562/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 3,
+    "title": "Preventive interventions for lateral ankle sprains: a systematic review and meta-analysis",
+    "publisher": "Clinical Rehabilitation, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36630892/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Treatment and prevention of acute and recurrent ankle sprain: an overview of systematic reviews with meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28053200/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 5,
+    "title": "Risk factors and injury prevention strategies for overuse injuries in adult climbers: a systematic review",
+    "publisher": "Frontiers in Sports and Active Living, 2023",
+    "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1269870/full",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "The art of falling: identifying the falls scenarios associated with bouldering injuries",
+    "publisher": "Frontiers in Sports and Active Living, 2025",
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2025.1609133/full",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 7,
+    "title": "Effects of plyometric jump training on vertical jump height of volleyball players: a systematic review with meta-analysis of randomized-controlled trial",
+    "publisher": "Journal of Sports Science and Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429440",
+    "kind": "journal",
+    "country": "INT"
+   }
+  ]
+ },
+ {
+  "id": "volleyball",
+  "kind": "sport",
+  "title": "Volleyball",
+  "bluf": [
+   {
+    "text": "Count every volleyball night toward the 150 to 300 minutes of weekly activity the WHO recommends.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Protect your ankles with weekly balance work, most of all if you have sprained one before.",
+    "cites": [
+     4,
+     5
+    ]
+   },
+   {
+    "text": "For a higher jump, a small amount of jump training works. Keep it small, because volleyball is already a lot of jumping.",
+    "cites": [
+     6,
+     3
+    ]
+   },
+   {
+    "text": "Take pain just below the kneecap seriously early. It is the sport's commonest overuse problem.",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What it gives you",
+    "paragraphs": [
+     {
+      "text": "Health data on volleyball itself is thin. The largest study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.",
+      "cites": [
+       2
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "What can be said is that volleyball counts as activity. The WHO guideline is 150 to 300 minutes of moderate or 75 to 150 minutes of vigorous activity a week, and three nights of play goes a long way toward it.",
+      "cites": [
+       1
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Jumping higher",
+    "paragraphs": [
+     {
+      "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
+      "cites": [
+       6
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Staying on court",
+    "paragraphs": [
+     {
+      "text": "Ankle sprains make up as much as half of volleyball injuries, and most happen to a previously sprained ankle. Balance-board training reduced them in a trial of 116 teams.",
+      "cites": [
+       3,
+       4
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Across sports, balance training lowers ankle sprain risk by about 40%.",
+      "cites": [
+       5
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Knee and shoulder complaints are part of the sport for many players. About 40 to 50% of male indoor players have had jumper's knee.",
+      "cites": [
+       3
+      ],
+      "strength": "weak"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "publisher": "World Health Organization, in British Journal of Sports Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "Associations of specific types of sports and exercise with all-cause and cardiovascular-disease mortality: a cohort study of 80 306 British adults",
+    "publisher": "British Journal of Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27895075/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 3,
+    "title": "Strategies for the prevention of volleyball related injuries",
+    "publisher": "British Journal of Sports Medicine, 2006",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564299",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "The effect of a proprioceptive balance board training program for the prevention of ankle sprains: a prospective controlled trial",
+    "publisher": "American Journal of Sports Medicine, 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15310562/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 5,
+    "title": "Preventive interventions for lateral ankle sprains: a systematic review and meta-analysis",
+    "publisher": "Clinical Rehabilitation, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36630892/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Effects of plyometric jump training on vertical jump height of volleyball players: a systematic review with meta-analysis of randomized-controlled trial",
+    "publisher": "Journal of Sports Science and Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429440",
+    "kind": "journal",
+    "country": "INT"
+   }
+  ]
+ },
+ {
+  "id": "climbing",
+  "kind": "sport",
+  "title": "Climbing",
+  "bluf": [
+   {
+    "text": "Start at the weight you are now. Body weight was not linked to climbing overuse injuries.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Climb easy routes often before you climb hard ones. Intensity and bouldering are where injury risk rises.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Use an open hand where you can and save hard crimping.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Climb down when you can, and keep your ankles strong for the falls you do not choose.",
+    "cites": [
+     2,
+     6
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What it gives you",
+    "paragraphs": [
+     {
+      "text": "Climbing is muscle-strengthening activity, mostly for the pulling muscles and grip that volleyball does not train. Muscle-strengthening activity is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
+      "cites": [
+       5,
+       4
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
+      "cites": [
+       3
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Where people get hurt",
+    "paragraphs": [
+     {
+      "text": "Overuse injuries in climbers were linked to higher intensity, bouldering, weak grip or fingers, the crimp grip and previous injury. BMI and body weight were not linked. The studies were of low average quality.",
+      "cites": [
+       1
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "In bouldering, falls mostly injure the legs: 67% of fall injuries in one survey were to the lower limb, most often an ankle sprain, and 85% of the falls were unplanned.",
+      "cites": [
+       2
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Balance training lowers ankle sprain risk by about 40% across sports, which matters for landing falls as much as for volleyball.",
+      "cites": [
+       6
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Your forearms will give out long before the rest of you. Grip endurance is the limiting factor the research identifies, and it is the last thing beginners have.",
+      "cites": [
+       3
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Experienced climbers tend to be lean with large forearms. That describes people who have climbed for years. It is not an entry requirement.",
+      "cites": [
+       3
+      ],
+      "strength": "weak"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Risk factors and injury prevention strategies for overuse injuries in adult climbers: a systematic review",
+    "publisher": "Frontiers in Sports and Active Living, 2023",
+    "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2023.1269870/full",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "The art of falling: identifying the falls scenarios associated with bouldering injuries",
+    "publisher": "Frontiers in Sports and Active Living, 2025",
+    "url": "https://www.frontiersin.org/articles/10.3389/fspor.2025.1609133/full",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 3,
+    "title": "Determinants for success in climbing: a systematic review",
+    "publisher": "Journal of Exercise Science and Fitness, 2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6527913",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "publisher": "World Health Organization, in British Journal of Sports Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 5,
+    "title": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+    "publisher": "British Journal of Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35228201/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Preventive interventions for lateral ankle sprains: a systematic review and meta-analysis",
+    "publisher": "Clinical Rehabilitation, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36630892/",
+    "kind": "journal",
+    "country": "INT"
+   }
+  ]
+ },
+ {
+  "id": "strength-training",
+  "kind": "sport",
+  "title": "Lifting",
+  "bluf": [
+   {
+    "text": "Two sessions a week meets the guideline.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Start small. Fewer than three sets per exercise is enough for the first 12 weeks.",
+    "cites": [
+     2
+    ]
+   },
+   {
+    "text": "Lift on whichever days work. Packing your activity into one or two days is as good for long-term health as spreading it out.",
+    "cites": [
+     3
+    ]
+   },
+   {
+    "text": "While losing weight, keep lifting and eat protein at each meal to hold on to muscle.",
+    "cites": [
+     7,
+     4
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "How little is enough",
+    "paragraphs": [
+     {
+      "text": "For beginners, one weekly session with fewer than three sets per multi-joint exercise, at loads under half of your maximum, is enough to gain strength for at least the first 12 weeks. The source is a narrative review.",
+      "cites": [
+       2
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "The largest reduction in risk of early death was seen at about 30 to 60 minutes of muscle-strengthening activity a week.",
+      "cites": [
+       5
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it out.",
+      "cites": [
+       3
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Lifting and weight loss",
+    "paragraphs": [
+     {
+      "text": "Resistance training does not enhance weight loss, though it may increase lean mass and fat loss.",
+      "cites": [
+       6
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "In older adults with obesity, lifting while dieting prevented about 93% of the muscle loss that dieting alone caused.",
+      "cites": [
+       7
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "In 24 weight-loss trials, higher-protein diets kept about 0.4 kg more lean mass and lost about 0.9 kg more fat than standard-protein diets.",
+      "cites": [
+       4
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "Adults are advised to do muscle-strengthening activity on two days a week.",
+      "cites": [
+       1
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Light loads working at first is expected. The review above found beginners progress on loads below 50% of their maximum.",
+      "cites": [
+       2
+      ],
+      "strength": "weak"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Adult activity: an overview",
+    "publisher": "US Centers for Disease Control and Prevention, 2023",
+    "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 2,
+    "title": "Minimalist training: is lower dosage or intensity resistance training effective to improve physical fitness? A narrative review",
+    "publisher": "Sports Medicine, 2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10933173/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 3,
+    "title": "Association of the \"weekend warrior\" and other leisure-time physical activity patterns with all-cause and cause-specific mortality",
+    "publisher": "JAMA Internal Medicine, 2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257680",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 4,
+    "title": "Effects of energy-restricted high-protein, low-fat compared with standard-protein, low-fat diets: a meta-analysis of randomized controlled trials",
+    "publisher": "American Journal of Clinical Nutrition, 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23097268/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 5,
+    "title": "Muscle-strengthening activities are associated with lower risk and mortality in major non-communicable diseases: a systematic review and meta-analysis of cohort studies",
+    "publisher": "British Journal of Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35228201/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults",
+    "publisher": "American College of Sports Medicine position stand, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 7,
+    "title": "Resistance training prevents muscle loss induced by caloric restriction in obese elderly individuals: a systematic review and meta-analysis",
+    "publisher": "Nutrients, 2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5946208/",
+    "kind": "journal",
+    "country": "INT"
+   }
+  ]
+ },
+ {
+  "id": "walking",
+  "kind": "sport",
+  "title": "Walking",
+  "bluf": [
+   {
+    "text": "Aim for more steps than you take now. Benefit keeps rising up to about 8,000 to 10,000 a day for adults under 60.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
+    "cites": [
+     1
+    ]
+   },
+   {
+    "text": "Use short walks to break up long stretches of sitting.",
+    "cites": [
+     4,
+     2
+    ]
+   },
+   {
+    "text": "On a low day, a walk is a legitimate tool for mood.",
+    "cites": [
+     5
+    ]
+   },
+   {
+    "text": "Use a step counter if you like having one. It helps a little.",
+    "cites": [
+     3
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "How much",
+    "paragraphs": [
+     {
+      "text": "In 15 cohorts with 47,471 adults, taking more steps was linked to a lower risk of death, levelling off at 8,000 to 10,000 steps a day for adults under 60 and 6,000 to 8,000 for those 60 and over. The authors note there is little evidence behind the 10,000 figure.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Compared with the least active quarter of people, who took about 3,600 steps a day, the next quarter at about 5,800 steps had a 40% lower risk of death.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What else it does",
+    "paragraphs": [
+     {
+      "text": "A five-minute walk each hour raised energy and mood and lowered fatigue in a small trial of sedentary adults.",
+      "cites": [
+       4
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Walking or jogging was among the most effective forms of exercise for depression across 218 trials, with low confidence in the exact size of the effect.",
+      "cites": [
+       5
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Apps and activity trackers raise activity by about 1,850 steps a day on average across 28 trials.",
+      "cites": [
+       3
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What's normal",
+    "paragraphs": [
+     {
+      "text": "In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.",
+      "cites": [
+       1
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The WHO guideline counts all movement, says some is better than none, and sets no minimum bout length.",
+      "cites": [
+       2
+      ],
+      "strength": "guideline"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "n": 1,
+    "title": "Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts",
+    "publisher": "The Lancet Public Health, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35247352/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 2,
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "publisher": "World Health Organization, in British Journal of Sports Medicine, 2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 3,
+    "title": "Do smartphone applications and activity trackers increase physical activity in adults? Systematic review, meta-analysis and metaregression",
+    "publisher": "British Journal of Sports Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33355160/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 4,
+    "title": "Effect of frequent interruptions of prolonged sitting on self-perceived levels of energy, mood, food cravings and cognitive function",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27809874/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 5,
+    "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
+    "publisher": "The BMJ, 2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/",
+    "kind": "journal",
+    "country": "INT"
+   }
+  ]
+ }
+]

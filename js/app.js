@@ -36,6 +36,7 @@
   // ---------- routing ----------
   function route() {
     var name = location.hash.slice(1);
+    if (name.indexOf('read-') === 0) name = 'read';
     if (VIEWS.indexOf(name) === -1) name = 'today';
     document.querySelectorAll('[data-view]').forEach(function (s) { s.hidden = s.dataset.view !== name; });
     document.querySelectorAll('[data-tab]').forEach(function (a) {

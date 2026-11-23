@@ -99,6 +99,26 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: 6px; }
 svg text { fill: currentColor; font: 500 11px var(--body); }
 svg text.f { fill: var(--feel); font-weight: 600; }
 
+.line { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 6px; }
+.line p { font-size: 1.1rem; max-width: 60ch; }
+#read-root { display: flex; flex-direction: column; gap: 22px; }
+h3 { font-size: 1.2rem; font-weight: 700; }
+h3.group { color: var(--muted); }
+.article-link { display: flex; flex-direction: column; gap: 2px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; text-decoration: none; color: var(--fg); }
+.article-link .name { font: 600 1.3rem/1.1 var(--display); }
+.article-link .dose { color: var(--muted); font-size: .95rem; }
+.article-link:focus-visible, .back:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
+.back { font-weight: 600; }
+.bluf { background: var(--card); border: 2px solid var(--go); border-radius: 14px; padding: 18px 20px; }
+.bluf ul { margin: 8px 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; font-size: 1.05rem; }
+.prose { display: flex; flex-direction: column; gap: 12px; max-width: 65ch; }
+.cites { font-size: .75em; }
+.cites a { text-decoration: none; font-weight: 600; }
+.ev { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 0 8px; margin-left: 6px; white-space: nowrap; }
+.ev-strong, .ev-guideline { border-color: var(--go); color: var(--go); }
+.ev-weak, .ev-unverified { border-color: var(--feel); color: var(--feel); }
+.sources { margin: 0; padding-left: 1.6em; display: flex; flex-direction: column; gap: 8px; font-size: .92rem; overflow-wrap: anywhere; }
+.sources .pub { color: var(--muted); }
 .key { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--muted); }
 .key b { width: 26px; height: 7px; border-radius: 4px; background: var(--feel); flex: none; }
 .stop { border-left: 4px solid var(--feel); padding-left: 14px; max-width: 62ch; }
@@ -132,6 +152,11 @@ svg text.f { fill: var(--feel); font-weight: 600; }
         <button class="primary" id="done" type="button" aria-pressed="false">Mark done</button>
         <div class="week" id="week" aria-label="Last seven days"></div>
       </div>
+    </div>
+    <div class="line" id="line" hidden>
+      <span class="label">Today's line</span>
+      <p id="line-text"></p>
+      <a id="line-why" href="#read">Read why</a>
     </div>
     <p class="stop"><strong>When to stop.</strong> Sharp or pinching pain ends the set. Muscle soreness for a day or two is normal. Joint pain that's still there the next morning means get your form looked at in person.</p>
   </section>
@@ -897,8 +922,7 @@ svg text.f { fill: var(--feel); font-weight: 600; }
 
   <!-- READ -->
   <section class="view" data-view="read" hidden>
-    <h2>Read</h2>
-    <p class="note" id="read-status">The articles are being written and checked against their sources. They will appear here.</p>
+    <p class="note" id="read-status">Loading the articles.</p>
     <div id="read-root"></div>
   </section>
 
@@ -919,3 +943,4 @@ svg text.f { fill: var(--feel); font-weight: 600; }
 
 <script src="js/logic.js"></script>
 <script src="js/app.js"></script>
+<script src="js/read.js"></script>
