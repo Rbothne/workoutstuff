@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
 <style>
-/* Layout: one narrow column. A single "today" panel on top, then eight fold-open move cards, each a drawing first and words second. */
+/* Layout: one narrow column. Tabs on top switch five views; each move is a fold-open card, drawing first and words second. */
 :root {
   --bg: #EDF1F3;
   --card: #FFFFFF;
@@ -28,24 +28,31 @@
 body {
   background: var(--bg); color: var(--fg);
   font: 400 16px/1.55 var(--body);
-  padding-block: 28px 56px;
+  padding-block: 20px 56px;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+.view { display: flex; flex-direction: column; gap: 24px; }
 h1, h2, h3, summary .name { font-family: var(--display); text-wrap: balance; line-height: 1.1; margin: 0; }
 h1 { font-size: 2.5rem; font-weight: 700; }
 h2 { font-size: 1.5rem; font-weight: 700; }
 p { margin: 0; }
+a { color: var(--go); }
 .lede { color: var(--muted); max-width: 60ch; margin-top: 8px; }
 .label { font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.note { color: var(--muted); max-width: 62ch; }
+
+.tabs { display: flex; flex-wrap: wrap; gap: 6px; border-bottom: 2px solid var(--line); padding-bottom: 10px; }
+.tabs a { font: 600 1rem var(--body); text-decoration: none; color: var(--muted); padding: 8px 14px; border-radius: 9px; }
+.tabs a[aria-current="page"] { background: var(--go); color: var(--go-fg); }
+.tabs a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
 
 .today { background: var(--card); border: 2px solid var(--go); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
 .today .pick { font-family: var(--display); font-size: 2rem; font-weight: 700; line-height: 1.1; }
 .today .dose { color: var(--muted); }
 .row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
 button { font: 600 1rem var(--body); border-radius: 10px; padding: 12px 18px; cursor: pointer; border: 2px solid var(--go); }
-button:focus-visible, summary:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
 .primary { background: var(--go); color: var(--go-fg); }
 .ghost { background: transparent; color: var(--fg); }
 .primary[aria-pressed="true"] { background: transparent; color: var(--go); }
@@ -53,19 +60,28 @@ button:focus-visible, summary:focus-visible { outline: 3px solid var(--feel); ou
 .week i { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line); }
 .week i.on { background: var(--go); border-color: var(--go); }
 
+.gear { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: .9rem; padding: 7px 12px; border: 2px solid var(--line); background: transparent; color: var(--fg); border-radius: 999px; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--go); background: var(--go); color: var(--go-fg); }
+.chip small { font-size: .8rem; opacity: .75; margin-left: 4px; }
+
 .set { display: flex; flex-direction: column; gap: 10px; }
-.set > p { color: var(--muted); max-width: 62ch; }
 details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
-summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; border-radius: 12px; }
+summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; border-radius: 12px; }
 summary::-webkit-details-marker { display: none; }
 summary .name { font-size: 1.3rem; font-weight: 600; }
 summary .dose { color: var(--muted); font-size: .95rem; }
+summary .cat { font-size: .72rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--go); border: 1px solid var(--go); border-radius: 999px; padding: 1px 8px; }
 summary::after { content: "+"; margin-left: auto; font: 600 1.3rem var(--display); color: var(--muted); }
 details[open] summary::after { content: "\2212"; }
 .body { padding: 0 16px 18px; display: flex; flex-direction: column; gap: 16px; }
 figure { margin: 0; }
 figure svg { display: block; width: 100%; height: auto; max-width: 100%; background: var(--bg); border-radius: 10px; }
 figcaption { font-size: .85rem; color: var(--muted); margin-top: 6px; }
+.tags { display: flex; flex-direction: column; gap: 4px; font-size: .9rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 12px; }
+.tags:empty { display: none; }
+.tags .warn { color: var(--feel); font-weight: 600; }
 .cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
 .cols > div { min-width: 0; }
 .cols ol, .cols ul { margin: 6px 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; }
@@ -84,7 +100,7 @@ svg text { fill: currentColor; font: 500 11px var(--body); }
 svg text.f { fill: var(--feel); font-weight: 600; }
 
 .key { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--muted); }
-.key b { width: 26px; height: 7px; border-radius: 4px; background: var(--feel); }
+.key b { width: 26px; height: 7px; border-radius: 4px; background: var(--feel); flex: none; }
 .stop { border-left: 4px solid var(--feel); padding-left: 14px; max-width: 62ch; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
 </style>
@@ -95,358 +111,811 @@ svg text.f { fill: var(--feel); font-weight: 600; }
     <p class="lede">One move a day counts as the whole day. No gym clothes, no setup, about two minutes. Do more only if you feel like it.</p>
   </header>
 
-  <section class="today" aria-labelledby="today-label">
-    <span class="label" id="today-label">Today's move</span>
-    <div>
-      <div class="pick" id="today-name">Pick any one move below</div>
-      <div class="dose" id="today-dose">Open a card to see how it's done and where you should feel it.</div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#today" data-tab="today" aria-current="page">Today</a>
+    <a href="#moves" data-tab="moves">Moves</a>
+    <a href="#read" data-tab="read">Read</a>
+    <a href="#log" data-tab="log">Log</a>
+    <a href="#week" data-tab="week">Week</a>
+  </nav>
+
+  <!-- TODAY -->
+  <section class="view" data-view="today">
+    <div class="today" aria-labelledby="today-label">
+      <span class="label" id="today-label">Today's move</span>
+      <div>
+        <div class="pick" id="today-name">Pick any one move</div>
+        <div class="dose" id="today-dose">Open Moves to see how each is done and where you should feel it.</div>
+      </div>
+      <div class="row">
+        <button class="ghost" id="show" type="button">Show me how</button>
+        <button class="primary" id="done" type="button" aria-pressed="false">Mark done</button>
+        <div class="week" id="week" aria-label="Last seven days"></div>
+      </div>
     </div>
-    <div class="row">
-      <button class="ghost" id="show" type="button">Show me how</button>
-      <button class="primary" id="done" type="button" aria-pressed="false">Mark done</button>
-      <div class="week" id="week" aria-label="Last seven days"></div>
+    <p class="stop"><strong>When to stop.</strong> Sharp or pinching pain ends the set. Muscle soreness for a day or two is normal. Joint pain that's still there the next morning means get your form looked at in person.</p>
+  </section>
+
+  <!-- MOVES -->
+  <section class="view" data-view="moves" hidden>
+    <div class="gear">
+      <span class="label">Equipment you have or want to use</span>
+      <div class="chips" id="equip"></div>
+      <span class="label">Dumbbells you own, in pounds</span>
+      <div class="chips" id="bells"></div>
+      <p class="note" id="gear-note">Moves that need nothing are always shown. Tick what you have and more appear.</p>
     </div>
+    <div class="key"><b></b> Orange in a drawing marks where you should feel the work.</div>
+    <p class="note" id="moves-error" hidden>Couldn't load the move list, so every move is shown. Reload to try again.</p>
+
+    <section class="set"><h2>Legs</h2>
+      <details class="move" id="m-squat" data-name="Squat" data-dose="8 slow reps">
+        <summary><span class="name">Squat</span><span class="cat">legs</span><span class="dose">8 to 12 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Standing, then sitting back into a squat with heels down. Thighs and glutes are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="80,48 80,100 80,130 80,158 94,158"/><polyline class="b" points="80,54 84,98"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="242,80 218,122 258,128 236,158 250,158"/><polyline class="b" points="242,82 278,84"/>
+              <line class="m" x1="218" y1="122" x2="258" y2="128"/><circle class="z" cx="216" cy="124" r="7"/>
+              <circle class="hd" cx="248" cy="66" r="10"/>
+              <text class="f" x="266" y="124">thighs</text><text class="f" x="204" y="128" text-anchor="end">glutes</text>
+              <text x="243" y="175" text-anchor="middle">heels down</text>
+            </svg>
+            <figcaption>Hips go back and down together; the chest stays up enough that you could read a logo on your shirt.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Feet a little wider than your hips, toes turned out slightly.</li>
+              <li>Sit back and down for a slow count of three, knees tracking over your toes.</li>
+              <li>Go as low as you can with heels flat and chest up.</li>
+              <li>Push the floor away to stand. Breathe out on the way up.</li>
+              <li>To add weight, hold one dumbbell upright against your chest.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Front of the thighs, most of all near the bottom.</li>
+              <li>Glutes as you stand up.</li>
+              <li>Trunk braced and tight, not strained.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Low back doing the work: your chest dropped or your hips shot up first.</li>
+              <li>Weight on your toes or heels lifting.</li>
+              <li>Pain inside the knee joint. Muscle burn around it is fine.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-splitsquat" data-name="Split squat" data-dose="6 reps each leg">
+        <summary><span class="name">Split squat</span><span class="cat">legs</span><span class="dose">6 to 10 reps each leg</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="A staggered stance, then lowered straight down until the back knee is just above the floor. The front thigh and glute are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="76,50 76,100 90,128 96,158 110,158"/><polyline class="b" points="76,100 64,130 50,152 56,158"/><polyline class="b" points="76,56 80,98"/><circle class="hd" cx="76" cy="36" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="228,72 226,122 258,124 256,158 270,158"/><polyline class="b" points="226,122 214,150 190,150 188,158"/><polyline class="b" points="228,78 234,116"/>
+              <line class="m" x1="226" y1="122" x2="258" y2="124"/><circle class="z" cx="224" cy="124" r="7"/><circle class="hd" cx="228" cy="58" r="10"/>
+              <text class="f" x="272" y="120">front thigh</text><text class="f" x="212" y="114" text-anchor="end">glute</text>
+            </svg>
+            <figcaption>You go straight down like a lift, not forward like a lunge. Most of your weight stays on the front foot.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Take a long step forward and stay there. Back heel is off the floor.</li>
+              <li>Lower straight down until the back knee is just above the floor.</li>
+              <li>Push through the whole front foot to come up.</li>
+              <li>Finish all reps on one side, then switch. Hold a wall if balance is the hard part.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Thigh and glute of the front leg.</li>
+              <li>A stretch at the front of the back hip.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Front heel lifting: step out longer.</li>
+              <li>Front knee caving inward.</li>
+              <li>Pushing mostly off the back foot.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Hips</h2>
+      <details class="move" id="m-bridge" data-name="Glute bridge" data-dose="10 reps, 2-second hold at the top">
+        <summary><span class="name">Glute bridge</span><span class="cat">hips</span><span class="dose">10 to 15 reps, 2-second hold at the top</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Lying on the back with knees bent, then hips lifted so shoulders, hips and knees form a line. Glutes are marked.">
+              <line class="fl" x1="10" y1="161" x2="310" y2="161"/>
+              <polyline class="b" points="46,152 96,152 124,124 136,158 150,158"/><polyline class="b" points="50,157 88,157"/><circle class="hd" cx="34" cy="148" r="10"/>
+              <path class="b t" d="M152 110h16"/><path class="ah" d="M168 104l10 6-10 6z"/>
+              <polyline class="b" points="202,152 246,134 280,120 288,158 302,158"/><polyline class="b" points="206,157 244,157"/>
+              <circle class="z" cx="246" cy="138" r="7"/><circle class="hd" cx="190" cy="148" r="10"/>
+              <text class="f" x="240" y="112" text-anchor="middle">glutes</text>
+            </svg>
+            <figcaption>At the top, shoulders, hips and knees make one straight ramp. Higher than that is your low back arching, not your glutes working.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Lie on your back, knees bent, feet flat and close enough to brush your heels with your fingertips.</li>
+              <li>Flatten your low back gently into the floor.</li>
+              <li>Push through your heels and lift your hips until you're a straight ramp.</li>
+              <li>Squeeze for two seconds, then lower slowly.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Glutes, squeezing hard at the top.</li>
+              <li>A little in the backs of the thighs.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Low back pinching: you lifted too high. Stop at the ramp.</li>
+              <li>Hamstrings cramping: bring your feet closer to your hips.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-hinge" data-name="Hip hinge" data-dose="8 reps">
+        <summary><span class="name">Hip hinge</span><span class="cat">hips</span><span class="dose">8 to 12 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Standing with dumbbells, then hips pushed back with a flat back and soft knees so the weights slide down the legs. Hamstrings and glutes are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="80,48 80,100 80,130 80,158 94,158"/><polyline class="b" points="80,54 84,96"/><rect class="wt" x="78" y="96" width="14" height="6" rx="2"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="262,88 214,104 236,130 232,158 246,158"/><polyline class="b" points="262,90 260,128"/><rect class="wt" x="253" y="128" width="14" height="6" rx="2"/>
+              <line class="m" x1="214" y1="104" x2="236" y2="130"/><circle class="z" cx="212" cy="104" r="7"/><circle class="hd" cx="276" cy="82" r="10"/>
+              <text class="f" x="212" y="132" text-anchor="end">hamstrings</text><text class="f" x="200" y="100" text-anchor="end">glutes</text>
+              <text x="246" y="72" text-anchor="middle">back flat</text>
+            </svg>
+            <figcaption>The hips travel backward, as if closing a car door with your backside. The knees bend only a little and the back stays flat.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Stand tall holding the weights in front of your thighs, knees soft.</li>
+              <li>Push your hips straight back and let the weights slide down your legs.</li>
+              <li>Stop when you feel a strong stretch behind the thighs, usually around the knees or mid-shin.</li>
+              <li>Squeeze your glutes to stand back up.</li>
+              <li>No weights: do the same with your hands sliding down your thighs.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>A stretch, then work, in the backs of the thighs.</li>
+              <li>Glutes as you stand.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Back rounding: you went lower than your hamstrings allow.</li>
+              <li>Knees bending a lot. That turns it into a squat.</li>
+              <li>Weights drifting away from your legs.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Core</h2>
+      <details class="move" id="m-deadbug" data-name="Dead bug" data-dose="6 slow reps each side">
+        <summary><span class="name">Dead bug</span><span class="cat">core</span><span class="dose">6 to 10 slow reps each side</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="On the back with arms up and knees bent above the hips, then one arm reaching overhead while the opposite leg extends. Abs are marked.">
+              <line class="fl" x1="10" y1="161" x2="314" y2="161"/>
+              <polyline class="b" points="46,152 96,152"/><polyline class="b" points="50,150 50,108"/><polyline class="b" points="96,152 96,116 128,116"/>
+              <ellipse class="z" cx="72" cy="150" rx="16" ry="6"/><circle class="hd" cx="34" cy="148" r="10"/>
+              <path class="b t" d="M140 110h16"/><path class="ah" d="M156 104l10 6-10 6z"/>
+              <polyline class="b" points="210,150 172,122"/><polyline class="b" points="208,152 258,152"/><polyline class="b" points="212,150 212,108"/>
+              <polyline class="b" points="258,152 258,116 290,116"/><polyline class="b" points="258,152 286,146 312,142"/>
+              <ellipse class="z" cx="234" cy="150" rx="16" ry="6"/><circle class="hd" cx="196" cy="148" r="10"/>
+              <text class="f" x="240" y="136" text-anchor="middle">abs</text>
+              <text x="234" y="176" text-anchor="middle">low back stays on the floor</text>
+            </svg>
+            <figcaption>One arm and the opposite leg reach away while the middle of you doesn't move at all.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>On your back, arms straight up, knees bent above your hips.</li>
+              <li>Press your low back into the floor and keep it there.</li>
+              <li>Slowly lower one arm overhead and the opposite leg toward the floor.</li>
+              <li>Stop just before your back wants to lift, return, switch sides.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Deep abs, like bracing before a cough.</li>
+              <li>It gets harder the further the leg reaches.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Low back arching off the floor: shorten the reach.</li>
+              <li>Holding your breath. Breathe out as you reach.</li>
+              <li>Neck straining: rest your head on the floor.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-plank" data-name="Plank" data-dose="20 seconds">
+        <summary><span class="name">Plank</span><span class="cat">core</span><span class="dose">20 to 60 seconds</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Propped on forearms and toes with the body in one straight line from heels to head. Abs are marked.">
+              <line class="fl" x1="30" y1="161" x2="290" y2="161"/>
+              <polyline class="b" points="70,158 72,152 222,118"/><polyline class="b" points="222,120 222,156 254,156"/>
+              <ellipse class="z" cx="170" cy="134" rx="18" ry="6" transform="rotate(-13 170 134)"/><circle class="hd" cx="238" cy="112" r="10"/>
+              <text class="f" x="170" y="154" text-anchor="middle">abs</text><text x="140" y="104" text-anchor="middle">one straight line</text>
+            </svg>
+            <figcaption>Heels, hips and shoulders sit on one line. The moment your hips sag or pike up, the set is over.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Forearms on the floor, elbows under shoulders, legs straight back on your toes.</li>
+              <li>Squeeze your glutes and pull your belly button gently toward your spine.</li>
+              <li>Breathe normally and hold. Stop when the line breaks, not when the timer says.</li>
+              <li>Easier: knees on the floor.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Abs, all the way across the front.</li>
+              <li>Glutes and thighs helping.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Low back aching: your hips sagged. Reset or stop.</li>
+              <li>Hips piked high to make it easier.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-sideplank" data-name="Side plank" data-dose="15 seconds each side">
+        <summary><span class="name">Side plank</span><span class="cat">core</span><span class="dose">15 to 40 seconds each side</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="On one forearm and the side of the feet, hips lifted so the body is a straight line. The side of the waist nearest the floor is marked.">
+              <line class="fl" x1="30" y1="161" x2="290" y2="161"/>
+              <polyline class="b" points="68,157 220,104"/><polyline class="b" points="220,106 220,156 252,156"/><polyline class="b" points="218,102 178,114"/>
+              <ellipse class="z" cx="160" cy="130" rx="18" ry="6" transform="rotate(-19 160 130)"/><circle class="hd" cx="236" cy="96" r="10"/>
+              <text class="f" x="158" y="152" text-anchor="middle">side of the waist</text>
+            </svg>
+            <figcaption>Lift the hips until the body is straight, like a plank turned on its edge.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Lie on your side, forearm on the floor, elbow under your shoulder, feet stacked.</li>
+              <li>Lift your hips until ankles, hips and shoulders line up.</li>
+              <li>Hold and breathe. Switch sides.</li>
+              <li>Easier: bend your knees and hold from the knees.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>The side of your waist closest to the floor.</li>
+              <li>The outside of the lower hip.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Hips dropping toward the floor.</li>
+              <li>Shoulder pain in the support arm: check the elbow is under the shoulder.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Push</h2>
+      <details class="move" id="m-pushup" data-name="Push-up" data-dose="5 reps">
+        <summary><span class="name">Push-up</span><span class="cat">push</span><span class="dose">5 to 12 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="A straight-arm plank, then the chest lowered to just above the floor with the body still in one line. Chest is marked.">
+              <line class="fl" x1="10" y1="161" x2="310" y2="161"/>
+              <polyline class="b" points="26,158 28,153 112,112"/><polyline class="b" points="112,114 112,158"/><circle class="hd" cx="127" cy="105" r="10"/>
+              <path class="b t" d="M146 100h14"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="186,158 188,153 272,140"/><polyline class="b" points="272,142 252,126 270,158"/>
+              <ellipse class="z" cx="258" cy="146" rx="10" ry="5"/><circle class="hd" cx="288" cy="136" r="10"/>
+              <text class="f" x="258" y="176" text-anchor="middle">chest</text>
+            </svg>
+            <figcaption>The body moves as one board. Elbows point back at about 45 degrees, not straight out to the sides.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Hands under your shoulders, a little wider. Body straight from heels to head.</li>
+              <li>Lower your chest for a count of two, elbows angled back.</li>
+              <li>Push the floor away until your arms are straight.</li>
+              <li>Easier: put your hands on a kitchen counter or the arm of a sofa. Lower the surface as it gets easy.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Chest and the backs of your arms.</li>
+              <li>Abs holding you straight.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Hips sagging or head reaching for the floor first.</li>
+              <li>Elbows flared straight out, which pinches the shoulder.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-overheadpress" data-name="Overhead press" data-dose="8 reps">
+        <summary><span class="name">Overhead press</span><span class="cat">push</span><span class="dose">8 to 12 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Standing with a dumbbell at shoulder height, then pressed straight overhead with the ribs down. Shoulder is marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="80,48 80,100 80,130 80,158 94,158"/><polyline class="b" points="80,54 92,78 94,54"/><rect class="wt" x="87" y="46" width="14" height="6" rx="2"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="240,54 246,12"/><rect class="wt" x="239" y="4" width="14" height="6" rx="2"/>
+              <polyline class="b" points="240,48 240,100 240,130 240,158 254,158"/><circle class="hd" cx="240" cy="36" r="10"/><circle class="z" cx="240" cy="55" r="6"/>
+              <text class="f" x="254" y="60">shoulders</text><text x="240" y="176" text-anchor="middle">ribs down</text>
+            </svg>
+            <figcaption>The weight finishes over the middle of your foot, with your ribs down and your back not arched.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Stand with dumbbells at your shoulders, elbows slightly in front of you.</li>
+              <li>Squeeze your glutes and keep your ribs down.</li>
+              <li>Press straight up until your arms are straight beside your ears.</li>
+              <li>Lower for a count of two.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Shoulders, then the backs of your arms near the top.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Leaning back and arching: the weight is too heavy.</li>
+              <li>A pinch at the top of the shoulder. Stop and go lighter.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-benchpress" data-name="Dumbbell bench press" data-dose="8 reps">
+        <summary><span class="name">Dumbbell bench press</span><span class="cat">push</span><span class="dose">8 to 12 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Lying on a bench with dumbbells beside the chest, then pressed straight up over the shoulders. Chest is marked.">
+              <line class="fl" x1="10" y1="161" x2="314" y2="161"/>
+              <rect class="bx" x="36" y="127" width="92" height="7"/><line class="b t" x1="50" y1="134" x2="50" y2="160"/><line class="b t" x1="116" y1="134" x2="116" y2="160"/>
+              <polyline class="b" points="62,122 112,122 134,124 136,158 150,158"/><polyline class="b" points="66,120 74,138 74,112"/><rect class="wt" x="67" y="104" width="14" height="6" rx="2"/><circle class="hd" cx="50" cy="116" r="10"/>
+              <path class="b t" d="M158 100h12"/><path class="ah" d="M170 94l10 6-10 6z"/>
+              <rect class="bx" x="196" y="127" width="92" height="7"/><line class="b t" x1="210" y1="134" x2="210" y2="160"/><line class="b t" x1="276" y1="134" x2="276" y2="160"/>
+              <polyline class="b" points="222,122 272,122 294,124 296,158 310,158"/><polyline class="b" points="226,120 226,76"/><rect class="wt" x="219" y="68" width="14" height="6" rx="2"/>
+              <ellipse class="z" cx="242" cy="119" rx="12" ry="5"/><circle class="hd" cx="210" cy="116" r="10"/>
+              <text class="f" x="250" y="106">chest</text>
+            </svg>
+            <figcaption>Feet stay flat on the floor. The weights go down beside the chest and finish stacked over the shoulders.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Lie on the bench, feet flat, dumbbells held above your chest.</li>
+              <li>Lower them for a count of two until they're level with your chest, elbows angled about 45 degrees from your sides.</li>
+              <li>Press back up until your arms are straight.</li>
+              <li>No bench: do it lying on the floor. Your elbows stop at the floor, which is fine.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Chest, with a stretch at the bottom.</li>
+              <li>Backs of the arms as you finish.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Shoulders rolling forward off the bench.</li>
+              <li>Weights wobbling: go lighter until they travel straight.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-lateralraise" data-name="Lateral raise" data-dose="10 reps">
+        <summary><span class="name">Lateral raise</span><span class="cat">push</span><span class="dose">10 to 15 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Seen from the front: arms by the sides with light dumbbells, then raised out to the sides to shoulder height. The outer shoulders are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="66,54 94,54"/><polyline class="b" points="80,48 80,100"/><polyline class="b" points="70,158 80,100 90,158"/>
+              <polyline class="b" points="66,54 62,98"/><polyline class="b" points="94,54 98,98"/><rect class="wt" x="56" y="98" width="12" height="6" rx="2"/><rect class="wt" x="92" y="98" width="12" height="6" rx="2"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M130 100h20"/><path class="ah" d="M150 94l10 6-10 6z"/>
+              <polyline class="b" points="226,54 254,54"/><polyline class="b" points="240,48 240,100"/><polyline class="b" points="230,158 240,100 250,158"/>
+              <polyline class="b" points="226,54 186,58"/><polyline class="b" points="254,54 294,58"/><rect class="wt" x="178" y="55" width="12" height="6" rx="2"/><rect class="wt" x="290" y="55" width="12" height="6" rx="2"/>
+              <circle class="z" cx="226" cy="54" r="6"/><circle class="z" cx="254" cy="54" r="6"/><circle class="hd" cx="240" cy="36" r="10"/>
+              <text class="f" x="300" y="84" text-anchor="end">outer shoulders</text>
+            </svg>
+            <figcaption>This is a light-weight move. The arms stop at shoulder height with a slight bend at the elbow.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Stand with a light dumbbell in each hand, elbows slightly bent.</li>
+              <li>Raise your arms out to the sides until they're level with your shoulders.</li>
+              <li>Pause, then lower for a count of three.</li>
+              <li>No light weights: use water bottles or tins.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>The outside cap of the shoulder. It burns quickly; that's the point.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Swinging or leaning back to get the weight up. It's too heavy.</li>
+              <li>Shrugging your shoulders toward your ears.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Pull</h2>
+      <details class="move" id="m-row" data-name="Supported row" data-dose="8 reps each arm">
+        <summary><span class="name">Supported row</span><span class="cat">pull</span><span class="dose">8 to 12 reps each arm</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Hinged forward with one hand on a bench and a dumbbell hanging, then the elbow pulled back so the dumbbell reaches the ribs. Upper back is marked.">
+              <line class="fl" x1="20" y1="161" x2="310" y2="161"/>
+              <rect class="bx" x="114" y="114" width="30" height="46"/>
+              <polyline class="b" points="72,158 58,158 62,130 54,104 100,92"/><polyline class="b" points="100,94 122,112"/><polyline class="b" points="98,94 98,132"/>
+              <rect class="wt" x="90" y="132" width="16" height="7" rx="2"/><circle class="hd" cx="114" cy="86" r="10"/>
+              <path class="b t" d="M156 100h16"/><path class="ah" d="M172 94l10 6-10 6z"/>
+              <rect class="bx" x="274" y="114" width="30" height="46"/>
+              <polyline class="b" points="232,158 218,158 222,130 214,104 260,92"/><polyline class="b" points="260,94 282,112"/>
+              <ellipse class="z" cx="244" cy="97" rx="13" ry="6"/>
+              <polyline class="b" points="258,94 238,82 242,106"/><rect class="wt" x="234" y="106" width="16" height="7" rx="2"/><circle class="hd" cx="274" cy="86" r="10"/>
+              <text class="f" x="238" y="68" text-anchor="middle">upper back</text>
+            </svg>
+            <figcaption>The elbow travels back toward your hip pocket; the hand only holds on. The torso stays level the whole time.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>One hand on a bench, chair or counter, back flat, dumbbell hanging from the other hand.</li>
+              <li>Pull your elbow back toward your hip until the weight reaches your ribs.</li>
+              <li>Pause for a beat, then lower for a slow count of two.</li>
+              <li>No dumbbell: a backpack loaded with books works the same way.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Between the shoulder blade and spine, and down the side of your back.</li>
+              <li>Some biceps is normal.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Shoulder shrugging toward your ear.</li>
+              <li>Torso twisting open to heave the weight up: go lighter.</li>
+              <li>Low back aching: lean more weight into the support hand.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-deadhang" data-name="Dead hang" data-dose="10 seconds">
+        <summary><span class="name">Dead hang</span><span class="cat">pull</span><span class="dose">10 to 30 seconds</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Hanging from a bar with straight arms and feet off the floor. Forearms are marked.">
+              <line class="fl" x1="60" y1="171" x2="260" y2="171"/>
+              <line class="b" x1="106" y1="14" x2="214" y2="14"/>
+              <polyline class="b" points="149,17 156,64"/><polyline class="b" points="171,17 164,64"/>
+              <line class="m" x1="150" y1="24" x2="153" y2="44"/><line class="m" x1="170" y1="24" x2="167" y2="44"/>
+              <polyline class="b" points="160,62 160,114 160,140 160,154 170,158"/><circle class="hd" cx="160" cy="50" r="10"/>
+              <text class="f" x="182" y="38">forearms and grip</text><text x="182" y="150">feet off the floor</text>
+            </svg>
+            <figcaption>Arms stay straight. Pull your shoulders slightly down away from your ears so you hang from muscle, not from the joint.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Grip the bar a little wider than your shoulders, palms facing away.</li>
+              <li>Lift your feet and hang with straight arms.</li>
+              <li>Draw your shoulders gently down, away from your ears, and breathe.</li>
+              <li>Easier: keep your toes on a chair and take only part of your weight.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Forearms and fingers working to hold on.</li>
+              <li>A long stretch down your sides.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Sharp pain in the shoulder or elbow. Come down.</li>
+              <li>Hanging to total failure. Let go while your grip is still sure.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-bandpullapart" data-name="Band pull-apart" data-dose="12 reps">
+        <summary><span class="name">Band pull-apart</span><span class="cat">pull</span><span class="dose">12 to 20 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Seen from the front: a band held in front of the chest with hands close, then pulled apart until the arms are out to the sides. The area between the shoulder blades is marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="66,54 94,54"/><polyline class="b" points="80,48 80,100"/><polyline class="b" points="70,158 80,100 90,158"/>
+              <polyline class="b" points="66,54 72,70"/><polyline class="b" points="94,54 88,70"/><line class="m" x1="72" y1="72" x2="88" y2="72" style="stroke-width:3"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M130 100h20"/><path class="ah" d="M150 94l10 6-10 6z"/>
+              <polyline class="b" points="226,54 254,54"/><polyline class="b" points="240,48 240,100"/><polyline class="b" points="230,158 240,100 250,158"/>
+              <polyline class="b" points="226,54 188,60"/><polyline class="b" points="254,54 292,60"/><line class="b t" x1="188" y1="62" x2="292" y2="62"/>
+              <ellipse class="z" cx="240" cy="72" rx="11" ry="6"/><circle class="hd" cx="240" cy="36" r="10"/>
+              <text class="f" x="300" y="88" text-anchor="end">between the</text>
+              <text class="f" x="300" y="102" text-anchor="end">shoulder blades</text>
+            </svg>
+            <figcaption>The arms stay straight and the hands move apart because the shoulder blades squeeze together behind you.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Hold a band in front of your chest, arms straight, hands shoulder-width apart.</li>
+              <li>Pull your hands apart until the band touches your chest.</li>
+              <li>Squeeze your shoulder blades together for a beat.</li>
+              <li>Return slowly, keeping some tension in the band.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Between your shoulder blades and across the back of the shoulders.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Shoulders shrugging up.</li>
+              <li>Ribs flaring and back arching to finish the rep.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Jump</h2>
+      <details class="move" id="m-landing" data-name="Soft landing" data-dose="5 landings">
+        <summary><span class="name">Soft landing</span><span class="cat">jump</span><span class="dose">3 sets of 5, done first</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Tall on the toes with arms overhead, then dropped into a quarter squat with arms back. Thighs and glutes are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="80,52 80,102 80,130 82,154 90,158"/><polyline class="b" points="80,56 86,14"/><circle class="hd" cx="80" cy="40" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="248,86 224,122 258,132 240,158 254,158"/><polyline class="b" points="246,88 222,108"/>
+              <line class="m" x1="224" y1="122" x2="258" y2="132"/><circle class="z" cx="222" cy="124" r="7"/><circle class="hd" cx="254" cy="72" r="10"/>
+              <text class="f" x="266" y="128">thighs</text><text class="f" x="210" y="130" text-anchor="end">glutes</text>
+              <text x="246" y="175" text-anchor="middle">quiet feet</text>
+            </svg>
+            <figcaption>Hips and knees bend together to soak up the drop. If you can hear the landing, it was too stiff.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Reach tall on your toes, arms overhead.</li>
+              <li>Drop fast: throw your arms down and back and pull your feet off the floor a little.</li>
+              <li>Land on the whole foot in a quarter squat and freeze for two seconds.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Thighs and glutes catching you.</li>
+              <li>Hips sitting back as the knees bend.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>A jolt in the knees or shins.</li>
+              <li>Knees caving toward each other.</li>
+              <li>Reps getting slower or louder: the set is over.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-calfraise" data-name="Calf raise" data-dose="10 reps">
+        <summary><span class="name">Calf raise</span><span class="cat">jump</span><span class="dose">10 to 20 reps</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Standing flat, then risen onto the balls of the feet with the heels high. Calves are marked.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="80,48 80,100 80,130 80,158 94,158"/><polyline class="b" points="80,54 84,98"/><circle class="hd" cx="80" cy="36" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="240,40 240,92 240,122 242,148 252,158"/><polyline class="b" points="240,46 244,90"/>
+              <line class="m" x1="240" y1="124" x2="242" y2="146"/><circle class="hd" cx="240" cy="28" r="10"/>
+              <text class="f" x="254" y="138">calves</text><text x="246" y="176" text-anchor="middle">heels high</text>
+            </svg>
+            <figcaption>Go straight up, pause at the top, and take three seconds to come down.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Stand with fingertips on a wall for balance.</li>
+              <li>Rise onto the balls of your feet as high as you can.</li>
+              <li>Pause for a second, then lower for a count of three.</li>
+              <li>Harder: one leg at a time, or heels hanging off a stair.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>The calf muscle, high on the back of the lower leg.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Ankles rolling outward at the top. Press through the big toe.</li>
+              <li>Bouncing. The slow lowering is the useful part.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-boxjump" data-name="Box jump" data-dose="3 jumps">
+        <summary><span class="name">Box jump</span><span class="cat">jump</span><span class="dose">3 to 5 jumps, full rest between sets</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="A quarter squat with arms back, then landed softly on top of a low box in the same quarter squat. Thighs are marked.">
+              <line class="fl" x1="20" y1="161" x2="310" y2="161"/>
+              <polyline class="b" points="88,86 64,122 98,132 80,158 94,158"/><polyline class="b" points="86,88 62,108"/><circle class="hd" cx="94" cy="72" r="10"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <rect class="bx" x="210" y="128" width="84" height="32"/>
+              <polyline class="b" points="252,50 230,88 262,100 244,125 258,125"/><polyline class="b" points="250,54 284,60"/>
+              <line class="m" x1="230" y1="88" x2="262" y2="100"/><circle class="hd" cx="258" cy="36" r="10"/>
+              <text class="f" x="270" y="98">thighs</text><text x="252" y="176" text-anchor="middle">land quiet, step down</text>
+            </svg>
+            <figcaption>The box should be low enough that you land in the same shallow squat you took off from. Step down; don't jump down.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Stand a short step from a sturdy low box or stair.</li>
+              <li>Dip, swing your arms and jump, landing softly with your whole foot on the box.</li>
+              <li>Stand up fully, then step down one foot at a time.</li>
+              <li>Rest until you feel fresh. These are for height, not for sweat.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>A quick, springy push from calves, thighs and glutes.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Landing in a deep tucked squat: the box is too high.</li>
+              <li>Jumps getting lower. Stop the set.</li>
+              <li>Doing these on a volleyball day.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Mobility</h2>
+      <details class="move" id="m-hipflexor" data-name="Hip-flexor stretch" data-dose="30 seconds each side">
+        <summary><span class="name">Hip-flexor stretch</span><span class="cat">mobility</span><span class="dose">30 seconds each side</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Half-kneeling with the torso tall and hips pressed forward. The front of the back leg's hip is marked.">
+              <line class="fl" x1="40" y1="161" x2="280" y2="161"/>
+              <polyline class="b" points="106,156 140,156 154,112 154,62"/><polyline class="b" points="154,112 194,118 194,158 208,158"/>
+              <polyline class="b" points="154,68 168,90 157,108"/>
+              <line class="m" x1="143" y1="146" x2="153" y2="114"/><circle class="hd" cx="154" cy="48" r="10"/>
+              <path class="b t" d="M172 100h16"/><path class="ah" d="M188 94l10 6-10 6z"/>
+              <text x="204" y="104">hips forward</text><text class="f" x="134" y="128" text-anchor="end">front of this hip</text>
+            </svg>
+            <figcaption>The stretch comes from tucking your tailbone and easing the hips forward, not from leaning back.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Kneel on one knee, other foot flat in front. Put a towel under the knee.</li>
+              <li>Stay tall. Tuck your tailbone under, as if zipping up tight jeans.</li>
+              <li>Squeeze the glute on the kneeling side and ease your hips forward a few centimetres.</li>
+              <li>Hold and breathe slowly.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>A firm pull at the front of the hip on the kneeling leg, maybe down the thigh.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Low back arching or pinching: you lost the tuck.</li>
+              <li>Pain on the kneecap: add padding.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-stack" data-name="Stand stacked" data-dose="10 seconds, whenever you notice">
+        <summary><span class="name">Stand stacked</span><span class="cat">mobility</span><span class="dose">10 seconds, whenever you notice</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="A slumped stance with hips drifted forward and head ahead of the shoulders, beside a stacked stance with ear, shoulder, hip and ankle in one vertical line.">
+              <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
+              <polyline class="b" points="84,158 70,158 74,128 86,100 70,58"/><polyline class="b" points="70,62 78,102"/><circle class="hd" cx="82" cy="44" r="10"/>
+              <circle class="z" cx="82" cy="44" r="4"/><circle class="z" cx="70" cy="60" r="4"/><circle class="z" cx="86" cy="100" r="4"/><circle class="z" cx="70" cy="158" r="4"/>
+              <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
+              <polyline class="b" points="254,158 240,158 240,128 240,100 240,54"/><polyline class="b" points="240,60 243,100"/><circle class="hd" cx="240" cy="40" r="10"/>
+              <circle class="z" cx="240" cy="40" r="4"/><circle class="z" cx="240" cy="58" r="4"/><circle class="z" cx="240" cy="100" r="4"/><circle class="z" cx="240" cy="158" r="4"/>
+              <text x="78" y="176" text-anchor="middle">hanging</text><text x="244" y="176" text-anchor="middle">stacked</text>
+            </svg>
+            <figcaption>The four dots are ear, shoulder, hip and ankle. Hanging scatters them; stacking lines them up, which also gives your ribs room above your hips.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Shift your weight to the middle of your feet, off your heels.</li>
+              <li>Grow tall through the crown of your head.</li>
+              <li>Breathe out slowly and let your ribs settle over your hips.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Length through the front of your trunk.</li>
+              <li>Light work in the glutes and low abs.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Chest pushed up and low back arched. That's "shoulders back" overdone.</li>
+              <li>A rigid hold. Ten seconds, then move on.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+
+      <details class="move" id="m-kneewall" data-name="Knee-to-wall check" data-dose="once now, again each month">
+        <summary><span class="name">Knee-to-wall check</span><span class="cat">mobility</span><span class="dose">once now, again each month</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="A lunge facing a wall with the front knee touching the wall and the heel flat. The gap between toe and wall is marked.">
+              <line class="fl" x1="60" y1="161" x2="236" y2="161"/><line class="b t" x1="237" y1="20" x2="237" y2="161"/>
+              <polyline class="b" points="136,156 166,138 192,104 198,52"/><polyline class="b" points="192,104 233,128 204,158 220,158"/>
+              <polyline class="b" points="198,58 234,74"/><circle class="hd" cx="200" cy="38" r="10"/>
+              <path class="m" d="M221 170h15"/>
+              <text x="244" y="130">knee touches</text><text class="f" x="244" y="174">this gap</text>
+              <text x="196" y="176" text-anchor="end">heel flat</text>
+            </svg>
+            <figcaption>Slide the foot back until the knee can only just reach the wall with the heel flat. The toe-to-wall gap is the measurement.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Face a wall, one foot forward, toes a hand's width from it.</li>
+              <li>Drive that knee straight over your toes to touch the wall, heel flat.</li>
+              <li>Move the foot back bit by bit until the knee only just reaches.</li>
+              <li>Measure toe to wall. Repeat on the other side.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>A stretch low in the calf and behind the ankle.</li>
+            </ul></div>
+            <div><span class="label">What to look for</span><ul>
+              <li>A clear gap between left and right is the useful finding. Stiff ankles change how you land.</li>
+              <li>A pinch at the front of the ankle is worth mentioning to a physical therapist.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="set"><h2>Cardio</h2>
+      <details class="move" id="m-inclinewalk" data-name="Incline walk intervals" data-dose="4 rounds">
+        <summary><span class="name">Incline walk intervals</span><span class="cat">cardio</span><span class="dose">4 to 6 rounds: 2 to 3 minutes brisk, 1 minute easy</span></summary>
+        <div class="body">
+          <figure>
+            <svg viewBox="0 0 320 180" role="img" aria-label="Walking tall up an inclined treadmill belt without holding the rails.">
+              <line class="fl" x1="40" y1="161" x2="290" y2="161"/>
+              <line class="b" x1="90" y1="158" x2="244" y2="126"/><polyline class="b t" points="244,126 254,78 236,74"/>
+              <polyline class="b" points="176,48 170,96 182,116 186,138 198,136"/><polyline class="b" points="170,96 158,122 150,146 162,144"/>
+              <polyline class="b" points="176,54 162,78"/><polyline class="b" points="176,54 192,74"/><circle class="hd" cx="178" cy="34" r="10"/>
+              <text x="120" y="176" text-anchor="middle">incline up</text><text x="262" y="110">hands off the rails</text>
+            </svg>
+            <figcaption>The brisk part is a pace where you could still talk in short sentences. Stay tall and let your arms swing.</figcaption>
+          </figure>
+          <div class="tags"></div>
+          <div class="cols">
+            <div><span class="label">How</span><ol>
+              <li>Set a moderate incline and walk easily for three minutes.</li>
+              <li>Speed up to a brisk walk for two to three minutes.</li>
+              <li>Slow to an easy walk for one minute. That's one round.</li>
+              <li>No treadmill: a hill or a few flights of stairs does the same job.</li>
+            </ol></div>
+            <div class="feel"><span class="label">Feel it here</span><ul>
+              <li>Breathing clearly harder, but you can still speak.</li>
+              <li>Calves and glutes working on the slope.</li>
+            </ul></div>
+            <div><span class="label">Not this</span><ul>
+              <li>Hanging onto the rails, which takes the work away.</li>
+              <li>Gasping. Lower the speed or the incline.</li>
+            </ul></div>
+          </div>
+        </div>
+      </details>
+    </section>
   </section>
 
-  <div class="key"><b></b> Orange in a drawing marks where you should feel the work.</div>
-
-  <section class="set">
-    <h2>Floor four</h2>
-    <p>These four need a patch of floor and nothing else. Today's move is always one of them.</p>
-
-    <details id="squat" data-name="Squat" data-dose="8 slow reps">
-      <summary><span class="name">Squat</span><span class="dose">8 slow reps</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="Standing, then sitting back into a squat with heels down. Thighs and glutes are marked.">
-            <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
-            <polyline class="b" points="80,48 80,100 80,130 80,158 94,158"/><polyline class="b" points="80,54 84,98"/><circle class="hd" cx="80" cy="36" r="10"/>
-            <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
-            <polyline class="b" points="242,80 218,122 258,128 236,158 250,158"/><polyline class="b" points="242,82 278,84"/>
-            <line class="m" x1="218" y1="122" x2="258" y2="128"/><circle class="z" cx="216" cy="124" r="7"/>
-            <circle class="hd" cx="248" cy="66" r="10"/>
-            <text class="f" x="266" y="124">thighs</text><text class="f" x="204" y="128" text-anchor="end">glutes</text>
-            <text x="243" y="175" text-anchor="middle">heels down</text>
-          </svg>
-          <figcaption>Hips go back and down together; the chest stays up enough that you could read a logo on your shirt.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Feet a little wider than your hips, toes turned out slightly.</li>
-            <li>Sit back and down for a slow count of three, knees tracking over your toes.</li>
-            <li>Go as low as you can with heels flat and chest up.</li>
-            <li>Push the floor away to stand. Breathe out on the way up.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Front of the thighs, most of all near the bottom.</li>
-            <li>Glutes as you stand up.</li>
-            <li>Trunk braced and tight, not strained.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Low back doing the work: your chest dropped or your hips shot up first.</li>
-            <li>Weight on your toes or heels lifting.</li>
-            <li>Pain inside the knee joint. Muscle burn around it is fine.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
-
-    <details id="bridge" data-name="Glute bridge" data-dose="10 reps, 2-second hold at the top">
-      <summary><span class="name">Glute bridge</span><span class="dose">10 reps, 2-second hold at the top</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="Lying on the back with knees bent, then hips lifted so shoulders, hips and knees form a line. Glutes are marked.">
-            <line class="fl" x1="10" y1="161" x2="310" y2="161"/>
-            <polyline class="b" points="46,152 96,152 124,124 136,158 150,158"/><polyline class="b" points="50,157 88,157"/><circle class="hd" cx="34" cy="148" r="10"/>
-            <path class="b t" d="M152 110h16"/><path class="ah" d="M168 104l10 6-10 6z"/>
-            <polyline class="b" points="202,152 246,134 280,120 288,158 302,158"/><polyline class="b" points="206,157 244,157"/>
-            <circle class="z" cx="246" cy="138" r="7"/><circle class="hd" cx="190" cy="148" r="10"/>
-            <text class="f" x="240" y="112" text-anchor="middle">glutes</text>
-          </svg>
-          <figcaption>At the top, shoulders, hips and knees make one straight ramp. Higher than that is your low back arching, not your glutes working.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Lie on your back, knees bent, feet flat and close enough to brush your heels with your fingertips.</li>
-            <li>Flatten your low back gently into the floor.</li>
-            <li>Push through your heels and lift your hips until you're a straight ramp.</li>
-            <li>Squeeze for two seconds, then lower slowly.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Glutes, squeezing hard at the top.</li>
-            <li>A little in the backs of the thighs.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Low back pinching: you lifted too high. Stop at the ramp.</li>
-            <li>Hamstrings cramping: bring your feet closer to your hips.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
-
-    <details id="deadbug" data-name="Dead bug" data-dose="6 slow reps each side">
-      <summary><span class="name">Dead bug</span><span class="dose">6 slow reps each side</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="On the back with arms up and knees bent above the hips, then one arm reaching overhead while the opposite leg extends. Abs are marked.">
-            <line class="fl" x1="10" y1="161" x2="314" y2="161"/>
-            <polyline class="b" points="46,152 96,152"/><polyline class="b" points="50,150 50,108"/><polyline class="b" points="96,152 96,116 128,116"/>
-            <ellipse class="z" cx="72" cy="150" rx="16" ry="6"/><circle class="hd" cx="34" cy="148" r="10"/>
-            <path class="b t" d="M140 110h16"/><path class="ah" d="M156 104l10 6-10 6z"/>
-            <polyline class="b" points="210,150 172,122"/><polyline class="b" points="208,152 258,152"/><polyline class="b" points="212,150 212,108"/>
-            <polyline class="b" points="258,152 258,116 290,116"/><polyline class="b" points="258,152 286,146 312,142"/>
-            <ellipse class="z" cx="234" cy="150" rx="16" ry="6"/><circle class="hd" cx="196" cy="148" r="10"/>
-            <text class="f" x="240" y="136" text-anchor="middle">abs</text>
-            <text x="234" y="176" text-anchor="middle">low back stays on the floor</text>
-          </svg>
-          <figcaption>One arm and the opposite leg reach away while the middle of you doesn't move at all.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>On your back, arms straight up, knees bent above your hips.</li>
-            <li>Press your low back into the floor and keep it there.</li>
-            <li>Slowly lower one arm overhead and the opposite leg toward the floor.</li>
-            <li>Stop just before your back wants to lift, return, switch sides.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Deep abs, like bracing before a cough.</li>
-            <li>It gets harder the further the leg reaches.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Low back arching off the floor: shorten the reach.</li>
-            <li>Holding your breath. Breathe out as you reach.</li>
-            <li>Neck straining: rest your head on the floor.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
-
-    <details id="hipflexor" data-name="Hip-flexor stretch" data-dose="30 seconds each side">
-      <summary><span class="name">Hip-flexor stretch</span><span class="dose">30 seconds each side</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="Half-kneeling with the torso tall and hips pressed forward. The front of the back leg's hip is marked.">
-            <line class="fl" x1="40" y1="161" x2="280" y2="161"/>
-            <polyline class="b" points="106,156 140,156 154,112 154,62"/><polyline class="b" points="154,112 194,118 194,158 208,158"/>
-            <polyline class="b" points="154,68 168,90 157,108"/>
-            <line class="m" x1="143" y1="146" x2="153" y2="114"/><circle class="hd" cx="154" cy="48" r="10"/>
-            <path class="b t" d="M172 100h16"/><path class="ah" d="M188 94l10 6-10 6z"/>
-            <text x="204" y="104">hips forward</text><text class="f" x="134" y="128" text-anchor="end">front of this hip</text>
-          </svg>
-          <figcaption>The stretch comes from tucking your tailbone and easing the hips forward, not from leaning back.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Kneel on one knee, other foot flat in front. Put a towel under the knee.</li>
-            <li>Stay tall. Tuck your tailbone under, as if zipping up tight jeans.</li>
-            <li>Squeeze the glute on the kneeling side and ease your hips forward a few centimetres.</li>
-            <li>Hold and breathe slowly.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>A firm pull at the front of the hip on the kneeling leg, maybe down the thigh.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Low back arching or pinching: you lost the tuck.</li>
-            <li>Pain on the kneecap: add padding.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
+  <!-- READ -->
+  <section class="view" data-view="read" hidden>
+    <h2>Read</h2>
+    <p class="note" id="read-status">The articles are being written and checked against their sources. They will appear here.</p>
+    <div id="read-root"></div>
   </section>
 
-  <section class="set">
-    <h2>Lift day</h2>
-    <p>For the weekend lift and the free-weekday lift. The order is landings, then squats holding one dumbbell at your chest (3 sets of 8 at about 7 out of 10 effort), then rows, then dead bugs. One of the two sessions still counts if the week falls apart.</p>
-
-    <details id="landing" data-name="Soft landing" data-dose="3 sets of 5">
-      <summary><span class="name">Soft landing</span><span class="dose">3 sets of 5, done first</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="Tall on the toes with arms overhead, then dropped into a quarter squat with arms back. Thighs and glutes are marked.">
-            <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
-            <polyline class="b" points="80,52 80,102 80,130 82,154 90,158"/><polyline class="b" points="80,56 86,14"/><circle class="hd" cx="80" cy="40" r="10"/>
-            <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
-            <polyline class="b" points="248,86 224,122 258,132 240,158 254,158"/><polyline class="b" points="246,88 222,108"/>
-            <line class="m" x1="224" y1="122" x2="258" y2="132"/><circle class="z" cx="222" cy="124" r="7"/><circle class="hd" cx="254" cy="72" r="10"/>
-            <text class="f" x="266" y="128">thighs</text><text class="f" x="210" y="130" text-anchor="end">glutes</text>
-            <text x="246" y="175" text-anchor="middle">quiet feet</text>
-          </svg>
-          <figcaption>Hips and knees bend together to soak up the drop. If you can hear the landing, it was too stiff.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Reach tall on your toes, arms overhead.</li>
-            <li>Drop fast: throw your arms down and back and pull your feet off the floor a little.</li>
-            <li>Land on the whole foot in a quarter squat and freeze for two seconds.</li>
-            <li>After two weeks of quiet landings, add small jumps onto a low step.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Thighs and glutes catching you.</li>
-            <li>Hips sitting back as the knees bend.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>A jolt in the knees or shins.</li>
-            <li>Knees caving toward each other.</li>
-            <li>Reps getting slower or louder: the set is over.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
-
-    <details id="row" data-name="Supported row" data-dose="3 sets of 8 to 10 each arm">
-      <summary><span class="name">Supported row</span><span class="dose">3 sets of 8 to 10 each arm</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="Hinged forward with one hand on a bench and a dumbbell hanging, then the elbow pulled back so the dumbbell reaches the ribs. Upper back is marked.">
-            <line class="fl" x1="20" y1="161" x2="310" y2="161"/>
-            <rect class="bx" x="114" y="114" width="30" height="46"/>
-            <polyline class="b" points="72,158 58,158 62,130 54,104 100,92"/><polyline class="b" points="100,94 122,112"/><polyline class="b" points="98,94 98,132"/>
-            <rect class="wt" x="90" y="132" width="16" height="7" rx="2"/><circle class="hd" cx="114" cy="86" r="10"/>
-            <path class="b t" d="M156 100h16"/><path class="ah" d="M172 94l10 6-10 6z"/>
-            <rect class="bx" x="274" y="114" width="30" height="46"/>
-            <polyline class="b" points="232,158 218,158 222,130 214,104 260,92"/><polyline class="b" points="260,94 282,112"/>
-            <ellipse class="z" cx="244" cy="97" rx="13" ry="6"/>
-            <polyline class="b" points="258,94 238,82 242,106"/><rect class="wt" x="234" y="106" width="16" height="7" rx="2"/><circle class="hd" cx="274" cy="86" r="10"/>
-            <text class="f" x="238" y="68" text-anchor="middle">upper back</text>
-          </svg>
-          <figcaption>The elbow travels back toward your hip pocket; the hand only holds on. The torso stays level the whole time.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>One hand on a bench or the dumbbell rack, back flat, dumbbell hanging from the other hand.</li>
-            <li>Pull your elbow back toward your hip until the weight reaches your ribs.</li>
-            <li>Pause for a beat, then lower for a slow count of two.</li>
-            <li>Pick a weight where the last two reps are hard but still clean.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Between the shoulder blade and spine, and down the side of your back.</li>
-            <li>Some biceps is normal.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Shoulder shrugging toward your ear.</li>
-            <li>Torso twisting open to heave the weight up: go lighter.</li>
-            <li>Low back aching: lean more weight into the support hand.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
+  <!-- LOG -->
+  <section class="view" data-view="log" hidden>
+    <h2>Log</h2>
+    <p class="note" id="log-status">The lifting log isn't built yet. It will list your routine with the weights and reps already filled in.</p>
+    <div id="log-root"></div>
   </section>
 
-  <section class="set">
-    <h2>Any time</h2>
-    <p>These two aren't workouts. One is a ten-second reset for standing; the other is a check to run once and repeat every month or so.</p>
-
-    <details id="stack" data-name="Stand stacked" data-dose="10 seconds, whenever you notice">
-      <summary><span class="name">Stand stacked</span><span class="dose">10 seconds, whenever you notice</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="A slumped stance with hips drifted forward and head ahead of the shoulders, beside a stacked stance with ear, shoulder, hip and ankle in one vertical line.">
-            <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
-            <polyline class="b" points="84,158 70,158 74,128 86,100 70,58"/><polyline class="b" points="70,62 78,102"/><circle class="hd" cx="82" cy="44" r="10"/>
-            <circle class="z" cx="82" cy="44" r="4"/><circle class="z" cx="70" cy="60" r="4"/><circle class="z" cx="86" cy="100" r="4"/><circle class="z" cx="70" cy="158" r="4"/>
-            <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
-            <polyline class="b" points="254,158 240,158 240,128 240,100 240,54"/><polyline class="b" points="240,60 243,100"/><circle class="hd" cx="240" cy="40" r="10"/>
-            <circle class="z" cx="240" cy="40" r="4"/><circle class="z" cx="240" cy="58" r="4"/><circle class="z" cx="240" cy="100" r="4"/><circle class="z" cx="240" cy="158" r="4"/>
-            <text x="78" y="176" text-anchor="middle">hanging</text><text x="244" y="176" text-anchor="middle">stacked</text>
-          </svg>
-          <figcaption>The four dots are ear, shoulder, hip and ankle. Hanging scatters them; stacking lines them up, which also gives your ribs room above your hips.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Shift your weight to the middle of your feet, off your heels.</li>
-            <li>Grow tall through the crown of your head.</li>
-            <li>Breathe out slowly and let your ribs settle over your hips.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>Length through the front of your trunk.</li>
-            <li>Light work in the glutes and low abs.</li>
-          </ul></div>
-          <div><span class="label">Not this</span><ul>
-            <li>Chest pushed up and low back arched. That's "shoulders back" overdone.</li>
-            <li>A rigid hold. Ten seconds, then move on.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
-
-    <details id="kneewall" data-name="Knee-to-wall check" data-dose="once now, again each month">
-      <summary><span class="name">Knee-to-wall check</span><span class="dose">once now, again each month</span></summary>
-      <div class="body">
-        <figure>
-          <svg viewBox="0 0 320 180" role="img" aria-label="A lunge facing a wall with the front knee touching the wall and the heel flat. The gap between toe and wall is marked.">
-            <line class="fl" x1="60" y1="161" x2="236" y2="161"/><line class="b t" x1="237" y1="20" x2="237" y2="161"/>
-            <polyline class="b" points="136,156 166,138 192,104 198,52"/><polyline class="b" points="192,104 233,128 204,158 220,158"/>
-            <polyline class="b" points="198,58 234,74"/><circle class="hd" cx="200" cy="38" r="10"/>
-            <path class="m" d="M221 170h15"/>
-            <text class="f" x="228" y="150" text-anchor="end"></text>
-            <text x="244" y="130">knee touches</text><text class="f" x="244" y="174">this gap</text>
-            <text x="196" y="176" text-anchor="end">heel flat</text>
-          </svg>
-          <figcaption>Slide the foot back until the knee can only just reach the wall with the heel flat. The toe-to-wall gap is the measurement.</figcaption>
-        </figure>
-        <div class="cols">
-          <div><span class="label">How</span><ol>
-            <li>Face a wall, one foot forward, toes a hand's width from it.</li>
-            <li>Drive that knee straight over your toes to touch the wall, heel flat.</li>
-            <li>Move the foot back bit by bit until the knee only just reaches.</li>
-            <li>Measure toe to wall. Repeat on the other side.</li>
-          </ol></div>
-          <div class="feel"><span class="label">Feel it here</span><ul>
-            <li>A stretch low in the calf and behind the ankle.</li>
-          </ul></div>
-          <div><span class="label">What to look for</span><ul>
-            <li>A clear gap between left and right is the useful finding. Stiff ankles change how you land.</li>
-            <li>A pinch at the front of the ankle is worth mentioning to a physical therapist.</li>
-          </ul></div>
-        </div>
-      </div>
-    </details>
+  <!-- WEEK -->
+  <section class="view" data-view="week" hidden>
+    <h2>This week</h2>
+    <p class="note" id="week-status">The weekly balance view isn't built yet. It will show six bars, one per muscle group.</p>
+    <div id="week-root"></div>
   </section>
-
-  <p class="stop"><strong>When to stop.</strong> Sharp or pinching pain ends the set. Muscle soreness for a day or two is normal. Joint pain that's still there the next morning means get your form looked at in person.</p>
 </div>
 
-<script>
-(function () {
-  var floor = ['squat', 'bridge', 'deadbug', 'hipflexor'];
-  var KEY = 'onemove.done';
-  function dayKey(d) { return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
-  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
-  function save(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch (e) {} }
-
-  var now = new Date();
-  var dayNum = Math.floor((now.getTime() - now.getTimezoneOffset() * 60000) / 86400000);
-  var card = document.getElementById(floor[dayNum % floor.length]);
-  var log = load();
-
-  document.getElementById('today-name').textContent = card.dataset.name;
-  document.getElementById('today-dose').textContent = card.dataset.dose + '. That is the whole job for today.';
-
-  document.getElementById('show').addEventListener('click', function () {
-    card.open = true;
-    card.scrollIntoView({ block: 'start' });
-  });
-
-  var done = document.getElementById('done');
-  var week = document.getElementById('week');
-  function paint() {
-    var on = !!log[dayKey(now)];
-    done.setAttribute('aria-pressed', on ? 'true' : 'false');
-    done.textContent = on ? 'Done today' : 'Mark done';
-    week.textContent = '';
-    for (var i = 6; i >= 0; i--) {
-      var d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
-      var dot = document.createElement('i');
-      if (log[dayKey(d)]) dot.className = 'on';
-      week.appendChild(dot);
-    }
-  }
-  done.addEventListener('click', function () {
-    var k = dayKey(now);
-    if (log[k]) delete log[k]; else log[k] = true;
-    save(log);
-    paint();
-  });
-  paint();
-})();
-</script>
+<script src="js/logic.js"></script>
+<script src="js/app.js"></script>
