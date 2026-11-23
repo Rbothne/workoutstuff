@@ -359,75 +359,169 @@ const ARTICLES = [
 ];
 
 // ---------- build ----------
-const out = ARTICLES.map((a) => {
-  const num = {};
-  a.sources.forEach((k, i) => {
-    if (!S[k]) throw new Error(`${a.id}: unknown source ${k}`);
-    num[k] = i + 1;
-  });
-  const cite = (keys) => keys.map((k) => {
-    if (!num[k]) throw new Error(`${a.id}: source ${k} is cited but not listed`);
-    return num[k];
-  });
-  return {
-    id: a.id, kind: a.kind, title: a.title,
-    bluf: a.bluf.map((x) => ({ text: x.text, cites: cite(x.cites) })),
-    sections: a.sections.map((s) => ({
-      heading: s.heading,
-      paragraphs: s.paragraphs.map((x) => ({ text: x.text, cites: cite(x.cites), strength: x.strength })),
-    })),
-    sources: a.sources.map((k, i) => ({ n: i + 1, title: S[k][0], publisher: S[k][1], url: S[k][2], kind: S[k][3], country: S[k][4] })),
-  };
-});
-fs.writeFileSync(path.join(root, 'data', 'reading.json'), JSON.stringify(out, null, 1) + '\n');
+// The opening of each article is the ARTICLES text above. Deeper sections come from
+// content/expansions/<article id>.json, written by research passes and merged here. The build refuses
+// an expansion whose paragraphs lack a source, an evidence label, or a supporting quote.
+const STRENGTHS = ['strong', 'moderate', 'weak', 'guideline'];
+const KINDS = ['authority', 'journal', 'other'];
+const MAX_UNCITED = 2;
 
-// Daily lines: every bottom-line goal, plus the opening sentence of each cited paragraph when it is short.
-// Taken word for word from the articles, then dealt out round-robin so neighbouring days differ.
-const perArticle = out.map((a) => {
-  const texts = a.bluf.map((x) => x.text);
-  a.sections.forEach((s) => s.paragraphs.forEach((x) => {
-    if (!x.cites.length) return;
-    const first = x.text.split(/(?<=[.!?])\s/)[0];
-    if (first.length <= 200 && first.length >= 40) texts.push(first);
-  }));
-  return { id: a.id, texts: [...new Set(texts)] };
-});
-const lines = [];
-const seen = new Set();
-for (let round = 0; perArticle.some((a) => a.texts.length > round); round++) {
-  for (const a of perArticle) {
-    const text = a.texts[round];
-    if (!text || text.length > 200 || seen.has(text)) continue;
-    seen.add(text);
-    lines.push({ text, by: '', page: a.id });
+function fail(id, message) { throw new Error('expansion ' + id + ': ' + message); }
+
+function loadExpansions(dir) {
+  const byId = {};
+  if (!dir || !fs.existsSync(dir)) return byId;
+  for (const name of fs.readdirSync(dir).filter((n) => n.endsWith('.json')).sort()) {
+    const x = JSON.parse(fs.readFileSync(path.join(dir, name), 'utf8'));
+    if (!ARTICLES.some((a) => a.id === x.id)) fail(x.id, 'there is no article with this id');
+    byId[x.id] = x;
   }
+  return byId;
 }
-fs.writeFileSync(path.join(root, 'data', 'lines.json'), JSON.stringify(lines, null, 1) + '\n');
-console.log(`wrote ${lines.length} daily lines`);
 
-const used = new Set(ARTICLES.flatMap((a) => a.sources));
-const rows = Object.keys(S).filter((k) => used.has(k)).map((k) => `| ${S[k][2]} | ${S[k][0]} | ${S[k][5]} | ${S[k][6]} |`);
-const check = `# Source check
+// Checks one expansion and adds its sources to the library. Returns its sections, ready to append.
+function mergeExpansion(x, lib) {
+  const id = x.id;
+  const added = Object.keys(x.sources || {});
+  for (const key of added) {
+    const s = x.sources[key];
+    if (!/^x_[A-Za-z0-9_]+$/.test(key) || lib[key]) fail(id, 'source key ' + key + ' must start with x_ and be new');
+    for (const field of ['title', 'publisher', 'url', 'kind', 'country', 'how', 'says']) {
+      if (typeof s[field] !== 'string' || !s[field].trim()) fail(id, 'source ' + key + ' is missing ' + field);
+    }
+    if (!s.url.startsWith('https://')) fail(id, 'source ' + key + ' must have an https link');
+    if (!KINDS.includes(s.kind)) fail(id, 'source ' + key + ' has an unknown kind');
+    lib[key] = { title: s.title, publisher: s.publisher, url: s.url, kind: s.kind, country: s.country, how: s.how, says: s.says };
+  }
+  const cited = new Set();
+  let uncited = 0;
+  const sections = (x.sections || []).map((sec) => {
+    if (typeof sec.heading !== 'string' || !sec.heading.trim()) fail(id, 'a section has no heading');
+    return {
+      heading: sec.heading.trim(),
+      deeper: true,
+      paragraphs: (sec.paragraphs || []).map((para) => {
+        if (typeof para.text !== 'string' || !para.text.trim()) fail(id, 'a paragraph in "' + sec.heading + '" has no text');
+        const cites = para.cites || [];
+        for (const key of cites) {
+          if (!lib[key]) fail(id, 'paragraph cites ' + key + ', which is not a known source');
+          const quotes = (para.support || []).filter((q) => q.key === key && typeof q.quote === 'string' && q.quote.trim());
+          if (!quotes.length) fail(id, 'no support quote from ' + key + ' for: ' + para.text.slice(0, 60));
+          cited.add(key);
+        }
+        if (cites.length && !STRENGTHS.includes(para.strength)) fail(id, 'bad strength label on: ' + para.text.slice(0, 60));
+        if (!cites.length) {
+          if (para.strength) fail(id, 'strength label without a source on: ' + para.text.slice(0, 60));
+          uncited += 1;
+        }
+        return { text: para.text.trim(), keys: cites, strength: cites.length ? para.strength : null };
+      }),
+    };
+  });
+  if (uncited > MAX_UNCITED) fail(id, uncited + ' uncited paragraphs; at most ' + MAX_UNCITED + ' are allowed');
+  for (const key of added) if (!cited.has(key)) fail(id, 'source ' + key + ' is defined but never cited');
+  return sections;
+}
 
-Checked on 2026-11-22. Every source cited in \`data/reading.json\` is listed here with how it was opened and what it was found to say. A claim on the site uses only what is in the last column.
+function build(opts = {}) {
+  const outDir = opts.outDir || root;
+  const expansions = loadExpansions(opts.expansionsDir === undefined ? path.join(root, 'content', 'expansions') : opts.expansionsDir);
+  const lib = {};
+  for (const k of Object.keys(S)) lib[k] = { title: S[k][0], publisher: S[k][1], url: S[k][2], kind: S[k][3], country: S[k][4], how: S[k][5], says: S[k][6] };
+  const reviewed = [];
 
-"PubMed record read through the NCBI E-utilities API" means the abstract was fetched from NCBI's own data service for the same record the link points to, because the PubMed web page refuses automated readers. Abstracts were read, not full texts, unless the link is a full-text page.
+  const out = ARTICLES.map((a) => {
+    const keys = a.sources.slice();
+    keys.forEach((k) => { if (!lib[k]) throw new Error(a.id + ': unknown source ' + k); });
+    const opening = a.sections.map((s) => ({
+      heading: s.heading, deeper: false,
+      paragraphs: s.paragraphs.map((x) => ({ text: x.text, keys: x.cites, strength: x.strength })),
+    }));
+    opening.forEach((s) => s.paragraphs.forEach((x) => x.keys.forEach((k) => {
+      if (keys.indexOf(k) === -1) throw new Error(a.id + ': source ' + k + ' is cited but not listed');
+    })));
+    a.bluf.forEach((x) => x.cites.forEach((k) => {
+      if (keys.indexOf(k) === -1) throw new Error(a.id + ': source ' + k + ' is cited but not listed');
+    }));
+    let deeper = [];
+    const x = expansions[a.id];
+    if (x) {
+      deeper = mergeExpansion(x, lib);
+      // New sources are numbered after the existing ones, in the order they are first cited.
+      deeper.forEach((s) => s.paragraphs.forEach((para) => para.keys.forEach((k) => { if (keys.indexOf(k) === -1) keys.push(k); })));
+      reviewed.push({ id: a.id, list: Array.isArray(x.reviewed) ? x.reviewed : [] });
+    }
+    const num = (list) => list.map((k) => keys.indexOf(k) + 1);
+    return {
+      id: a.id, kind: a.kind, title: a.title,
+      bluf: a.bluf.map((g) => ({ text: g.text, cites: num(g.cites) })),
+      sections: opening.concat(deeper).map((s) => ({
+        heading: s.heading, deeper: s.deeper,
+        paragraphs: s.paragraphs.map((para) => ({ text: para.text, cites: num(para.keys), strength: para.strength })),
+      })),
+      sources: keys.map((k, i) => ({ n: i + 1, title: lib[k].title, publisher: lib[k].publisher, url: lib[k].url, kind: lib[k].kind, country: lib[k].country })),
+      _keys: keys,
+    };
+  });
 
-| Link | Source | How it was opened | What it says |
-|---|---|---|---|
-${rows.join('\n')}
+  // Daily lines: every bottom-line goal, plus the opening sentence of each cited paragraph when it is short.
+  // Taken word for word from the articles, then dealt out round-robin so neighbouring days differ.
+  const perArticle = out.map((a) => {
+    const texts = a.bluf.map((x) => x.text);
+    a.sections.forEach((s) => s.paragraphs.forEach((x) => {
+      if (!x.cites.length) return;
+      const first = x.text.split(/(?<=[.!?])\s/)[0];
+      if (first.length <= 200 && first.length >= 40) texts.push(first);
+    }));
+    return { id: a.id, texts: [...new Set(texts)] };
+  });
+  const lines = [];
+  const seen = new Set();
+  for (let round = 0; perArticle.some((a) => a.texts.length > round); round++) {
+    for (const a of perArticle) {
+      const text = a.texts[round];
+      if (!text || text.length > 200 || seen.has(text)) continue;
+      seen.add(text);
+      lines.push({ text, by: '', page: a.id });
+    }
+  }
 
-## Checked and not used
+  const used = [];
+  out.forEach((a) => a._keys.forEach((k) => { if (used.indexOf(k) === -1) used.push(k); }));
+  const cell = (s) => String(s).replace(/\|/g, '/').replace(/\s+/g, ' ').trim();
+  const rows = used.map((k) => '| ' + lib[k].url + ' | ' + cell(lib[k].title) + ' | ' + cell(lib[k].how) + ' | ' + cell(lib[k].says) + ' |');
+  const reviewedText = reviewed.length
+    ? reviewed.map((r) => '### ' + r.id + ': ' + r.list.length + ' opened and not cited\n\n'
+      + (r.list.length ? r.list.map((x) => '- ' + cell(x.title) + ' (' + x.url + '): ' + cell(x.why_not || 'no reason given')).join('\n') : '- None.')).join('\n\n')
+    : 'No expansion passes have been merged yet.';
+  const check = '# Source check\n\n'
+    + 'Every source cited in `data/reading.json` is listed here with how it was opened and what it was found to say. A claim on the site uses only what is in the last column.\n\n'
+    + '"PubMed record read through the NCBI E-utilities API" means the abstract was fetched from NCBI\'s own data service for the same record the link points to, because the PubMed web page refuses automated readers. Abstracts were read, not full texts, unless the link is a full-text page.\n\n'
+    + '| Link | Source | How it was opened | What it says |\n|---|---|---|---|\n' + rows.join('\n') + '\n\n'
+    + '## Opened during the expansion passes and not cited\n\n' + reviewedText + '\n\n'
+    + NOT_USED;
+
+  out.forEach((a) => { delete a._keys; });
+  fs.mkdirSync(path.join(outDir, 'data'), { recursive: true });
+  fs.mkdirSync(path.join(outDir, 'docs'), { recursive: true });
+  fs.writeFileSync(path.join(outDir, 'data', 'reading.json'), JSON.stringify(out, null, 1) + '\n');
+  fs.writeFileSync(path.join(outDir, 'data', 'lines.json'), JSON.stringify(lines, null, 1) + '\n');
+  fs.writeFileSync(path.join(outDir, 'docs', 'source-check.md'), check);
+  if (!opts.quiet) console.log('wrote ' + out.length + ' articles, ' + used.length + ' sources, ' + lines.length + ' daily lines');
+  return { articles: out.length, sources: used.length, lines: lines.length };
+}
+
+const NOT_USED = `## Checked in the first pass and not used
 
 - UCL news page on Lally's 2010 habit study: refused the request (HTTP 403). The 66-day figure is not cited; the 2024 review that includes it is used instead.
 - Milkman megastudy on nature.com, Al Khatib on nature.com, Rhodes and Kates on springer.com, Laranjo and Oja on bjsm.bmj.com: the journal pages redirected to a login or refused the request. Their PubMed records were read through the API and are cited above.
 - Cochrane Library page for the portion-size review: refused (HTTP 403). The PubMed record is cited.
 - Burke 2006 on group exercise (University of Birmingham PDF): refused (HTTP 403). Not cited.
-- Bélanger-Gravel 2013 on if-then plans: no PubMed record found by search. Not cited.
 - VolleyVeilig warm-up paper (PMC5541696): opened; it is a trial design with no results. Not cited.
 - German Nutrition Society information sheet (PDF): downloaded but its text could not be read. The FAO page summarising the same 2024 recommendations is cited.
 - Puetz 2008: the abstract gives no percentages. The "65% less fatigue" figure in press coverage is not used.
 - Quarmby 2023: the advice against losing weight to prevent injury was not in the text that was read, so only the finding that weight was not linked to injury is used.
 `;
-fs.writeFileSync(path.join(root, 'docs', 'source-check.md'), check);
-console.log(`wrote ${out.length} articles, ${used.size} sources`);
+
+module.exports = { build };
+if (require.main === module) build();

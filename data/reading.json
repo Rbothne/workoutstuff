@@ -48,6 +48,7 @@
   "sections": [
    {
     "heading": "What the guidelines share",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Japan, South Korea, China, Germany and the World Health Organization all put plants at the centre. The WHO asks for at least 400 g of fruit and vegetables a day, Germany for at least five portions, and China for 300 to 500 g of vegetables plus 200 to 350 g of fruit.",
@@ -100,6 +101,7 @@
    },
    {
     "heading": "Where they differ",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Japan builds the day on grain dishes such as rice, with vegetable dishes next and fish, egg and meat dishes after that. Its guide describes meals as a staple, a main and side dishes.",
@@ -131,6 +133,7 @@
    },
    {
     "heading": "What studies add",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "In Japan, 79,594 adults were followed for about 15 years. Those who followed the national food guide most closely had a 15% lower death rate than those who followed it least. This is an observational study, so it shows a link and not a cause.",
@@ -171,6 +174,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt. Nobody is expected to hit them at every meal.",
@@ -313,6 +317,7 @@
   "sections": [
    {
     "heading": "Movement produces energy",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality. The effects were small to moderate.",
@@ -346,6 +351,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Feeling tired is common. In 2024, three in ten US adults slept less than seven hours a night, which is below what sleep specialists recommend.",
@@ -473,6 +479,7 @@
   "sections": [
    {
     "heading": "Why you overeat",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "After a short night people eat more. Pooled sleep-restriction experiments found about 385 kcal more eaten the next day, with no increase in energy burned.",
@@ -506,6 +513,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Sleep specialists recommend seven or more hours a night for adults. Three in ten US adults get less.",
@@ -612,6 +620,7 @@
   "sections": [
    {
     "heading": "What strength work does",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Across 16 cohort studies, people who did muscle-strengthening activity had a 10 to 17% lower risk of early death, heart disease, cancer and diabetes. The largest reduction was at about 30 to 60 minutes a week. These are observational studies.",
@@ -638,6 +647,7 @@
    },
    {
     "heading": "Muscle and resting calorie burn",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "A kilogram of muscle at rest uses about 13 kcal a day. Fat uses about 4.5, while the liver and brain use 200 or more per kilogram. Adding two kilograms of muscle therefore adds roughly 26 kcal a day at rest, so the popular idea that muscle burns a lot of calories passively is overstated.",
@@ -650,6 +660,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
@@ -763,6 +774,7 @@
   "sections": [
    {
     "heading": "Diet, exercise and the scale",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "In trials that compared them directly, programmes combining diet and activity beat activity-only programmes by about 6.3 kg after 12 to 18 months, and beat diet-only programmes by about 1.7 kg at 12 months. Most of the weight loss comes from the diet side.",
@@ -796,6 +808,7 @@
    },
    {
     "heading": "Keeping it off",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year. People in a US registry who have kept weight off for years report about an hour of activity a day, regular breakfast, weighing themselves, and eating the same way on weekends as on weekdays. They are a self-selected group, so these are habits they share and not proven causes.",
@@ -815,6 +828,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity. At 5 ft 9 in and 185 lb, BMI works out to about 27.3. The CDC calls BMI a screening measure to be considered with other factors.",
@@ -942,6 +956,7 @@
   "sections": [
    {
     "heading": "What helps",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "In a field experiment with 61,293 gym members and 54 different programmes, the best performer offered a small reward for coming back after a missed workout. It raised weekly visits by 27%.",
@@ -975,6 +990,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Habits take longer than the popular 21 days. In the studies that timed it, the middle person took 59 to 66 days, and individuals ranged from 4 to 335 days. Most of these studies were rated at high risk of bias.",
@@ -1101,6 +1117,7 @@
   "sections": [
    {
     "heading": "Ankles",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Ankle sprains are the commonest acute volleyball injury, and up to 80% happen to an ankle that was sprained before.",
@@ -1134,6 +1151,7 @@
    },
    {
     "heading": "Knees, jumping and fingers",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Volleyball injury reviews recommend landing technique and balance training as the main prevention measures.",
@@ -1167,6 +1185,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Sore knees are common in volleyball. Jumper's knee affects about 40 to 50% of male indoor players, and shoulder pain accounts for 8 to 20% of injuries.",
@@ -1277,6 +1296,7 @@
   "sections": [
    {
     "heading": "What it gives you",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Health data on volleyball itself is thin. A large study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.",
@@ -1296,6 +1316,7 @@
    },
    {
     "heading": "Jumping higher",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
@@ -1308,6 +1329,7 @@
    },
    {
     "heading": "Staying on court",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before. Balance-board training reduced them in a trial of 116 teams.",
@@ -1328,6 +1350,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Knee and shoulder complaints are part of the sport for many players. About 40 to 50% of male indoor players have had jumper's knee.",
@@ -1424,6 +1447,7 @@
   "sections": [
    {
     "heading": "What it gives you",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults. None of these studies looked at climbing itself.",
@@ -1449,6 +1473,7 @@
    },
    {
     "heading": "Where people get hurt",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Overuse injuries in climbers were linked to higher intensity, bouldering, weak grip or fingers, the crimp grip and previous injury. BMI and body weight were not linked. The studies were of low average quality.",
@@ -1475,6 +1500,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Expect your forearms to tire first. Hand and forearm strength and endurance are what the research rates as highly important for climbing.",
@@ -1578,6 +1604,7 @@
   "sections": [
    {
     "heading": "How little is enough",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "For beginners, one weekly session with fewer than three sets per multi-joint exercise, at loads under half of your maximum, is enough to gain strength for at least the first 12 weeks. The source is a narrative review.",
@@ -1604,6 +1631,7 @@
    },
    {
     "heading": "Lifting and weight loss",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Resistance training does not enhance weight loss, though it may increase lean mass and fat loss.",
@@ -1630,6 +1658,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "Adults are advised to do muscle-strengthening activity on two days a week.",
@@ -1747,6 +1776,7 @@
   "sections": [
    {
     "heading": "How much",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "In 15 cohorts with 47,471 adults, taking more steps was linked to a lower risk of death, levelling off at 8,000 to 10,000 steps a day for adults under 60 and 6,000 to 8,000 for those 60 and over. The authors note there is little evidence behind the 10,000 figure.",
@@ -1766,6 +1796,7 @@
    },
    {
     "heading": "What else it does",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "A five-minute walk each hour raised energy and mood and lowered fatigue in a small trial of sedentary adults.",
@@ -1792,6 +1823,7 @@
    },
    {
     "heading": "What's normal",
+    "deeper": false,
     "paragraphs": [
      {
       "text": "In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.",
