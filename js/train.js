@@ -356,7 +356,9 @@
     });
     var gear = settings.equipment.map(function (e) { return EQUIP_LABEL[e].replace(/^an? /, ''); });
     if (settings.dumbbells.length) gear.push('dumbbells ' + settings.dumbbells.join(', ') + ' lb');
-    $('gear-summary').textContent = 'My gear: ' + (gear.length ? gear.join(', ') : 'none yet') + '. Change';
+    $('gear-summary').textContent = gear.length ? gear.join(', ') : 'none yet, tap to add';
+    var shown = moves.filter(function (m) { return m.id !== 'volleyball' && available(m); }).length;
+    $('gear-note').textContent = shown + ' of ' + (moves.length - 1) + ' moves available with this gear. Moves that need nothing are always available.';
   }
   function toggle(list, v) { var i = list.indexOf(v); if (i === -1) list.push(v); else list.splice(i, 1); }
 
@@ -496,6 +498,11 @@
 
   // ---------- start ----------
   $('did-all').addEventListener('click', function () { if (settings) didAll(); });
+  $('gear-btn').addEventListener('click', function () {
+    var panel = $('gear-panel'), open = panel.hidden;
+    panel.hidden = !open;
+    $('gear-btn').setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
   $('vball').addEventListener('click', function () { if (settings) volleyball(); });
   var storage = null;
   try { storage = window.localStorage; } catch (e) { storage = null; }

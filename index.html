@@ -121,9 +121,15 @@ button { font: inherit; color: inherit; }
 .bankscroll::-webkit-scrollbar { display: none; }
 .bankwrap::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 36px; pointer-events: none; background: linear-gradient(to bottom, transparent, var(--bg)); }
 @media (max-width: 620px) { .bankscroll { max-height: 420px; } }
-details.gear { font-size: 13px; color: var(--muted); }
-details.gear summary { cursor: pointer; }
-details.gear[open] { display: flex; flex-direction: column; gap: 8px; }
+.gearbtn { all: unset; box-sizing: border-box; cursor: pointer; display: inline-flex; align-items: baseline; gap: 6px; font-size: 13px; color: var(--fg); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; max-width: 100%; }
+.gearbtn #gear-summary { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.gearbtn .caret { color: var(--muted); font-size: 11px; }
+.gearbtn[aria-expanded="true"] { border-color: var(--go); }
+.gearbtn[aria-expanded="true"] .caret { transform: rotate(180deg); }
+.gearbtn:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
+.gearpanel { flex-direction: row; flex-wrap: wrap; gap: 12px 28px; align-items: flex-start; }
+.gearrow { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.gearpanel .note { flex-basis: 100%; }
 
 /* move detail */
 .ex-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
@@ -213,8 +219,14 @@ details.mobile-rail summary { cursor: pointer; font-weight: 600; }
   <header class="topbar">
     <span class="brand">One Move</span>
     <nav class="nav" aria-label="Sections"><a href="#train" data-tab="train" aria-current="page">Train</a><a href="#read" data-tab="read">Read</a></nav>
+    <button class="gearbtn" id="gear-btn" type="button" aria-expanded="false" aria-controls="gear-panel"><span class="label">My gear</span> <span id="gear-summary">none yet</span> <span class="caret" aria-hidden="true">&#9662;</span></button>
     <span class="status" id="status" aria-live="polite"></span>
   </header>
+  <section class="box gearpanel" id="gear-panel" hidden aria-label="My gear">
+    <div class="gearrow"><span class="label">Equipment you have or want to use</span><div class="chips" id="equip"></div></div>
+    <div class="gearrow"><span class="label">Dumbbells you own, in pounds</span><div class="chips" id="bells"></div></div>
+    <p class="note" id="gear-note">Moves that need nothing are always available. Tick what you have and more open up.</p>
+  </section>
 
   <!-- TRAIN -->
   <main class="train" data-view="train">
@@ -261,13 +273,6 @@ details.mobile-rail summary { cursor: pointer; font-weight: 600; }
       <div class="chips" id="purposes"></div>
       <div id="filter"></div>
       <div class="bankwrap"><div class="bankscroll" id="bank" tabindex="0" aria-label="Bank of moves, scroll with the mouse wheel"></div></div>
-      <details class="gear" id="gear">
-        <summary id="gear-summary">My gear</summary>
-        <span class="label">Equipment</span>
-        <div class="chips" id="equip"></div>
-        <span class="label">Dumbbells you own, in pounds</span>
-        <div class="chips" id="bells"></div>
-      </details>
     </section>
 
     <section class="box t-detail" id="detail" aria-live="polite" aria-label="Selected move">
