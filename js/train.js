@@ -367,7 +367,8 @@
     if (ui.target) list = OneMove.replacementsFor(moves, ui.target);
     else if (ui.bar) list = moves.filter(function (m) { return OneMove.mainBar(m) === ui.bar; });
     else list = OneMove.filterByTags(moves, ui.tags);
-    return list.filter(function (m) { return m.id !== 'volleyball'; })
+    // Moves his gear can't do stay out of the bank until he ticks that gear.
+    return list.filter(function (m) { return m.id !== 'volleyball' && available(m); })
       .sort(function (a, b) { return CAT_ORDER.indexOf(a.category) - CAT_ORDER.indexOf(b.category); });
   }
 
@@ -383,17 +384,16 @@
     var cat = null;
     bankList().forEach(function (m) {
       if (m.category !== cat) { cat = m.category; box.appendChild(el('div', 'g', CAT_LABEL[cat] || cat)); }
-      var p = button('pick' + (available(m) ? '' : ' off'), '', function () { clickBank(m.id); });
+      var p = button('pick', '', function () { clickBank(m.id); });
       p.dataset.sel = 'bank:' + m.id;
       var dot = el('span', 'dot' + (m.staple ? ' on' : '')); if (m.staple) { dot.title = 'Staple'; dot.setAttribute('aria-label', 'Staple'); dot.setAttribute('role', 'img'); }
       p.appendChild(dot);
       p.appendChild(document.createTextNode(m.name));
       p.appendChild(stars(m));
-      var extra = needs(m) || (inRoutine(m.id) ? 'in routine' : '');
-      if (extra) p.appendChild(el('small', '', extra));
+      if (inRoutine(m.id)) p.appendChild(el('small', '', 'in routine'));
       box.appendChild(p);
     });
-    if (!box.children.length) box.appendChild(el('p', 'note', ui.target ? 'Nothing else trains the same muscles first. Remove it, or add something new.' : 'No moves match.'));
+    if (!box.children.length) box.appendChild(el('p', 'note', ui.target ? 'Nothing else trains the same muscles first. Remove it, or add something new.' : 'No moves match with your gear.'));
   }
 
   function renderGear() {

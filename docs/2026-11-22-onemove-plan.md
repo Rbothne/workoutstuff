@@ -22,8 +22,8 @@
 - Articles give a holistic view of health, not a programme. BLUF goals are lightly actionable: small things a normal person can do, none requiring tracking. Each article includes a short "What's normal" section that grounds the reader in typical healthy ranges or behaviour for that topic, with sources.
 - The healthy-eating article draws on the national dietary guidelines of Japan, South Korea, China and Germany and on WHO, and states that a country's good health has many causes besides diet.
 - Types: strength, power, cardio, mobility. Effort: light, moderate, hard, shown as "typical effort".
-- Muscles: quads, glutes, hamstrings, calves, abs, obliques, lower-back, chest, shoulders, triceps, lats, upper-back, biceps, forearms, hip-flexors.
-- Muscle to bar: quads to `quads`; glutes and hamstrings to `hips`; abs, obliques and lower-back to `core`; chest, shoulders and triceps to `push`; lats, upper-back, biceps and forearms to `pull`; calves to `jump`; hip-flexors to no bar.
+- Muscles: quads, glutes, hamstrings, calves, abs, obliques, lower-back, chest, shoulders, triceps, lats, upper-back, biceps, forearms, hip-flexors, shins, adductors.
+- Muscle to bar: quads to `quads`; glutes and hamstrings to `hips`; abs, obliques and lower-back to `core`; chest, shoulders and triceps to `push`; lats, upper-back, biceps and forearms to `pull`; calves and shins to `jump`; adductors to `hips`; hip-flexors to no bar.
 - Bars: `quads`, `hips`, `core`, `push`, `pull`, `jump`. Weekly target: 4 sets each. Labelled on the page as a starting point, not a researched figure.
 - No calories-burned figure, no food or calorie tracking, no notifications, no streak counter, no record of missed days.
 - No daily screen may need typing to complete.

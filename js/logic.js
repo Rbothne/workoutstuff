@@ -302,10 +302,13 @@
     var loggedToday = {};
     (entries || []).forEach(function (e) { if (e.date === todayK) loggedToday[e.moveId] = 1; });
 
+    var reachable = {};
+    visibleMoves(moves, owned).forEach(function (m) { reachable[m.id] = 1; });
     var slots = [];
     for (var i = 0; i < size; i++) {
       var id = current[i];
-      slots.push(id && (locked.indexOf(id) !== -1 || loggedToday[id]) ? id : null);
+      // A lock holds only while his gear allows the move; anything logged today stays regardless.
+      slots.push(id && ((locked.indexOf(id) !== -1 && reachable[id]) || loggedToday[id]) ? id : null);
     }
     var used = {};
     slots.forEach(function (s) { if (s) used[s] = 1; });

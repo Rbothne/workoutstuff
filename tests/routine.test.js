@@ -58,6 +58,14 @@ test('a full routine trains every muscle group his gear can reach', () => {
   assert.deepEqual(new Set(bars(bare)), new Set(L.BARS), 'the prone Y raise covers pull with no equipment');
 });
 
+test('a locked move whose gear is unticked gets replaced with one his gear allows', () => {
+  const out = L.generateRoutine(moves, settings({ dumbbells: [], locked: ['row', 'bridge'] }), [], monday, 0);
+  assert.notEqual(out[3], 'row');
+  assert.equal(out[6], 'bridge');
+  const allowed = L.visibleMoves(moves, []).map((m) => m.id);
+  for (const id of out) assert.ok(allowed.includes(id), id);
+});
+
 test('locked moves stay where they are', () => {
   const s = settings({ locked: ['row', 'bridge'] });
   for (let turn = 0; turn < 6; turn++) {

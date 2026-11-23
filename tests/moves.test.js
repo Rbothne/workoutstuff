@@ -13,11 +13,11 @@ const TYPES = ['strength', 'power', 'cardio', 'mobility'];
 const EFFORTS = ['light', 'moderate', 'hard'];
 const BARS = ['quads', 'hips', 'core', 'push', 'pull', 'jump'];
 const MUSCLE_BAR = {
-  quads: 'quads', glutes: 'hips', hamstrings: 'hips',
+  quads: 'quads', glutes: 'hips', hamstrings: 'hips', adductors: 'hips',
   abs: 'core', obliques: 'core', 'lower-back': 'core',
   chest: 'push', shoulders: 'push', triceps: 'push',
   lats: 'pull', 'upper-back': 'pull', biceps: 'pull', forearms: 'pull',
-  calves: 'jump', 'hip-flexors': null,
+  calves: 'jump', shins: 'jump', 'hip-flexors': null,
 };
 
 function derive(move) {
@@ -28,10 +28,10 @@ function derive(move) {
   return credits;
 }
 
-test('moves file has 34 entries with unique ids', () => {
+test('moves file has 52 entries with unique ids', () => {
   const moves = loadMoves();
-  assert.equal(moves.length, 34);
-  assert.equal(new Set(moves.map((m) => m.id)).size, 34);
+  assert.equal(moves.length, 52);
+  assert.equal(new Set(moves.map((m) => m.id)).size, 52);
 });
 
 test('every move has a difficulty of 1 to 3 stars and says whether it is a staple; staples are simple', () => {
@@ -91,10 +91,10 @@ test('default routine names logged moves that exist', () => {
   for (const id of DEFAULT_ROUTINE) assert.equal(moves.find((m) => m.id === id).logged, true, id);
 });
 
-test('with no equipment, eighteen cards are visible and volleyball never is', () => {
+test('with no equipment, twenty-seven cards are visible and volleyball never is', () => {
   const { visibleMoves } = loadLogic();
   const ids = visibleMoves(loadMoves(), []).map((m) => m.id);
-  assert.equal(ids.length, 18);
+  assert.equal(ids.length, 27);
   assert.ok(!ids.includes('volleyball'));
   assert.ok(!ids.includes('row'));
 });
@@ -104,7 +104,7 @@ test('dumbbells add row, hinge, overhead press and lateral raise but not bench p
   const ids = visibleMoves(loadMoves(), ['dumbbells']).map((m) => m.id);
   for (const id of ['row', 'hinge', 'overheadpress', 'lateralraise']) assert.ok(ids.includes(id), id);
   assert.ok(!ids.includes('benchpress'));
-  assert.equal(ids.length, 25);
+  assert.equal(ids.length, 36);
 });
 
 test('dumbbells and a bench add bench press', () => {
@@ -127,11 +127,12 @@ test("today's move comes from no-equipment, light or moderate moves and rotates 
   const moves = loadMoves();
   assert.deepEqual(
     todayPool(moves, []).map((m) => m.id),
-    ['squat', 'bridge', 'deadbug', 'hipflexor', 'landing', 'pushup', 'splitsquat', 'calfraise', 'plank', 'sideplank', 'reverselunge', 'birddog', 'inclinepushup', 'proney', 'pogo'],
+    ['squat', 'bridge', 'deadbug', 'hipflexor', 'landing', 'pushup', 'splitsquat', 'calfraise', 'plank', 'sideplank', 'reverselunge', 'birddog', 'inclinepushup', 'proney', 'pogo',
+      'wallsit', 'sldl', 'tibraise', 'skater', 'hollowhold', 'pikepushup'],
   );
   assert.equal(todayMove(moves, [], 0).id, 'squat');
   assert.equal(todayMove(moves, [], 3).id, 'hipflexor');
-  assert.equal(todayMove(moves, ['dumbbells', 'bench'], 15).id, 'squat');
+  assert.equal(todayMove(moves, ['dumbbells', 'bench'], 15).id, 'wallsit');
 });
 
 test('after a log, suitable weights run from half the last weight to the next owned weight above it', () => {

@@ -1013,6 +1013,562 @@
     "staple": false
   },
   {
+    "id": "bulgarian",
+    "name": "Bulgarian split squat",
+    "category": "legs",
+    "equipment": [
+      "bench"
+    ],
+    "type": "strength",
+    "effort": "hard",
+    "primary": [
+      "quads"
+    ],
+    "secondary": [
+      "glutes"
+    ],
+    "credits": {
+      "hips": 0.5,
+      "quads": 1
+    },
+    "min": 6,
+    "max": 10,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Strength",
+      "Explosiveness"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "wallsit",
+    "name": "Wall sit",
+    "category": "legs",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "quads"
+    ],
+    "secondary": [],
+    "credits": {
+      "quads": 1
+    },
+    "min": 20,
+    "max": 45,
+    "step": 0,
+    "unit": "seconds",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Strength",
+      "Joint protection"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "sldl",
+    "name": "Single-leg deadlift",
+    "category": "hips",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "light",
+    "primary": [
+      "hamstrings",
+      "glutes"
+    ],
+    "secondary": [],
+    "credits": {
+      "hips": 1
+    },
+    "min": 6,
+    "max": 10,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Strength",
+      "Joint protection"
+    ],
+    "difficulty": 2,
+    "staple": true
+  },
+  {
+    "id": "nordic",
+    "name": "Nordic curl",
+    "category": "hips",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "hard",
+    "primary": [
+      "hamstrings"
+    ],
+    "secondary": [],
+    "credits": {
+      "hips": 1
+    },
+    "min": 3,
+    "max": 6,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection",
+      "Strength"
+    ],
+    "difficulty": 3,
+    "staple": false
+  },
+  {
+    "id": "copenhagen",
+    "name": "Copenhagen plank",
+    "category": "core",
+    "equipment": [
+      "bench"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "adductors"
+    ],
+    "secondary": [
+      "obliques"
+    ],
+    "credits": {
+      "core": 0.5,
+      "hips": 1
+    },
+    "min": 10,
+    "max": 30,
+    "step": 0,
+    "unit": "seconds",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection",
+      "Strength"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "tibraise",
+    "name": "Tibialis raise",
+    "category": "jump",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "light",
+    "primary": [
+      "shins"
+    ],
+    "secondary": [],
+    "credits": {
+      "jump": 1
+    },
+    "min": 12,
+    "max": 20,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "broadjump",
+    "name": "Broad jump",
+    "category": "jump",
+    "equipment": [
+      "none"
+    ],
+    "type": "power",
+    "effort": "hard",
+    "primary": [
+      "quads",
+      "glutes"
+    ],
+    "secondary": [
+      "calves"
+    ],
+    "credits": {
+      "jump": 0.5,
+      "quads": 1,
+      "hips": 1
+    },
+    "min": 3,
+    "max": 5,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Explosiveness"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "skater",
+    "name": "Skater bound",
+    "category": "jump",
+    "equipment": [
+      "none"
+    ],
+    "type": "power",
+    "effort": "moderate",
+    "primary": [
+      "glutes"
+    ],
+    "secondary": [
+      "quads",
+      "calves"
+    ],
+    "credits": {
+      "quads": 0.5,
+      "jump": 0.5,
+      "hips": 1
+    },
+    "min": 6,
+    "max": 10,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Explosiveness",
+      "Joint protection"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "depthdrop",
+    "name": "Depth drop",
+    "category": "jump",
+    "equipment": [
+      "step"
+    ],
+    "type": "power",
+    "effort": "moderate",
+    "primary": [
+      "quads",
+      "calves"
+    ],
+    "secondary": [
+      "glutes"
+    ],
+    "credits": {
+      "hips": 0.5,
+      "quads": 1,
+      "jump": 1
+    },
+    "min": 3,
+    "max": 5,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection",
+      "Explosiveness"
+    ],
+    "difficulty": 3,
+    "staple": false
+  },
+  {
+    "id": "hollowhold",
+    "name": "Hollow hold",
+    "category": "core",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "hip-flexors"
+    ],
+    "credits": {
+      "core": 1
+    },
+    "min": 15,
+    "max": 30,
+    "step": 0,
+    "unit": "seconds",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Strength",
+      "Climbing"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "pallof",
+    "name": "Pallof press",
+    "category": "core",
+    "equipment": [
+      "band"
+    ],
+    "type": "strength",
+    "effort": "light",
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "abs"
+    ],
+    "credits": {
+      "core": 1
+    },
+    "min": 8,
+    "max": 12,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection",
+      "Strength"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "suitcase",
+    "name": "Suitcase carry",
+    "category": "core",
+    "equipment": [
+      "dumbbells"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "obliques"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "credits": {
+      "pull": 0.5,
+      "core": 1
+    },
+    "min": 20,
+    "max": 40,
+    "step": 5,
+    "unit": "seconds",
+    "logged": true,
+    "load": "heavy",
+    "for": [
+      "Strength",
+      "Climbing"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "hangingknee",
+    "name": "Hanging knee raise",
+    "category": "core",
+    "equipment": [
+      "pullup-bar"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "abs"
+    ],
+    "secondary": [
+      "hip-flexors",
+      "forearms"
+    ],
+    "credits": {
+      "pull": 0.5,
+      "core": 1
+    },
+    "min": 6,
+    "max": 12,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Climbing",
+      "Strength"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "pikepushup",
+    "name": "Pike push-up",
+    "category": "push",
+    "equipment": [
+      "none"
+    ],
+    "type": "strength",
+    "effort": "moderate",
+    "primary": [
+      "shoulders"
+    ],
+    "secondary": [
+      "triceps"
+    ],
+    "credits": {
+      "push": 1
+    },
+    "min": 5,
+    "max": 10,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Strength"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "pullupneg",
+    "name": "Pull-up negative",
+    "category": "pull",
+    "equipment": [
+      "pullup-bar"
+    ],
+    "type": "strength",
+    "effort": "hard",
+    "primary": [
+      "lats"
+    ],
+    "secondary": [
+      "biceps",
+      "upper-back"
+    ],
+    "credits": {
+      "pull": 1
+    },
+    "min": 3,
+    "max": 5,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Climbing",
+      "Strength"
+    ],
+    "difficulty": 2,
+    "staple": false
+  },
+  {
+    "id": "externalrot",
+    "name": "Band external rotation",
+    "category": "pull",
+    "equipment": [
+      "band"
+    ],
+    "type": "strength",
+    "effort": "light",
+    "primary": [
+      "upper-back"
+    ],
+    "secondary": [
+      "shoulders"
+    ],
+    "credits": {
+      "push": 0.5,
+      "pull": 1
+    },
+    "min": 12,
+    "max": 15,
+    "step": 0,
+    "unit": "reps",
+    "logged": true,
+    "load": null,
+    "for": [
+      "Joint protection"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "curl",
+    "name": "Dumbbell curl",
+    "category": "pull",
+    "equipment": [
+      "dumbbells"
+    ],
+    "type": "strength",
+    "effort": "light",
+    "primary": [
+      "biceps"
+    ],
+    "secondary": [
+      "forearms"
+    ],
+    "credits": {
+      "pull": 1
+    },
+    "min": 8,
+    "max": 12,
+    "step": 5,
+    "unit": "reps",
+    "logged": true,
+    "load": "light",
+    "for": [
+      "Strength",
+      "Climbing"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
+    "id": "catcow",
+    "name": "Cat-cow",
+    "category": "mobility",
+    "equipment": [
+      "none"
+    ],
+    "type": "mobility",
+    "effort": "light",
+    "primary": [],
+    "secondary": [],
+    "credits": {},
+    "min": 0,
+    "max": 0,
+    "step": 0,
+    "unit": "reps",
+    "logged": false,
+    "load": null,
+    "for": [
+      "Mobility and posture"
+    ],
+    "difficulty": 1,
+    "staple": false
+  },
+  {
     "id": "volleyball",
     "name": "Volleyball night",
     "category": "jump",
