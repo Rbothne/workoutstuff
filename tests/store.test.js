@@ -69,9 +69,21 @@ test('remove deletes an entry', async () => {
 
 test('settings start at the defaults and round-trip', async () => {
   const store = await Store.open({});
-  assert.deepEqual(await store.getSettings(), { equipment: [], dumbbells: [], routine: DEFAULT_ROUTINE, prefs: {} });
+  assert.deepEqual(await store.getSettings(), { equipment: [], dumbbells: [], routine: DEFAULT_ROUTINE, prefs: {}, locked: [], turn: 0 });
   await store.setSettings({ equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'] });
-  assert.deepEqual(await store.getSettings(), { equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'], prefs: {} });
+  assert.deepEqual(await store.getSettings(), { equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'], prefs: {}, locked: [], turn: 0 });
+});
+
+test('locked moves and the generate count are kept, and junk in them is dropped', async () => {
+  const store = await Store.open({});
+  await store.setSettings({ equipment: [], dumbbells: [], routine: ['squat', 'row'], locked: ['row', 7, 'nope'], turn: 4 });
+  const s = await store.getSettings();
+  assert.deepEqual(s.locked, ['row']);
+  assert.equal(s.turn, 4);
+  await store.setSettings({ equipment: [], dumbbells: [], routine: [], locked: 'row', turn: -2 });
+  const t = await store.getSettings();
+  assert.deepEqual(t.locked, []);
+  assert.equal(t.turn, 0);
 });
 
 test('browser storage is used when there is no database, and survives reopening', async () => {

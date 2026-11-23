@@ -221,6 +221,118 @@
     return rows;
   }
 
+  // ---------- generating a routine ----------
+  var DAY_MS = 86400000;
+  var FAVORITE_HALF_LIFE_DAYS = 28;
+  var VOLLEYBALL_GUESS = 3, LIFTS_GUESS = 2, HISTORY_WEEKS = 4, TARGET = 4;
+  var ROUTINE_ORDER = ['jump', 'quads', 'hips', 'push', 'pull', 'core'];
+
+  function keyToDate(k) { var p = k.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function daysBetween(a, b) { return Math.round((b - a) / DAY_MS); }
+  function addDays(d, n) { return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); }
+
+  // What he actually does: each completed move adds 1, each pass takes 1, and a day's weight halves every four weeks.
+  function favorites(entries, today) {
+    var score = {};
+    (entries || []).forEach(function (e) {
+      if (!e || !e.moveId || e.moveId === 'volleyball' || typeof e.date !== 'string') return;
+      var w = e.pass ? -1 : (Array.isArray(e.sets) && e.sets.length ? 1 : 0);
+      var age = Math.max(0, daysBetween(keyToDate(e.date), today));
+      score[e.moveId] = (score[e.moveId] || 0) + w * Math.pow(0.5, age / FAVORITE_HALF_LIFE_DAYS);
+    });
+    return score;
+  }
+
+  // How his weeks usually go, from the four weeks before this one. Until there is history: 3 volleyball nights, 2 lifts.
+  function weekHabits(entries, today) {
+    var start = weekStart(today);
+    var from = dateKey(addDays(start, -7 * HISTORY_WEEKS)), to = dateKey(start);
+    var past = (entries || []).filter(function (e) { return e.date >= from && e.date < to; });
+    if (!past.length) return { volleyball: VOLLEYBALL_GUESS, lifts: LIFTS_GUESS };
+    var first = past.reduce(function (min, e) { return e.date < min ? e.date : min; }, to);
+    var weeks = Math.max(1, Math.ceil(daysBetween(keyToDate(first), start) / 7));
+    var liftDays = {};
+    past.forEach(function (e) { if (isSession(e)) liftDays[e.date] = 1; });
+    var nights = past.filter(function (e) { return e.moveId === 'volleyball' && !e.pass; }).length;
+    return { volleyball: nights / weeks, lifts: Object.keys(liftDays).length / weeks };
+  }
+
+  // Where the bars should land by Sunday if the week goes as usual. Used to build routines; never shown.
+  function projectWeek(entries, moves, today) {
+    var start = weekStart(today);
+    var from = dateKey(start), to = dateKey(addDays(start, 7));
+    var credits = weekCredits(entries, moves, start);
+    var habits = weekHabits(entries, today);
+    var week = (entries || []).filter(function (e) { return e.date >= from && e.date < to; });
+    var nights = week.filter(function (e) { return e.moveId === 'volleyball' && !e.pass; }).length;
+    var liftDays = {};
+    week.forEach(function (e) { if (isSession(e)) liftDays[e.date] = 1; });
+    var daysLeft = 7 - daysBetween(start, today);
+    var nightsLeft = Math.min(daysLeft, Math.max(0, Math.round(habits.volleyball - nights)));
+    var vb = moves.filter(function (m) { return m.id === 'volleyball'; })[0];
+    if (vb) Object.keys(vb.credits).forEach(function (b) { credits[b] += vb.credits[b] * nightsLeft; });
+    var liftsLeft = Math.min(daysLeft, Math.max(1, Math.round(habits.lifts - Object.keys(liftDays).length)));
+    return { credits: credits, liftsLeft: liftsLeft };
+  }
+
+  // A fresh routine of the same length. Locked moves and anything logged or passed today stay in place.
+  // The open slots first cover every muscle group his gear reaches, emptiest projected group first, then go
+  // to whichever group still looks emptiest. Within a group his favourites come first, and each new `turn`
+  // moves one along, so pressing again rotates through every move he could do.
+  function generateRoutine(moves, settings, entries, today, turn) {
+    turn = Math.max(0, Math.floor(turn || 0));
+    var owned = settings.equipment.concat(settings.dumbbells.length ? ['dumbbells'] : []);
+    var byId = {}, order = {};
+    moves.forEach(function (m, i) { byId[m.id] = m; order[m.id] = i; });
+    var todayK = dateKey(today);
+    var locked = settings.locked || [];
+    var current = (settings.routine || []).filter(function (id) { return byId[id]; });
+    var size = current.length || DEFAULT_ROUTINE.length;
+    var loggedToday = {};
+    (entries || []).forEach(function (e) { if (e.date === todayK) loggedToday[e.moveId] = 1; });
+
+    var slots = [];
+    for (var i = 0; i < size; i++) {
+      var id = current[i];
+      slots.push(id && (locked.indexOf(id) !== -1 || loggedToday[id]) ? id : null);
+    }
+    var used = {};
+    slots.forEach(function (s) { if (s) used[s] = 1; });
+
+    var fav = favorites(entries, today);
+    var pool = visibleMoves(moves, owned).filter(function (m) { return m.logged && mainBar(m); });
+    var groups = {};
+    BARS.forEach(function (b) {
+      groups[b] = pool.filter(function (m) { return mainBar(m) === b; })
+        .sort(function (x, y) { return (fav[y.id] || 0) - (fav[x.id] || 0) || order[x.id] - order[y.id]; });
+    });
+
+    var proj = projectWeek(entries, moves, today);
+    var have = {}, covered = {};
+    BARS.forEach(function (b) { have[b] = proj.credits[b] || 0; });
+    function count(m) {
+      Object.keys(m.credits).forEach(function (b) { have[b] += m.credits[b] * SETS_PER_MOVE * proj.liftsLeft; });
+      var mb = mainBar(m); if (mb) covered[mb] = 1;
+    }
+    slots.forEach(function (s) { if (s) count(byId[s]); });
+
+    var open = slots.filter(function (s) { return !s; }).length;
+    var picks = [];
+    while (picks.length < open) {
+      var choices = BARS.filter(function (b) { return groups[b].some(function (m) { return !used[m.id]; }); });
+      if (!choices.length) break;
+      var fresh = choices.filter(function (b) { return !covered[b]; });
+      var bar = (fresh.length ? fresh : choices).sort(function (a, b) { return have[a] - have[b] || BARS.indexOf(a) - BARS.indexOf(b); })[0];
+      var cands = groups[bar].filter(function (m) { return !used[m.id]; });
+      var pick = cands[turn % cands.length];
+      used[pick.id] = 1; count(pick); picks.push(pick);
+    }
+    picks.sort(function (a, b) { return ROUTINE_ORDER.indexOf(mainBar(a)) - ROUTINE_ORDER.indexOf(mainBar(b)); });
+    var out = [], k = 0;
+    slots.forEach(function (s) { if (s) out.push(s); else if (k < picks.length) out.push(picks[k++].id); });
+    return out;
+  }
+
   function stepWeight(move, weight, dir, owned) {
     var sorted = (owned || []).slice().sort(function (a, b) { return a - b; });
     if (!sorted.length) return Math.max(0, weight + dir * 5);
@@ -246,6 +358,9 @@
     planSession: planSession,
     lastWeight: lastWeight,
     stepWeight: stepWeight,
+    favorites: favorites,
+    projectWeek: projectWeek,
+    generateRoutine: generateRoutine,
     BARS: BARS,
     dateKey: dateKey,
     dayOfYear: dayOfYear,

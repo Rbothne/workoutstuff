@@ -10,6 +10,9 @@
   var CAT_LABEL = { legs: 'Legs', hips: 'Hips', core: 'Core', push: 'Push', pull: 'Pull', jump: 'Jump', mobility: 'Mobility', cardio: 'Cardio' };
   var CAT_ORDER = ['legs', 'hips', 'core', 'push', 'pull', 'jump', 'mobility', 'cardio'];
 
+  var LOCK_SHUT = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="8" rx="1.5" fill="currentColor"/><path d="M5.2 7V5a2.8 2.8 0 0 1 5.6 0v2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>';
+  var LOCK_OPEN = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3.8" y="7.8" width="8.4" height="6.4" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.2 7.8V5a2.8 2.8 0 0 1 5.4-1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>';
+
   function $(id) { return document.getElementById(id); }
   function el(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text !== undefined) n.textContent = text; return n; }
   function button(cls, text, onClick, label) {
@@ -155,23 +158,46 @@
     var at = settings.routine.indexOf(oldId);
     if (at === -1) return addToRoutine(newId);
     if (inRoutine(newId)) settings.routine.splice(at, 1); else settings.routine.splice(at, 1, newId);
+    unlock(oldId);
     delete ui.drafts[oldId];
     ui.target = null; ui.back = null; ui.undo = null;
     saveSettings(); select('routine', newId, true);
   }
+  function remember(text) { ui.undo = { routine: settings.routine.slice(), locked: settings.locked.slice(), text: text }; }
   function removeFromRoutine(id) {
     var at = settings.routine.indexOf(id);
     if (at === -1) return;
+    remember(byId[id].name + ' removed.');
     settings.routine.splice(at, 1);
-    ui.undo = { id: id, at: at };
+    unlock(id);
     if (ui.target === id) ui.target = null;
     if (ui.sel.id === id && ui.sel.kind === 'routine') ui.sel = { kind: 'today', id: null };
     saveSettings(); render();
   }
-  function undoRemove() {
+  function undoChange() {
     if (!ui.undo) return;
-    settings.routine.splice(Math.min(ui.undo.at, settings.routine.length), 0, ui.undo.id);
+    settings.routine = ui.undo.routine; settings.locked = ui.undo.locked;
     ui.undo = null; saveSettings(); render();
+  }
+  function isLocked(id) { return settings.locked.indexOf(id) !== -1; }
+  function unlock(id) { var i = settings.locked.indexOf(id); if (i !== -1) settings.locked.splice(i, 1); }
+  function toggleLock(id) {
+    if (isLocked(id)) unlock(id); else settings.locked.push(id);
+    saveSettings(); renderRoutine(); markCurrent();
+  }
+  // A fresh routine: locked moves and today's logged ones stay, the rest rotate on with every press.
+  function generate() {
+    var before = settings.routine.slice();
+    var turn = settings.turn || 0, next = before, t = 0;
+    for (; t < 24 && next.join() === before.join(); t++) next = OneMove.generateRoutine(moves, settings, entries, new Date(), turn + t);
+    if (next.join() === before.join()) { flash('Nothing to change. Every move is locked or already logged today.'); return; }
+    remember(settings.locked.length ? 'New routine.' : 'New routine. Lock a move to keep it next time.');
+    settings.turn = turn + t;
+    settings.routine = next;
+    before.forEach(function (id) { if (next.indexOf(id) === -1) delete ui.drafts[id]; });
+    ui.target = null; ui.back = null; ui.bar = null; ui.note = '';
+    if (ui.sel.kind === 'routine' && next.indexOf(ui.sel.id) === -1) ui.sel = { kind: 'today', id: null };
+    saveSettings(); render();
   }
 
   // ---------- selection ----------
@@ -270,6 +296,7 @@
     settings.routine.forEach(function (id, idx) {
       var m = byId[id]; if (!m) return;
       var r = byRow[id];
+      var locked = isLocked(id);
       var li = el('li', 'rrow');
       var p = button('pick' + (r && r.status ? ' done' : '') + (r ? '' : ' off'), '', function () { clickRoutine(id); });
       p.dataset.sel = 'routine:' + id;
@@ -280,15 +307,21 @@
       else if (r.status === 'pass') p.appendChild(el('span', 'st pass', 'passed'));
       else { var n = numbers(r); if (n.weight) p.appendChild(el('small', '', n.weight + ' lb')); }
       li.appendChild(p);
+      var lk = button('x lock', '', function () { toggleLock(id); }, locked ? 'Unlock ' + m.name : 'Lock ' + m.name + ' so Generate routine keeps it');
+      lk.setAttribute('aria-pressed', locked ? 'true' : 'false');
+      lk.title = locked ? 'Locked. Generate routine keeps it.' : 'Lock it so Generate routine keeps it';
+      lk.innerHTML = locked ? LOCK_SHUT : LOCK_OPEN;
+      li.appendChild(lk);
       li.appendChild(button('x', '×', function () { removeFromRoutine(id); }, 'Remove ' + m.name + ' from your routine'));
       ol.appendChild(li);
     });
-    if (!settings.routine.length) ol.appendChild(el('li', 'note', 'Empty. Add moves from the bank.'));
+    if (!settings.routine.length) ol.appendChild(el('li', 'note', 'Empty. Generate one, or add moves from the bank.'));
+    $('gen').disabled = ui.busy;
     var u = $('undo'); u.textContent = '';
     if (ui.undo) {
-      u.appendChild(document.createTextNode(byId[ui.undo.id].name + ' removed. '));
+      u.appendChild(document.createTextNode(ui.undo.text + ' '));
       var a = el('a', '', 'Undo'); a.href = '#train';
-      a.addEventListener('click', function (e) { e.preventDefault(); undoRemove(); });
+      a.addEventListener('click', function (e) { e.preventDefault(); undoChange(); });
       u.appendChild(a);
     }
     var open = rows.filter(function (r) { return !r.status; }).length;
@@ -498,6 +531,7 @@
 
   // ---------- start ----------
   $('did-all').addEventListener('click', function () { if (settings) didAll(); });
+  $('gen').addEventListener('click', function () { if (settings && moves.length && !ui.busy) generate(); });
   $('gear-btn').addEventListener('click', function () {
     var panel = $('gear-panel'), open = panel.hidden;
     panel.hidden = !open;

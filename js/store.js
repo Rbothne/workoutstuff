@@ -15,7 +15,7 @@
   var DB_TIMEOUT_MS = 10000;
 
   function defaults() {
-    return { equipment: [], dumbbells: [], routine: OneMove.DEFAULT_ROUTINE.slice(), prefs: {} };
+    return { equipment: [], dumbbells: [], routine: OneMove.DEFAULT_ROUTINE.slice(), prefs: {}, locked: [], turn: 0 };
   }
   // Per-move preferences: the sets, reps and weight he last chose, and the day he chose them.
   function cleanPrefs(p) {
@@ -33,11 +33,16 @@
   function cleanSettings(s) {
     var d = defaults();
     if (!s) return d;
+    var routine = Array.isArray(s.routine) ? s.routine.slice() : d.routine;
     return {
       equipment: Array.isArray(s.equipment) ? s.equipment.slice() : d.equipment,
       dumbbells: Array.isArray(s.dumbbells) ? s.dumbbells.slice() : d.dumbbells,
-      routine: Array.isArray(s.routine) ? s.routine.slice() : d.routine,
+      routine: routine,
       prefs: cleanPrefs(s.prefs),
+      // Moves locked into the routine: Generate routine leaves them where they are.
+      locked: Array.isArray(s.locked) ? s.locked.filter(function (id) { return typeof id === 'string' && routine.indexOf(id) !== -1; }) : [],
+      // How many times he has pressed Generate routine, so the next press moves the rotation on.
+      turn: isFinite(s.turn) && s.turn > 0 ? Math.floor(s.turn) : 0,
     };
   }
   function withId(entry) {

@@ -102,6 +102,15 @@ button { font: inherit; color: inherit; }
 .x { all: unset; cursor: pointer; width: 26px; text-align: center; border-radius: 6px; color: var(--muted); font-size: 16px; line-height: 1.7; flex: none; }
 .x:hover { background: var(--card); color: var(--fg); }
 .x:focus-visible { outline: 3px solid var(--feel); }
+/* Row controls stay out of sight until the row is pointed at, focused or picked. A locked move always shows its lock. */
+.rrow .x { visibility: hidden; }
+.rrow:hover .x, .rrow:focus-within .x, .rrow:has(.pick[aria-current="true"]) .x { visibility: visible; }
+.rrow .x.lock { display: inline-flex; align-items: center; justify-content: center; width: 22px; }
+.rrow .x.lock svg { width: 12px; height: 12px; }
+.rrow .x.lock[aria-pressed="true"] { visibility: visible; color: var(--go); }
+.ghead { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.gen { color: var(--go); border-color: var(--go); font-weight: 600; }
+.gen:hover { background: var(--go); color: var(--go-fg); }
 
 .fill-row { all: unset; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; gap: 4px; width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); font-size: 13px; }
 .fill-row:focus-visible { outline: 3px solid var(--feel); outline-offset: 1px; }
@@ -255,7 +264,7 @@ details.mobile-rail summary { cursor: pointer; font-weight: 600; }
         <ul class="list" id="today-list"></ul>
       </div>
       <div class="group">
-        <span class="label">Your routine</span>
+        <div class="ghead"><span class="label">Your routine</span><button class="chip gen" id="gen" type="button" title="A fresh set of moves. Locked moves stay.">Generate routine</button></div>
         <ol class="list" id="routine"></ol>
         <p class="note" id="undo" aria-live="polite"></p>
         <button class="btn fill wide" id="did-all" type="button">Did it as written</button>
