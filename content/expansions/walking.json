@@ -1,0 +1,877 @@
+{
+  "id": "walking",
+  "sources": {
+    "x_walking_nhs": {
+      "title": "Walking for health",
+      "publisher": "NHS (UK National Health Service), reviewed 2022",
+      "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/walking-for-health/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "A brisk walk is about 3 miles an hour; walking briskly means being able to talk but not sing. A brisk 10-minute daily walk counts towards the 150 minutes of weekly exercise."
+    },
+    "x_walking_cadence": {
+      "title": "Walking cadence (steps/min) and intensity in 21-40 year olds: CADENCE-adults",
+      "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30654810/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Laboratory study of 76 healthy adults aged 21 to 40. Heuristic thresholds of 100 steps a minute for moderate intensity (3 METs) and 130 steps a minute for vigorous intensity (6 METs)."
+    },
+    "x_walking_stamatakis": {
+      "title": "Self-rated walking pace and all-cause, cardiovascular disease and cancer mortality: individual participant pooled analysis of 50 225 walkers from 11 population British cohorts",
+      "publisher": "British Journal of Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29858463/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Against a slow pace, average and brisk or fast pace were associated with 20% and 24% lower all-cause mortality. Associations were evident in those over 50; no interactions by sex or BMI; no association with cancer mortality."
+    },
+    "x_walking_delpozo": {
+      "title": "Prospective associations of daily step counts and intensity with cancer and cardiovascular disease incidence and mortality and all-cause mortality",
+      "publisher": "JAMA Internal Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36094529/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "UK Biobank, 78,500 adults aged 40 to 79 with wrist accelerometers, median 7 years. More steps linked to lower risk up to about 10,000 a day; peak 30-minute cadence was associated with lower risk beyond total steps."
+    },
+    "x_walking_saintmaurice": {
+      "title": "Association of daily step count and step intensity with mortality among US adults",
+      "publisher": "JAMA, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32207799/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "4,840 US adults aged 40 and over, mean 10.1 years of follow-up. 8,000 steps a day was associated with lower mortality than 4,000 (HR 0.49); no significant association between step intensity and mortality after adjusting for total steps."
+    },
+    "x_walking_lee": {
+      "title": "Association of step volume and intensity with all-cause mortality in older women",
+      "publisher": "JAMA Internal Medicine, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31141585/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16,741 women, mean age 72. Mortality fell with more steps until about 7,500 a day, then levelled; after adjusting for steps, intensity associations were attenuated and most were not significant."
+    },
+    "x_walking_engeroff": {
+      "title": "After dinner rest a while, after supper walk a mile? A systematic review with meta-analysis on the acute postprandial glycemic response to exercise before and after meal ingestion",
+      "publisher": "Sports Medicine, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36715875/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Eight randomised crossover trials, 116 participants, high risk of bias. Exercise after meals reduced glucose excursions against exercise before eating (SMD 0.47) and against no exercise (SMD 0.55); a shorter gap after the meal gave a larger effect."
+    },
+    "x_walking_reynolds": {
+      "title": "Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study",
+      "publisher": "Diabetologia, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27747394/",
+      "kind": "journal",
+      "country": "NZ",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "41 adults with type 2 diabetes. Walking 10 minutes after each main meal gave lower post-meal glucose than one 30-minute daily walk (ratio 0.88), most after the evening meal (0.78)."
+    },
+    "x_walking_brian": {
+      "title": "Post-meal exercise under ecological conditions improves post-prandial glucose levels but not 24-hour glucose control",
+      "publisher": "Journal of Sports Sciences, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38858835/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Randomised crossover study in physically inactive, metabolically healthy young women. Brisk walks after meals lowered 3-hour post-meal glucose, most after dinner, but did not improve 24-hour glucose control."
+    },
+    "x_walking_ekelund16": {
+      "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+      "publisher": "The Lancet, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27475271/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 cohort studies, 1,005,791 people for sitting time. About 60 to 75 minutes a day of moderate activity seemed to eliminate the higher death risk linked to high sitting time, but only attenuated that linked to high TV viewing."
+    },
+    "x_walking_ekelund20": {
+      "title": "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals",
+      "publisher": "British Journal of Sports Medicine, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33239356/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Nine cohorts in four countries, 44,370 people with accelerometers. About 30 to 40 minutes a day of moderate-to-vigorous activity attenuated the association between sedentary time and death."
+    },
+    "x_walking_buffey": {
+      "title": "The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35147898/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Seven one-day randomised crossover trials in mostly overweight adults. Light walking breaks lowered post-meal glucose and insulin against continued sitting, and lowered them more than standing breaks."
+    },
+    "x_walking_japan": {
+      "title": "Physical Activity Guide for Health Promotion 2023 (English version)",
+      "publisher": "Ministry of Health, Labour and Welfare, Japan, January 2024",
+      "url": "https://www.mhlw.go.jp/content/001495670.pdf",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "Adults: walking or equivalent activity for at least 60 minutes a day, about 8,000 steps; older adults at least 40 minutes, about 6,000 steps. Interrupting long periods of sitting, for example every 30 minutes, is important for cardiovascular and metabolic risk."
+    },
+    "x_walking_xu": {
+      "title": "The effect of walking on depressive and anxiety symptoms: systematic review and meta-analysis",
+      "publisher": "JMIR Public Health and Surveillance, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39045858/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "75 randomised trials, 8,636 participants. Walking reduced depressive (SMD -0.591) and anxiety symptoms (SMD -0.446) against inactive controls, across frequencies, durations, indoor or outdoor settings and group or solo formats; no significant difference against active controls."
+    },
+    "x_walking_oppezzo": {
+      "title": "Give your ideas some legs: the positive effect of walking on creative thinking",
+      "publisher": "Journal of Experimental Psychology: Learning, Memory, and Cognition, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Four experiments. Walking raised creativity on a divergent-thinking test for 81% of participants, with a residual boost when seated afterwards; it raised scores on a convergent-thinking test for only 23%."
+    },
+    "x_walking_ding": {
+      "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis",
+      "publisher": "The Lancet Public Health, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40713949/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "57 studies from 35 cohorts. Against 2,000 steps a day, 7,000 steps was associated with 38% lower risk of dementia (two studies) and 22% lower risk of depressive symptoms (three studies)."
+    },
+    "x_walking_richardson": {
+      "title": "A meta-analysis of pedometer-based walking interventions and weight loss",
+      "publisher": "Annals of Family Medicine, 2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18195317/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Nine studies, 307 participants, no dietary change. Mean weight change -1.27 kg, about 0.05 kg a week; longer programmes led to more loss."
+    },
+    "x_walking_murtagh": {
+      "title": "The effect of walking on risk factors for cardiovascular disease: an updated systematic review and meta-analysis of randomised control trials",
+      "publisher": "Preventive Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25579505/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "32 articles on trials in inactive adults. Walking raised aerobic capacity and reduced systolic blood pressure (-3.58 mm Hg), waist (-1.51 cm), weight (-1.37 kg) and body fat, but did not alter blood lipids."
+    },
+    "x_walking_walkback": {
+      "title": "Effectiveness and cost-effectiveness of an individualised, progressive walking and education intervention for the prevention of low back pain recurrence in Australia (WalkBack): a randomised controlled trial",
+      "publisher": "The Lancet, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38908392/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "701 adults recently recovered from low back pain. A walking and education programme with six physiotherapist sessions over 6 months lengthened median time to recurrence from 112 to 208 days (HR 0.72)."
+    },
+    "x_walking_vanti": {
+      "title": "The effectiveness of walking versus exercise on pain and function in chronic low back pain: a systematic review and meta-analysis of randomized trials",
+      "publisher": "Disability and Rehabilitation, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29207885/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Meta-analysis of five randomised trials. Pain, disability, quality of life and fear-avoidance improved similarly with walking or other exercise in chronic low back pain."
+    },
+    "x_walking_lo": {
+      "title": "Association between walking for exercise and symptomatic and structural progression in individuals with knee osteoarthritis: data from the Osteoarthritis Initiative cohort",
+      "publisher": "Arthritis and Rheumatology, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35673832/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,212 people aged 50 or older with knee osteoarthritis. Walking for exercise was associated with less new frequent knee pain (OR 0.6) and less medial joint space narrowing."
+    },
+    "x_walking_budarick": {
+      "title": "The effect of walking interventions on biomechanical knee osteoarthritis outcomes: a systematic review and meta-analysis",
+      "publisher": "Seminars in Arthritis and Rheumatism, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40393378/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Eighteen studies. Walking interventions produced minimal to no change in measures of knee joint loading in mild to moderate knee osteoarthritis and a small increase in gait speed; results support more walking without detrimental effects."
+    },
+    "x_walking_nhsback": {
+      "title": "Back pain",
+      "publisher": "NHS (UK National Health Service), reviewed 2026",
+      "url": "https://www.nhs.uk/conditions/back-pain/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "Advises staying active and continuing daily activities; walking, swimming, yoga and pilates may help ease back pain. See a GP if pain does not improve after a few weeks; urgent help for pain with fever, or numbness or weakness in both legs."
+    },
+    "x_walking_fuller": {
+      "title": "Reliability and validity of commercially available wearable devices for measuring steps, energy expenditure, and heart rate: systematic review",
+      "publisher": "JMIR mHealth and uHealth, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32897239/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "158 publications on nine brands. In laboratory settings Fitbit, Apple Watch and Samsung appeared to measure steps accurately; for energy expenditure no brand was accurate."
+    },
+    "x_walking_germini": {
+      "title": "Accuracy and acceptability of wrist-wearable activity-tracking devices: systematic review of the literature",
+      "publisher": "Journal of Medical Internet Research, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35060915/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "65 articles. Fitbit Charge step counts had mean absolute percentage error under 25% across 20 studies; energy expenditure error was over 30% for all brands."
+    },
+    "x_walking_amagasa": {
+      "title": "How well iPhones measure steps in free-living conditions: cross-sectional validation study",
+      "publisher": "JMIR mHealth and uHealth, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30626569/",
+      "kind": "journal",
+      "country": "JP",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "54 adults in Japan over 7 days. The iPhone counted 12% fewer steps than a validated waist pedometer, with the largest undercount among people who seldom carried their phone."
+    },
+    "x_walking_hanson": {
+      "title": "Is there evidence that walking groups have health benefits? A systematic review and meta-analysis",
+      "publisher": "British Journal of Sports Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25601182/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "42 studies, 1,843 participants in outdoor walking groups. Reductions in blood pressure, resting heart rate, body fat and depression scores (effect size -0.67); no notable adverse side effects reported."
+    },
+    "x_walking_celis": {
+      "title": "Association between active commuting and incident cardiovascular disease, cancer, and mortality: prospective cohort study",
+      "publisher": "The BMJ, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28424154/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "UK Biobank, 263,450 participants. Walking to work was associated with lower cardiovascular disease incidence (HR 0.73) and mortality (HR 0.64), but not with all-cause mortality or cancer outcomes."
+    },
+    "x_walking_westgarth": {
+      "title": "Dog owners are more likely to meet physical activity guidelines than people without a dog: an investigation of the association between dog ownership and physical activity levels in a UK community",
+      "publisher": "Scientific Reports, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31000795/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Survey of 191 dog-owning and 455 non-dog-owning adults in West Cheshire. Dog owners had four times the odds of meeting the 150-minute guideline (OR 4.10); other activity did not differ."
+    },
+    "x_walking_inoue": {
+      "title": "Association of daily step patterns with mortality in US adults",
+      "publisher": "JAMA Network Open, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36976556/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "3,101 US adults with accelerometers, 10-year follow-up. Taking 8,000 steps or more on 1 to 2 days a week was associated with lower all-cause mortality than on no days (risk difference -14.9%), with the benefit plateauing at 3 days a week."
+    },
+    "x_walking_thompsoncoon": {
+      "title": "Does participating in physical activity in outdoor natural environments have a greater effect on physical and mental wellbeing than physical activity indoors? A systematic review",
+      "publisher": "Environmental Science and Technology, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21291246/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Eleven trials, 833 adults, mostly students, single sessions. Exercising in nature was associated with more revitalisation and energy and less tension, but evidence quality was poor and no study measured physical wellbeing or adherence."
+    },
+    "x_walking_lahart": {
+      "title": "The effects of green exercise on physical and mental wellbeing: a systematic review",
+      "publisher": "International Journal of Environmental Research and Public Health, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30991724/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "28 trials. Outdoor green exercise may improve affect and enjoyment over indoor exercise, but high risk of bias and low quality; limited evidence that green exercise offers superior benefits."
+    },
+    "x_walking_wicks": {
+      "title": "Psychological benefits of outdoor physical activity in natural versus urban environments: a systematic review and meta-analysis of experimental studies",
+      "publisher": "Applied Psychology: Health and Well-Being, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35259287/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 experimental studies, nine meta-analysed. Large or moderate effects favouring natural over urban settings for anxiety, fatigue, positive affect and vigour; high risk of bias and heterogeneity."
+    },
+    "x_walking_bratman": {
+      "title": "Nature experience reduces rumination and subgenual prefrontal cortex activation",
+      "publisher": "Proceedings of the National Academy of Sciences, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26124129/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Healthy participants. A 90-minute walk in a natural setting reduced self-reported rumination and activity in a brain area linked to it; a 90-minute urban walk did not."
+    }
+  },
+  "reviewed": [
+    {
+      "title": "How fast is fast enough? Walking cadence (steps/min) as a practical estimate of intensity in adults: a narrative review (British Journal of Sports Medicine, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29858465/",
+      "why_not": "Narrative review; the CADENCE-adults study that set the same 100 steps a minute threshold is cited instead."
+    },
+    {
+      "title": "Association of daily step count and intensity with incident dementia in 78 430 adults living in the UK (JAMA Neurology, 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36066874/",
+      "why_not": "Single cohort; the 2025 meta-analysis that includes dementia is cited instead."
+    },
+    {
+      "title": "The association between daily step count and all-cause and cardiovascular mortality: a meta-analysis (European Journal of Preventive Cardiology, 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37555441/",
+      "why_not": "Step counts and death are already covered in the existing article."
+    },
+    {
+      "title": "Systematic review and meta-analysis of reduction in all-cause mortality from walking and cycling (International Journal of Behavioral Nutrition and Physical Activity, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25344355/",
+      "why_not": "Walking and death rates are already covered in the existing article."
+    },
+    {
+      "title": "Association between physical activity and risk of depression: a systematic review and meta-analysis (JAMA Psychiatry, 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35416941/",
+      "why_not": "About physical activity in general rather than walking; the walking-specific meta-analysis is cited."
+    },
+    {
+      "title": "Using pedometers to increase physical activity and improve health: a systematic review (JAMA, 2007)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18029834/",
+      "why_not": "Older and about step-counter use, which the existing article already covers."
+    },
+    {
+      "title": "The effects of step-count monitoring interventions on physical activity: systematic review and meta-analysis of community-based randomised controlled trials (IJBNPA, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33036635/",
+      "why_not": "About tracking-based interventions, which the existing article covers and this reader is not asked to use."
+    },
+    {
+      "title": "Accuracy of smartphone applications and wearable devices for tracking physical activity data (JAMA, 2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25668268/",
+      "why_not": "Research letter with no abstract in the PubMed record, so its figures could not be read."
+    },
+    {
+      "title": "Measurement properties of smartphone approaches to assess physical activity in healthy young people: systematic review (JMIR mHealth and uHealth, 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36269659/",
+      "why_not": "Limited to people aged 10 to 24."
+    },
+    {
+      "title": "Daily walking and the risk of incident functional limitation in knee osteoarthritis: an observational study (Arthritis Care and Research, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24923633/",
+      "why_not": "Sound, but about function in older adults; the knee pain cohort and review are cited instead."
+    },
+    {
+      "title": "Posterior-chain resistance training compared to general exercise and walking programmes for the treatment of chronic low back pain: systematic review (Sports Medicine Open, 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33683497/",
+      "why_not": "Mainly about resistance training; the walking trial and walking meta-analysis are cited."
+    },
+    {
+      "title": "Blood pressure-lowering effect of Shinrin-yoku (forest bathing): a systematic review and meta-analysis (BMC Complementary and Alternative Medicine, 2017)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28814305/",
+      "why_not": "About time in forests rather than walking specifically; cut to keep within the word limit."
+    },
+    {
+      "title": "Positive impact of a 10-min walk immediately after glucose intake on postprandial glucose levels (Scientific Reports, 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40594496/",
+      "why_not": "Twelve participants drinking a glucose solution; the meta-analysis and larger trials are cited."
+    },
+    {
+      "title": "Moving to an active lifestyle? A systematic review of the effects of residential relocation on walking, physical activity and travel behaviour (British Journal of Sports Medicine, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29858466/",
+      "why_not": "About moving house, not a practical step for this reader."
+    },
+    {
+      "title": "Health assessment index page for physical activity (Ministry of Health, Labour and Welfare, Japan)",
+      "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/undou/index.html",
+      "why_not": "Index page used to find the English guide, which is cited."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "How brisk is brisk",
+      "paragraphs": [
+        {
+          "text": "A brisk walk is one where talking is easy but singing is not. The NHS puts brisk walking at about 3 miles an hour. In a lab study of 76 adults aged 21 to 40, about 100 steps a minute matched moderate intensity and 130 matched vigorous intensity. The NHS says even a brisk 10-minute daily walk counts towards weekly activity.",
+          "cites": [
+            "x_walking_nhs",
+            "x_walking_cadence"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_walking_nhs",
+              "quote": "A brisk walk is about 3 miles an hour, which is faster than a stroll. You can tell you're walking briskly if you can still talk but cannot sing the words to a song."
+            },
+            {
+              "key": "x_walking_nhs",
+              "quote": "A brisk 10-minute daily walk has lots of health benefits and counts towards your 150 minutes of weekly exercise"
+            },
+            {
+              "key": "x_walking_cadence",
+              "quote": "Cadence thresholds of 100 and 130 steps/min can serve as reasonable heuristic thresholds representative of absolutely-defined moderate and vigorous ambulatory intensity, respectively, in 21-40 year olds."
+            }
+          ]
+        },
+        {
+          "text": "Walking faster is linked to lower risk of death. Among 50,225 walkers in British cohorts, people who called their pace average or brisk had 20% and 24% lower death rates than slow walkers. The link held for men and women alike and was clearest in people over 50. In UK Biobank, faster stepping was linked to lower disease risk beyond total steps.",
+          "cites": [
+            "x_walking_stamatakis",
+            "x_walking_delpozo"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_stamatakis",
+              "quote": "walking at an average or brisk/fast pace was associated with a reduced risk of all-cause (20% (95% CI 12% to 28%) and 24% (95% CI 13% to 33%), respectively)"
+            },
+            {
+              "key": "x_walking_stamatakis",
+              "quote": "There were no interactions by sex or BMI."
+            },
+            {
+              "key": "x_walking_delpozo",
+              "quote": "Peak-30 cadence was consistently associated with lower risks across all outcomes, beyond the benefit of total daily steps."
+            }
+          ]
+        },
+        {
+          "text": "Whether pace matters beyond step count is not settled. In 4,840 US adults, stepping intensity was not linked to death rates once total steps were accounted for. In 16,741 older women, intensity links mostly faded after adjusting for steps, and benefit levelled off at about 7,500 steps a day. Total walking appears to matter most, with pace a possible bonus.",
+          "cites": [
+            "x_walking_saintmaurice",
+            "x_walking_lee"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_saintmaurice",
+              "quote": "There was no significant association between step intensity and mortality after adjusting for total steps per day."
+            },
+            {
+              "key": "x_walking_lee",
+              "quote": "after adjusting for steps per day, all associations were attenuated, and most were no longer significant"
+            },
+            {
+              "key": "x_walking_lee",
+              "quote": "HRs were observed to decline progressively with higher mean steps per day until approximately 7500 steps/d, after which they leveled."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "A walk after eating",
+      "paragraphs": [
+        {
+          "text": "A walk soon after a meal blunts the rise in blood sugar that follows it. A meta-analysis of eight small crossover trials with 116 people found exercise after eating lowered post-meal glucose more than exercise before eating or no exercise. The sooner after the meal, the larger the effect. The trials carried a high risk of bias.",
+          "cites": [
+            "x_walking_engeroff"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_engeroff",
+              "quote": "Exercise after meal ingestion (real food or meal replacement drinks) led to a reduction in postprandial glucose excursions compared with exercise before eating"
+            },
+            {
+              "key": "x_walking_engeroff",
+              "quote": "Exercise, i.e., walking, has a greater acute beneficial impact on postprandial hyperglycemia when undertaken as soon as possible after a meal rather than after a longer interval or before eating."
+            },
+            {
+              "key": "x_walking_engeroff",
+              "quote": "Eight randomized controlled trials (crossover trials, high risk of bias) with 30 interventions in 116 participants"
+            }
+          ]
+        },
+        {
+          "text": "Timing can matter as much as the total. In 41 adults with type 2 diabetes, 10 minutes of walking after each main meal lowered post-meal blood sugar more than one 30-minute walk a day, most of all after the evening meal. In inactive young women, walks after meals lowered post-meal glucose but did not change the 24-hour average.",
+          "cites": [
+            "x_walking_reynolds",
+            "x_walking_brian"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_reynolds",
+              "quote": "The iAUC was significantly lower when participants walked after meals compared with on a single daily occasion"
+            },
+            {
+              "key": "x_walking_reynolds",
+              "quote": "The improvement was particularly striking after the evening meal"
+            },
+            {
+              "key": "x_walking_brian",
+              "quote": "Despite improvements in post-prandial glucose control, this did not translate to improvements in 24h glucose control"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Offsetting long hours of sitting",
+      "paragraphs": [
+        {
+          "text": "Enough daily activity appears to cancel out the risk linked to sitting. In data from more than a million people, about 60 to 75 minutes a day of moderate activity seemed to eliminate the higher death risk tied to long sitting, though not fully for TV viewing. In 44,370 people wearing activity monitors, 30 to 40 minutes a day weakened the link.",
+          "cites": [
+            "x_walking_ekelund16",
+            "x_walking_ekelund20"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_ekelund16",
+              "quote": "High levels of moderate intensity physical activity (ie, about 60-75 min per day) seem to eliminate the increased risk of death associated with high sitting time. However, this high activity level attenuates, but does not eliminate the increased risk associated with high TV-viewing time."
+            },
+            {
+              "key": "x_walking_ekelund20",
+              "quote": "About 30-40 min of MVPA per day attenuate the association between sedentary time and risk of death"
+            }
+          ]
+        },
+        {
+          "text": "Short walking breaks during a long sit lower blood sugar and insulin after meals. A meta-analysis of seven one-day trials, mostly in adults with overweight, found light walking breaks beat continued sitting on both measures. Walking breaks also beat standing breaks. These were single-day studies, so long-term effects are unknown.",
+          "cites": [
+            "x_walking_buffey"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_buffey",
+              "quote": "Light-intensity walking was shown to significantly attenuate postprandial glucose"
+            },
+            {
+              "key": "x_walking_buffey",
+              "quote": "When comparing light-intensity walking breaks compared to standing breaks a significant reduction in glucose"
+            }
+          ]
+        },
+        {
+          "text": "Japan's 2023 national guide sets walking as the everyday benchmark. It recommends at least 60 minutes a day of walking or similar activity for adults, about 8,000 steps, and about 6,000 steps for older adults. It also says breaking up long sitting, for example every 30 minutes, matters for heart and metabolic health.",
+          "cites": [
+            "x_walking_japan"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_walking_japan",
+              "quote": "equivalent to about 8,000 steps/day"
+            },
+            {
+              "key": "x_walking_japan",
+              "quote": "equivalent to approximately 6,000 steps/day"
+            },
+            {
+              "key": "x_walking_japan",
+              "quote": "every 30 minutesis important for reducing cardiovascular and metabolic disease risks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Mood and thinking",
+      "paragraphs": [
+        {
+          "text": "Walking eases symptoms of depression and anxiety. A meta-analysis of 75 trials with 8,636 people found walking reduced both compared with doing nothing, whether indoors or outdoors, alone or in a group. Walking did about as well as other active comparisons. People who were already depressed showed larger improvements.",
+          "cites": [
+            "x_walking_xu"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_xu",
+              "quote": "walking could significantly reduce depressive symptoms"
+            },
+            {
+              "key": "x_walking_xu",
+              "quote": "location (indoor or outdoor), and format (group or individual) subgroups"
+            },
+            {
+              "key": "x_walking_xu",
+              "quote": "there was no significant difference between walking and active controls in reducing depressive symptoms"
+            },
+            {
+              "key": "x_walking_xu",
+              "quote": "participants who were depressed could benefit more"
+            }
+          ]
+        },
+        {
+          "text": "A walk may help when stuck on a problem. In four experiments, walking raised scores on a test of generating ideas for 81% of participants, and the boost lasted for a while after sitting back down. It did little for tests with one right answer. These were short experiments with creativity tests, not studies of daily life.",
+          "cites": [
+            "x_walking_oppezzo"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_walking_oppezzo",
+              "quote": "Walking increased 81% of participants' creativity on the GAU, but only increased 23% of participants' scores for the CRA."
+            },
+            {
+              "key": "x_walking_oppezzo",
+              "quote": "when seated after walking, participants exhibited a residual creative boost."
+            }
+          ]
+        },
+        {
+          "text": "More daily steps go with lower risk of dementia and depression over time. A 2025 meta-analysis of 57 studies found 7,000 steps a day, against 2,000, linked to 38% lower dementia risk and 22% lower risk of depressive symptoms. Only two or three studies fed each estimate, and these cohorts cannot prove cause.",
+          "cites": [
+            "x_walking_ding"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_ding",
+              "quote": "a 38% lower risk of dementia (HR 0·62 [0·53-0·73]; I2=0%; two studies), a 22% lower risk of depressive symptoms (HR 0·78 [0·73-0·83]; I2=36·2%; three studies)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Walking and weight",
+      "paragraphs": [
+        {
+          "text": "Walking alone moves the scale only a little. A meta-analysis of nine step-counter walking programmes with 307 people and no diet change found an average loss of about 1.3 kg (3 lb), or 0.05 kg a week. Longer programmes led to more loss. Walking is a weak tool for weight loss on its own.",
+          "cites": [
+            "x_walking_richardson"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_richardson",
+              "quote": "The pooled estimate of mean weight change from baseline using a fixed-effects model and combining data from all 9 cohorts was -1.27 kg"
+            },
+            {
+              "key": "x_walking_richardson",
+              "quote": "On average, participants lost 0.05 kg per week during the interventions."
+            }
+          ]
+        },
+        {
+          "text": "Walking improves health markers that the scale does not show. Across 32 trial reports in inactive adults, walking raised fitness and lowered blood pressure, waist size and body fat, along with a small weight loss of about 1.4 kg. It did not change blood fats. Judging a walking habit by weight alone misses much of its value.",
+          "cites": [
+            "x_walking_murtagh"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_murtagh",
+              "quote": "Walking increased aerobic capacity (3.04 mL/kg/min, 95% CI 2.48 to 3.60) and reduced systolic (-3.58 mm Hg, 95% CI -5.19 to -1.97) and diastolic (-1.54 mm Hg, 95% CI -2.83 to -0.26) blood pressure, waist circumference (-1.51 cm, 95% CI -2.34 to -0.68), weight (-1.37 kg, 95% CI -1.75 to -1.00), percentage body fat (-1.22%, 95% CI -1.70 to -0.73)"
+            },
+            {
+              "key": "x_walking_murtagh",
+              "quote": "but failed to alter blood lipids."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Backs and knees",
+      "paragraphs": [
+        {
+          "text": "Regular walking helped keep low back pain from coming back in a large trial. In Australia, 701 adults who had recently recovered from back pain were split into a walking and education programme or no treatment. The walking group went a median 208 days before a flare-up, against 112. Across five trials, walking eased chronic back pain as well as other exercise.",
+          "cites": [
+            "x_walking_walkback",
+            "x_walking_vanti"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_walkback",
+              "quote": "The median days to a recurrence was 208 days (95% CI 149-295) in the intervention group and 112 days (89-140) in the control group."
+            },
+            {
+              "key": "x_walking_vanti",
+              "quote": "Pain, disability, quality of life and fear-avoidance similarly improve by walking or exercise in chronic low back pain."
+            }
+          ]
+        },
+        {
+          "text": "Walking does not appear to wear out arthritic knees. Among 1,212 people aged 50 and over with knee arthritis, those who walked for exercise were less likely to develop frequent knee pain. A review of 18 studies found walking programmes made little or no difference to measures of load on the knee joint, while walking speed rose slightly.",
+          "cites": [
+            "x_walking_lo",
+            "x_walking_budarick"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_lo",
+              "quote": "The likelihood of new frequent knee pain was reduced in participants with knee OA who walked for exercise as compared to those who were non-walkers"
+            },
+            {
+              "key": "x_walking_budarick",
+              "quote": "Walking interventions elicit minimal-to-no change in discrete biomechanical metrics of joint loading for individuals with mild-to-moderate knee osteoarthritis."
+            }
+          ]
+        },
+        {
+          "text": "With a sore back, the NHS advises staying active and keeping up daily activities, and lists walking among activities that may help. It advises seeing a GP if pain has not improved after a few weeks or stops daily activities. Back pain with fever, or with numbness or weakness in both legs, needs urgent help.",
+          "cites": [
+            "x_walking_nhsback"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_walking_nhsback",
+              "quote": "stay active and try to continue with your daily activities"
+            },
+            {
+              "key": "x_walking_nhsback",
+              "quote": "Activities like walking, swimming, yoga and pilates may also help ease back pain."
+            },
+            {
+              "key": "x_walking_nhsback",
+              "quote": "it does not improve after treating it at home for a few weeks it's stopping you doing your day-to-day activities"
+            },
+            {
+              "key": "x_walking_nhsback",
+              "quote": "you feel hot, cold, shivery or generally unwell"
+            },
+            {
+              "key": "x_walking_nhsback",
+              "quote": "pain, tingling, weakness or numbness in both legs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How accurate step counts are",
+      "paragraphs": [
+        {
+          "text": "Watches count steps fairly well, but their calorie numbers are unreliable. A review of 158 studies found that major brands measured steps accurately in the lab, but none measured energy burned accurately. A second review found step errors under 25% for one common tracker, and energy errors above 30% for every brand.",
+          "cites": [
+            "x_walking_fuller",
+            "x_walking_germini"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_fuller",
+              "quote": "In laboratory-based settings, Fitbit, Apple Watch, and Samsung appeared to measure steps accurately."
+            },
+            {
+              "key": "x_walking_fuller",
+              "quote": "For energy expenditure, no brand was accurate."
+            },
+            {
+              "key": "x_walking_germini",
+              "quote": "the Fitbit Charge HR) had a mean absolute percentage error (MAPE) <25% across 20 studies"
+            },
+            {
+              "key": "x_walking_germini",
+              "quote": "For energy expenditure, the MAPE was >30% for all the brands"
+            }
+          ]
+        },
+        {
+          "text": "A phone only counts the steps it is carried for. In a Japanese study of 54 adults over a week, iPhones recorded 12% fewer steps than a pedometer worn on the waist. The gap was largest in people who seldom carried their phone. A phone total is best read as a rough floor.",
+          "cites": [
+            "x_walking_amagasa"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_walking_amagasa",
+              "quote": "The mean step count measured using the iPhone was 9253 (3787) steps per day, significantly lower by 12% (1277/10,530) than that measured using the pedometer"
+            },
+            {
+              "key": "x_walking_amagasa",
+              "quote": "The largest underestimation of steps by the iPhone was observed among those who reported to have seldom carried their iPhones"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Ways to walk more",
+      "paragraphs": [
+        {
+          "text": "Walking with other people has been tested and appears to help. A review of 42 studies with 1,843 people in outdoor walking groups found lower blood pressure, resting heart rate and body fat, and fewer symptoms of depression, with no notable side effects. In a UK survey, dog owners had four times the odds of meeting activity guidelines.",
+          "cites": [
+            "x_walking_hanson",
+            "x_walking_westgarth"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_hanson",
+              "quote": "There is evidence that walking groups have wide-ranging health benefits."
+            },
+            {
+              "key": "x_walking_hanson",
+              "quote": "There were no notable adverse side effects reported in any of the studies."
+            },
+            {
+              "key": "x_walking_westgarth",
+              "quote": "The odds of DO meeting current physical activity guidelines of 150 mins per week were four times greater than for NDO"
+            }
+          ]
+        },
+        {
+          "text": "Walking as transport and a few active days both count. Among 263,450 UK adults, walking to work was linked to lower risk of heart disease, though not lower death from all causes. In 3,101 US adults, reaching 8,000 steps on just one or two days a week was linked to lower death rates than never reaching it.",
+          "cites": [
+            "x_walking_celis",
+            "x_walking_inoue"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_celis",
+              "quote": "walking 0.73, 0.54 to 0.99, P=0.04"
+            },
+            {
+              "key": "x_walking_celis",
+              "quote": "No statistically significant associations were observed for walking commuting and all cause mortality or cancer outcomes."
+            },
+            {
+              "key": "x_walking_inoue",
+              "quote": "all-cause mortality risk was lower among those who took 8000 steps or more 1 to 2 days per week"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Outdoors and green space",
+      "paragraphs": [
+        {
+          "text": "Walking in nature seems to lift mood more than walking along streets. A meta-analysis of experiments found natural settings beat urban ones for anxiety, fatigue and vigour. In one study, a 90-minute walk in a natural area reduced brooding thoughts and activity in a related brain region, while the same walk in a city did not.",
+          "cites": [
+            "x_walking_wicks",
+            "x_walking_bratman"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_walking_wicks",
+              "quote": "The meta-analyses revealed large or moderate effects in favour of the natural environment for anxiety, fatigue, positive affect and vigour"
+            },
+            {
+              "key": "x_walking_bratman",
+              "quote": "a 90-min walk in a natural setting, decreases both self-reported rumination and neural activity in the subgenual prefrontal cortex (sgPFC), whereas a 90-min walk in an urban setting has no such effects"
+            }
+          ]
+        },
+        {
+          "text": "Whether outdoor walking beats indoor walking is less clear. Early trials found more energy and enjoyment after exercise in nature than the same exercise indoors, but most were single sessions in students. A 2019 review of 28 trials found limited evidence of extra benefit, and quality was low. Any walk counts, and a green route is a pleasant extra.",
+          "cites": [
+            "x_walking_thompsoncoon",
+            "x_walking_lahart"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_walking_thompsoncoon",
+              "quote": "Compared with exercising indoors, exercising in natural environments was associated with greater feelings of revitalization and positive engagement, decreases in tension, confusion, anger, and depression, and increased energy."
+            },
+            {
+              "key": "x_walking_lahart",
+              "quote": "there was limited evidence to support the view that green exercise offers superior benefits to exercise without exposure to nature."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

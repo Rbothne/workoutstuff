@@ -5,19 +5,9 @@
   "page": "eating"
  },
  {
-  "text": "If you have ever sprained an ankle, do balance work every week.",
+  "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
   "by": "",
-  "page": "injury"
- },
- {
-  "text": "Build a meal from a staple, a main and a side, mostly from plants, with fish once or twice a week.",
-  "by": "",
-  "page": "eating"
- },
- {
-  "text": "Two sessions a week meets the guideline.",
-  "by": "",
-  "page": "strength-training"
+  "page": "weight"
  },
  {
   "text": "Aim for more steps than you take now. Benefit keeps rising up to about 8,000 to 10,000 a day for adults under 60.",
@@ -25,9 +15,29 @@
   "page": "walking"
  },
  {
-  "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
+  "text": "Build a meal from a staple, a main and a side, mostly from plants, with fish once or twice a week.",
+  "by": "",
+  "page": "eating"
+ },
+ {
+  "text": "If you have ever sprained an ankle, do balance work every week.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "Two sessions a week meets the guideline.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "Expect slow change. One to two pounds a week is the pace most likely to last.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
@@ -65,7 +75,32 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Choose changes you could still be doing a year from now.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Use short walks to break up long stretches of sitting.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Keep sweets, salty snacks and sugary drinks occasional, and serve them on a plate instead of eating from the package.",
+  "by": "",
+  "page": "eating"
+ },
+ {
+  "text": "Treat BMI as a rough screen, not a verdict on your health.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "On a low day, a walk is a legitimate tool for mood.",
+  "by": "",
+  "page": "walking"
+ },
+ {
+  "text": "Eat regular meals, slowly, and with other people when you can.",
   "by": "",
   "page": "eating"
  },
@@ -75,24 +110,19 @@
   "page": "injury"
  },
  {
-  "text": "Eat regular meals, slowly, and with other people when you can.",
-  "by": "",
-  "page": "eating"
- },
- {
   "text": "Start small. Fewer than three sets per exercise is enough for the first 12 weeks.",
   "by": "",
   "page": "strength-training"
  },
  {
-  "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
-  "by": "",
-  "page": "walking"
- },
- {
-  "text": "Expect slow change. One to two pounds a week is the pace most likely to last.",
+  "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Use a step counter if you like having one. It helps a little.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Japan, South Korea, China, Germany and the World Health Organization all put plants at the centre.",
@@ -125,14 +155,34 @@
   "page": "strength"
  },
  {
+  "text": "Extra muscle changes resting calorie burn only a little, because a kilogram of muscle uses about 13 kcal a day at rest.",
+  "by": "",
+  "page": "weight"
+ },
+ {
   "text": "After a missed day, the only job is to do the next one.",
   "by": "",
   "page": "habits"
  },
  {
+  "text": "In 15 cohorts with 47,471 adults, taking more steps was linked to a lower risk of death, levelling off at 8,000 to 10,000 steps a day for adults under 60 and 6,000 to 8,000 for those 60 and over.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Compared with the least active quarter of people, who took about 3,600 steps a day, the next quarter at about 5,800 steps had a 40% lower risk of death.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "When climbing, build up slowly and use an open hand where you can instead of a hard crimp.",
@@ -145,11 +195,6 @@
   "page": "strength-training"
  },
  {
-  "text": "Use short walks to break up long stretches of sitting.",
-  "by": "",
-  "page": "walking"
- },
- {
   "text": "Fish is in, and red and processed meat is limited.",
   "by": "",
   "page": "eating"
@@ -160,9 +205,14 @@
   "page": "sleep-appetite"
  },
  {
-  "text": "Choose changes you could still be doing a year from now.",
+  "text": "Five years after a structured weight-loss programme, the average person had kept off about 3 kg.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "A five-minute walk each hour raised energy and mood and lowered fatigue in a small trial of sedentary adults.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "They also advise on how to eat, not only what.",
@@ -185,6 +235,16 @@
   "page": "climbing"
  },
  {
+  "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Walking or jogging was among the most effective forms of exercise for depression across 218 trials, with low confidence in the exact size of the effect.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Japan builds the day on grain dishes such as rice, with vegetable dishes next and fish, egg and meat dishes after that.",
   "by": "",
   "page": "eating"
@@ -205,6 +265,16 @@
   "page": "eating"
  },
  {
+  "text": "People who lose about one to two pounds a week are more likely to keep it off, and even modest loss can improve blood pressure, cholesterol and blood sugar.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Apps and activity trackers raise activity by about 1,850 steps a day on average across 28 trials.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Treat falling as a skill. Most bouldering fall injuries are to the legs and ankles.",
   "by": "",
   "page": "injury"
@@ -215,24 +285,34 @@
   "page": "strength-training"
  },
  {
-  "text": "On a low day, a walk is a legitimate tool for mood.",
-  "by": "",
-  "page": "walking"
- },
- {
   "text": "Every one of these food guides also includes physical activity.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "Treat BMI as a rough screen, not a verdict on your health.",
+  "text": "Regaining some weight is the usual outcome, as the five-year figure shows.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "In Japan, 79,594 adults were followed for about 15 years.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Hunger can stay raised long after a diet ends.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "The WHO guideline says some physical activity is better than none.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
@@ -270,7 +350,12 @@
   "page": "strength-training"
  },
  {
-  "text": "Use a step counter if you like having one. It helps a little.",
+  "text": "Appetite appears to push back harder than metabolism does.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "A brisk walk is one where talking is easy but singing is not.",
   "by": "",
   "page": "walking"
  },
@@ -290,9 +375,14 @@
   "page": "habits"
  },
  {
-  "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
+  "text": "The idea of a permanently damaged metabolism is not well supported.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Walking faster is linked to lower risk of death.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Higher-protein meals are modestly more filling.",
@@ -300,14 +390,24 @@
   "page": "eating"
  },
  {
-  "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
+  "text": "Waist size adds information that the scale cannot.",
   "by": "",
-  "page": "energy"
+  "page": "weight"
  },
  {
   "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Whether pace matters beyond step count is not settled.",
+  "by": "",
+  "page": "walking"
+ },
+ {
+  "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "Health data on volleyball itself is thin.",
@@ -330,12 +430,22 @@
   "page": "strength-training"
  },
  {
-  "text": "In 15 cohorts with 47,471 adults, taking more steps was linked to a lower risk of death, levelling off at 8,000 to 10,000 steps a day for adults under 60 and 6,000 to 8,000 for those 60 and over.",
+  "text": "The health evidence on grains concerns whole grains.",
+  "by": "",
+  "page": "eating"
+ },
+ {
+  "text": "Waist measured against height picks out health risk better than BMI does.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "A walk soon after a meal blunts the rise in blood sugar that follows it.",
   "by": "",
   "page": "walking"
  },
  {
-  "text": "The health evidence on grains concerns whole grains.",
+  "text": "Beans, lentils and chickpeas are filling.",
   "by": "",
   "page": "eating"
  },
@@ -345,17 +455,12 @@
   "page": "sleep-appetite"
  },
  {
-  "text": "Beans, lentils and chickpeas are filling.",
-  "by": "",
-  "page": "eating"
- },
- {
   "text": "Across 16 cohort studies, people who did muscle-strengthening activity had a 10 to 17% lower risk of early death, heart disease, cancer and diabetes.",
   "by": "",
   "page": "strength"
  },
  {
-  "text": "Extra muscle changes resting calorie burn only a little, because a kilogram of muscle uses about 13 kcal a day at rest.",
+  "text": "The BMI lines are not the same for everyone.",
   "by": "",
   "page": "weight"
  },
@@ -365,7 +470,27 @@
   "page": "habits"
  },
  {
+  "text": "Enough daily activity appears to cancel out the risk linked to sitting.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Muscle responds to protein meal by meal.",
+  "by": "",
+  "page": "eating"
+ },
+ {
+  "text": "Being fit appears to offset much of the risk linked to a higher weight.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Short walking breaks during a long sit lower blood sugar and insulin after meals.",
+  "by": "",
+  "page": "walking"
+ },
+ {
+  "text": "Ultra-processed is a category from the NOVA system, which sorts foods by processing.",
   "by": "",
   "page": "eating"
  },
@@ -375,19 +500,9 @@
   "page": "injury"
  },
  {
-  "text": "Ultra-processed is a category from the NOVA system, which sorts foods by processing.",
-  "by": "",
-  "page": "eating"
- },
- {
   "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it out.",
   "by": "",
   "page": "strength-training"
- },
- {
-  "text": "Compared with the least active quarter of people, who took about 3,600 steps a day, the next quarter at about 5,800 steps had a 40% lower risk of death.",
-  "by": "",
-  "page": "walking"
  },
  {
   "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter.",
@@ -405,12 +520,22 @@
   "page": "climbing"
  },
  {
+  "text": "Exercise can change the body even when the scale does not move.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Japan's 2023 national guide sets walking as the everyday benchmark.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Large observational studies link ultra-processed food with worse health.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year.",
+  "text": "Weight still matters, modestly in the overweight range.",
   "by": "",
   "page": "weight"
  },
@@ -418,6 +543,11 @@
   "text": "Trials point the same way but leave the reason open.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Walking eases symptoms of depression and anxiety.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "During weight loss, resistance training prevented about 93% of the muscle loss that dieting alone caused.",
@@ -435,6 +565,16 @@
   "page": "eating"
  },
  {
+  "text": "A plateau at about six months is the usual pattern in weight-loss trials.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "A walk may help when stuck on a problem.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "For preventing a repeat sprain, an overview of 46 reviews found strong evidence for bracing and moderate evidence for balance and control training.",
   "by": "",
   "page": "injury"
@@ -443,11 +583,6 @@
   "text": "Resistance training does not enhance weight loss, though it may increase lean mass and fat loss.",
   "by": "",
   "page": "strength-training"
- },
- {
-  "text": "A five-minute walk each hour raised energy and mood and lowered fatigue in a small trial of sedentary adults.",
-  "by": "",
-  "page": "walking"
  },
  {
   "text": "Sugary drinks are linked to weight gain in cohorts and trials.",
@@ -475,14 +610,29 @@
   "page": "climbing"
  },
  {
+  "text": "Losing weight slowly may not protect against regain as much as is often said.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "More daily steps go with lower risk of dementia and depression over time.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Diet drinks and juice are not simple swaps.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "Five years after a structured weight-loss programme, the average person had kept off about 3 kg.",
+  "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Walking alone moves the scale only a little.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Several health authorities decline to name a safe amount of alcohol.",
@@ -500,7 +650,12 @@
   "page": "strength-training"
  },
  {
-  "text": "Walking or jogging was among the most effective forms of exercise for depression across 218 trials, with low confidence in the exact size of the effect.",
+  "text": "Stress nudges eating and weight, but only slightly on average.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Walking improves health markers that the scale does not show.",
   "by": "",
   "page": "walking"
  },
@@ -525,6 +680,16 @@
   "page": "eating"
  },
  {
+  "text": "Eating late in the day may itself raise hunger.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Regular walking helped keep low back pain from coming back in a large trial.",
+  "by": "",
+  "page": "walking"
+ },
+ {
   "text": "Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low.",
   "by": "",
   "page": "energy"
@@ -545,9 +710,14 @@
   "page": "eating"
  },
  {
-  "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity.",
+  "text": "Overeating that feels out of control is a reason to get professional help.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Walking does not appear to wear out arthritic knees.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Sleep specialists recommend seven or more hours a night for adults.",
@@ -570,7 +740,12 @@
   "page": "strength-training"
  },
  {
-  "text": "Apps and activity trackers raise activity by about 1,850 steps a day on average across 28 trials.",
+  "text": "Keeping weight off for years is possible, and it goes with keeping habits up.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "With a sore back, the NHS advises staying active and keeping up daily activities, and lists walking among activities that may help.",
   "by": "",
   "page": "walking"
  },
@@ -585,9 +760,19 @@
   "page": "strength"
  },
  {
+  "text": "Registries in Europe point the same way.",
+  "by": "",
+  "page": "weight"
+ },
+ {
   "text": "Habits take longer than the popular 21 days.",
   "by": "",
   "page": "habits"
+ },
+ {
+  "text": "Watches count steps fairly well, but their calorie numbers are unreliable.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Eating the same food later made people hungrier in one controlled trial.",
@@ -615,9 +800,14 @@
   "page": "eating"
  },
  {
-  "text": "People who lose about one to two pounds a week are more likely to keep it off, and even modest loss can improve blood pressure, cholesterol and blood sugar.",
+  "text": "The evidence that yo-yo dieting harms metabolism is thin.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "A phone only counts the steps it is carried for.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury.",
@@ -630,19 +820,34 @@
   "page": "strength-training"
  },
  {
-  "text": "In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.",
-  "by": "",
-  "page": "walking"
- },
- {
   "text": "Some patterns of overeating call for professional help.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
+  "text": "Large swings in weight are linked to worse outcomes, but cause is not shown.",
   "by": "",
-  "page": "strength"
+  "page": "weight"
+ },
+ {
+  "text": "Walking with other people has been tested and appears to help.",
+  "by": "",
+  "page": "walking"
+ },
+ {
+  "text": "The Mediterranean diet has been tested in a large randomised trial.",
+  "by": "",
+  "page": "eating"
+ },
+ {
+  "text": "Shame about weight is linked to less healthy behaviour, not more.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Walking as transport and a few active days both count.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Eating more after a short night, or from a larger package, is what these experiments found on average.",
@@ -655,14 +860,14 @@
   "page": "eating"
  },
  {
+  "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
   "by": "",
   "page": "habits"
- },
- {
-  "text": "The Mediterranean diet has been tested in a large randomised trial.",
-  "by": "",
-  "page": "eating"
  },
  {
   "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
@@ -680,9 +885,14 @@
   "page": "climbing"
  },
  {
-  "text": "Regaining some weight is the usual outcome, as the five-year figure shows.",
+  "text": "The NHS says losing weight can be hard and extra support or treatment may be needed.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Walking in nature seems to lift mood more than walking along streets.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain.",
@@ -695,14 +905,19 @@
   "page": "strength-training"
  },
  {
-  "text": "The WHO guideline says some physical activity is better than none.",
-  "by": "",
-  "page": "walking"
- },
- {
   "text": "Studies that ask people what they ate get answers that run low.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "The World Health Organization calls obesity a chronic, relapsing disease.",
+  "by": "",
+  "page": "weight"
+ },
+ {
+  "text": "Whether outdoor walking beats indoor walking is less clear.",
+  "by": "",
+  "page": "walking"
  },
  {
   "text": "Falling short of the guidelines is normal, even in countries known for their food.",

@@ -1400,6 +1400,224 @@
       "strength": "strong"
      }
     ]
+   },
+   {
+    "heading": "Why weight comes back",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Hunger can stay raised long after a diet ends. In an Australian study, 50 adults with overweight or obesity lost an average of 13.5 kg (about 30 lb) over 10 weeks. A year later their appetite hormones had not returned to pre-diet levels, and they rated their hunger higher than before.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Appetite appears to push back harder than metabolism does. Researchers modelled a year-long trial of 153 people taking a drug that passes sugar out in urine, so they lost weight without sensing it. Their eating rose in step with the weight lost, by over three times the drop in energy burned. Extra hunger after weight loss is expected.",
+      "cites": [
+       10
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "The idea of a permanently damaged metabolism is not well supported. A systematic review of 33 studies with 2,528 people found energy use often fell more than expected after weight loss. The drop was small or not significant in better-designed studies, and seemed to fade once weight had been stable for a while.",
+      "cites": [
+       11
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "What BMI misses",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "BMI cannot tell muscle from fat. The NHS says a muscular person may land in the overweight or obese range without much body fat. A Lancet commission of 58 experts advised in 2025 that BMI be used only for screening, with excess fat confirmed by a waist measure or a direct measure of body fat.",
+      "cites": [
+       12,
+       13
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Waist size adds information that the scale cannot. The NHS advises keeping the waist to less than half of height, which at 5 ft 9 in means under 34.5 inches. The US National Heart, Lung, and Blood Institute puts the risk line at 40 inches for men and 35 for women. Japanese criteria use 85 cm for men, about 33.5 inches.",
+      "cites": [
+       12,
+       14,
+       15
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Waist measured against height picks out health risk better than BMI does. In a meta-analysis of 31 papers covering more than 300,000 adults, waist-to-height ratio beat both BMI and waist size alone at identifying people with high blood pressure, type 2 diabetes and heart disease, in men and in women.",
+      "cites": [
+       16
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The BMI lines are not the same for everyone. For people of South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean background, the NHS treats 23 as overweight and 27.5 as obese. A WHO expert group found a substantial share of Asian people at high risk of type 2 diabetes below a BMI of 25.",
+      "cites": [
+       12,
+       17
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Fit at a higher weight",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Being fit appears to offset much of the risk linked to a higher weight. A 2025 meta-analysis pooled 20 cohort studies that measured fitness on an exercise test. Fit people with overweight or obesity had no statistically different death rate from fit people of normal weight. Unfit people had roughly double the risk at every weight.",
+      "cites": [
+       18
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Exercise can change the body even when the scale does not move. Across 117 studies with 4,815 people, exercise without weight loss went with about 6% less visceral fat, the deep belly fat that predicts illness better than weight does. Diet without weight loss showed almost no change. A steady scale can hide real progress from training.",
+      "cites": [
+       19
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Weight still matters, modestly in the overweight range. Among 3.95 million never-smokers on four continents, death rates were lowest at a BMI of 20 to 25, about 7% higher at 25 to 27.5 and 20% higher at 27.5 to 30. In trials of weight loss in adults with obesity, deaths from any cause were 18% lower.",
+      "cites": [
+       20,
+       21
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Pace and plateaus",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A plateau at about six months is the usual pattern in weight-loss trials. Across 80 trials with at least a year of follow-up, diet-based programmes, some with medicines, gave an average loss of 5 to 8.5 kg in six months, then levelled off. After four years, 3 to 6 kg stayed off. Across 49 trials, men lost slightly more than women, with little sign that the sexes need different approaches.",
+      "cites": [
+       22,
+       23
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Losing weight slowly may not protect against regain as much as is often said. In an Australian trial of 204 adults with obesity, one group lost weight over 12 weeks and the other over 36 weeks. Three years later, both groups had regained about 71% of the loss. The trial does not show that faster loss is better either.",
+      "cites": [
+       24
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Sleep, stress and late eating",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved. Eighty adults with overweight who usually slept under 6.5 hours were randomised. Coaching added about 1.2 hours of sleep a night, and that group ate about 270 kcal a day less than the comparison group and lost weight relative to it.",
+      "cites": [
+       25
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Stress nudges eating and weight, but only slightly on average. A meta-analysis of 54 studies with 119,820 people linked stress to more unhealthy food and less healthy food. Across 14 long-term cohorts, stress went with gaining body fat, but the authors called the effect very small.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Eating late in the day may itself raise hunger. In a tightly controlled crossover trial of 16 adults with overweight or obesity, eating the same meals about four hours later doubled the odds of feeling hungry. The trial was small and short. Having a proper meal earlier in the evening is a low-cost thing to try.",
+      "cites": [
+       28
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Overeating that feels out of control is a reason to get professional help. The NHS describes binge eating disorder as regularly eating a lot of food in a short time until uncomfortably full, often alone or in secret, with guilt or shame afterwards. It advises seeing a GP as soon as possible if this sounds familiar.",
+      "cites": [
+       29
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "What maintainers have in common",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Keeping weight off for years is possible, and it goes with keeping habits up. Among 2,886 people in the US National Weight Control Registry, mostly women, an average of 23 kg was still off after 10 years. Those who regained more had become less active. Members volunteer and self-report, so this shows links, not causes.",
+      "cites": [
+       30
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Registries in Europe point the same way. A review of 52 articles from registries in the US, Portugal, Germany, Finland and Greece found common habits such as keeping healthy food at home, regular breakfast and more vegetables. More activity was the most consistent link. In a review of 67 studies, demographics did not predict who kept weight off.",
+      "cites": [
+       31,
+       32
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Weight cycling",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The evidence that yo-yo dieting harms metabolism is thin. A review of 31 human studies found that 13 of 17 showed no harmful effect of weight cycling on type 2 diabetes risk, and that findings on body fat and later weight gain were inconclusive. The authors concluded that efforts to lose weight should still be encouraged.",
+      "cites": [
+       33
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Large swings in weight are linked to worse outcomes, but cause is not shown. A meta-analysis of 23 cohort studies with 441,199 people found weight fluctuation associated with a 41% higher death rate. Observational studies like these cannot separate the swings from illness or other causes behind them, and there were signs of publication bias.",
+      "cites": [
+       34
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Stigma and medical help",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Shame about weight is linked to less healthy behaviour, not more. A review of 38 studies found weight teasing, everyday discrimination and self-directed stigma associated with less physical activity, though results were mixed. In a study of 6,157 older US adults, those who reported weight discrimination were about 2.5 times more likely to develop obesity over four years.",
+      "cites": [
+       35,
+       36
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "The NHS says losing weight can be hard and extra support or treatment may be needed. It suggests seeing a GP when BMI is overweight or obese and help is wanted. A GP can refer people to weight management programmes, medicines or surgery. Whether any fits is a decision to make with a doctor.",
+      "cites": [
+       12
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "The World Health Organization calls obesity a chronic, relapsing disease. Its 2025 guideline says GLP-1 medicines may be used for long-term treatment of obesity in adults, defined as a BMI of 30 or more, alongside diet and activity support. The advice is conditional because long-term data are limited, and WHO says medicines alone will not solve the problem.",
+      "cites": [
+       37
+      ],
+      "strength": "guideline"
+     }
+    ]
    }
   ],
   "sources": [
@@ -1466,6 +1684,238 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2980962",
     "kind": "journal",
     "country": "US"
+   },
+   {
+    "n": 9,
+    "title": "Long-term persistence of hormonal adaptations to weight loss",
+    "publisher": "New England Journal of Medicine, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22029981/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 10,
+    "title": "How strongly does appetite counter weight loss? Quantification of the feedback control of human energy intake",
+    "publisher": "Obesity, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27804272/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Does adaptive thermogenesis occur after weight loss in adults? A systematic review",
+    "publisher": "British Journal of Nutrition, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33762040/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 12,
+    "title": "Overweight and obesity in adults",
+    "publisher": "NHS (UK National Health Service), reviewed 2026",
+    "url": "https://www.nhs.uk/conditions/obesity/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 13,
+    "title": "Definition and diagnostic criteria of clinical obesity",
+    "publisher": "The Lancet Diabetes and Endocrinology Commission, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39824205/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 14,
+    "title": "Assessing your weight and health risk",
+    "publisher": "US National Heart, Lung, and Blood Institute",
+    "url": "https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 15,
+    "title": "New criteria for 'obesity disease' in Japan",
+    "publisher": "Circulation Journal (Examination Committee of Criteria for Obesity Disease in Japan, Japan Society for the Study of Obesity), 2002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12419927/",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 16,
+    "title": "Waist-to-height ratio is a better screening tool than waist circumference and BMI for adult cardiometabolic risk factors: systematic review and meta-analysis",
+    "publisher": "Obesity Reviews, 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22106927/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 17,
+    "title": "Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies",
+    "publisher": "WHO expert consultation, in The Lancet, 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14726171/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Cardiorespiratory fitness, body mass index and mortality: a systematic review and meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39537313/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 19,
+    "title": "A systematic review and meta-analysis on the effects of exercise training versus hypocaloric diet: distinct effects on body weight and visceral adipose tissue",
+    "publisher": "Obesity Reviews, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27213481/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents",
+    "publisher": "The Lancet, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27423262/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 21,
+    "title": "Effects of weight loss interventions for adults who are obese on mortality, cardiovascular disease, and cancer: systematic review and meta-analysis",
+    "publisher": "The BMJ, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29138133/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 22,
+    "title": "Weight-loss outcomes: a systematic review and meta-analysis of weight-loss clinical trials with a minimum 1-year follow-up",
+    "publisher": "Journal of the American Dietetic Association, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17904936/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "Effectiveness of weight loss interventions: is there a difference between men and women: a systematic review",
+    "publisher": "Obesity Reviews, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25494712/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 24,
+    "title": "The effect of rate of weight loss on long-term weight management: a randomised controlled trial",
+    "publisher": "The Lancet Diabetes and Endocrinology, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25459211/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 25,
+    "title": "Effect of sleep extension on objectively assessed energy intake among adults with overweight in real-life settings: a randomized clinical trial",
+    "publisher": "JAMA Internal Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35129580/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 26,
+    "title": "Stress and eating behaviours in healthy adults: a systematic review and meta-analysis",
+    "publisher": "Health Psychology Review, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33913377/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 27,
+    "title": "Stress and adiposity: a meta-analysis of longitudinal studies",
+    "publisher": "Obesity, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20948519/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+    "publisher": "Cell Metabolism, 2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10184753/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 29,
+    "title": "Overview: binge eating disorder",
+    "publisher": "NHS (UK National Health Service), reviewed 2023",
+    "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 30,
+    "title": "Weight-loss maintenance for 10 years in the National Weight Control Registry",
+    "publisher": "American Journal of Preventive Medicine, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24355667/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 31,
+    "title": "Successful weight loss maintenance: a systematic review of weight control registries",
+    "publisher": "Obesity Reviews, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32048787/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 32,
+    "title": "Determinants of weight loss maintenance: a systematic review",
+    "publisher": "Obesity Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30324651/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 33,
+    "title": "Does weight cycling promote obesity and metabolic risk factors?",
+    "publisher": "Obesity Research and Clinical Practice, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27773644/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 34,
+    "title": "Body-weight fluctuation was associated with increased risk for cardiovascular disease, all-cause and cardiovascular mortality: a systematic review and meta-analysis",
+    "publisher": "Frontiers in Endocrinology, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31787929/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 35,
+    "title": "Is weight stigma associated with physical activity? A systematic review",
+    "publisher": "Obesity, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34747131/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 36,
+    "title": "Perceived weight discrimination and obesity",
+    "publisher": "PLoS One, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23894586/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 37,
+    "title": "WHO issues global guideline on the use of GLP-1 medicines in treating obesity",
+    "publisher": "World Health Organization, 2025",
+    "url": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity",
+    "kind": "authority",
+    "country": "INT"
    }
   ]
  },
@@ -2388,6 +2838,226 @@
       "strength": "guideline"
      }
     ]
+   },
+   {
+    "heading": "How brisk is brisk",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A brisk walk is one where talking is easy but singing is not. The NHS puts brisk walking at about 3 miles an hour. In a lab study of 76 adults aged 21 to 40, about 100 steps a minute matched moderate intensity and 130 matched vigorous intensity. The NHS says even a brisk 10-minute daily walk counts towards weekly activity.",
+      "cites": [
+       6,
+       7
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Walking faster is linked to lower risk of death. Among 50,225 walkers in British cohorts, people who called their pace average or brisk had 20% and 24% lower death rates than slow walkers. The link held for men and women alike and was clearest in people over 50. In UK Biobank, faster stepping was linked to lower disease risk beyond total steps.",
+      "cites": [
+       8,
+       9
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Whether pace matters beyond step count is not settled. In 4,840 US adults, stepping intensity was not linked to death rates once total steps were accounted for. In 16,741 older women, intensity links mostly faded after adjusting for steps, and benefit levelled off at about 7,500 steps a day. Total walking appears to matter most, with pace a possible bonus.",
+      "cites": [
+       10,
+       11
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "A walk after eating",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A walk soon after a meal blunts the rise in blood sugar that follows it. A meta-analysis of eight small crossover trials with 116 people found exercise after eating lowered post-meal glucose more than exercise before eating or no exercise. The sooner after the meal, the larger the effect. The trials carried a high risk of bias.",
+      "cites": [
+       12
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Timing can matter as much as the total. In 41 adults with type 2 diabetes, 10 minutes of walking after each main meal lowered post-meal blood sugar more than one 30-minute walk a day, most of all after the evening meal. In inactive young women, walks after meals lowered post-meal glucose but did not change the 24-hour average.",
+      "cites": [
+       13,
+       14
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Offsetting long hours of sitting",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Enough daily activity appears to cancel out the risk linked to sitting. In data from more than a million people, about 60 to 75 minutes a day of moderate activity seemed to eliminate the higher death risk tied to long sitting, though not fully for TV viewing. In 44,370 people wearing activity monitors, 30 to 40 minutes a day weakened the link.",
+      "cites": [
+       15,
+       16
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Short walking breaks during a long sit lower blood sugar and insulin after meals. A meta-analysis of seven one-day trials, mostly in adults with overweight, found light walking breaks beat continued sitting on both measures. Walking breaks also beat standing breaks. These were single-day studies, so long-term effects are unknown.",
+      "cites": [
+       17
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Japan's 2023 national guide sets walking as the everyday benchmark. It recommends at least 60 minutes a day of walking or similar activity for adults, about 8,000 steps, and about 6,000 steps for older adults. It also says breaking up long sitting, for example every 30 minutes, matters for heart and metabolic health.",
+      "cites": [
+       18
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Mood and thinking",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Walking eases symptoms of depression and anxiety. A meta-analysis of 75 trials with 8,636 people found walking reduced both compared with doing nothing, whether indoors or outdoors, alone or in a group. Walking did about as well as other active comparisons. People who were already depressed showed larger improvements.",
+      "cites": [
+       19
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "A walk may help when stuck on a problem. In four experiments, walking raised scores on a test of generating ideas for 81% of participants, and the boost lasted for a while after sitting back down. It did little for tests with one right answer. These were short experiments with creativity tests, not studies of daily life.",
+      "cites": [
+       20
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "More daily steps go with lower risk of dementia and depression over time. A 2025 meta-analysis of 57 studies found 7,000 steps a day, against 2,000, linked to 38% lower dementia risk and 22% lower risk of depressive symptoms. Only two or three studies fed each estimate, and these cohorts cannot prove cause.",
+      "cites": [
+       21
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Walking and weight",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Walking alone moves the scale only a little. A meta-analysis of nine step-counter walking programmes with 307 people and no diet change found an average loss of about 1.3 kg (3 lb), or 0.05 kg a week. Longer programmes led to more loss. Walking is a weak tool for weight loss on its own.",
+      "cites": [
+       22
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Walking improves health markers that the scale does not show. Across 32 trial reports in inactive adults, walking raised fitness and lowered blood pressure, waist size and body fat, along with a small weight loss of about 1.4 kg. It did not change blood fats. Judging a walking habit by weight alone misses much of its value.",
+      "cites": [
+       23
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Backs and knees",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Regular walking helped keep low back pain from coming back in a large trial. In Australia, 701 adults who had recently recovered from back pain were split into a walking and education programme or no treatment. The walking group went a median 208 days before a flare-up, against 112. Across five trials, walking eased chronic back pain as well as other exercise.",
+      "cites": [
+       24,
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Walking does not appear to wear out arthritic knees. Among 1,212 people aged 50 and over with knee arthritis, those who walked for exercise were less likely to develop frequent knee pain. A review of 18 studies found walking programmes made little or no difference to measures of load on the knee joint, while walking speed rose slightly.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "With a sore back, the NHS advises staying active and keeping up daily activities, and lists walking among activities that may help. It advises seeing a GP if pain has not improved after a few weeks or stops daily activities. Back pain with fever, or with numbness or weakness in both legs, needs urgent help.",
+      "cites": [
+       28
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "How accurate step counts are",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Watches count steps fairly well, but their calorie numbers are unreliable. A review of 158 studies found that major brands measured steps accurately in the lab, but none measured energy burned accurately. A second review found step errors under 25% for one common tracker, and energy errors above 30% for every brand.",
+      "cites": [
+       29,
+       30
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "A phone only counts the steps it is carried for. In a Japanese study of 54 adults over a week, iPhones recorded 12% fewer steps than a pedometer worn on the waist. The gap was largest in people who seldom carried their phone. A phone total is best read as a rough floor.",
+      "cites": [
+       31
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Ways to walk more",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Walking with other people has been tested and appears to help. A review of 42 studies with 1,843 people in outdoor walking groups found lower blood pressure, resting heart rate and body fat, and fewer symptoms of depression, with no notable side effects. In a UK survey, dog owners had four times the odds of meeting activity guidelines.",
+      "cites": [
+       32,
+       33
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Walking as transport and a few active days both count. Among 263,450 UK adults, walking to work was linked to lower risk of heart disease, though not lower death from all causes. In 3,101 US adults, reaching 8,000 steps on just one or two days a week was linked to lower death rates than never reaching it.",
+      "cites": [
+       34,
+       35
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Outdoors and green space",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Walking in nature seems to lift mood more than walking along streets. A meta-analysis of experiments found natural settings beat urban ones for anxiety, fatigue and vigour. In one study, a 90-minute walk in a natural area reduced brooding thoughts and activity in a related brain region, while the same walk in a city did not.",
+      "cites": [
+       36,
+       37
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Whether outdoor walking beats indoor walking is less clear. Early trials found more energy and enjoyment after exercise in nature than the same exercise indoors, but most were single sessions in students. A 2019 review of 28 trials found limited evidence of extra benefit, and quality was low. Any walk counts, and a green route is a pleasant extra.",
+      "cites": [
+       38,
+       39
+      ],
+      "strength": "moderate"
+     }
+    ]
    }
   ],
   "sources": [
@@ -2428,6 +3098,278 @@
     "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
     "publisher": "The BMJ, 2024",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 6,
+    "title": "Walking for health",
+    "publisher": "NHS (UK National Health Service), reviewed 2022",
+    "url": "https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/walking-for-health/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 7,
+    "title": "Walking cadence (steps/min) and intensity in 21-40 year olds: CADENCE-adults",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30654810/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "Self-rated walking pace and all-cause, cardiovascular disease and cancer mortality: individual participant pooled analysis of 50 225 walkers from 11 population British cohorts",
+    "publisher": "British Journal of Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29858463/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 9,
+    "title": "Prospective associations of daily step counts and intensity with cancer and cardiovascular disease incidence and mortality and all-cause mortality",
+    "publisher": "JAMA Internal Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36094529/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 10,
+    "title": "Association of daily step count and step intensity with mortality among US adults",
+    "publisher": "JAMA, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32207799/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Association of step volume and intensity with all-cause mortality in older women",
+    "publisher": "JAMA Internal Medicine, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31141585/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 12,
+    "title": "After dinner rest a while, after supper walk a mile? A systematic review with meta-analysis on the acute postprandial glycemic response to exercise before and after meal ingestion",
+    "publisher": "Sports Medicine, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36715875/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 13,
+    "title": "Advice to walk after meals is more effective for lowering postprandial glycaemia in type 2 diabetes mellitus than advice that does not specify timing: a randomised crossover study",
+    "publisher": "Diabetologia, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27747394/",
+    "kind": "journal",
+    "country": "NZ"
+   },
+   {
+    "n": 14,
+    "title": "Post-meal exercise under ecological conditions improves post-prandial glucose levels but not 24-hour glucose control",
+    "publisher": "Journal of Sports Sciences, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38858835/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 15,
+    "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+    "publisher": "The Lancet, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27475271/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 16,
+    "title": "Joint associations of accelerometer-measured physical activity and sedentary time with all-cause mortality: a harmonised meta-analysis in more than 44 000 middle-aged and older individuals",
+    "publisher": "British Journal of Sports Medicine, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33239356/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 17,
+    "title": "The acute effects of interrupting prolonged sitting time in adults with standing and light-intensity walking on biomarkers of cardiometabolic health: a systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35147898/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Physical Activity Guide for Health Promotion 2023 (English version)",
+    "publisher": "Ministry of Health, Labour and Welfare, Japan, January 2024",
+    "url": "https://www.mhlw.go.jp/content/001495670.pdf",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 19,
+    "title": "The effect of walking on depressive and anxiety symptoms: systematic review and meta-analysis",
+    "publisher": "JMIR Public Health and Surveillance, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39045858/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Give your ideas some legs: the positive effect of walking on creative thinking",
+    "publisher": "Journal of Experimental Psychology: Learning, Memory, and Cognition, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 21,
+    "title": "Daily steps and health outcomes in adults: a systematic review and dose-response meta-analysis",
+    "publisher": "The Lancet Public Health, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40713949/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 22,
+    "title": "A meta-analysis of pedometer-based walking interventions and weight loss",
+    "publisher": "Annals of Family Medicine, 2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18195317/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 23,
+    "title": "The effect of walking on risk factors for cardiovascular disease: an updated systematic review and meta-analysis of randomised control trials",
+    "publisher": "Preventive Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25579505/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 24,
+    "title": "Effectiveness and cost-effectiveness of an individualised, progressive walking and education intervention for the prevention of low back pain recurrence in Australia (WalkBack): a randomised controlled trial",
+    "publisher": "The Lancet, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38908392/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 25,
+    "title": "The effectiveness of walking versus exercise on pain and function in chronic low back pain: a systematic review and meta-analysis of randomized trials",
+    "publisher": "Disability and Rehabilitation, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29207885/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 26,
+    "title": "Association between walking for exercise and symptomatic and structural progression in individuals with knee osteoarthritis: data from the Osteoarthritis Initiative cohort",
+    "publisher": "Arthritis and Rheumatology, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35673832/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 27,
+    "title": "The effect of walking interventions on biomechanical knee osteoarthritis outcomes: a systematic review and meta-analysis",
+    "publisher": "Seminars in Arthritis and Rheumatism, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40393378/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Back pain",
+    "publisher": "NHS (UK National Health Service), reviewed 2026",
+    "url": "https://www.nhs.uk/conditions/back-pain/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 29,
+    "title": "Reliability and validity of commercially available wearable devices for measuring steps, energy expenditure, and heart rate: systematic review",
+    "publisher": "JMIR mHealth and uHealth, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32897239/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 30,
+    "title": "Accuracy and acceptability of wrist-wearable activity-tracking devices: systematic review of the literature",
+    "publisher": "Journal of Medical Internet Research, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35060915/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "How well iPhones measure steps in free-living conditions: cross-sectional validation study",
+    "publisher": "JMIR mHealth and uHealth, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30626569/",
+    "kind": "journal",
+    "country": "JP"
+   },
+   {
+    "n": 32,
+    "title": "Is there evidence that walking groups have health benefits? A systematic review and meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25601182/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 33,
+    "title": "Dog owners are more likely to meet physical activity guidelines than people without a dog: an investigation of the association between dog ownership and physical activity levels in a UK community",
+    "publisher": "Scientific Reports, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31000795/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 34,
+    "title": "Association between active commuting and incident cardiovascular disease, cancer, and mortality: prospective cohort study",
+    "publisher": "The BMJ, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28424154/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 35,
+    "title": "Association of daily step patterns with mortality in US adults",
+    "publisher": "JAMA Network Open, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36976556/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 36,
+    "title": "Psychological benefits of outdoor physical activity in natural versus urban environments: a systematic review and meta-analysis of experimental studies",
+    "publisher": "Applied Psychology: Health and Well-Being, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35259287/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 37,
+    "title": "Nature experience reduces rumination and subgenual prefrontal cortex activation",
+    "publisher": "Proceedings of the National Academy of Sciences, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26124129/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 38,
+    "title": "Does participating in physical activity in outdoor natural environments have a greater effect on physical and mental wellbeing than physical activity indoors? A systematic review",
+    "publisher": "Environmental Science and Technology, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21291246/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 39,
+    "title": "The effects of green exercise on physical and mental wellbeing: a systematic review",
+    "publisher": "International Journal of Environmental Research and Public Health, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30991724/",
     "kind": "journal",
     "country": "INT"
    }

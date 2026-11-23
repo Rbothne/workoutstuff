@@ -1,0 +1,850 @@
+{
+  "id": "weight",
+  "sources": {
+    "x_weight_sumithran": {
+      "title": "Long-term persistence of hormonal adaptations to weight loss",
+      "publisher": "New England Journal of Medicine, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22029981/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "50 overweight or obese adults enrolled in a 10-week very-low-energy diet; mean loss 13.5 kg. One year later leptin, peptide YY, cholecystokinin, insulin, ghrelin and other appetite hormones, and hunger ratings, still differed significantly from baseline."
+    },
+    "x_weight_polidori": {
+      "title": "How strongly does appetite counter weight loss? Quantification of the feedback control of human energy intake",
+      "publisher": "Obesity, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27804272/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Analysis of a 52-week placebo-controlled trial in 153 patients on canagliflozin, which causes weight loss through urinary glucose loss without awareness of the deficit. Appetite rose by about 100 kcal a day per kg lost, more than threefold the energy expenditure adaptation."
+    },
+    "x_weight_nunes": {
+      "title": "Does adaptive thermogenesis occur after weight loss in adults? A systematic review",
+      "publisher": "British Journal of Nutrition, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33762040/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "33 studies, 2,528 participants. Adaptive thermogenesis was observed in 27 studies, but well-designed studies reported lower or non-significant values, and it seems attenuated or non-existent after weight stabilisation."
+    },
+    "x_weight_nhs": {
+      "title": "Overweight and obesity in adults",
+      "publisher": "NHS (UK National Health Service), reviewed 2026",
+      "url": "https://www.nhs.uk/conditions/obesity/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "BMI cannot tell muscle from fat. Lower BMI thresholds (23 overweight, 27.5 obese) apply to people of South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean background. Advises keeping waist size under half of height. Says losing weight can be hard and a GP can refer for weight management programmes, medicines or surgery."
+    },
+    "x_weight_lancetcomm": {
+      "title": "Definition and diagnostic criteria of clinical obesity",
+      "publisher": "The Lancet Diabetes and Endocrinology Commission, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39824205/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Consensus of 58 experts, endorsed by 76 organisations. BMI should be used only as a surrogate measure at population level or for screening; excess adiposity should be confirmed by direct body fat measurement or at least one of waist circumference, waist-to-hip ratio or waist-to-height ratio."
+    },
+    "x_weight_nhlbi": {
+      "title": "Assessing your weight and health risk",
+      "publisher": "US National Heart, Lung, and Blood Institute",
+      "url": "https://www.nhlbi.nih.gov/health/educational/lose_wt/risk.htm",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "A waist circumference of more than 35 inches for women or more than 40 inches for men increases risk."
+    },
+    "x_weight_japan": {
+      "title": "New criteria for 'obesity disease' in Japan",
+      "publisher": "Circulation Journal (Examination Committee of Criteria for Obesity Disease in Japan, Japan Society for the Study of Obesity), 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12419927/",
+      "kind": "authority",
+      "country": "JP",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,193 Japanese adults with CT-measured visceral fat. Obesity is specified as BMI of 25 or more in Japan; a visceral fat area of 100 square cm marks risk, approximated by a waist of 85 cm in men and 90 cm in women."
+    },
+    "x_weight_ashwell": {
+      "title": "Waist-to-height ratio is a better screening tool than waist circumference and BMI for adult cardiometabolic risk factors: systematic review and meta-analysis",
+      "publisher": "Obesity Reviews, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22106927/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "31 papers, more than 300,000 adults in several ethnic groups. Waist-to-height ratio discriminated hypertension, type 2 diabetes, dyslipidaemia and cardiovascular outcomes better than BMI (by 4 to 5%) and better than waist circumference, in men and women."
+    },
+    "x_weight_whoasia": {
+      "title": "Appropriate body-mass index for Asian populations and its implications for policy and intervention strategies",
+      "publisher": "WHO expert consultation, in The Lancet, 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14726171/",
+      "kind": "authority",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "The proportion of Asian people at high risk of type 2 diabetes and cardiovascular disease is substantial at BMIs below 25. No single Asian cut-off was set; WHO cut-offs were retained, with added action points at 23, 27.5, 32.5 and 37.5."
+    },
+    "x_weight_williams": {
+      "title": "Effectiveness of weight loss interventions: is there a difference between men and women: a systematic review",
+      "publisher": "Obesity Reviews, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25494712/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "58 randomised trials, 49 in the synthesis. Small differences in weight loss favouring men; little evidence that men and women should adopt different strategies."
+    },
+    "x_weight_weeldreyer": {
+      "title": "Cardiorespiratory fitness, body mass index and mortality: a systematic review and meta-analysis",
+      "publisher": "British Journal of Sports Medicine, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39537313/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 prospective cohort articles, 398,716 observations. Against normal weight and fit: overweight-fit all-cause HR 0.96 (0.61 to 1.50), obese-fit 1.11 (0.88 to 1.40); normal weight-unfit 1.92, overweight-unfit 1.82, obese-unfit 2.04."
+    },
+    "x_weight_verheggen": {
+      "title": "A systematic review and meta-analysis on the effects of exercise training versus hypocaloric diet: distinct effects on body weight and visceral adipose tissue",
+      "publisher": "Obesity Reviews, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27213481/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "117 studies, 4,815 people. In the absence of weight loss, exercise was related to a 6.1% decrease in visceral fat and diet to virtually none (1.1%). Diet caused more weight loss."
+    },
+    "x_weight_gbmc": {
+      "title": "Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents",
+      "publisher": "The Lancet, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27423262/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "3,951,455 never-smokers without chronic disease. Mortality was lowest at BMI 20 to 25; hazard ratio 1.07 at 25 to under 27.5, 1.20 at 27.5 to under 30, 1.45 at 30 to under 35."
+    },
+    "x_weight_ma": {
+      "title": "Effects of weight loss interventions for adults who are obese on mortality, cardiovascular disease, and cancer: systematic review and meta-analysis",
+      "publisher": "The BMJ, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29138133/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "54 randomised trials, 30,206 participants. Weight loss interventions decreased all-cause mortality: risk ratio 0.82 (0.71 to 0.95) in 34 trials, high quality evidence."
+    },
+    "x_weight_franz": {
+      "title": "Weight-loss outcomes: a systematic review and meta-analysis of weight-loss clinical trials with a minimum 1-year follow-up",
+      "publisher": "Journal of the American Dietetic Association, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17904936/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "80 trials. Mean loss of 5 to 8.5 kg (5 to 9%) in the first 6 months from reduced-energy diets and/or weight-loss medications, with a plateau at about 6 months; 3 to 6 kg maintained at 48 months, with no group regaining to baseline."
+    },
+    "x_weight_purcell": {
+      "title": "The effect of rate of weight loss on long-term weight management: a randomised controlled trial",
+      "publisher": "The Lancet Diabetes and Endocrinology, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25459211/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "204 adults with obesity enrolled; 12-week rapid or 36-week gradual programme, then 144 weeks of maintenance. Regain was 71.2% (gradual) against 70.5% (rapid) in completers."
+    },
+    "x_weight_tasali": {
+      "title": "Effect of sleep extension on objectively assessed energy intake among adults with overweight in real-life settings: a randomized clinical trial",
+      "publisher": "JAMA Internal Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35129580/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "80 adults with BMI 25 to 29.9 sleeping under 6.5 hours. Sleep rose by about 1.2 hours a night; energy intake fell by 270 kcal a day against control, with no diet prescribed, and weight fell relative to control."
+    },
+    "x_weight_hill": {
+      "title": "Stress and eating behaviours in healthy adults: a systematic review and meta-analysis",
+      "publisher": "Health Psychology Review, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33913377/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "54 studies, 119,820 people. Small positive effect of stress on overall food intake (g = 0.114); more unhealthy food (0.116) and less healthy food (-0.111)."
+    },
+    "x_weight_wardle": {
+      "title": "Stress and adiposity: a meta-analysis of longitudinal studies",
+      "publisher": "Obesity, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20948519/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "14 cohorts. Stress was associated with increasing adiposity (r = 0.014); effects very small, stronger in men and with longer follow-up."
+    },
+    "x_weight_vujovic": {
+      "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+      "publisher": "Cell Metabolism, 2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10184753/",
+      "kind": "journal",
+      "country": "US",
+      "how": "page opened",
+      "says": "Randomised crossover trial, 16 completers with overweight or obesity; meals delayed by 250 minutes with intake, activity and sleep controlled. Late eating doubled the odds of being hungry and decreased waketime energy expenditure. Authors note limited duration and sample size."
+    },
+    "x_weight_nhsbinge": {
+      "title": "Overview: binge eating disorder",
+      "publisher": "NHS (UK National Health Service), reviewed 2023",
+      "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "Binge eating disorder involves regularly eating a lot of food over a short time until uncomfortably full; symptoms include eating alone or secretly and feeling guilty or ashamed. Advises seeing a GP as soon as possible."
+    },
+    "x_weight_thomas": {
+      "title": "Weight-loss maintenance for 10 years in the National Weight Control Registry",
+      "publisher": "American Journal of Preventive Medicine, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24355667/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "2,886 members (78% female), self-reported. Mean loss 23.1 kg at 10 years; more than 87% kept at least a 10% loss. Regain was associated with less activity, restraint and self-weighing and more fat intake."
+    },
+    "x_weight_paixao": {
+      "title": "Successful weight loss maintenance: a systematic review of weight control registries",
+      "publisher": "Obesity Reviews, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32048787/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "52 articles from five registries (United States, Portugal, Germany, Finland, Greece). Most reported strategies: healthy foods at home, regular breakfast, more vegetables, fewer sugary and fatty foods. Increased physical activity was the most consistent correlate."
+    },
+    "x_weight_varkevisser": {
+      "title": "Determinants of weight loss maintenance: a systematic review",
+      "publisher": "Obesity Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30324651/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "67 prospective articles. Consistent evidence that demographic determinants were not predictive; behaviours that reduce intake, raise expenditure and monitor the balance were predictive."
+    },
+    "x_weight_mackie": {
+      "title": "Does weight cycling promote obesity and metabolic risk factors?",
+      "publisher": "Obesity Research and Clinical Practice, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27773644/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Systematic review of 31 human studies. 13 of 17 showed no detrimental effect of weight cycling on type 2 diabetes risk; evidence on body composition and future obesity inconclusive; weight loss efforts should continue to be encouraged."
+    },
+    "x_weight_zou": {
+      "title": "Body-weight fluctuation was associated with increased risk for cardiovascular disease, all-cause and cardiovascular mortality: a systematic review and meta-analysis",
+      "publisher": "Frontiers in Endocrinology, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31787929/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 cohort studies, 441,199 participants. Weight fluctuation was associated with all-cause mortality (RR 1.41, 1.27 to 1.57); evidence of publication bias for all-cause mortality."
+    },
+    "x_weight_pearl": {
+      "title": "Is weight stigma associated with physical activity? A systematic review",
+      "publisher": "Obesity, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34747131/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "38 studies, mostly cross-sectional. Weight teasing, everyday discrimination and internalisation were associated with reduced physical activity, but associations were inconsistent and often indirect."
+    },
+    "x_weight_sutin": {
+      "title": "Perceived weight discrimination and obesity",
+      "publisher": "PLoS One, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23894586/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "6,157 US adults assessed in 2006 and 2010. Those reporting weight discrimination were about 2.5 times more likely to become obese (OR 2.54) and three times more likely to remain obese."
+    },
+    "x_weight_whoglp": {
+      "title": "WHO issues global guideline on the use of GLP-1 medicines in treating obesity",
+      "publisher": "World Health Organization, 2025",
+      "url": "https://www.who.int/news/item/01-12-2025-who-issues-global-guideline-on-the-use-of-glp-1-medicines-in-treating-obesity",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "Calls obesity a chronic, relapsing disease, defined as BMI of 30 or higher in adults. Conditional recommendations: GLP-1 therapies may be used by adults (excluding pregnant women) for long-term treatment of obesity, with intensive behavioural interventions; long-term data are limited; medicines alone will not solve the problem."
+    }
+  },
+  "reviewed": [
+    {
+      "title": "BMI and all-cause mortality in older adults: a meta-analysis (American Journal of Clinical Nutrition, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24452240/",
+      "why_not": "Sound, but about adults aged 65 and over; cut to keep within the word limit."
+    },
+    {
+      "title": "Persistent metabolic adaptation 6 years after \"The Biggest Loser\" competition (Obesity, 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27136388/",
+      "why_not": "Only 14 contestants after extreme weight loss; the systematic review of 33 studies is cited instead."
+    },
+    {
+      "title": "Quantification of the effect of energy imbalance on bodyweight (The Lancet, 2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21872751/",
+      "why_not": "A mathematical model rather than measured outcomes, and built on calorie arithmetic this article avoids."
+    },
+    {
+      "title": "Fitness vs. fatness on all-cause mortality: a meta-analysis (Progress in Cardiovascular Diseases, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24438729/",
+      "why_not": "Ten studies; superseded by the 2025 meta-analysis of 20 studies, which is cited."
+    },
+    {
+      "title": "Obesity treatment: weight loss versus increasing fitness and physical activity for reducing health risks (iScience, 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34755078/",
+      "why_not": "Narrative review arguing a position; the meta-analyses it draws on are cited directly."
+    },
+    {
+      "title": "Insufficient sleep undermines dietary efforts to reduce adiposity (Annals of Internal Medicine, 2010)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20921542/",
+      "why_not": "Ten participants over 14 days; a larger randomised sleep trial is cited instead."
+    },
+    {
+      "title": "Impact of weight stigma on physiological and psychological health outcomes for overweight and obese adults: a systematic review (Journal of Advanced Nursing, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29171076/",
+      "why_not": "Overlaps with the cited stigma reviews; left out for length."
+    },
+    {
+      "title": "Weight bias internalization and health: a systematic review (Obesity Reviews, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29788533/",
+      "why_not": "Overlaps with the cited review; gives no pooled figure."
+    },
+    {
+      "title": "Effects of weight stigma on exercise motivation and behavior: a preliminary investigation among college-aged females (Journal of Health Psychology, 2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18086724/",
+      "why_not": "100 female undergraduates, cross-sectional; covered by the cited systematic review."
+    },
+    {
+      "title": "Internalized societal attitudes moderate the impact of weight stigma on avoidance of exercise (Obesity, 2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20948515/",
+      "why_not": "111 participants, cross-sectional; covered by the cited systematic review."
+    },
+    {
+      "title": "Impact of weight bias and stigma on quality of care and outcomes for patients with obesity (Obesity Reviews, 2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25752756/",
+      "why_not": "Narrative review; left out for length."
+    },
+    {
+      "title": "Waist circumference as a vital sign in clinical practice: a Consensus Statement from the IAS and ICCR Working Group on Visceral Obesity (Nature Reviews Endocrinology, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32020062/",
+      "why_not": "Agrees with the cited Lancet commission and NHS advice; left out for length."
+    },
+    {
+      "title": "Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity (Cell Metabolism, 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26916363/",
+      "why_not": "Small trial; the benefit of modest loss is already stated in the existing article."
+    },
+    {
+      "title": "The impact of weight cycling on health outcomes in animal models: a systematic review and meta-analysis (Obesity Reviews, 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35075766/",
+      "why_not": "Animal studies only."
+    },
+    {
+      "title": "Intentional weight loss, weight cycling, and endometrial cancer risk: a systematic review and meta-analysis (International Journal of Gynecological Cancer, 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31451560/",
+      "why_not": "Specific to endometrial cancer; not relevant to this reader."
+    },
+    {
+      "title": "Health benefits of different sports: a systematic review and meta-analysis (Sports Medicine Open, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38658416/",
+      "why_not": "Returned by a search on weight cycling but is not about body weight."
+    },
+    {
+      "title": "Comparison of dietary macronutrient patterns of 14 popular named dietary programmes for weight and cardiovascular risk factor reduction in adults: network meta-analysis (The BMJ, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32238384/",
+      "why_not": "Sound, but diet comparisons sit better in the eating article; cut to keep within the word limit."
+    },
+    {
+      "title": "Effect of low-fat vs low-carbohydrate diet on 12-month weight loss in overweight adults: the DIETFITS randomized clinical trial (JAMA, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29466592/",
+      "why_not": "Sound, but cut with the diet-comparison paragraph to keep within the word limit."
+    },
+    {
+      "title": "Weight rhythms: weight increases during weekends and decreases during weekdays (Obesity Facts, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24504358/",
+      "why_not": "Small study, and the point relies on daily weighing, which this article does not recommend."
+    },
+    {
+      "title": "Weekly, seasonal and holiday body weight fluctuation patterns in a European weight loss maintenance intervention (PLoS One, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32353079/",
+      "why_not": "Relies on daily weighing, which this article does not recommend."
+    },
+    {
+      "title": "The association between weight stigma and mental health: a meta-analysis (Obesity Reviews, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31507062/",
+      "why_not": "Sound; cut to keep within the word limit, as the article focuses on stigma and behaviour."
+    },
+    {
+      "title": "Joint international consensus statement for ending stigma of obesity (Nature Medicine, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32127716/",
+      "why_not": "Sound; cut to keep within the word limit."
+    },
+    {
+      "title": "Obesity and overweight: fact sheet (World Health Organization)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "why_not": "Repeats the BMI cut-offs already in the existing article."
+    },
+    {
+      "title": "Calculate your waist to height ratio (NHS)",
+      "url": "https://www.nhs.uk/health-assessment-tools/calculate-your-waist-to-height-ratio",
+      "why_not": "Same advice as the cited NHS obesity page."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Why weight comes back",
+      "paragraphs": [
+        {
+          "text": "Hunger can stay raised long after a diet ends. In an Australian study, 50 adults with overweight or obesity lost an average of 13.5 kg (about 30 lb) over 10 weeks. A year later their appetite hormones had not returned to pre-diet levels, and they rated their hunger higher than before.",
+          "cites": [
+            "x_weight_sumithran"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_weight_sumithran",
+              "quote": "One year after the initial weight loss, there were still significant differences from baseline in the mean levels of leptin (P<0.001), peptide YY (P<0.001), cholecystokinin (P=0.04), insulin (P=0.01), ghrelin (P<0.001), gastric inhibitory polypeptide (P<0.001), and pancreatic polypeptide (P=0.002), as well as hunger (P<0.001)."
+            }
+          ]
+        },
+        {
+          "text": "Appetite appears to push back harder than metabolism does. Researchers modelled a year-long trial of 153 people taking a drug that passes sugar out in urine, so they lost weight without sensing it. Their eating rose in step with the weight lost, by over three times the drop in energy burned. Extra hunger after weight loss is expected.",
+          "cites": [
+            "x_weight_polidori"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_polidori",
+              "quote": "weight loss leads to a proportional increase in appetite"
+            },
+            {
+              "key": "x_weight_polidori",
+              "quote": "an amount more than threefold larger than the corresponding energy expenditure adaptations."
+            }
+          ]
+        },
+        {
+          "text": "The idea of a permanently damaged metabolism is not well supported. A systematic review of 33 studies with 2,528 people found energy use often fell more than expected after weight loss. The drop was small or not significant in better-designed studies, and seemed to fade once weight had been stable for a while.",
+          "cites": [
+            "x_weight_nunes"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_nunes",
+              "quote": "Well-designed studies reported lower or non-significant values for AT."
+            },
+            {
+              "key": "x_weight_nunes",
+              "quote": "AT seems to be attenuated, or non-existent, after periods of weight stabilisation/neutral EB."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What BMI misses",
+      "paragraphs": [
+        {
+          "text": "BMI cannot tell muscle from fat. The NHS says a muscular person may land in the overweight or obese range without much body fat. A Lancet commission of 58 experts advised in 2025 that BMI be used only for screening, with excess fat confirmed by a waist measure or a direct measure of body fat.",
+          "cites": [
+            "x_weight_nhs",
+            "x_weight_lancetcomm"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_nhs",
+              "quote": "The BMI calculator cannot tell the difference between muscle and fat."
+            },
+            {
+              "key": "x_weight_lancetcomm",
+              "quote": "We recommend that BMI should be used only as a surrogate measure of health risk at a population level, for epidemiological studies, or for screening purposes, rather than as an individual measure of health."
+            }
+          ]
+        },
+        {
+          "text": "Waist size adds information that the scale cannot. The NHS advises keeping the waist to less than half of height, which at 5 ft 9 in means under 34.5 inches. The US National Heart, Lung, and Blood Institute puts the risk line at 40 inches for men and 35 for women. Japanese criteria use 85 cm for men, about 33.5 inches.",
+          "cites": [
+            "x_weight_nhs",
+            "x_weight_nhlbi",
+            "x_weight_japan"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_nhs",
+              "quote": "You should try to keep your waist size to less than half your height."
+            },
+            {
+              "key": "x_weight_nhlbi",
+              "quote": "A waist circumference of more than 35 inches for women or more than 40 inches for men increases your risk."
+            },
+            {
+              "key": "x_weight_japan",
+              "quote": "a waist circumference of 85 cm in men and 90 cm in women approximates to this visceral fat mass."
+            }
+          ]
+        },
+        {
+          "text": "Waist measured against height picks out health risk better than BMI does. In a meta-analysis of 31 papers covering more than 300,000 adults, waist-to-height ratio beat both BMI and waist size alone at identifying people with high blood pressure, type 2 diabetes and heart disease, in men and in women.",
+          "cites": [
+            "x_weight_ashwell"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_ashwell",
+              "quote": "robust statistical evidence from studies involving more than 300 000 adults in several ethnic groups, shows the superiority of WHtR over WC and BMI for detecting cardiometabolic risk factors in both sexes."
+            }
+          ]
+        },
+        {
+          "text": "The BMI lines are not the same for everyone. For people of South Asian, Chinese, other Asian, Middle Eastern, Black African or African-Caribbean background, the NHS treats 23 as overweight and 27.5 as obese. A WHO expert group found a substantial share of Asian people at high risk of type 2 diabetes below a BMI of 25.",
+          "cites": [
+            "x_weight_nhs",
+            "x_weight_whoasia"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_nhs",
+              "quote": "a BMI of 23 to 27.4 is overweight a BMI of 27.5 or higher is obese"
+            },
+            {
+              "key": "x_weight_whoasia",
+              "quote": "The consultation concluded that the proportion of Asian people with a high risk of type 2 diabetes and cardiovascular disease is substantial at BMIs lower than the existing WHO cut-off point for overweight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fit at a higher weight",
+      "paragraphs": [
+        {
+          "text": "Being fit appears to offset much of the risk linked to a higher weight. A 2025 meta-analysis pooled 20 cohort studies that measured fitness on an exercise test. Fit people with overweight or obesity had no statistically different death rate from fit people of normal weight. Unfit people had roughly double the risk at every weight.",
+          "cites": [
+            "x_weight_weeldreyer"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_weeldreyer",
+              "quote": "overweight-fit (CVD HR (95% CI): 1.50 (0.82-2.76), all-cause HR: 0.96 (0.61-1.50)) and obese-fit (CVD: 1.62 (0.87-3.01), all-cause: 1.11 (0.88-1.40)) did not have a statistically different risk of mortality."
+            },
+            {
+              "key": "x_weight_weeldreyer",
+              "quote": "demonstrated 2-3-fold greater mortality risks."
+            }
+          ]
+        },
+        {
+          "text": "Exercise can change the body even when the scale does not move. Across 117 studies with 4,815 people, exercise without weight loss went with about 6% less visceral fat, the deep belly fat that predicts illness better than weight does. Diet without weight loss showed almost no change. A steady scale can hide real progress from training.",
+          "cites": [
+            "x_weight_verheggen"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_verheggen",
+              "quote": "In the absence of weight loss, exercise is related to 6.1% decrease in VAT, whilst diet showed virtually no change (1.1%)."
+            },
+            {
+              "key": "x_weight_verheggen",
+              "quote": "visceral adiposity (VAT) is a more relevant and stronger predictor for morbidity and mortality"
+            }
+          ]
+        },
+        {
+          "text": "Weight still matters, modestly in the overweight range. Among 3.95 million never-smokers on four continents, death rates were lowest at a BMI of 20 to 25, about 7% higher at 25 to 27.5 and 20% higher at 27.5 to 30. In trials of weight loss in adults with obesity, deaths from any cause were 18% lower.",
+          "cites": [
+            "x_weight_gbmc",
+            "x_weight_ma"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_gbmc",
+              "quote": "throughout the overweight range (1·07, 1·07-1·08 for BMI 25·0-<27·5 kg/m(2); 1·20, 1·18-1·22 for BMI 27·5-<30·0 kg/m(2))."
+            },
+            {
+              "key": "x_weight_ma",
+              "quote": "high quality evidence showed that weight loss interventions decrease all cause mortality (34 trials, 685 events; risk ratio 0.82, 95% confidence interval 0.71 to 0.95)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Pace and plateaus",
+      "paragraphs": [
+        {
+          "text": "A plateau at about six months is the usual pattern in weight-loss trials. Across 80 trials with at least a year of follow-up, diet-based programmes, some with medicines, gave an average loss of 5 to 8.5 kg in six months, then levelled off. After four years, 3 to 6 kg stayed off. Across 49 trials, men lost slightly more than women, with little sign that the sexes need different approaches.",
+          "cites": [
+            "x_weight_franz",
+            "x_weight_williams"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_franz",
+              "quote": "A mean weight loss of 5 to 8.5 kg (5% to 9%) was observed during the first 6 months from interventions involving a reduced-energy diet and/or weight-loss medications with weight plateaus at approximately 6 months."
+            },
+            {
+              "key": "x_weight_franz",
+              "quote": "In studies extending to 48 months, a mean 3 to 6 kg (3% to 6%) of weight loss was maintained"
+            },
+            {
+              "key": "x_weight_williams",
+              "quote": "Analysis of effect sizes found small differences in weight loss favouring men"
+            },
+            {
+              "key": "x_weight_williams",
+              "quote": "There is little evidence from this review to indicate that men and women should adopt different weight loss strategies."
+            }
+          ]
+        },
+        {
+          "text": "Losing weight slowly may not protect against regain as much as is often said. In an Australian trial of 204 adults with obesity, one group lost weight over 12 weeks and the other over 36 weeks. Three years later, both groups had regained about 71% of the loss. The trial does not show that faster loss is better either.",
+          "cites": [
+            "x_weight_purcell"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_purcell",
+              "quote": "The rate of weight loss does not affect the proportion of weight regained within 144 weeks."
+            },
+            {
+              "key": "x_weight_purcell",
+              "quote": "had regained most of their lost weight (gradual weight loss 71·2%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Sleep, stress and late eating",
+      "paragraphs": [
+        {
+          "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved. Eighty adults with overweight who usually slept under 6.5 hours were randomised. Coaching added about 1.2 hours of sleep a night, and that group ate about 270 kcal a day less than the comparison group and lost weight relative to it.",
+          "cites": [
+            "x_weight_tasali"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_tasali",
+              "quote": "The sleep extension group had a significant decrease in energy intake compared with the control group (-270 kcal/d; 95% CI, -393 to -147 kcal/d; P < .001)."
+            },
+            {
+              "key": "x_weight_tasali",
+              "quote": "Sleep duration was increased by approximately 1.2 hours per night"
+            },
+            {
+              "key": "x_weight_tasali",
+              "quote": "resulting in weight reduction in the sleep extension group vs the control group"
+            }
+          ]
+        },
+        {
+          "text": "Stress nudges eating and weight, but only slightly on average. A meta-analysis of 54 studies with 119,820 people linked stress to more unhealthy food and less healthy food. Across 14 long-term cohorts, stress went with gaining body fat, but the authors called the effect very small.",
+          "cites": [
+            "x_weight_hill",
+            "x_weight_wardle"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_hill",
+              "quote": "Stress was associated with increased consumption of unhealthy foods (Hedges' g = 0.116) but decreased consumption of healthy foods (Hedges' g = -0.111)."
+            },
+            {
+              "key": "x_weight_wardle",
+              "quote": "We conclude that psychosocial stress is a risk factor for weight gain but effects are very small."
+            }
+          ]
+        },
+        {
+          "text": "Eating late in the day may itself raise hunger. In a tightly controlled crossover trial of 16 adults with overweight or obesity, eating the same meals about four hours later doubled the odds of feeling hungry. The trial was small and short. Having a proper meal earlier in the evening is a low-cost thing to try.",
+          "cites": [
+            "x_weight_vujovic"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_weight_vujovic",
+              "quote": "Late eating doubled the odds of being hungry as compared to early eating"
+            }
+          ]
+        },
+        {
+          "text": "Overeating that feels out of control is a reason to get professional help. The NHS describes binge eating disorder as regularly eating a lot of food in a short time until uncomfortably full, often alone or in secret, with guilt or shame afterwards. It advises seeing a GP as soon as possible if this sounds familiar.",
+          "cites": [
+            "x_weight_nhsbinge"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_nhsbinge",
+              "quote": "Binge eating disorder involves regularly eating a lot of food over a short period of time until you're uncomfortably full."
+            },
+            {
+              "key": "x_weight_nhsbinge",
+              "quote": "If you think you may have binge eating disorder, see a GP as soon as you can."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What maintainers have in common",
+      "paragraphs": [
+        {
+          "text": "Keeping weight off for years is possible, and it goes with keeping habits up. Among 2,886 people in the US National Weight Control Registry, mostly women, an average of 23 kg was still off after 10 years. Those who regained more had become less active. Members volunteer and self-report, so this shows links, not causes.",
+          "cites": [
+            "x_weight_thomas"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_thomas",
+              "quote": "23.1±0.4 kg (95% CI=22.3, 23.9) at 10 years"
+            },
+            {
+              "key": "x_weight_thomas",
+              "quote": "Decreases in leisure-time physical activity, dietary restraint, and frequency of self-weighing and increases in percentage of energy intake from fat and disinhibition were associated with greater weight regain."
+            }
+          ]
+        },
+        {
+          "text": "Registries in Europe point the same way. A review of 52 articles from registries in the US, Portugal, Germany, Finland and Greece found common habits such as keeping healthy food at home, regular breakfast and more vegetables. More activity was the most consistent link. In a review of 67 studies, demographics did not predict who kept weight off.",
+          "cites": [
+            "x_weight_paixao",
+            "x_weight_varkevisser"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_paixao",
+              "quote": "having healthy foods available at home, regular breakfast intake, increasing vegetable consumption"
+            },
+            {
+              "key": "x_weight_paixao",
+              "quote": "Increased physical activity was the most consistent positive correlate of weight loss maintenance."
+            },
+            {
+              "key": "x_weight_varkevisser",
+              "quote": "We found consistent evidence that demographic determinants were not predictive of weight loss maintenance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Weight cycling",
+      "paragraphs": [
+        {
+          "text": "The evidence that yo-yo dieting harms metabolism is thin. A review of 31 human studies found that 13 of 17 showed no harmful effect of weight cycling on type 2 diabetes risk, and that findings on body fat and later weight gain were inconclusive. The authors concluded that efforts to lose weight should still be encouraged.",
+          "cites": [
+            "x_weight_mackie"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_mackie",
+              "quote": "The majority of studies (13/17; 76%) did not show a detrimental effect of weight cycling on risk of type 2 diabetes."
+            },
+            {
+              "key": "x_weight_mackie",
+              "quote": "inconclusive evidence that a history or presence of weight cycling influences body composition, or predisposes to future obesity."
+            }
+          ]
+        },
+        {
+          "text": "Large swings in weight are linked to worse outcomes, but cause is not shown. A meta-analysis of 23 cohort studies with 441,199 people found weight fluctuation associated with a 41% higher death rate. Observational studies like these cannot separate the swings from illness or other causes behind them, and there were signs of publication bias.",
+          "cites": [
+            "x_weight_zou"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_weight_zou",
+              "quote": "Body-weight fluctuation was associated with increased risk for all-cause mortality (RR, 1.41; 95% confidence interval (CI): 1.27-1.57)"
+            },
+            {
+              "key": "x_weight_zou",
+              "quote": "No evidence of publication bias was observed (all P > 0.05) except for studies on all-cause mortality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Stigma and medical help",
+      "paragraphs": [
+        {
+          "text": "Shame about weight is linked to less healthy behaviour, not more. A review of 38 studies found weight teasing, everyday discrimination and self-directed stigma associated with less physical activity, though results were mixed. In a study of 6,157 older US adults, those who reported weight discrimination were about 2.5 times more likely to develop obesity over four years.",
+          "cites": [
+            "x_weight_pearl",
+            "x_weight_sutin"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_weight_pearl",
+              "quote": "Weight teasing, everyday discrimination, and internalization were associated with reduced PA. However, associations were inconsistent and often indirect."
+            },
+            {
+              "key": "x_weight_sutin",
+              "quote": "Participants who experienced weight discrimination were approximately 2.5 times more likely to become obese by follow-up (OR = 2.54, 95% CI = 1.58-4.08)"
+            }
+          ]
+        },
+        {
+          "text": "The NHS says losing weight can be hard and extra support or treatment may be needed. It suggests seeing a GP when BMI is overweight or obese and help is wanted. A GP can refer people to weight management programmes, medicines or surgery. Whether any fits is a decision to make with a doctor.",
+          "cites": [
+            "x_weight_nhs"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_nhs",
+              "quote": "It can be hard to lose weight and you may need extra support or treatment to lose weight and keep the weight off."
+            },
+            {
+              "key": "x_weight_nhs",
+              "quote": "See a GP if: Your BMI is in the obese or overweight category and: you want help to lose weight"
+            },
+            {
+              "key": "x_weight_nhs",
+              "quote": "A GP can give you advice about losing weight safely and refer you for treatment, including:"
+            }
+          ]
+        },
+        {
+          "text": "The World Health Organization calls obesity a chronic, relapsing disease. Its 2025 guideline says GLP-1 medicines may be used for long-term treatment of obesity in adults, defined as a BMI of 30 or more, alongside diet and activity support. The advice is conditional because long-term data are limited, and WHO says medicines alone will not solve the problem.",
+          "cites": [
+            "x_weight_whoglp"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_weight_whoglp",
+              "quote": "GLP-1 therapies may be used by adults, but excluding pregnant women, for the long-term treatment of obesity."
+            },
+            {
+              "key": "x_weight_whoglp",
+              "quote": "the recommendation is conditional due to limited data on their long-term efficacy and safety"
+            },
+            {
+              "key": "x_weight_whoglp",
+              "quote": "WHO defines obesity as having a Body Mass Index (BMI) of 30 or higher in adults."
+            },
+            {
+              "key": "x_weight_whoglp",
+              "quote": "medicines alone will not solve the problem."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
