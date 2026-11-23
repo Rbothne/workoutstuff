@@ -116,3 +116,13 @@ test('entries come back newest first', async () => {
   await store.add(entry('2026-11-21', 'row', 9));
   assert.deepEqual((await store.list()).map((e) => e.date), ['2026-11-22', '2026-11-21', '2026-11-20']);
 });
+
+test('the store keeps the pass flag and the entry kind', async () => {
+  const store = await Store.open({});
+  await store.add({ date: '2026-11-22', moveId: 'row', sets: [], pass: true });
+  await store.add({ date: '2026-11-22', moveId: 'squat', sets: [{ weight: 20, reps: 8 }], kind: 'lift' });
+  const all = await store.list();
+  assert.equal(all.find((e) => e.moveId === 'row').pass, true);
+  assert.equal(all.find((e) => e.moveId === 'squat').kind, 'lift');
+  assert.equal(all.find((e) => e.moveId === 'squat').pass, undefined);
+});

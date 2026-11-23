@@ -2,7 +2,8 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap">
 <style>
-/* Layout: one narrow column. Tabs on top switch five views; each move is a fold-open card, drawing first and words second. */
+/* Layout: one full-width Train screen (routine | bank | move | week and reading) and a Read view
+   (contents | article | rail). Columns stack on narrow screens. */
 :root {
   --bg: #EDF1F3;
   --card: #FFFFFF;
@@ -12,78 +13,141 @@
   --feel: #D9501A;
   --go: #0E6F6A;
   --go-fg: #FFFFFF;
+  /* Bars past full: green, violet, amber, at the teal's weight so no tier shouts. */
+  --t1: #3C9A5F; --t2: #7E63C9; --t3: #B9823A;
   --display: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
   --body: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0F181E; --card: #18242C; --fg: #E5ECF0; --muted: #9AABB6; --line: #2E3E49;
-    --feel: #FF8A4F; --go: #4FC4BA; --go-fg: #0B1A1C; color-scheme: dark;
+    --feel: #FF8A4F; --go: #4FC4BA; --go-fg: #0B1A1C; --t1: #6CC48A; --t2: #A48BE6; --t3: #E0AA62; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0F181E; --card: #18242C; --fg: #E5ECF0; --muted: #9AABB6; --line: #2E3E49;
-  --feel: #FF8A4F; --go: #4FC4BA; --go-fg: #0B1A1C; color-scheme: dark;
+  --feel: #FF8A4F; --go: #4FC4BA; --go-fg: #0B1A1C; --t1: #6CC48A; --t2: #A48BE6; --t3: #E0AA62; color-scheme: dark;
 }
 body {
   background: var(--bg); color: var(--fg);
-  font: 400 16px/1.55 var(--body);
-  padding-block: 20px 56px;
+  font: 400 15px/1.5 var(--body);
+  padding-block: 14px 40px;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-.wrap { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
-.view { display: flex; flex-direction: column; gap: 24px; }
-h1, h2, h3, summary .name { font-family: var(--display); text-wrap: balance; line-height: 1.1; margin: 0; }
-h1 { font-size: 2.5rem; font-weight: 700; }
-h2 { font-size: 1.5rem; font-weight: 700; }
+.page { max-width: 1800px; margin: 0 auto; display: flex; flex-direction: column; gap: 14px; }
+h1, h2, h3, .brand { font-family: var(--display); line-height: 1.1; margin: 0; text-wrap: balance; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; font-weight: 600; }
 p { margin: 0; }
 a { color: var(--go); }
-.lede { color: var(--muted); max-width: 60ch; margin-top: 8px; }
-.label { font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
-.note { color: var(--muted); max-width: 62ch; }
+.label { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.note { color: var(--muted); font-size: 13px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
 
-.tabs { display: flex; flex-wrap: wrap; gap: 6px; border-bottom: 2px solid var(--line); padding-bottom: 10px; }
-.tabs a { font: 600 1rem var(--body); text-decoration: none; color: var(--muted); padding: 8px 14px; border-radius: 9px; }
-.tabs a[aria-current="page"] { background: var(--go); color: var(--go-fg); }
-.tabs a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
+.topbar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+.brand { font-size: 1.5rem; font-weight: 700; }
+.nav { display: flex; gap: 4px; }
+.nav a { font-weight: 600; font-size: 14px; color: var(--muted); padding: 5px 12px; border-radius: 8px; text-decoration: none; }
+.nav a[aria-current="page"] { background: var(--go); color: var(--go-fg); }
+.status { margin-left: auto; font-size: 13px; color: var(--muted); }
 
-.today { background: var(--card); border: 2px solid var(--go); border-radius: 14px; padding: 20px; display: flex; flex-direction: column; gap: 14px; }
-.today .pick { font-family: var(--display); font-size: 2rem; font-weight: 700; line-height: 1.1; }
-.today .dose { color: var(--muted); }
-.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-button { font: 600 1rem var(--body); border-radius: 10px; padding: 12px 18px; cursor: pointer; border: 2px solid var(--go); }
-.primary { background: var(--go); color: var(--go-fg); }
-.ghost { background: transparent; color: var(--fg); }
-.primary[aria-pressed="true"] { background: transparent; color: var(--go); }
-.week { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
+.box { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.group { display: flex; flex-direction: column; gap: 4px; }
 
-.gear { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip { font-size: .9rem; padding: 7px 12px; border: 2px solid var(--line); background: transparent; color: var(--fg); border-radius: 999px; font-variant-numeric: tabular-nums; }
-.chip[aria-pressed="true"] { border-color: var(--go); background: var(--go); color: var(--go-fg); }
-.chip small { font-size: .8rem; opacity: .75; margin-left: 4px; }
+.btn { all: unset; box-sizing: border-box; cursor: pointer; text-align: center; font: 600 14px var(--body); border: 2px solid var(--go); border-radius: 9px; padding: 8px 14px; color: var(--fg); }
+.btn.fill { background: var(--go); color: var(--go-fg); }
+.btn.wide { display: block; width: 100%; }
+.btn:disabled, .btn[aria-disabled="true"] { opacity: .5; cursor: default; }
+.btn:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
+.btn[aria-pressed="true"]:not(.fill) { border-color: var(--go); color: var(--go); }
 
-.set { display: flex; flex-direction: column; gap: 10px; }
-details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
-summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; border-radius: 12px; }
-summary::-webkit-details-marker { display: none; }
-summary .name { font-size: 1.3rem; font-weight: 600; }
-summary .dose { color: var(--muted); font-size: .95rem; }
-summary .cat { font-size: .72rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--go); border: 1px solid var(--go); border-radius: 999px; padding: 1px 8px; }
-summary::after { content: "+"; margin-left: auto; font: 600 1.3rem var(--display); color: var(--muted); }
-details[open] summary::after { content: "\2212"; }
-.body { padding: 0 16px 18px; display: flex; flex-direction: column; gap: 16px; }
+/* ---------- Train ---------- */
+.train { display: grid; gap: 14px; align-items: start;
+  grid-template-columns: 240px 230px minmax(0, 1fr) 300px;
+  grid-template-areas: "line line line right" "rout bank detail right"; }
+.t-line { grid-area: line; flex-direction: row; align-items: center; gap: 16px; }
+.t-line p { font-size: 17px; font-weight: 500; flex: 1 1 auto; }
+.t-right { grid-area: right; } .t-rout { grid-area: rout; } .t-bank { grid-area: bank; } .t-detail { grid-area: detail; }
+@media (max-width: 1280px) {
+  .train { grid-template-columns: 230px 220px minmax(0, 1fr); grid-template-areas: "line line line" "rout bank detail" "right right right"; }
+  .t-right { flex-direction: row; flex-wrap: wrap; } .t-right > .box { flex: 1 1 300px; }
+}
+@media (max-width: 900px) {
+  .train { grid-template-columns: 1fr 1fr; grid-template-areas: "line line" "detail detail" "rout bank" "right right"; }
+}
+@media (max-width: 620px) {
+  .train { grid-template-columns: 1fr; grid-template-areas: "line" "detail" "rout" "right" "bank"; }
+  .t-line { flex-direction: column; align-items: flex-start; }
+  .t-right { flex-direction: column; }
+  .t-right > .box { flex: none; }
+}
+
+.pick { all: unset; box-sizing: border-box; cursor: pointer; display: flex; gap: 8px; width: 100%; padding: 3px 8px; border-radius: 7px; border: 1px solid transparent; font-size: 13.5px; line-height: 1.45; }
+.pick:hover { background: var(--card); }
+.pick:focus-visible { outline: 3px solid var(--feel); outline-offset: 1px; }
+.pick[aria-current="true"] { background: var(--card); border-color: var(--go); font-weight: 600; }
+.pick small { margin-left: auto; color: var(--muted); font-weight: 400; white-space: nowrap; font-size: 12px; }
+.pick.off, .pick.done { color: var(--muted); }
+.pick .i { width: 1.2em; color: var(--muted); font-variant-numeric: tabular-nums; flex: none; }
+.pick .st { margin-left: auto; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.pick .st.ok { color: var(--t1); } .pick .st.pass { color: var(--muted); font-weight: 500; }
+.list { display: flex; flex-direction: column; gap: 1px; margin: 0; padding: 0; list-style: none; }
+.rrow { display: flex; align-items: stretch; gap: 2px; }
+.rrow .pick { flex: 1 1 auto; min-width: 0; }
+.x { all: unset; cursor: pointer; width: 26px; text-align: center; border-radius: 6px; color: var(--muted); font-size: 16px; line-height: 1.7; flex: none; }
+.x:hover { background: var(--card); color: var(--fg); }
+.x:focus-visible { outline: 3px solid var(--feel); }
+
+.fill-row { all: unset; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; gap: 4px; width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); font-size: 13px; }
+.fill-row:focus-visible { outline: 3px solid var(--feel); outline-offset: 1px; }
+.fill-row[aria-pressed="true"] { border-color: var(--go); }
+.fill-row .top { display: flex; justify-content: space-between; font-weight: 600; font-size: 14px; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.chip { all: unset; box-sizing: border-box; cursor: pointer; font-size: 12px; font-weight: 500; border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--go); border-color: var(--go); color: var(--go-fg); }
+.chip:focus-visible { outline: 3px solid var(--feel); outline-offset: 1px; }
+.filter-note { display: flex; justify-content: space-between; gap: 8px; align-items: center; font-size: 12.5px; background: var(--card); border: 1px solid var(--go); border-radius: 8px; padding: 6px 8px; }
+.filter-note button { all: unset; cursor: pointer; color: var(--go); font-weight: 600; }
+.filter-note button:focus-visible { outline: 2px solid var(--feel); }
+.t-bank .g { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 6px 0 0; }
+.bankwrap { position: relative; }
+.bankscroll { max-height: max(360px, calc(100vh - 250px)); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: 28px; }
+.bankscroll::-webkit-scrollbar { display: none; }
+.bankwrap::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 36px; pointer-events: none; background: linear-gradient(to bottom, transparent, var(--bg)); }
+@media (max-width: 620px) { .bankscroll { max-height: 420px; } }
+details.gear { font-size: 13px; color: var(--muted); }
+details.gear summary { cursor: pointer; }
+details.gear[open] { display: flex; flex-direction: column; gap: 8px; }
+
+/* move detail */
+.ex-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.for { font-size: 13px; color: var(--muted); }
+.for b { font-weight: 600; color: var(--go); border: 1px solid var(--go); border-radius: 999px; padding: 0 8px; margin-left: 4px; font-size: 12px; }
+.d-top { display: grid; grid-template-columns: minmax(0, 380px) minmax(200px, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 620px) { .d-top { grid-template-columns: 1fr; } }
+.d-side { display: flex; flex-direction: column; gap: 8px; max-width: 320px; }
 figure { margin: 0; }
-figure svg { display: block; width: 100%; height: auto; max-width: 100%; background: var(--bg); border-radius: 10px; }
-figcaption { font-size: .85rem; color: var(--muted); margin-top: 6px; }
-.tags { display: flex; flex-direction: column; gap: 4px; font-size: .9rem; color: var(--muted); border-left: 3px solid var(--line); padding-left: 12px; }
-.tags:empty { display: none; }
-.tags .warn { color: var(--feel); font-weight: 600; }
-.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
-.cols > div { min-width: 0; }
-.cols ol, .cols ul { margin: 6px 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 6px; }
-.feel .label { color: var(--feel); }
+figure svg { display: block; width: 100%; height: auto; max-width: 100%; background: var(--bg); border-radius: 8px; }
+figcaption { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+.cues { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; font-size: 14px; line-height: 1.4; }
+.cues ol, .cues ul { margin: 4px 0 0; padding-left: 1.15em; display: flex; flex-direction: column; gap: 4px; }
+.cues .feel .label { color: var(--feel); }
+@media (max-width: 1100px) and (min-width: 621px) { .cues { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 620px) { .cues { grid-template-columns: 1fr; } }
+.meta { font-size: 13px; color: var(--muted); }
+.meta.warn { color: var(--feel); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.stepper { display: flex; align-items: center; justify-content: space-between; border: 2px solid var(--line); border-radius: 9px; font-variant-numeric: tabular-nums; }
+.stepper b { font-weight: 600; font-size: 15px; padding: 0 6px; text-align: center; }
+.stepper .step { all: unset; cursor: pointer; padding: 6px 14px; font-size: 18px; border-radius: 7px; }
+.stepper .step:focus-visible { outline: 3px solid var(--feel); }
+.stepper .step:disabled { opacity: .35; cursor: default; }
 
 /* drawing marks */
 .b { fill: none; stroke: currentColor; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
@@ -97,106 +161,130 @@ figcaption { font-size: .85rem; color: var(--muted); margin-top: 6px; }
 svg text { fill: currentColor; font: 500 11px var(--body); }
 svg text.f { fill: var(--feel); font-weight: 600; }
 
-.line { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 6px; }
-.line p { font-size: 1.1rem; max-width: 60ch; }
-#read-root { display: flex; flex-direction: column; gap: 22px; }
-h3 { font-size: 1.2rem; font-weight: 700; }
-h3.group { color: var(--muted); }
-.article-link { display: flex; flex-direction: column; gap: 2px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; text-decoration: none; color: var(--fg); }
-.article-link .name { font: 600 1.3rem/1.1 var(--display); }
-.article-link .dose { color: var(--muted); font-size: .95rem; }
-.article-link:focus-visible, .back:focus-visible { outline: 3px solid var(--feel); outline-offset: 2px; }
-.back { font-weight: 600; }
-.bluf { background: var(--card); border: 2px solid var(--go); border-radius: 14px; padding: 18px 20px; }
-.bluf ul { margin: 8px 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; font-size: 1.05rem; }
-.prose { display: flex; flex-direction: column; gap: 12px; max-width: 65ch; }
-.cites { font-size: .75em; }
+/* week bars */
+.bars { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 7px 10px; align-items: center; font-size: 13px; }
+.bars .n { color: var(--muted); font-variant-numeric: tabular-nums; text-align: right; }
+.track { position: relative; height: 10px; border-radius: 5px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; display: block; }
+.track i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 5px; }
+.track .l0 { background: var(--go); } .track .l1 { background: var(--t1); } .track .l2 { background: var(--t2); } .track .l3 { background: var(--t3); }
+.track .l1, .track .l2, .track .l3 { box-shadow: 2px 0 0 var(--card); }
+.fill-row .track { height: 6px; }
+@media (prefers-reduced-motion: no-preference) { .track i { transition: width .35s ease; } }
+.links { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; }
+.links small { display: block; color: var(--muted); font-size: 12.5px; }
+.links .kind { display: block; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.stop { border-left: 3px solid var(--feel); padding-left: 12px; font-size: 13px; color: var(--muted); }
+
+/* ---------- Read ---------- */
+.read { display: grid; grid-template-columns: 200px minmax(0, 1fr) 300px; gap: 28px; align-items: start; }
+.read.list-only { grid-template-columns: minmax(0, 1fr); }
+@media (max-width: 1100px) { .read { grid-template-columns: minmax(0, 1fr) 280px; } .toc { display: none; } }
+@media (max-width: 760px) { .read { grid-template-columns: 1fr; } }
+.toc { position: sticky; top: 14px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+.toc a { text-decoration: none; color: var(--muted); }
+.toc a:hover { color: var(--fg); }
+.toc .deeper { margin-top: 8px; }
+.prose { display: flex; flex-direction: column; gap: 12px; max-width: 68ch; }
+.prose p { font-size: 15.5px; line-height: 1.6; }
+.prose h3 { margin-top: 10px; }
+.bluf { border: 2px solid var(--go); }
+.bluf ul { margin: 4px 0 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 7px; }
+.deeper-rule { display: flex; align-items: center; gap: 12px; margin-top: 18px; }
+.deeper-rule::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+.cites { font-size: .72em; }
 .cites a { text-decoration: none; font-weight: 600; }
-.ev { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 0 8px; margin-left: 6px; white-space: nowrap; }
+.ev { display: inline-block; font-size: 10.5px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 0 7px; margin-left: 6px; white-space: nowrap; vertical-align: 1px; }
 .ev-strong, .ev-guideline { border-color: var(--go); color: var(--go); }
 .ev-weak, .ev-unverified { border-color: var(--feel); color: var(--feel); }
 .ev-note { border-style: dashed; }
-.sources { margin: 0; padding-left: 1.6em; display: flex; flex-direction: column; gap: 8px; font-size: .92rem; overflow-wrap: anywhere; }
+.sources { margin: 0; padding-left: 1.6em; display: flex; flex-direction: column; gap: 7px; font-size: 13.5px; overflow-wrap: anywhere; }
 .sources .pub { color: var(--muted); }
-.ghost[aria-pressed="true"] { border-color: var(--go); color: var(--go); }
-button:disabled { opacity: .55; cursor: default; }
-#log-root, #week-root { display: flex; flex-direction: column; gap: 12px; }
-.logrow { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
-.logrow.skipped { opacity: .6; }
-.loghead { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
-.loghead .name { font: 600 1.3rem/1.1 var(--display); }
-.loghead .cat { font-size: .72rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: var(--go); border: 1px solid var(--go); border-radius: 999px; padding: 1px 8px; }
-.loghead .chip { margin-left: auto; }
-.logsets { display: flex; flex-wrap: wrap; gap: 8px; }
-.stepper { display: inline-flex; align-items: center; border: 2px solid var(--line); border-radius: 10px; overflow: hidden; font-variant-numeric: tabular-nums; }
-.stepper .val { padding: 0 10px; min-width: 6.5em; text-align: center; font-weight: 500; }
-.step { border: 0; border-radius: 0; background: transparent; color: var(--fg); padding: 9px 14px; font-size: 1.1rem; }
-.routine { display: block; margin-top: 4px; }
-.bar summary { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: baseline; }
-.bar summary::after { content: none; }
-.barname { font: 600 1.15rem/1.1 var(--display); }
-.barnum { color: var(--muted); font-variant-numeric: tabular-nums; }
-.bartrack { grid-column: 1 / -1; height: 12px; border-radius: 6px; background: var(--bg); border: 1px solid var(--line); overflow: hidden; display: block; }
-.barfill { display: block; height: 100%; background: var(--go); }
-.bar .note { padding: 0 16px 14px; }
-.nextline { font-size: 1.1rem; font-weight: 500; }
-.key { display: flex; gap: 8px; align-items: center; font-size: .9rem; color: var(--muted); }
-.key b { width: 26px; height: 7px; border-radius: 4px; background: var(--feel); flex: none; }
-.stop { border-left: 4px solid var(--feel); padding-left: 14px; max-width: 62ch; }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+.rail { position: sticky; top: 14px; display: flex; flex-direction: column; gap: 14px; }
+.article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.article-link { display: flex; flex-direction: column; gap: 4px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; text-decoration: none; color: var(--fg); }
+.article-link .name { font: 600 1.25rem/1.1 var(--display); }
+.article-link .dose { color: var(--muted); font-size: 13.5px; }
+details.mobile-rail { display: none; }
+@media (max-width: 760px) { .rail.desk { display: none; } details.mobile-rail { display: block; } }
+details.mobile-rail summary { cursor: pointer; font-weight: 600; }
 </style>
 
-<div class="wrap">
-  <header>
-    <h1>One Move</h1>
-    <p class="lede">One move a day counts as the whole day. No gym clothes, no setup, about two minutes. Do more only if you feel like it.</p>
+<div class="page">
+  <header class="topbar">
+    <span class="brand">One Move</span>
+    <nav class="nav" aria-label="Sections"><a href="#train" data-tab="train" aria-current="page">Train</a><a href="#read" data-tab="read">Read</a></nav>
+    <span class="status" id="status" aria-live="polite"></span>
   </header>
 
-  <nav class="tabs" aria-label="Sections">
-    <a href="#today" data-tab="today" aria-current="page">Today</a>
-    <a href="#moves" data-tab="moves">Moves</a>
-    <a href="#read" data-tab="read">Read</a>
-    <a href="#log" data-tab="log">Log</a>
-    <a href="#week" data-tab="week">Week</a>
-  </nav>
-
-  <!-- TODAY -->
-  <section class="view" data-view="today">
-    <div class="today" aria-labelledby="today-label">
-      <span class="label" id="today-label">Today's move</span>
-      <div>
-        <div class="pick" id="today-name">Pick any one move</div>
-        <div class="dose" id="today-dose">Open Moves to see how each is done and where you should feel it.</div>
-      </div>
-      <div class="row">
-        <button class="ghost" id="show" type="button">Show me how</button>
-        <button class="primary" id="done" type="button" aria-pressed="false">Mark done</button>
-        <button class="ghost" id="vball" type="button" aria-pressed="false">Played volleyball</button>
-        <div class="week" id="week" aria-live="polite"></div>
-      </div>
-    </div>
-    <div class="line" id="line" hidden>
+  <!-- TRAIN -->
+  <main class="train" data-view="train">
+    <div class="box t-line" id="line">
       <span class="label">Today's line</span>
-      <p id="line-text"></p>
-      <a id="line-why" href="#read">Read why</a>
+      <p id="line-text">Give a new habit about two months before you judge whether it has stuck.</p>
+      <a class="small" id="line-why" href="#read-habits">Read why</a>
     </div>
-    <p class="stop"><strong>When to stop.</strong> Sharp or pinching pain ends the set. Muscle soreness for a day or two is normal. Joint pain that's still there the next morning means get your form looked at in person.</p>
-  </section>
 
-  <!-- MOVES -->
-  <section class="view" data-view="moves" hidden>
-    <div class="gear">
-      <span class="label">Equipment you have or want to use</span>
-      <div class="chips" id="equip"></div>
-      <span class="label">Dumbbells you own, in pounds</span>
-      <div class="chips" id="bells"></div>
-      <p class="note" id="gear-note">Moves that need nothing are always shown. Tick what you have and more appear.</p>
+    <div class="col t-right">
+      <section class="box" aria-labelledby="week-label">
+        <span class="label" id="week-label">This week</span>
+        <div class="bars" id="bars"><span class="note">Opening your log.</span></div>
+        <p class="note">A set counts 1 for its main muscle group and a half for a helper. 4 a week is a starting point. A volleyball night is an estimate. Bars start fresh each Monday.</p>
+      </section>
+      <section class="box" aria-labelledby="related-label">
+        <span class="label" id="related-label">Reading for your routine</span>
+        <ul class="links" id="related"></ul>
+      </section>
+      <p class="stop"><strong>When to stop.</strong> Sharp or pinching pain ends the set. Soreness for a day or two is normal. Joint pain still there the next morning means get your form looked at.</p>
     </div>
-    <div class="key"><b></b> Orange in a drawing marks where you should feel the work.</div>
-    <p class="note" id="moves-error" hidden>Couldn't load the move list, so every move is shown. Reload to try again.</p>
 
-    <section class="set"><h2>Legs</h2>
-      <details class="move" id="m-squat" data-name="Squat" data-dose="8 slow reps">
+    <section class="col t-rout" aria-label="Today">
+      <div class="group">
+        <span class="label">Today's move</span>
+        <ul class="list" id="today-list"></ul>
+      </div>
+      <div class="group">
+        <span class="label">Your routine</span>
+        <ol class="list" id="routine"></ol>
+        <p class="note" id="undo" aria-live="polite"></p>
+        <button class="btn fill wide" id="did-all" type="button">Did it as written</button>
+        <button class="btn wide" id="vball" type="button" aria-pressed="false">Played volleyball</button>
+        <p class="note" id="log-note" aria-live="polite"></p>
+      </div>
+      <div class="group">
+        <span class="label">Fills your week</span>
+        <div class="col" style="gap:6px" id="fills"></div>
+      </div>
+    </section>
+
+    <section class="col t-bank" style="gap:6px" aria-labelledby="bank-label">
+      <span class="label" id="bank-label">Bank of moves</span>
+      <div class="chips" id="purposes"></div>
+      <div id="filter"></div>
+      <div class="bankwrap"><div class="bankscroll" id="bank" tabindex="0" aria-label="Bank of moves, scroll with the mouse wheel"></div></div>
+      <details class="gear" id="gear">
+        <summary id="gear-summary">My gear</summary>
+        <span class="label">Equipment</span>
+        <div class="chips" id="equip"></div>
+        <span class="label">Dumbbells you own, in pounds</span>
+        <div class="chips" id="bells"></div>
+      </details>
+    </section>
+
+    <section class="box t-detail" id="detail" aria-live="polite" aria-label="Selected move">
+      <p class="note">Loading the moves.</p>
+    </section>
+  </main>
+
+  <!-- READ -->
+  <main data-view="read" hidden>
+    <p class="note" id="read-status">Loading the articles.</p>
+    <div id="read-root"></div>
+  </main>
+</div>
+
+<!-- Each move's drawing and cues. Read by the Train screen; never shown directly. -->
+<div id="library" hidden>
+<details class="move" id="m-squat" data-name="Squat" data-dose="8 slow reps">
         <summary><span class="name">Squat</span><span class="cat">legs</span><span class="dose">8 to 12 reps</span></summary>
         <div class="body">
           <figure>
@@ -235,7 +323,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-splitsquat" data-name="Split squat" data-dose="6 reps each leg">
+<details class="move" id="m-splitsquat" data-name="Split squat" data-dose="6 reps each leg">
         <summary><span class="name">Split squat</span><span class="cat">legs</span><span class="dose">6 to 10 reps each leg</span></summary>
         <div class="body">
           <figure>
@@ -269,10 +357,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Hips</h2>
-      <details class="move" id="m-bridge" data-name="Glute bridge" data-dose="10 reps, 2-second hold at the top">
+<details class="move" id="m-bridge" data-name="Glute bridge" data-dose="10 reps, 2-second hold at the top">
         <summary><span class="name">Glute bridge</span><span class="cat">hips</span><span class="dose">10 to 15 reps, 2-second hold at the top</span></summary>
         <div class="body">
           <figure>
@@ -306,7 +392,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-hinge" data-name="Hip hinge" data-dose="8 reps">
+<details class="move" id="m-hinge" data-name="Hip hinge" data-dose="8 reps">
         <summary><span class="name">Hip hinge</span><span class="cat">hips</span><span class="dose">8 to 12 reps</span></summary>
         <div class="body">
           <figure>
@@ -342,10 +428,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Core</h2>
-      <details class="move" id="m-deadbug" data-name="Dead bug" data-dose="6 slow reps each side">
+<details class="move" id="m-deadbug" data-name="Dead bug" data-dose="6 slow reps each side">
         <summary><span class="name">Dead bug</span><span class="cat">core</span><span class="dose">6 to 10 slow reps each side</span></summary>
         <div class="body">
           <figure>
@@ -383,7 +467,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-plank" data-name="Plank" data-dose="20 seconds">
+<details class="move" id="m-plank" data-name="Plank" data-dose="20 seconds">
         <summary><span class="name">Plank</span><span class="cat">core</span><span class="dose">20 to 60 seconds</span></summary>
         <div class="body">
           <figure>
@@ -415,7 +499,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-sideplank" data-name="Side plank" data-dose="15 seconds each side">
+<details class="move" id="m-sideplank" data-name="Side plank" data-dose="15 seconds each side">
         <summary><span class="name">Side plank</span><span class="cat">core</span><span class="dose">15 to 40 seconds each side</span></summary>
         <div class="body">
           <figure>
@@ -446,10 +530,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Push</h2>
-      <details class="move" id="m-pushup" data-name="Push-up" data-dose="5 reps">
+<details class="move" id="m-pushup" data-name="Push-up" data-dose="5 reps">
         <summary><span class="name">Push-up</span><span class="cat">push</span><span class="dose">5 to 12 reps</span></summary>
         <div class="body">
           <figure>
@@ -483,7 +565,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-overheadpress" data-name="Overhead press" data-dose="8 reps">
+<details class="move" id="m-overheadpress" data-name="Overhead press" data-dose="8 reps">
         <summary><span class="name">Overhead press</span><span class="cat">push</span><span class="dose">8 to 12 reps</span></summary>
         <div class="body">
           <figure>
@@ -516,7 +598,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-benchpress" data-name="Dumbbell bench press" data-dose="8 reps">
+<details class="move" id="m-benchpress" data-name="Dumbbell bench press" data-dose="8 reps">
         <summary><span class="name">Dumbbell bench press</span><span class="cat">push</span><span class="dose">8 to 12 reps</span></summary>
         <div class="body">
           <figure>
@@ -552,7 +634,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-lateralraise" data-name="Lateral raise" data-dose="10 reps">
+<details class="move" id="m-lateralraise" data-name="Lateral raise" data-dose="10 reps">
         <summary><span class="name">Lateral raise</span><span class="cat">push</span><span class="dose">10 to 15 reps</span></summary>
         <div class="body">
           <figure>
@@ -586,10 +668,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Pull</h2>
-      <details class="move" id="m-row" data-name="Supported row" data-dose="8 reps each arm">
+<details class="move" id="m-row" data-name="Supported row" data-dose="8 reps each arm">
         <summary><span class="name">Supported row</span><span class="cat">pull</span><span class="dose">8 to 12 reps each arm</span></summary>
         <div class="body">
           <figure>
@@ -628,7 +708,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-deadhang" data-name="Dead hang" data-dose="10 seconds">
+<details class="move" id="m-deadhang" data-name="Dead hang" data-dose="10 seconds">
         <summary><span class="name">Dead hang</span><span class="cat">pull</span><span class="dose">10 to 30 seconds</span></summary>
         <div class="body">
           <figure>
@@ -662,7 +742,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-bandpullapart" data-name="Band pull-apart" data-dose="12 reps">
+<details class="move" id="m-bandpullapart" data-name="Band pull-apart" data-dose="12 reps">
         <summary><span class="name">Band pull-apart</span><span class="cat">pull</span><span class="dose">12 to 20 reps</span></summary>
         <div class="body">
           <figure>
@@ -697,10 +777,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Jump</h2>
-      <details class="move" id="m-landing" data-name="Soft landing" data-dose="5 landings">
+<details class="move" id="m-landing" data-name="Soft landing" data-dose="5 landings">
         <summary><span class="name">Soft landing</span><span class="cat">jump</span><span class="dose">3 sets of 5, done first</span></summary>
         <div class="body">
           <figure>
@@ -735,7 +813,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-calfraise" data-name="Calf raise" data-dose="10 reps">
+<details class="move" id="m-calfraise" data-name="Calf raise" data-dose="10 reps">
         <summary><span class="name">Calf raise</span><span class="cat">jump</span><span class="dose">10 to 20 reps</span></summary>
         <div class="body">
           <figure>
@@ -768,7 +846,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-boxjump" data-name="Box jump" data-dose="3 jumps">
+<details class="move" id="m-boxjump" data-name="Box jump" data-dose="3 jumps">
         <summary><span class="name">Box jump</span><span class="cat">jump</span><span class="dose">3 to 5 jumps, full rest between sets</span></summary>
         <div class="body">
           <figure>
@@ -802,10 +880,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Mobility</h2>
-      <details class="move" id="m-hipflexor" data-name="Hip-flexor stretch" data-dose="30 seconds each side">
+<details class="move" id="m-hipflexor" data-name="Hip-flexor stretch" data-dose="30 seconds each side">
         <summary><span class="name">Hip-flexor stretch</span><span class="cat">mobility</span><span class="dose">30 seconds each side</span></summary>
         <div class="body">
           <figure>
@@ -838,7 +914,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-stack" data-name="Stand stacked" data-dose="10 seconds, whenever you notice">
+<details class="move" id="m-stack" data-name="Stand stacked" data-dose="10 seconds, whenever you notice">
         <summary><span class="name">Stand stacked</span><span class="cat">mobility</span><span class="dose">10 seconds, whenever you notice</span></summary>
         <div class="body">
           <figure>
@@ -872,7 +948,7 @@ button:disabled { opacity: .55; cursor: default; }
         </div>
       </details>
 
-      <details class="move" id="m-kneewall" data-name="Knee-to-wall check" data-dose="once now, again each month">
+<details class="move" id="m-kneewall" data-name="Knee-to-wall check" data-dose="once now, again each month">
         <summary><span class="name">Knee-to-wall check</span><span class="cat">mobility</span><span class="dose">once now, again each month</span></summary>
         <div class="body">
           <figure>
@@ -904,10 +980,8 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
 
-    <section class="set"><h2>Cardio</h2>
-      <details class="move" id="m-inclinewalk" data-name="Incline walk intervals" data-dose="4 rounds">
+<details class="move" id="m-inclinewalk" data-name="Incline walk intervals" data-dose="4 rounds">
         <summary><span class="name">Incline walk intervals</span><span class="cat">cardio</span><span class="dose">4 to 6 rounds: 2 to 3 minutes brisk, 1 minute easy</span></summary>
         <div class="body">
           <figure>
@@ -939,32 +1013,9 @@ button:disabled { opacity: .55; cursor: default; }
           </div>
         </div>
       </details>
-    </section>
-  </section>
-
-  <!-- READ -->
-  <section class="view" data-view="read" hidden>
-    <p class="note" id="read-status">Loading the articles.</p>
-    <div id="read-root"></div>
-  </section>
-
-  <!-- LOG -->
-  <section class="view" data-view="log" hidden>
-    <h2>Log</h2>
-    <p class="note" id="log-status">Opening your log.</p>
-    <div id="log-root"></div>
-  </section>
-
-  <!-- WEEK -->
-  <section class="view" data-view="week" hidden>
-    <h2>This week</h2>
-    <p class="note" id="week-status">Opening your log.</p>
-    <div id="week-root"></div>
-  </section>
 </div>
 
 <script src="js/logic.js"></script>
 <script src="js/store.js"></script>
-<script src="js/app.js"></script>
+<script src="js/train.js"></script>
 <script src="js/read.js"></script>
-<script src="js/track.js"></script>

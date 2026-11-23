@@ -41,7 +41,10 @@
     };
   }
   function withId(entry) {
-    return { id: entry.date + '_' + entry.moveId, date: entry.date, moveId: entry.moveId, sets: entry.sets };
+    var x = { id: entry.date + '_' + entry.moveId, date: entry.date, moveId: entry.moveId, sets: entry.sets };
+    if (entry.pass) x.pass = true;
+    if (entry.kind) x.kind = entry.kind;
+    return x;
   }
   function newestFirst(entries) {
     return entries.slice().sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
