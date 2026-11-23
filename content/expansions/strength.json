@@ -1,0 +1,785 @@
+{
+  "id": "strength",
+  "sources": {
+    "x_strength_defronzo": {
+      "title": "Skeletal muscle insulin resistance is the primary defect in type 2 diabetes",
+      "publisher": "Diabetes Care, 2009",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2811436/",
+      "kind": "journal",
+      "country": "US",
+      "how": "page opened",
+      "says": "Review. Under euglycemic hyperinsulinemic (insulin clamp) conditions, 80 to 90% of the infused glucose is taken up by skeletal muscle."
+    },
+    "x_strength_sylow": {
+      "title": "The many actions of insulin in skeletal muscle, the paramount tissue determining glycemia",
+      "publisher": "Cell Metabolism, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33826918/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. Skeletal muscle is the principal tissue for insulin-stimulated glucose disposal and responds to contraction or exercise with increased sensitivity to later insulin stimulation."
+    },
+    "x_strength_srikanthan": {
+      "title": "Relative muscle mass is inversely associated with insulin resistance and prediabetes. Findings from the third National Health and Nutrition Examination Survey",
+      "publisher": "Journal of Clinical Endocrinology and Metabolism, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21778224/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Cross-sectional analysis of 13,644 adults. Each 10% increase in muscle mass relative to body weight was associated with an 11% relative reduction in insulin resistance and a 12% relative reduction in prediabetes or diabetes prevalence, after adjustment for obesity."
+    },
+    "x_strength_jansson": {
+      "title": "Effect of resistance training on HbA1c in adults with type 2 diabetes mellitus and the moderating effect of changes in muscular strength: a systematic review and meta-analysis",
+      "publisher": "BMJ Open Diabetes Research and Care, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35273011/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 trials, 1,172 people. Resistance training lowered HbA1c by 0.39 percentage points against controls; larger strength gains were linked with larger reductions; no significant difference from aerobic training."
+    },
+    "x_strength_umpierre": {
+      "title": "Physical activity advice only or structured exercise training and association with HbA1c levels in type 2 diabetes: a systematic review and meta-analysis",
+      "publisher": "JAMA, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21540423/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "47 trials, 8,538 patients. Structured aerobic (-0.73%), resistance (-0.57%) and combined training (-0.51%) were each associated with lower HbA1c compared with controls."
+    },
+    "x_strength_ewgsop2": {
+      "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+      "publisher": "European Working Group on Sarcopenia in Older People 2, in Age and Ageing, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30312372/",
+      "kind": "authority",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Sarcopenia is a muscle disease; it is common among older adults but can occur earlier in life. Low muscle strength is the key characteristic, with low muscle quantity and quality used to confirm the diagnosis."
+    },
+    "x_strength_mitchell": {
+      "title": "Sarcopenia, dynapenia, and the impact of advancing age on human skeletal muscle size and strength; a quantitative review",
+      "publisher": "Frontiers in Physiology, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22934016/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "At age 75, muscle mass is lost at 0.64 to 0.70% a year in women and 0.80 to 0.98% in men, while strength is lost at 3 to 4% a year in men and 2.5 to 3% in women. Loss of strength is a more consistent risk for disability and death than loss of mass."
+    },
+    "x_strength_peterson": {
+      "title": "Resistance exercise for muscular strength in older adults: a meta-analysis",
+      "publisher": "Ageing Research Reviews, 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20385254/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "47 studies, 1,079 adults aged 50 and over. Strength rose 29, 24, 33 and 25% for leg press, chest press, knee extension and lat pull; higher intensity was associated with greater improvement."
+    },
+    "x_strength_nof": {
+      "title": "The National Osteoporosis Foundation's position statement on peak bone mass development and lifestyle factors: a systematic review and implementation recommendations",
+      "publisher": "National Osteoporosis Foundation, in Osteoporosis International, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26856587/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Lifestyle choices influence 20 to 40% of adult peak bone mass. The best evidence (grade A) is for calcium intake and physical activity, especially in late childhood and the peripubertal years."
+    },
+    "x_strength_shojaa": {
+      "title": "Effects of dynamic resistance exercise on bone mineral density in postmenopausal women: a systematic review and meta-analysis with special emphasis on exercise parameters",
+      "publisher": "Osteoporosis International, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32399891/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "17 articles in postmenopausal women. Resistance exercise raised bone density at the lumbar spine (SMD 0.54), femoral neck (0.22) and total hip (0.48): significant but low to moderate effects."
+    },
+    "x_strength_obryan": {
+      "title": "Progressive resistance training for concomitant increases in muscle strength and bone mineral density in older adults: a systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35608815/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "14 trials in adults aged 65 and over. Progressive resistance training increased femur or hip bone density by 2.77% but not lumbar spine density (1.60%, not significant)."
+    },
+    "x_strength_liftmor": {
+      "title": "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial",
+      "publisher": "Journal of Bone and Mineral Research, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28975661/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "101 postmenopausal women with low bone mass, aged 65 on average. Eight months of twice-weekly, 30-minute supervised training (5 sets of 5 at over 85% of maximum) raised spine bone density 2.9% against a 1.2% loss in a low-intensity home group; one minor adverse event."
+    },
+    "x_strength_whofalls": {
+      "title": "Falls",
+      "publisher": "World Health Organization fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "About 842,000 deaths from falls worldwide in 2023, 71% among adults aged 60 and over. Risk rises with impaired balance, strength and gait. Recommends tailored exercises that challenge balance and improve functional strength."
+    },
+    "x_strength_sherrington": {
+      "title": "Exercise for preventing falls in older people living in the community",
+      "publisher": "Cochrane Database of Systematic Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30703272/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "108 trials, 23,407 people. Exercise reduced the rate of falls by 23% (high certainty). Multiple types of exercise, most often balance and functional plus resistance exercise, probably reduced falls by 34%; the effect of primarily resistance training was uncertain."
+    },
+    "x_strength_pure": {
+      "title": "Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study",
+      "publisher": "The Lancet, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25982160/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "139,691 adults in 17 countries, median follow-up 4 years. Each 5 kg lower grip was associated with a 16% higher risk of death (hazard ratio 1.16); grip was a stronger predictor than systolic blood pressure; no association with diabetes, falls or fracture. Further research is needed to test whether improving strength reduces mortality."
+    },
+    "x_strength_garciahermoso": {
+      "title": "Muscular strength as a predictor of all-cause mortality in an apparently healthy population: a systematic review and meta-analysis of data from approximately 2 million men and women",
+      "publisher": "Archives of Physical Medicine and Rehabilitation, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29425700/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "38 cohort studies, 1,907,580 people. Higher grip strength was associated with lower all-cause mortality (hazard ratio 0.69); higher knee extension strength with a 14% lower risk."
+    },
+    "x_strength_wu": {
+      "title": "Association between handgrip strength and type 2 diabetes: a prospective cohort study and systematic review with meta-analysis",
+      "publisher": "Journals of Gerontology Series A, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36504134/",
+      "kind": "journal",
+      "country": "CN",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Cohort of 12,957 Chinese adults plus meta-analysis. Grip relative to body weight was inversely associated with type 2 diabetes, but absolute grip was not in the cohort; adiposity was an important mediating factor."
+    },
+    "x_strength_gordondep": {
+      "title": "Association of efficacy of resistance exercise training with depressive symptoms: meta-analysis and meta-regression analysis of randomized clinical trials",
+      "publisher": "JAMA Psychiatry, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29800984/",
+      "kind": "journal",
+      "country": "IE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "33 trials, 1,877 people. Resistance training reduced depressive symptoms with a moderate effect (0.66), regardless of prescribed volume or strength gains; blinded trials showed smaller reductions."
+    },
+    "x_strength_gordonanx": {
+      "title": "The effects of resistance exercise training on anxiety: a meta-analysis and meta-regression analysis of randomized controlled trials",
+      "publisher": "Sports Medicine, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28819746/",
+      "kind": "journal",
+      "country": "IE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 articles, 922 people. Resistance training reduced anxiety symptoms (effect 0.31), with larger effects in healthy people (0.50) than in people with an illness (0.19)."
+    },
+    "x_strength_hayden": {
+      "title": "Exercise therapy for chronic low back pain",
+      "publisher": "Cochrane Database of Systematic Reviews, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34580864/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "249 trials. Moderate-certainty evidence that exercise reduced pain by 15.2 points on a 0 to 100 scale against no treatment, usual care or placebo; the 6.8-point gain in function was below the clinically important threshold. Harms were mostly minor, such as muscle soreness."
+    },
+    "x_strength_liu": {
+      "title": "Progressive resistance strength training for improving physical function in older adults",
+      "publisher": "Cochrane Database of Systematic Reviews, 2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19588334/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "121 trials, 6,700 people. Large effect on strength (SMD 0.84), moderate to large effect on getting out of a chair, modest gain in gait speed (0.08 m/s); reduced pain in 6 trials of people with osteoarthritis."
+    },
+    "x_strength_skarabot": {
+      "title": "The knowns and unknowns of neural adaptations to resistance training",
+      "publisher": "European Journal of Applied Physiology, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33355714/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. The initial increases in force with resistance training are thought to be primarily underpinned by neural adaptations, but the precise site of adaptation remains unclear."
+    },
+    "x_strength_bosquet": {
+      "title": "Effect of training cessation on muscular performance: a meta-analysis",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23347054/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "103 studies. Stopping resistance training reduced all components of strength, with a dose-response link to the length of the break; the effect was larger in people over 65 and, for maximal force and power, in inactive people."
+    },
+    "x_strength_blocquiaux": {
+      "title": "The effect of resistance training, detraining and retraining on muscle strength and power, myofibre size, satellite cells and myonuclei in older men",
+      "publisher": "Experimental Gerontology, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32017951/",
+      "kind": "journal",
+      "country": "BE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "30 older men. 12 weeks of training raised knee extension strength and power by 10 to 36%; 12 weeks of detraining lost 5 to 15%; less than eight weeks of retraining restored one-repetition maximum."
+    },
+    "x_strength_cumming": {
+      "title": "Muscle memory in humans: evidence for myonuclear permanence and long-term transcriptional regulation after strength training",
+      "publisher": "Journal of Physiology, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39159314/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 untrained adults. Myonuclei gained in 10 weeks of arm training were maintained through 16 weeks of detraining, but the physiological benefit for retraining remains to be determined."
+    },
+    "x_strength_roberts": {
+      "title": "Sex differences in resistance training: a systematic review and meta-analysis",
+      "publisher": "Journal of Strength and Conditioning Research, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32218059/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Young to middle-aged adults on the same programmes. No sex difference for hypertrophy (10 studies) or lower-body strength (23 studies); larger relative upper-body strength gains in women (17 studies). Short study duration may be an explanation."
+    },
+    "x_strength_sawada": {
+      "title": "Overview of the Physical Activity Guide for Health Promotion 2023",
+      "publisher": "Health Evaluation and Promotion, 2025 (summarising the guide of Japan's Ministry of Health, Labour and Welfare)",
+      "url": "https://www.jstage.jst.go.jp/article/jhep/52/2/52_333/_article/-char/en",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "The 2023 Japanese guide recommends that adults and older people undertake muscle training 2 to 3 days a week, and that older people undertake multicomponent physical activity at least 3 days a week."
+    }
+  },
+  "sections": [
+    {
+      "heading": "Muscle and blood sugar",
+      "paragraphs": [
+        {
+          "text": "Skeletal muscle is the main tissue that clears sugar from the blood when insulin acts. In laboratory tests that hold insulin high, about 80 to 90% of the glucose given is taken up by muscle. Worked muscle also becomes more sensitive to insulin afterwards. Both points come from expert reviews.",
+          "cites": [
+            "x_strength_defronzo",
+            "x_strength_sylow"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_strength_defronzo",
+              "quote": "Because 80–90% of the infused glucose is taken up by skeletal muscle under conditions of euglycemic hyperinsulinemia"
+            },
+            {
+              "key": "x_strength_sylow",
+              "quote": "As the principal tissue for insulin-stimulated glucose disposal, skeletal muscle is a primary driver of whole-body glycemic control. Skeletal muscle also uniquely responds to muscle contraction or exercise with increased sensitivity to subsequent insulin stimulation."
+            }
+          ]
+        },
+        {
+          "text": "More muscle relative to body size goes with better blood sugar control in a large US survey. Among 13,644 adults, each 10% rise in muscle relative to body weight was linked with 11% lower insulin resistance and 12% lower odds of prediabetes, after allowing for obesity. A single snapshot like this cannot show cause.",
+          "cites": [
+            "x_strength_srikanthan"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_srikanthan",
+              "quote": "After adjusting for age, ethnicity, sex, and generalized and central obesity, each 10% increase in SMI was associated with 11% relative reduction in HOMA-IR (95% confidence interval, 6-15%) and 12% relative reduction in PDM prevalence (95% CI, 1-21%)."
+            }
+          ]
+        },
+        {
+          "text": "In people with type 2 diabetes, resistance training lowers HbA1c, a blood marker of average blood sugar over recent months. A review of 20 trials found a fall of 0.39 percentage points, and bigger strength gains went with bigger drops. An earlier review of 47 trials found resistance, aerobic and combined training each lowered HbA1c.",
+          "cites": [
+            "x_strength_jansson",
+            "x_strength_umpierre"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_jansson",
+              "quote": "Twenty studies (n=1172) were included in the meta-analysis. RT significantly reduced HbA1c compared with controls (weighted mean difference=-0.39, 95% CI -0.60 to -0.18, p<0.001, I2=69.20). Training effect significantly (p<0.05) moderated the results, with larger improvements in muscular strength leading to greater reductions in HbA1c"
+            },
+            {
+              "key": "x_strength_umpierre",
+              "quote": "structured aerobic exercise (-0.73%; 95% CI, -1.06% to -0.40%; I(2), 92.8%), structured resistance training (-0.57%; 95% CI, -1.14% to -0.01%; I(2), 92.5%), and both combined (-0.51%; 95% CI, -0.79% to -0.23%; I(2), 67.5%) were each associated with declines in HbA(1C) levels compared with control participants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Muscle loss with age",
+      "paragraphs": [
+        {
+          "text": "Sarcopenia is the medical name for the loss of muscle strength and mass that comes with age. A European expert group defines it as a muscle disease, with low strength as its key feature. The group notes that it is common in older age but can also begin earlier in life.",
+          "cites": [
+            "x_strength_ewgsop2"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_strength_ewgsop2",
+              "quote": "sarcopenia is a muscle disease (muscle failure) rooted in adverse muscle changes that accrue across a lifetime; sarcopenia is common among adults of older age but can also occur earlier in life."
+            },
+            {
+              "key": "x_strength_ewgsop2",
+              "quote": "focuses on low muscle strength as a key characteristic of sarcopenia, uses detection of low muscle quantity and quality to confirm the sarcopenia diagnosis"
+            }
+          ]
+        },
+        {
+          "text": "Strength fades faster than muscle size in later life. A review found that at about age 75, people lose roughly 0.6 to 1% of their muscle mass a year but 2.5 to 4% of their strength. Loss of strength was a more consistent risk for disability and death than loss of muscle.",
+          "cites": [
+            "x_strength_mitchell"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_strength_mitchell",
+              "quote": "Longitudinal studies show that in people aged 75 years, muscle mass is lost at a rate of 0.64-0.70% per year in women and 0.80-00.98% per year in men. Strength is lost more rapidly. Longitudinal studies show that at age 75 years, strength is lost at a rate of 3-4% per year in men and 2.5-3% per year in women."
+            },
+            {
+              "key": "x_strength_mitchell",
+              "quote": "Loss of strength is a more consistent risk for disability and death than is loss of muscle mass."
+            }
+          ]
+        },
+        {
+          "text": "Older muscles still respond well to training. Across 47 studies with 1,079 adults aged 50 and over, resistance training raised strength by about 24 to 33%, depending on the exercise tested, and harder training was linked with larger gains. The authors suggest training as a way to prevent the general weakness linked with ageing.",
+          "cites": [
+            "x_strength_peterson"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_peterson",
+              "quote": "Forty-seven studies were included, representing 1079 participants. A positive effect for each of the strength outcomes was determined however there was heterogeneity between studies. Regression revealed that higher intensity training was associated with greater improvement."
+            },
+            {
+              "key": "x_strength_peterson",
+              "quote": "percent changes were 29+/-2, 24+/-2, 33+/-3, and 25+/-2, respectively for leg press, chest press, knee extension, and lat pull."
+            },
+            {
+              "key": "x_strength_peterson",
+              "quote": "Findings therefore suggest that RE may be considered a viable strategy to prevent generalized muscular weakness associated with aging."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Bones",
+      "paragraphs": [
+        {
+          "text": "The bone built in youth sets the starting point for bone health later in life. A US National Osteoporosis Foundation statement says that lifestyle shapes 20 to 40% of adult peak bone mass. It found the best evidence for calcium and physical activity, especially in late childhood and around puberty. That is one reason starting early helps.",
+          "cites": [
+            "x_strength_nof"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_strength_nof",
+              "quote": "Lifestyle choices influence 20-40 % of adult peak bone mass. Therefore, optimization of lifestyle factors known to influence peak bone mass and strength is an important strategy aimed at reducing risk of osteoporosis or low bone mass later in life."
+            },
+            {
+              "key": "x_strength_nof",
+              "quote": "The best evidence (grade A) is available for positive effects of calcium intake and physical activity, especially during the late childhood and peripubertal years-a critical period for bone accretion."
+            }
+          ]
+        },
+        {
+          "text": "Resistance training can still add some bone density in later adulthood. In 17 studies of women after menopause, lifting raised spine and hip density by small to moderate amounts. In 14 trials in adults aged 65 and over, hip density rose about 2.8%, but the spine change was not significant.",
+          "cites": [
+            "x_strength_shojaa",
+            "x_strength_obryan"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_shojaa",
+              "quote": "Seventeen articles with 20 exercise and 18 control groups were eligible. SMD average is 0.54 (95% CI 0.22-0.87) for LS-BMD, 0.22 (0.07-0.38) for FN-BMD, and 0.48 (0.22-0.75) for TH-BMD changes"
+            },
+            {
+              "key": "x_strength_shojaa",
+              "quote": "This work provided further evidence for significant, albeit only low-moderate, effects of DRT on LS-, FN-, and TH-BMD."
+            },
+            {
+              "key": "x_strength_obryan",
+              "quote": "Progressive resistance training increased muscle strength (∆ standardized mean difference = 1.1%; 95% confidence interval 0.73, 1.47; p ≤ 0.001) and femur/hip BMD (∆ mean difference = 2.77%; 95% confidence interval 0.44, 5.10; p = 0.02), but not BMD of the lumbar spine"
+            }
+          ]
+        },
+        {
+          "text": "Heavy lifting under supervision appeared safe for women with low bone mass in one Australian trial. In 101 women aged about 65, eight months of twice-weekly, 30-minute sessions at over 85% of maximum raised spine density by 2.9%, against a 1.2% loss with light home exercise. One minor adverse event, a lower back spasm, was reported.",
+          "cites": [
+            "x_strength_liftmor"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_liftmor",
+              "quote": "randomized to either 8 months of twice-weekly, 30-minute, supervised HiRIT (5 sets of 5 repetitions, >85% 1 repetition maximum) or a home-based, low-intensity exercise program (CON)."
+            },
+            {
+              "key": "x_strength_liftmor",
+              "quote": "HiRIT (n = 49) effects were superior to CON (n = 52) for lumbar spine (LS) BMD (2.9 ± 2.8% versus -1.2 ± 2.8%, p < 0.001)"
+            },
+            {
+              "key": "x_strength_liftmor",
+              "quote": "with only one adverse event reported (HiRIT: minor lower back spasm, 2/70 missed training sessions)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Falls",
+      "paragraphs": [
+        {
+          "text": "Falls kill hundreds of thousands of people a year, mostly older adults. The World Health Organization estimated about 842,000 fall deaths in 2023, 71% of them in people aged 60 and over. It names weak strength and poor balance among the risks and advises exercise that challenges balance and builds functional strength.",
+          "cites": [
+            "x_strength_whofalls"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_strength_whofalls",
+              "quote": "In 2023, WHO estimated there were approximately 842 000 deaths from falls worldwide."
+            },
+            {
+              "key": "x_strength_whofalls",
+              "quote": "About 71% of the estimated fall deaths in 2023 occurred among adults aged 60 years and older."
+            },
+            {
+              "key": "x_strength_whofalls",
+              "quote": "tailored exercises that challenge balance and improve functional strength"
+            }
+          ]
+        },
+        {
+          "text": "Exercise programmes cut falls in older people, and the best-supported ones pair balance work with strength work. A Cochrane review of 108 trials with 23,407 people found exercise lowered the rate of falls by 23%. Mixed balance, functional and resistance programmes probably cut falls by 34%; resistance training alone had an uncertain effect.",
+          "cites": [
+            "x_strength_sherrington"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_sherrington",
+              "quote": "We included 108 RCTs with 23,407 participants living in the community in 25 countries."
+            },
+            {
+              "key": "x_strength_sherrington",
+              "quote": "Exercise reduces the rate of falls by 23% (rate ratio (RaR) 0.77, 95% confidence interval (CI) 0.71 to 0.83; 12,981 participants, 59 studies; high-certainty evidence)."
+            },
+            {
+              "key": "x_strength_sherrington",
+              "quote": "Multiple types of exercise (most commonly balance and functional exercises plus resistance exercises) probably reduce the rate of falls by 34%"
+            },
+            {
+              "key": "x_strength_sherrington",
+              "quote": "We are uncertain of the effects of programmes that are primarily resistance training, or dance or walking programmes on the rate of falls and the number of people who experience falls."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Grip strength as a health signal",
+      "paragraphs": [
+        {
+          "text": "Grip strength, measured by squeezing a hand gauge, tracks with the risk of early death. In the PURE study of 139,691 adults in 17 countries, each 5 kg lower grip was linked with a 16% higher risk of death over about four years. Grip predicted death better than blood pressure but was not linked with falls or fractures.",
+          "cites": [
+            "x_strength_pure"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_pure",
+              "quote": "a total of 142,861 participants were enrolled in the PURE study, of whom 139,691 with known vital status were included in the analysis."
+            },
+            {
+              "key": "x_strength_pure",
+              "quote": "Grip strength was inversely associated with all-cause mortality (hazard ratio per 5 kg reduction in grip strength 1.16, 95% CI 1.13-1.20; p<0.0001)"
+            },
+            {
+              "key": "x_strength_pure",
+              "quote": "Grip strength was a stronger predictor of all-cause and cardiovascular mortality than systolic blood pressure. We found no significant association between grip strength and incident diabetes, risk of hospital admission for pneumonia or COPD, injury from fall, or fracture."
+            }
+          ]
+        },
+        {
+          "text": "Data from about 1.9 million adults point the same way. Across 38 cohort studies, higher grip strength was linked with a 31% lower risk of death, and stronger legs with a 14% lower risk. These are observational links, so they cannot show cause.",
+          "cites": [
+            "x_strength_garciahermoso"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_garciahermoso",
+              "quote": "Thirty-eight studies with 1,907,580 participants were included in the meta-analysis."
+            },
+            {
+              "key": "x_strength_garciahermoso",
+              "quote": "Higher levels of handgrip strength were associated with a reduced risk of all-cause mortality (HR=0.69; 95% CI, 0.64-0.74) compared with lower muscular strength"
+            },
+            {
+              "key": "x_strength_garciahermoso",
+              "quote": "adults with higher levels of muscular strength, as assessed by knee extension strength test, had a 14% lower risk of death (HR=0.86: 95% CI, 0.80-0.93; P<.001)"
+            }
+          ]
+        },
+        {
+          "text": "A strong grip may partly reflect body size and general health rather than training. In a Chinese cohort of 12,957 adults, grip relative to body weight predicted lower risk of type 2 diabetes, but grip in kilograms did not, and body fat helped explain the link. The PURE authors say it is still untested whether gaining strength lowers death rates.",
+          "cites": [
+            "x_strength_wu",
+            "x_strength_pure"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_wu",
+              "quote": "A total of 12,957 participants aged 40 years and older (mean age 51.0 years, 58.4% men) were followed"
+            },
+            {
+              "key": "x_strength_wu",
+              "quote": "relative HGS was inversely associated with T2DM (hazard ratio per 0.1 higher relative HGS 0.667, 95% confidence interval [CI] 0.616, 0.722). However, no significant association between absolute HGS and incident T2DM was found."
+            },
+            {
+              "key": "x_strength_wu",
+              "quote": "Adiposity was an important factor that mediates the association between HGS and T2DM."
+            },
+            {
+              "key": "x_strength_pure",
+              "quote": "Further research is needed to identify determinants of muscular strength and to test whether improvement in strength reduces mortality and cardiovascular disease."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Mood and anxiety",
+      "paragraphs": [
+        {
+          "text": "Resistance training eased symptoms of depression in randomised trials. A review of 33 trials with 1,877 adults found a moderate reduction in depressive symptoms. The benefit did not depend on training volume or on whether people got significantly stronger. Trials with blinded assessment showed smaller benefits.",
+          "cites": [
+            "x_strength_gordondep"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_gordondep",
+              "quote": "Fifty-four effects were derived from 33 randomized clinical trials involving 1877 participants. Resistance exercise training was associated with a significant reduction in depressive symptoms with a moderate-sized mean effect ∆ of 0.66 (95% CI, 0.48-0.83; z = 7.35; P < .001)."
+            },
+            {
+              "key": "x_strength_gordondep",
+              "quote": "Total volume of prescribed RET, participant health status, and strength improvements were not significantly associated with the antidepressant effect of RET. However, smaller reductions in depressive symptoms were derived from randomized clinical trials with blinded allocation and/or assessment."
+            }
+          ]
+        },
+        {
+          "text": "Lifting also eased anxiety a little in randomised trials. A review of 16 trials found a small drop in anxiety symptoms, larger in healthy people. A 2024 depression review found a benefit from strength training a little smaller than from walking or jogging, with very low confidence. Low mood that lasts for weeks calls for a doctor or therapist.",
+          "cites": [
+            "x_strength_gordonanx",
+            "noetel"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_gordonanx",
+              "quote": "Thirty-one effects were derived from 16 articles published before February 2017"
+            },
+            {
+              "key": "x_strength_gordonanx",
+              "quote": "RET significantly reduced anxiety symptoms (Δ = 0.31, 95% CI 0.17-0.44; z = 4.43; p < 0.001)."
+            },
+            {
+              "key": "x_strength_gordonanx",
+              "quote": "Larger effects were found among healthy participants (Δ = 0.50, 95% CI 0.22-0.78) compared to participants with a physical or mental illness (Δ = 0.19, 95% CI 0.06-0.31, z = 2.16, p < 0.04)."
+            },
+            {
+              "key": "noetel",
+              "quote": "218 studies, 14,170 people. Abstract states \"Exercise is an effective treatment for depression.\" Walking or jogging g = -0.62; strength training g = -0.49. Confidence low for walking or jogging, very low for the rest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Back pain, joints and daily tasks",
+      "paragraphs": [
+        {
+          "text": "Exercise eased long-lasting low back pain in many trials. A Cochrane review of 249 trials found that exercise cut pain by about 15 points on a 100-point scale compared with no treatment or usual care, with moderate certainty. The gain in daily function was smaller. Side effects were mostly minor, such as soreness.",
+          "cites": [
+            "x_strength_hayden"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_hayden",
+              "quote": "We found moderate-certainty evidence that exercise treatment is more effective for treatment of chronic low back pain compared to no treatment, usual care or placebo comparisons for pain outcomes at earliest follow-up (MD -15.2, 95% CI -18.3 to -12.2), a clinically important difference."
+            },
+            {
+              "key": "x_strength_hayden",
+              "quote": "The observed treatment effect for the exercise compared to no treatment, usual care or placebo comparisons is small for functional limitations"
+            },
+            {
+              "key": "x_strength_hayden",
+              "quote": "(mostly minor harms, e.g. muscle soreness)"
+            }
+          ]
+        },
+        {
+          "text": "In older adults, strength training made everyday movements easier and eased arthritis pain. A Cochrane review of 121 trials with 6,700 people found a large gain in strength, a moderate to large improvement in getting up from a chair and a modest rise in walking speed. In six trials of people with osteoarthritis, joint pain fell.",
+          "cites": [
+            "x_strength_liu"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_liu",
+              "quote": "One hundred and twenty one trials with 6700 participants were included."
+            },
+            {
+              "key": "x_strength_liu",
+              "quote": "there was a modest improvement in gait speed (24 trials, 1179 participants, MD 0.08 m/s, 95% CI 0.04 to 0.12); and a moderate to large effect for getting out of a chair (11 trials, 384 participants, SMD -0.94, 95% CI -1.49 to -0.38). PRT had a large positive effect on muscle strength"
+            },
+            {
+              "key": "x_strength_liu",
+              "quote": "Participants with osteoarthritis reported a reduction in pain following PRT(6 trials, 503 participants, SMD -0.30, 95% CI -0.48 to -0.13)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How fast strength comes and goes",
+      "paragraphs": [
+        {
+          "text": "Much of the strength gained in the first weeks comes from the nervous system learning to use muscle better. A 2021 review states that early increases in force are thought to come mainly from changes in the nerves that drive muscle. Exactly where these changes happen is still unclear.",
+          "cites": [
+            "x_strength_skarabot"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_strength_skarabot",
+              "quote": "The initial increases in force production with resistance training are thought to be primarily underpinned by neural adaptations."
+            },
+            {
+              "key": "x_strength_skarabot",
+              "quote": "however, the precise locus of neural adaptation remains elusive."
+            }
+          ]
+        },
+        {
+          "text": "Strength fades when training stops, and it fades more the longer the break. A review of 103 studies found losses in all measures of strength and power after training stopped. The losses were larger in people over 65 and, for maximal strength and power, larger in inactive people than in recreational athletes.",
+          "cites": [
+            "x_strength_bosquet"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_bosquet",
+              "quote": "Seven databases were searched from which 103 of 284 potential studies met inclusion criteria."
+            },
+            {
+              "key": "x_strength_bosquet",
+              "quote": "A dose-response relationship between the amplitude of SMD and the duration of training cessation was identified. The effect of resistance training cessation was found to be larger in older people (> 65 years old). The effect was also larger in inactive people for maximal force and maximal power when compared with recreational athletes."
+            }
+          ]
+        },
+        {
+          "text": "Some of the gain survives a break, and it returns quickly. In a Belgian study of 30 older men, 12 weeks of training raised leg strength by 10 to 36%, 12 weeks off lost 5 to 15%, and under eight weeks of retraining restored it. A small Norwegian study found extra muscle cell nuclei persisted after 16 weeks off, with unclear benefit.",
+          "cites": [
+            "x_strength_blocquiaux",
+            "x_strength_cumming"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_strength_blocquiaux",
+              "quote": "Resistance training increased knee extension strength and power parameters (+10 to +36%, p < .001)"
+            },
+            {
+              "key": "x_strength_blocquiaux",
+              "quote": "Detraining resulted in a modest loss of strength and power (-5 to -15%, p ≤ .004)"
+            },
+            {
+              "key": "x_strength_blocquiaux",
+              "quote": "Less than eight weeks of retraining were needed to reach the post-training level of one-repetition maximum strength."
+            },
+            {
+              "key": "x_strength_cumming",
+              "quote": "We show that myonuclear number is increased after strength training and maintained during de-training."
+            },
+            {
+              "key": "x_strength_cumming",
+              "quote": "Because of the unclear effect on the subsequent hypertrophy and muscle strength gain with re-training, the physiological benefit remains to be determined."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Differences and limits",
+      "paragraphs": [
+        {
+          "text": "Women and men gain muscle and leg strength at similar rates when they train the same way. A review of up to 23 studies in young and middle-aged adults found similar relative gains in muscle size and lower-body strength, and larger relative upper-body strength gains in women. Short study lengths may partly explain that difference.",
+          "cites": [
+            "x_strength_roberts"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_strength_roberts",
+              "quote": "We found that males and females adapted to resistance training with similar effect sizes for hypertrophy and lower-body strength, but females had a larger effect for relative upper-body strength."
+            },
+            {
+              "key": "x_strength_roberts",
+              "quote": "The analysis of lower-body strength comprised 23 outcomes from 23 studies with no significant difference between sexes"
+            },
+            {
+              "key": "x_strength_roberts",
+              "quote": "or are an artifact of the short duration of studies included."
+            }
+          ]
+        },
+        {
+          "text": "Japan's 2023 national activity guide advises muscle training on two to three days a week for adults and older people. For older people, it also advises activity that mixes several types of exercise on at least three days a week. The guide comes from Japan's health ministry and is summarised in a 2025 overview.",
+          "cites": [
+            "x_strength_sawada"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_strength_sawada",
+              "quote": "Recommends that adults and older people undertake muscle training 2 to 3 days/week"
+            },
+            {
+              "key": "x_strength_sawada",
+              "quote": "Recommendations for older people to undertake multicomponet physical activity at least 3 days/week."
+            }
+          ]
+        },
+        {
+          "text": "Most evidence linking strength with longer life comes from observational studies, which follow people over time. Such studies adjust for known differences between people but cannot rule out every other explanation. The PURE authors call for research on whether improving strength reduces deaths. The trials here show effects on strength, blood sugar, bone and mood, not lifespan.",
+          "cites": [
+            "x_strength_pure"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_strength_pure",
+              "quote": "Further research is needed to identify determinants of muscular strength and to test whether improvement in strength reduces mortality and cardiovascular disease."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "Exercise and GLUT4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32568924/",
+      "why_not": "Narrative review whose abstract gives no specific findings; the Cell Metabolism review makes the same point about exercise and insulin sensitivity more directly."
+    },
+    {
+      "title": "Physical Activity and Exercise Guide for Health Promotion 2023 (PDF, Ministry of Health, Labour and Welfare, Japan)",
+      "url": "https://www.mhlw.go.jp/content/001195869.pdf",
+      "why_not": "The PDF could not be read as text; the 2025 journal overview of the same guide was cited instead."
+    }
+  ]
+}

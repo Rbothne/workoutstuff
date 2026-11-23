@@ -1,0 +1,504 @@
+{
+  "id": "injury",
+  "sources": {
+    "x_injury_ioc": {
+      "title": "How much is too much? (Part 1) International Olympic Committee consensus statement on load in sport and risk of injury",
+      "publisher": "British Journal of Sports Medicine, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27535989/",
+      "kind": "authority",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "IOC expert group statement: emerging evidence indicates poor load management is a major risk factor for injury; load is defined broadly to include rapid changes in training and competition load, calendar congestion, psychological load and travel. Written for elite athletes."
+    },
+    "x_injury_gabbett": {
+      "title": "The training-injury prevention paradox: should athletes be training smarter and harder?",
+      "publisher": "British Journal of Sports Medicine, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26758673/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. Athletes accustomed to high training loads have fewer injuries; excessive and rapid increases in load are likely responsible for a large proportion of non-contact soft-tissue injuries; recommends appropriately graded prescription of high loads."
+    },
+    "x_injury_impellizzeri": {
+      "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+      "publisher": "International Journal of Sports Physiology and Performance, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32502973/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Critique concluding there is no evidence supporting use of the ACWR in load-management systems or training recommendations to reduce injury; the ratio is an inaccurate metric that adds noise and creates statistical artefacts."
+    },
+    "x_injury_acwrmeta": {
+      "title": "Acute:chronic workload ratio and load management for team sports: a multilevel meta-analysis",
+      "publisher": "Frontiers in Public Health, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42662491/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 studies, 797 team-sport athletes in the meta-analysis. Elevated ACWR had a small-to-moderate association with injury (g = 0.35) with substantial heterogeneity (I2 = 95.8%); not supported as a stand-alone causal or predictive model."
+    },
+    "x_injury_fifa11": {
+      "title": "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes",
+      "publisher": "British Journal of Sports Medicine, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28087568/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "6 cluster-randomised trials in recreational and subelite football. FIFA 11+ (4 studies) reduced overall injuries by 39% (IRR 0.61); FIFA 11 (2 studies) showed no reduction (IRR 0.99)."
+    },
+    "x_injury_steib": {
+      "title": "Dose-Response Relationship of Neuromuscular Training for Injury Prevention in Youth Athletes: A Meta-Analysis",
+      "publisher": "Frontiers in Physiology, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29184511/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 trials in athletes aged 21 or younger. Neuromuscular training cut lower-limb injury by 42% (IRR 0.58); two or three sessions a week worked best; 10 to 15 minute sessions were as effective as longer ones."
+    },
+    "x_injury_emery": {
+      "title": "Neuromuscular training injury prevention strategies in youth sport: a systematic review and meta-analysis",
+      "publisher": "British Journal of Sports Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26084526/",
+      "kind": "journal",
+      "country": "CA",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "25 studies; meta-analysis of randomised trials found neuromuscular training reduced lower-limb injury in youth sport (IRR 0.64); effective in numerous team sports."
+    },
+    "x_injury_fair": {
+      "title": "Prevention strategies for lower extremity injury: a systematic review and meta-analyses for the Female, woman and/or girl Athlete Injury pRevention (FAIR) consensus",
+      "publisher": "British Journal of Sports Medicine, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40645751/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "82 studies, 154,561 participants. Neuromuscular programmes of at least 10 minutes twice a week reduced ACL injuries in female athletes by 61% (high certainty) and all lower-limb injuries by 19% (low certainty)."
+    },
+    "x_injury_lauersen14": {
+      "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+      "publisher": "British Journal of Sports Medicine, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24100287/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "25 trials, 26,610 participants. Strength training RR 0.315, proprioception training RR 0.550, multiple exposures RR 0.655, stretching RR 0.963 (no effect)."
+    },
+    "x_injury_lauersen18": {
+      "title": "Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: a systematic review, qualitative analysis and meta-analysis",
+      "publisher": "British Journal of Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30131332/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "6 trials, 7,738 participants aged 12 to 40. RR 0.338; a 10% increase in strength training volume reduced injury risk by more than four percentage points; programmes were safe."
+    },
+    "x_injury_pope": {
+      "title": "A randomized trial of preexercise stretching for prevention of lower-limb injury",
+      "publisher": "Medicine and Science in Sports and Exercise, 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10694106/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,538 male army recruits, 12 weeks. One 20-second stretch for each of six leg muscle groups per warm-up had no significant effect on injury (HR 0.95). Fitness, age and enlistment date predicted injury; height, weight and BMI did not."
+    },
+    "x_injury_stretchmeta": {
+      "title": "How Effective is Stretching for Injury Prevention? A Large-Scale Systematic Review with Meta-analysis",
+      "publisher": "Sports Medicine, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43066902/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 studies, 9,002 people in the meta-analysis, over 80% male. No injury prevention effect of stretching (OR 0.945), including for muscle, tendon and ligament injuries; very low certainty; no study assessed acute effects."
+    },
+    "x_injury_magnusson": {
+      "title": "The impact of loading, unloading, ageing and injury on the human tendon",
+      "publisher": "Journal of Physiology, 2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6395417/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "page opened",
+      "says": "Narrative review. Adult human tendon is far less responsive to acute loading than small-animal tendon; 2 to 3 weeks of lower-limb immobilisation leads to an 80% reduction in collagen synthesis; 1 to 2 weeks of unloading reduces tendon stiffness."
+    },
+    "x_injury_rio15": {
+      "title": "Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy",
+      "publisher": "British Journal of Sports Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25979840/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "6 volleyball players with patellar tendinopathy, crossover. Isometric contractions reduced pain on the single-leg decline squat from 7.0 to 0.17 out of 10, sustained at 45 minutes; isotonic contractions reduced it from 6.33 to 3.75."
+    },
+    "x_injury_rio17": {
+      "title": "Isometric Contractions Are More Analgesic Than Isotonic Contractions for Patellar Tendon Pain: An In-Season Randomized Clinical Trial",
+      "publisher": "Clinical Journal of Sport Medicine, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27513733/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 in-season volleyball and basketball athletes, 4 weeks. Isometric contractions gave significantly greater immediate pain relief than isotonic; both protocols appeared to reduce pain."
+    },
+    "x_injury_kongsgaard": {
+      "title": "Corticosteroid injections, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19793213/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "39 men, 12 weeks. Improvements were kept at the half-year follow-up with eccentric and heavy slow resistance training but deteriorated after corticosteroid injections; heavy slow resistance had the highest satisfaction."
+    },
+    "x_injury_breda": {
+      "title": "Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial",
+      "publisher": "British Journal of Sports Medicine, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33219115/",
+      "kind": "journal",
+      "country": "NL",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "76 patients, mostly chronic. Progressive tendon-loading exercises improved VISA-P more than eccentric exercise at 24 weeks (28 vs 18 points); return to sport 43% vs 27% (not significant)."
+    },
+    "x_injury_cheung": {
+      "title": "Delayed onset muscle soreness: treatment strategies and performance factors",
+      "publisher": "Sports Medicine, 2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+      "kind": "journal",
+      "country": "NZ",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. DOMS is most prevalent at the start of a season and with new activities; eccentric activities cause more micro-injury; cryotherapy and stretching showed no effect on soreness; advises reducing intensity for 1 to 2 days and introducing novel exercise over 1 or 2 weeks."
+    },
+    "x_injury_sprague": {
+      "title": "Pain-guided activity modification during treatment for patellar tendinopathy: a feasibility and pilot randomized clinical trial",
+      "publisher": "Pilot and Feasibility Studies, 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7905015",
+      "kind": "journal",
+      "country": "US",
+      "how": "page opened",
+      "says": "Describes the pain-monitoring model: pain should not exceed 5/10 during or immediately after activity and should return to pre-activity levels by the following morning."
+    },
+    "x_injury_silbernagel": {
+      "title": "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study",
+      "publisher": "American Journal of Sports Medicine, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17307888/",
+      "kind": "journal",
+      "country": "SE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "38 patients with Achilles tendinopathy. Continuing running and jumping under a pain-monitoring model gave no difference in improvement compared with 6 weeks of active rest; no negative effects found."
+    },
+    "x_injury_sleepteen": {
+      "title": "Lack of Sleep and Sports Injuries in Adolescents: A Systematic Review and Meta-analysis",
+      "publisher": "Journal of Pediatric Orthopaedics, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30888337/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "7 studies. Adolescents who chronically slept poorly were more likely to be injured (OR 1.58); the effect of acute lack of sleep could not be determined."
+    },
+    "x_injury_sleepadult": {
+      "title": "The Association Between Poor Sleep and the Incidence of Sport and Physical Training-Related Injuries in Adult Athletic Populations: A Systematic Review",
+      "publisher": "Sports Medicine, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33560506/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 prospective cohort studies in adults. Limited evidence of an association; current evidence does not support poor sleep as an independent risk factor for injury; more prospective studies are needed."
+    },
+    "x_injury_vonrosen": {
+      "title": "Multiple factors explain injury risk in adolescent elite athletes: Applying a biopsychosocial perspective",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28207969/",
+      "kind": "journal",
+      "country": "SE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "496 adolescent elite athletes aged 15 to 19 in 16 sports, followed 52 weeks. Increasing training load and intensity while decreasing sleep gave HR 2.25 for injury, the strongest risk factor identified."
+    },
+    "x_injury_nhssprain": {
+      "title": "Sprains and strains",
+      "publisher": "NHS (UK National Health Service)",
+      "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "PRICE for the first 2 to 3 days; avoid heat, alcohol and massage; most sprains feel better after 2 weeks; avoid strenuous exercise such as running for up to 8 weeks; severe sprains can take months. Lists signs for 999/A&E, 111 and a GP."
+    },
+    "x_injury_vuurberg": {
+      "title": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
+      "publisher": "British Journal of Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29514819/",
+      "kind": "journal",
+      "country": "NL",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Dutch evidence-based guideline. Short immobilisation may relieve pain and swelling, but tape or a brace with an exercise programme benefits most; supervised exercise-based programmes preferred over passive modalities; surgery reserved for cases not responding to exercise-based treatment."
+    },
+    "x_injury_paass": {
+      "title": "Return to sport decisions after an acute lateral ankle sprain injury: introducing the PAASS framework, an international multidisciplinary consensus",
+      "publisher": "British Journal of Sports Medicine, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34158354/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Delphi consensus of 155 health professionals: return-to-sport decisions after ankle sprain should assess pain, ankle impairments, athlete perception, sensorimotor control and sport or functional performance."
+    },
+    "x_injury_nhsknee": {
+      "title": "Knee pain",
+      "publisher": "NHS (UK National Health Service)",
+      "url": "https://www.nhs.uk/symptoms/knee-pain/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "See a GP if knee pain does not improve within a few weeks; get advice from 111 if the knee is very painful or cannot bear weight; in many areas people can refer themselves to NHS musculoskeletal services such as physiotherapy without a GP referral."
+    }
+  },
+  "sections": [
+    {
+      "heading": "Sudden jumps in training",
+      "paragraphs": [
+        {
+          "text": "An International Olympic Committee expert group named poor load management as a major risk factor for injury in athletes. Load here covers rapid changes in training and competition, crowded schedules, psychological stress and travel. It was written for elite sport, not recreational play.",
+          "cites": ["x_injury_ioc"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_injury_ioc", "quote": "Emerging evidence indicates that poor load management is a major risk factor for injury. The International Olympic Committee convened an expert group to review the scientific evidence for the relationship of load (defined broadly to include rapid changes in training and competition load, competition calendar congestion, psychological load and travel)" }
+          ]
+        },
+        {
+          "text": "One influential review argues that hard training protects, and that sudden spikes are what cause harm. Its author wrote that excessive and rapid increases in load are likely behind a large share of non-contact soft-tissue injuries. He recommends building up to high loads in graded steps. This is a narrative review, so it proposes a model rather than testing one.",
+          "cites": ["x_injury_gabbett"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_gabbett", "quote": "a phenomenon whereby athletes accustomed to high training loads have fewer injuries than athletes training at lower workloads. ... Excessive and rapid increases in training loads are likely responsible for a large proportion of non-contact, soft-tissue injuries. ... The appropriately graded prescription of high training loads should improve players' fitness, which in turn may protect against injury" }
+          ]
+        },
+        {
+          "text": "The acute-to-chronic workload ratio, which compares recent training with a longer-term average, became the best-known way to spot spikes. A 2020 critique found no evidence supporting its use for training decisions aimed at reducing injury. The authors added that the ratio is an inaccurate measure that adds statistical noise.",
+          "cites": ["x_injury_impellizzeri"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_impellizzeri", "quote": "There is no evidence supporting the use of ACWR in training-load-management systems or for training recommendations aimed at reducing injury risk. The statistical properties of the ratio make the ACWR an inaccurate metric and complicate its interpretation for practical applications. In addition, it adds noise and creates statistical artifacts." }
+          ]
+        },
+        {
+          "text": "A 2026 meta-analysis of 16 studies with 797 team-sport athletes found a small-to-moderate link between a high acute-to-chronic ratio and injury. Results varied enormously from study to study. The authors concluded that the ratio should be read as one sign within a wider monitoring system, not as a stand-alone predictor of injury.",
+          "cites": ["x_injury_acwrmeta"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_acwrmeta", "quote": "16 studies involving 797 athletes were included in the meta-analysis. Elevated ACWR showed a small-to-moderate association with higher injury risk (g = 0.35; 95% CI, 0.16-0.54), with substantial heterogeneity (I2 = 95.8%). ... current evidence does not support its use as a stand-alone causal or predictive model. ACWR should be interpreted as a contextual monitoring indicator within individualized, multi-marker load-management systems." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Warm-ups that train balance and landing",
+      "paragraphs": [
+        {
+          "text": "In football, a structured warm-up called the FIFA 11+ reduced injuries by 39% when four trials were pooled. An earlier routine, the FIFA 11, showed no effect in two trials, so not every warm-up works. The trials were in recreational and sub-elite players.",
+          "cites": ["x_injury_fifa11"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_fifa11", "quote": "6 cluster-randomised controlled trials had assessed the effect of FIFA injury prevention programmes compared with controls on the overall football injury incidence in recreational/subelite football. ... the FIFA 11+ prevention programme which has a substantial injury-preventing effect by reducing football injuries by 39%, whereas a preventive effect of the FIFA 11 prevention programme could not be documented." }
+          ]
+        },
+        {
+          "text": "Short balance and strength sessions, two or three times a week, appear to be enough to lower leg injury risk. Pooling 16 trials in athletes aged 21 or under, one meta-analysis found 42% fewer leg injuries, and 10 to 15 minute sessions worked as well as longer ones. Another pooled analysis across youth team sports found a 36% reduction.",
+          "cites": ["x_injury_steib", "x_injury_emery"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_steib", "quote": "Data from 16 trials yielded an overall risk reduction of 42% with neuromuscular training (IRR = 0.58, 95%CI 0.47-0.72). Training frequencies of two (IRR = 0.50; 95%CI 0.29-0.86) or three times (IRR = 0.40; 95%CI 0.31-0.53) per week revealed the largest risk reduction ... Programs with 10-15 min (IRR = 0.55; 95%CI 0.42-0.72) session duration produced effects comparable to those with longer session duration" },
+            { "key": "x_injury_emery", "quote": "Meta-analysis revealed a combined preventative effect of neuromuscular training in reducing the risk of lower extremity injury (incidence rate ratio: IRR=0.64 (95% CI 0.49 to 0.84))." }
+          ]
+        },
+        {
+          "text": "For female athletes, these programmes show their clearest benefit for the knee. A 2025 review of 82 studies in female athletes found that balance, strength and agility programmes done for at least 10 minutes twice a week cut ACL injuries, tears of the main ligament inside the knee, by 61% with high certainty. For all leg injuries the reduction was 19%, with low certainty.",
+          "cites": ["x_injury_fair"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_fair", "quote": "NMT programmes, which include LE balance, strength, agility and change of direction exercises, with a minimum dose of 10 min two times per week, reduced female/woman/girl athletes' LE injuries by 19% (0.81, 95% CI 0.61% to 1.08%; low certainty evidence). ... NMT significantly reduced anterior cruciate ligament (ACL) injuries by 61% (0.39, 95% CI 0.25% to 0.60%; high certainty evidence)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Strength training as protection",
+      "paragraphs": [
+        {
+          "text": "Across 25 trials with 26,610 people, strength training showed the largest protective effect of any exercise type studied. It cut sports injuries to less than a third of the usual rate. Balance training reduced them by about 45%, programmes mixing several methods by about a third, and stretching made no difference.",
+          "cites": ["x_injury_lauersen14"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_lauersen14", "quote": "25 trials, including 26 610 participants with 3464 injuries, were analysed. ... no beneficial effect for stretching (RR 0.963 (0.846-1.095)), whereas studies with multiple exposures (RR 0.655 (0.520-0.826)), proprioception training (RR 0.550 (0.347-0.869)), and strength training (RR 0.315 (0.207-0.480)) showed a tendency towards increasing effect. ... Strength training reduced sports injuries to less than 1/3" }
+          ]
+        },
+        {
+          "text": "A later review of six strength-training trials, with 7,738 people aged 12 to 40, again found injury risk cut to about a third. More training brought more protection: each 10% rise in strength-training volume lowered injury risk by more than four percentage points.",
+          "cites": ["x_injury_lauersen18"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_lauersen18", "quote": "7738 participants aged 12-40 years were included ... Cluster-adjusted intention-to-treat analysis established RR 0.338 (0.238-0.480). ... A 10% increase in strength training volume reduced the risk of injury by more than four percentage points. ... had high compliance rates, were safe" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What stretching does not do",
+      "paragraphs": [
+        {
+          "text": "Stretching before exercise did not prevent injury in a large army trial. In Australia, 1,538 recruits either added a 20-second stretch for six leg muscle groups to every warm-up or did not, for 12 weeks. Injury rates were similar. Fitness and age predicted injury risk, while height, weight and BMI did not.",
+          "cites": ["x_injury_pope"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_injury_pope", "quote": "1538 male army recruits were randomly allocated to stretch or control groups. ... the stretch group performed one 20-s static stretch under supervision for each of six major leg muscle groups during every warm-up. ... There was no significant effect of preexercise stretching on all-injuries risk (hazard ratio [HR] = 0.95, 95% CI 0.77-1.18) ... Fitness (20-m progressive shuttle run test score), age, and enlistment date all significantly predicted injury risk (P < 0.01 for each), but height, weight, and body mass index did not." }
+          ]
+        },
+        {
+          "text": "A 2026 review pooled 15 studies with more than 9,000 people and found no effect of regular stretching on muscle, tendon or ligament injuries. Certainty was very low, and most participants were men. No study tested whether stretching just before activity changes injury risk.",
+          "cites": ["x_injury_stretchmeta"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_stretchmeta", "quote": "No injury prevention effect was detected for stretching versus all other comparators (k = 15, n = 9,002; OR = 0.945 ... Likewise, no injury prevention effect was found for muscle, tendon, and ligament/joint capsule injury risk ... GRADE denoted very low certainty of evidence for all outcomes except bone injury risk (low certainty). ... No study assessed the acute effects of stretching on injury risk. ... these conclusions apply mostly to male participants" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How tendons respond to load",
+      "paragraphs": [
+        {
+          "text": "Tendons, the cords that join muscle to bone, respond slowly to exercise in adults. A review found adult tendon far less responsive to single bouts of loading than animal tendon. Losing load works faster: two to three weeks of leg immobilisation cut collagen production by about 80%.",
+          "cites": ["x_injury_magnusson"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_magnusson", "quote": "This suggests that adult human tendon tissue is far less responsive than that of small animals ... will lead to an 80% reduction in synthesis rate of collagen ... rather short-term (1–2 weeks) limb unloading seems to significantly reduce the stiffness of the tendon" }
+          ]
+        },
+        {
+          "text": "Holding a muscle contraction without moving, called an isometric hold, can ease knee tendon pain for a while. In six volleyball players, one session of isometric contractions cut pain during a single-leg squat from about 7 to near 0 out of 10, for at least 45 minutes. A four-week trial in 20 athletes found holds gave more immediate relief than moving lifts.",
+          "cites": ["x_injury_rio15", "x_injury_rio17"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_rio15", "quote": "6 volleyball players with PT participated. Condition effects were detected with greater pain relief immediately from isometric contractions: isometric contractions reduced SLDS (mean±SD) from 7.0±2.04 to 0.17±0.41 ... A single resistance training bout of isometric contractions reduced tendon pain immediately for at least 45 min postintervention" },
+            { "key": "x_injury_rio17", "quote": "Twenty jumping athletes aged more than 16 years ... 4 times per week for 4 weeks. ... Isometric contractions produced significantly greater immediate analgesia (P < 0.002)." }
+          ]
+        },
+        {
+          "text": "For lasting relief from knee tendon pain, trials favour strength work that gets gradually heavier. In a Danish trial of 39 men with knee tendon pain, heavy slow lifting gave gains that held at six months, while steroid injections helped only briefly. In a Dutch trial of 76 patients, progressive tendon loading beat eccentric exercise at 24 weeks, yet only 43% were back in sport.",
+          "cites": ["x_injury_kongsgaard", "x_injury_breda"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_injury_kongsgaard", "quote": "Thirty-nine male patients were randomized to CORT, ECC or HSR for 12 weeks. ... VISA-p and VAS improvements were maintained at follow-up in ECC and HSR but deteriorated in CORT ... CORT has good short-term but poor long-term clinical effects, in patellar tendinopathy. HSR has good short- and long-term clinical effects" },
+            { "key": "x_injury_breda", "quote": "76 patients with clinically diagnosed and ultrasound-confirmed PT ... The improvement in VISA-P score was significantly better for PTLE than for EET after 24 weeks (28 vs 18 points ... There was a trend towards a higher return to sports rate in the PTLE group (43% vs 27%, p=0.13)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Soreness, pain and the next morning",
+      "paragraphs": [
+        {
+          "text": "Delayed muscle soreness is most common at the start of a season or after a new kind of exercise. Movements where the muscle lengthens under load cause more of it. A review advises easing off for a day or two after a hard session and bringing in new exercises over one or two weeks. Ice and stretching did not ease the soreness.",
+          "cites": ["x_injury_cheung"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_cheung", "quote": "DOMS is most prevalent at the beginning of the sporting season when athletes are returning to training following a period of reduced activity. DOMS is also common when athletes are first introduced to certain types of activities ... Eccentric activities induce micro-injury at a greater frequency and severity than other types of muscle actions. ... Cryotherapy, stretching, homeopathy, ultrasound and electrical current modalities have demonstrated no effect on the alleviation of muscle soreness ... reduce the intensity and duration of exercise for 1-2 days ... Eccentric exercises or novel activities should be introduced progressively over a period of 1 or 2 weeks" }
+          ]
+        },
+        {
+          "text": "Some rehabilitation programmes use a pain-monitoring rule instead of complete rest. Pain may reach 5 out of 10 during or just after activity, but should settle to its usual level by the next morning. In a Swedish trial of 38 people with Achilles tendon pain, those who kept running and jumping under this rule improved as much as those who stopped.",
+          "cites": ["x_injury_sprague", "x_injury_silbernagel"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_injury_sprague", "quote": "pain levels should not exceed a 5/10 on the numeric pain rating scale (NPRS) during or immediately after activity ... pain ratings should return to pre-activity levels by the following morning" },
+            { "key": "x_injury_silbernagel", "quote": "Thirty-eight patients with Achilles tendinopathy were randomly allocated to 2 different treatment groups. The exercise training group (n = 19) was allowed, with the use of a pain-monitoring model, to continue Achilles tendon-loading activity, such as running and jumping, whereas the active rest group (n = 19) had to stop such activities during the first 6 weeks. ... No significant differences in the rate of improvements were found between the groups." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Sleep and fatigue",
+      "paragraphs": [
+        {
+          "text": "In teenagers, chronic poor sleep goes with more sports injuries. A meta-analysis of seven studies found that adolescents who slept poorly over time had 58% higher odds of injury. The effect of a single bad night is not settled. These studies were observational, so they show a link and not a cause.",
+          "cites": ["x_injury_sleepteen"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_injury_sleepteen", "quote": "Of 907 identified articles, 7 met inclusion criteria. ... In our random effects model, adolescents who chronically slept poorly were more likely to be injured than those who slept well (OR, 1.58; 95% CI, 1.05-2.37; P=0.03). ... Current evidence cannot yet definitively determine the effect of acute lack of sleep on injury rates." }
+          ]
+        },
+        {
+          "text": "In adults, the evidence linking poor sleep to injury is limited. A review of 12 prospective cohort studies in adult athletes concluded that current evidence does not support poor sleep as an independent risk factor for injury. The authors called for better studies rather than ruling it out.",
+          "cites": ["x_injury_sleepadult"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_injury_sleepadult", "quote": "From our review of 12 prospective cohort studies, we found limited evidence supporting an association between poor sleep and injury in adult athletic populations. ... The current evidence does not support poor sleep as an independent risk factor for increased risk of sport or physical training-related injuries in adult athletic populations. ... more prospective studies are required" }
+          ]
+        },
+        {
+          "text": "More training combined with less sleep may matter more than either alone. Among 496 Swedish elite athletes aged 15 to 19 followed for a year, those whose training load and intensity rose while their sleep fell had 2.25 times the injury risk, the strongest factor found. Separately, an expert panel recommends seven or more hours of sleep a night for adults.",
+          "cites": ["x_injury_vonrosen", "aasm"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_injury_vonrosen", "quote": "A total of 496 adolescent elite athletes (age range 15-19), participating in 16 different sports, were monitored repeatedly over 52 weeks ... an increase in training load, training intensity, and at the same time decreasing the sleep volume resulted in a higher risk for injury compared to no change in these variables (HR 2.25, 95% CI, 1.46-3.45, P<.01), which was the strongest risk factor identified." },
+            { "key": "aasm", "quote": "Consensus of a 15-expert panel: adults should get seven or more hours of sleep a night." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Coming back from an ankle sprain",
+      "paragraphs": [
+        {
+          "text": "The NHS advises protection, rest, ice, compression and elevation for the first two to three days after a sprain, and avoiding heat, alcohol and massage. Most sprains feel better after two weeks. Strenuous exercise such as running may need to wait up to eight weeks, and severe sprains can take months.",
+          "cites": ["x_injury_nhssprain"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_injury_nhssprain", "quote": "For the first 2 to 3 days after a sprain or strain, follow the 5 steps known as PRICE therapy ... avoid heat (such as hot baths and heat packs), alcohol and massages ... After 2 weeks, most sprains and strains will feel better. ... Avoid strenuous exercise such as running for up to 8 weeks, as there's a risk of further damage. ... Severe sprains and strains can take months to get back to normal." }
+          ]
+        },
+        {
+          "text": "For ankle sprains, a Dutch evidence-based guideline prefers supervised exercise to passive treatments, because exercise helps restore the ankle's stability. After a torn ankle ligament, a short spell of immobilisation may ease pain and swelling, but tape or a brace combined with exercise helps most. Surgery is kept for ankles that do not respond to thorough exercise treatment.",
+          "cites": ["x_injury_vuurberg"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_injury_vuurberg", "quote": "even though a short time of immobilisation may be helpful in relieving pain and swelling, the patient with an acute lateral ankle ligament rupture benefits most from use of tape or a brace in combination with an exercise programme. ... supervised exercise-based programmes preferred over passive modalities as it stimulates the recovery of functional joint stability. Surgery should be reserved for cases that do not respond to thorough and comprehensive exercise-based treatment." }
+          ]
+        },
+        {
+          "text": "There were no guidelines for deciding when to play again after a sprain, so an international panel of 155 health professionals drew up a checklist. It covers pain during sport and over the past day, ankle movement and strength, confidence in the ankle, balance, and hopping, jumping, agility and finishing a full training session.",
+          "cites": ["x_injury_paass"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_injury_paass", "quote": "there are no guidelines to inform return to sport (RTS) decisions following acute lateral ankle sprain injuries. ... 155 globally diverse health professionals ... PAASS: Pain (during sport participation and over the last 24 hours), Ankle impairments (range of motion; muscle strength, endurance and power), Athlete perception (perceived ankle confidence/reassurance and stability; psychological readiness), Sensorimotor control (proprioception; dynamic postural control/balance), Sport/functional performance (hopping, jumping and agility; sport-specific drills; ability to complete a full training session)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "When to get it checked",
+      "paragraphs": [
+        {
+          "text": "Some signs after an injury need emergency care. The NHS lists hearing a crack, a limb that has changed shape or points at an odd angle, and numbness, tingling or skin that turns blue, grey or cold. It advises urgent advice if the injury is very painful, swelling keeps growing, or no weight can be put on it.",
+          "cites": ["x_injury_nhssprain"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_injury_nhssprain", "quote": "Call 999 or go to A&E immediately if you heard a crack when injured, the body part has changed shape or points at an odd angle, it's numb or tingling, or the skin has turned blue or grey or feels cold. ... Call 111 (or use 111 online) if the injury is very painful or getting worse, has increasing swelling or bruising, or you cannot put any weight on it." }
+          ]
+        },
+        {
+          "text": "Injuries that heal slowly also deserve a check. The NHS advises seeing a doctor if knee pain has not improved within a few weeks, or if a sprain is getting worse or not improving with self-care. In many areas of the UK, people can refer themselves to physiotherapy without seeing a doctor first.",
+          "cites": ["x_injury_nhsknee", "x_injury_nhssprain"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_injury_nhsknee", "quote": "See a GP if: knee pain does not improve within a few weeks ... In many areas you may be able to get help, such as physiotherapy, from NHS community musculoskeletal (MSK) services ... without needing a referral from a GP." },
+            { "key": "x_injury_nhssprain", "quote": "it's getting worse or not feeling better after treating it yourself." }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    { "title": "Acute to chronic workload ratio (ACWR) for predicting sports injury risk: a systematic review and meta-analysis (BMC Sports Science, Medicine and Rehabilitation, 2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/41029871/", "why_not": "Pools injury incidence from single-arm cohorts by ratio band, which is hard to interpret; the 2026 multilevel meta-analysis is cited instead." },
+    { "title": "A Meta-Analysis of Randomized Controlled Trials on the Effectiveness of Exercise Intervention in Preventing Sports Injuries (Cureus, 2022)", "url": "https://pubmed.ncbi.nlm.nih.gov/35875288/", "why_not": "The abstract misreads relative risks as percentage reductions (for example RR 0.54 reported as a 54% decrease), so its figures are not reliable." },
+    { "title": "Sleep, Stress, and Recovery as Predictors of Injury Risk in Soccer Players: A Systematic Review (Healthcare, 2026)", "url": "https://pubmed.ncbi.nlm.nih.gov/41595372/", "why_not": "Soccer only, mixes original studies and reviews, and gives no pooled figures; the adolescent meta-analysis and adult systematic review are cited instead." },
+    { "title": "Chronic lack of sleep is associated with increased sports injuries in adolescent athletes (Journal of Pediatric Orthopaedics, 2014)", "url": "https://pubmed.ncbi.nlm.nih.gov/25028798/", "why_not": "Small retrospective study of 112 school athletes; it is included in the 2019 meta-analysis that is cited." },
+    { "title": "Comprehensive warm-up programme to prevent injuries in young female footballers: cluster randomised controlled trial (BMJ, 2008)", "url": "https://pubmed.ncbi.nlm.nih.gov/19066253/", "why_not": "Holds up, but left out for length; its programme is part of the FIFA 11+ evidence pooled in the cited meta-analysis." },
+    { "title": "Patellar Tendinopathy: Clinical Diagnosis, Load Management, and Advice for Challenging Case Presentations (JOSPT, 2015)", "url": "https://pubmed.ncbi.nlm.nih.gov/26390269/", "why_not": "Narrative clinical review; held up but left out for length, since the trials cited cover the same loading advice." },
+    { "title": "The majority of patients with Achilles tendinopathy recover fully when treated with exercise alone: a 5-year follow-up (American Journal of Sports Medicine, 2011)", "url": "https://pubmed.ncbi.nlm.nih.gov/21084657/", "why_not": "Case series of 34 patients without a control group; left out for length in favour of the randomised trial of the pain-monitoring model." },
+    { "title": "Ankle Stability and Movement Coordination Impairments: Lateral Ankle Ligament Sprains Revision 2021 (JOSPT clinical practice guideline)", "url": "https://pubmed.ncbi.nlm.nih.gov/33789434/", "why_not": "The PubMed abstract contains no recommendations, and the full guideline at jospt.org refused the request (HTTP 403)." },
+    { "title": "Physiotherapy (NHS)", "url": "https://www.nhs.uk/tests-and-treatments/physiotherapy/", "why_not": "Opened; the self-referral point it makes is already covered by the cited NHS knee pain page." }
+  ]
+}

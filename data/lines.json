@@ -5,6 +5,16 @@
   "page": "eating"
  },
  {
+  "text": "Two sessions a week meets the guideline.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "If you have ever sprained an ankle, do balance work every week.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
   "by": "",
   "page": "energy"
@@ -15,9 +25,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Do some muscle-strengthening work twice a week. Thirty to sixty minutes in total is where the largest benefit was seen.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Count every volleyball night toward the 150 to 300 minutes of weekly activity the WHO recommends.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Aim for more steps than you take now. Benefit keeps rising up to about 8,000 to 10,000 a day for adults under 60.",
@@ -30,14 +50,14 @@
   "page": "eating"
  },
  {
-  "text": "If you have ever sprained an ankle, do balance work every week.",
-  "by": "",
-  "page": "injury"
- },
- {
-  "text": "Two sessions a week meets the guideline.",
+  "text": "Start small. Fewer than three sets per exercise is enough for the first 12 weeks.",
   "by": "",
   "page": "strength-training"
+ },
+ {
+  "text": "Practise soft, quiet landings before you add more jumping.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Break up long sitting with a few minutes of walking each hour.",
@@ -50,9 +70,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "If twice is too much, do one short session. Beginners still get stronger.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Expect slow change. One to two pounds a week is the pace most likely to last.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Protect your ankles with weekly balance work, most of all if you have sprained one before.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
@@ -60,19 +90,9 @@
   "page": "walking"
  },
  {
-  "text": "Count every volleyball night toward the 150 to 300 minutes of weekly activity the WHO recommends.",
-  "by": "",
-  "page": "volleyball"
- },
- {
   "text": "Start at the weight you are now. Body weight was not linked to climbing overuse injuries.",
   "by": "",
   "page": "climbing"
- },
- {
-  "text": "Do some muscle-strengthening work twice a week. Thirty to sixty minutes in total is where the largest benefit was seen.",
-  "by": "",
-  "page": "strength"
  },
  {
   "text": "Give a new habit about two months before you judge whether it has stuck.",
@@ -85,6 +105,16 @@
   "page": "eating"
  },
  {
+  "text": "Lift on whichever days work. Packing your activity into one or two days is as good for long-term health as spreading it out.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "When climbing, build up slowly and use an open hand where you can instead of a hard crimp.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Protect seven or more hours of sleep a night.",
   "by": "",
   "page": "energy"
@@ -95,9 +125,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Lift for strength and long-term health, and do not expect it to burn many calories.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Choose changes you could still be doing a year from now.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "For a higher jump, a small amount of jump training works. Keep it small, because volleyball is already a lot of jumping.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Use short walks to break up long stretches of sitting.",
@@ -110,6 +150,16 @@
   "page": "eating"
  },
  {
+  "text": "While losing weight, keep lifting and eat protein at each meal to hold on to muscle.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "Treat falling as a skill. Most bouldering fall injuries are to the legs and ankles.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
   "by": "",
   "page": "energy"
@@ -120,9 +170,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "If you are losing weight, keep lifting so that you lose fat and keep muscle.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Treat BMI as a rough screen, not a verdict on your health.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Take pain just below the kneecap seriously early. It is the sport's commonest overuse problem.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "On a low day, a walk is a legitimate tool for mood.",
@@ -135,14 +195,14 @@
   "page": "eating"
  },
  {
-  "text": "Practise soft, quiet landings before you add more jumping.",
-  "by": "",
-  "page": "injury"
- },
- {
-  "text": "Start small. Fewer than three sets per exercise is enough for the first 12 weeks.",
+  "text": "For beginners, one weekly session with fewer than three sets per multi-joint exercise, at loads under half of your maximum, is enough to gain strength for at least the first 12 weeks.",
   "by": "",
   "page": "strength-training"
+ },
+ {
+  "text": "Ankle sprains are the commonest acute volleyball injury, and up to 80% happen to an ankle that was sprained before.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
@@ -155,9 +215,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Across 16 cohort studies, people who did muscle-strengthening activity had a 10 to 17% lower risk of early death, heart disease, cancer and diabetes.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Health data on volleyball itself is thin.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Use a step counter if you like having one. It helps a little.",
@@ -170,14 +240,19 @@
   "page": "eating"
  },
  {
-  "text": "Protect your ankles with weekly balance work, most of all if you have sprained one before.",
+  "text": "The largest reduction in risk of early death was seen at about 30 to 60 minutes of muscle-strengthening activity a week.",
   "by": "",
-  "page": "volleyball"
+  "page": "strength-training"
  },
  {
   "text": "Climb easy routes often before you climb hard ones. Intensity and bouldering are where injury risk rises.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "In a trial across 116 volleyball teams, balance-board training reduced ankle sprains, and the benefit was significant only for players who had sprained an ankle before.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter.",
@@ -195,7 +270,7 @@
   "page": "sleep-appetite"
  },
  {
-  "text": "If twice is too much, do one short session. Beginners still get stronger.",
+  "text": "During weight loss, resistance training prevented about 93% of the muscle loss that dieting alone caused.",
   "by": "",
   "page": "strength"
  },
@@ -210,9 +285,24 @@
   "page": "habits"
  },
  {
+  "text": "What can be said is that volleyball counts as activity.",
+  "by": "",
+  "page": "volleyball"
+ },
+ {
   "text": "In 15 cohorts with 47,471 adults, taking more steps was linked to a lower risk of death, levelling off at 8,000 to 10,000 steps a day for adults under 60 and 6,000 to 8,000 for those 60 and over.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it out.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "Pooled across 17 studies, balance training cut the risk of an ankle sprain by about 40%, and by about half in people with a previous sprain.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
@@ -230,9 +320,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Resistance training does not add to weight loss, but it may increase lean mass and fat loss and is associated with lower health risk.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Compared with the least active quarter of people, who took about 3,600 steps a day, the next quarter at about 5,800 steps had a 40% lower risk of death.",
@@ -240,14 +340,14 @@
   "page": "walking"
  },
  {
-  "text": "When climbing, build up slowly and use an open hand where you can instead of a hard crimp.",
-  "by": "",
-  "page": "injury"
- },
- {
-  "text": "Lift on whichever days work. Packing your activity into one or two days is as good for long-term health as spreading it out.",
+  "text": "Resistance training does not enhance weight loss, though it may increase lean mass and fat loss.",
   "by": "",
   "page": "strength-training"
+ },
+ {
+  "text": "For preventing a repeat sprain, an overview of 46 reviews found strong evidence for bracing and moderate evidence for balance and control training.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Fish is in, and red and processed meat is limited.",
@@ -265,14 +365,34 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "A kilogram of muscle at rest uses about 13 kcal a day.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Five years after a structured weight-loss programme, the average person had kept off about 3 kg.",
   "by": "",
   "page": "weight"
  },
  {
+  "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before.",
+  "by": "",
+  "page": "volleyball"
+ },
+ {
   "text": "A five-minute walk each hour raised energy and mood and lowered fatigue in a small trial of sedentary adults.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "In older adults with obesity, lifting while dieting prevented about 93% of the muscle loss that dieting alone caused.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
+  "text": "Volleyball injury reviews recommend landing technique and balance training as the main prevention measures.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "They also advise on how to eat, not only what.",
@@ -285,14 +405,14 @@
   "page": "energy"
  },
  {
-  "text": "For a higher jump, a small amount of jump training works. Keep it small, because volleyball is already a lot of jumping.",
-  "by": "",
-  "page": "volleyball"
- },
- {
   "text": "Use an open hand where you can and save hard crimping.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "In 24 weight-loss trials, higher-protein diets kept about 0.4 kg more lean mass and lost about 0.9 kg more fat than standard-protein diets.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Other pooled studies point the same way, with a small rise in ghrelin, a hormone that drives hunger.",
@@ -300,9 +420,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Across sports, balance training lowers ankle sprain risk by about 40%.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking or jogging was among the most effective forms of exercise for depression across 218 trials, with low confidence in the exact size of the effect.",
@@ -315,9 +445,9 @@
   "page": "eating"
  },
  {
-  "text": "Lift for strength and long-term health, and do not expect it to burn many calories.",
+  "text": "Jump training does raise vertical jump in volleyball players, across 14 trials.",
   "by": "",
-  "page": "strength"
+  "page": "injury"
  },
  {
   "text": "Track with one tap and look back once a week. Very few people keep up detailed logging.",
@@ -330,6 +460,11 @@
   "page": "energy"
  },
  {
+  "text": "Adults are advised to do muscle-strengthening activity on two days a week.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Germany leans furthest toward plants, adding legumes at least weekly, a small handful of nuts daily and whole grains.",
   "by": "",
   "page": "eating"
@@ -340,9 +475,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Skeletal muscle is the main tissue that clears sugar from the blood when insulin acts.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "People who lose about one to two pounds a week are more likely to keep it off, and even modest loss can improve blood pressure, cholesterol and blood sugar.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Knee and shoulder complaints are part of the sport for many players.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Apps and activity trackers raise activity by about 1,850 steps a day on average across 28 trials.",
@@ -350,19 +495,19 @@
   "page": "walking"
  },
  {
-  "text": "Treat falling as a skill. Most bouldering fall injuries are to the legs and ankles.",
+  "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "While losing weight, keep lifting and eat protein at each meal to hold on to muscle.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "A single bout of exercise changes several brain chemicals linked to mood and alertness.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "Light loads working at first is expected.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Every one of these food guides also includes physical activity.",
@@ -375,9 +520,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "More muscle relative to body size goes with better blood sugar control in a large US survey.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Regaining some weight is the usual outcome, as the five-year figure shows.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Volleyball is a game of repeated jumps and landings.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.",
@@ -385,9 +540,19 @@
   "page": "walking"
  },
  {
+  "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "In Japan, 79,594 adults were followed for about 15 years.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "More weekly sets build more muscle, but each extra set adds less than the one before.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Active adults are less likely to report low energy, but the reason is not settled.",
@@ -395,9 +560,19 @@
   "page": "energy"
  },
  {
+  "text": "An International Olympic Committee expert group named poor load management as a major risk factor for injury in athletes.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Sleeping longer reduced intake in a trial of people who usually slept too little.",
   "by": "",
   "page": "sleep-appetite"
+ },
+ {
+  "text": "In people with type 2 diabetes, resistance training lowers HbA1c, a blood marker of average blood sugar over recent months.",
+  "by": "",
+  "page": "strength"
  },
  {
   "text": "Hunger can stay raised long after a diet ends.",
@@ -405,14 +580,14 @@
   "page": "weight"
  },
  {
+  "text": "Setters on one professional team averaged 121 jumps per training session.",
+  "by": "",
+  "page": "volleyball"
+ },
+ {
   "text": "The WHO guideline says some physical activity is better than none.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "Take pain just below the kneecap seriously early. It is the sport's commonest overuse problem.",
-  "by": "",
-  "page": "volleyball"
  },
  {
   "text": "Climb down when you can, and keep your ankles strong for the falls you do not choose.",
@@ -425,19 +600,19 @@
   "page": "eating"
  },
  {
+  "text": "The American College of Sports Medicine's 2026 position stand lists what most helps strength.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Pooled trials suggest regular exercise lifts energy on average, though expectation may explain part of it.",
   "by": "",
   "page": "energy"
  },
  {
-  "text": "Ankle sprains are the commonest acute volleyball injury, and up to 80% happen to an ankle that was sprained before.",
+  "text": "One influential review argues that hard training protects, and that sudden spikes are what cause harm.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "For beginners, one weekly session with fewer than three sets per multi-joint exercise, at loads under half of your maximum, is enough to gain strength for at least the first 12 weeks.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "Going to bed and getting up at consistent times may matter as much as total sleep.",
@@ -445,9 +620,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Sarcopenia is the medical name for the loss of muscle strength and mass that comes with age.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Appetite appears to push back harder than metabolism does.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "In young elite players, more volleyball went with more jumper's knee.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "A brisk walk is one where talking is easy but singing is not.",
@@ -460,14 +645,14 @@
   "page": "eating"
  },
  {
-  "text": "If you are losing weight, keep lifting so that you lose fat and keep muscle.",
-  "by": "",
-  "page": "strength"
- },
- {
   "text": "Choose activity that feels good while you are doing it.",
   "by": "",
   "page": "habits"
+ },
+ {
+  "text": "Light weights build as much muscle as heavy ones when sets are taken to failure.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Sleepiness and fatigue are related but separate states, even though both are often just called tired.",
@@ -475,14 +660,29 @@
   "page": "energy"
  },
  {
+  "text": "The acute-to-chronic workload ratio, which compares recent training with a longer-term average, became the best-known way to spot spikes.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "A US expert panel agreed that regular sleep timing is important for health, safety and performance.",
   "by": "",
   "page": "sleep-appetite"
  },
  {
+  "text": "Strength fades faster than muscle size in later life.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "The idea of a permanently damaged metabolism is not well supported.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "In adult professional players, a link between jump load and knee pain has not been confirmed.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking faster is linked to lower risk of death.",
@@ -495,9 +695,19 @@
   "page": "eating"
  },
  {
+  "text": "Sets of more than 15 repetitions built as much muscle as heavy sets in a 2021 review of 28 studies.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "A dip in alertness in the mid-afternoon is normal and has roots in the body clock.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "A 2026 meta-analysis of 16 studies with 797 team-sport athletes found a small-to-moderate link between a high acute-to-chronic ratio and injury.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt.",
@@ -510,9 +720,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Older muscles still respond well to training.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Waist size adds information that the scale cannot.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "How a player lands may matter for the knee tendon.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Whether pace matters beyond step count is not settled.",
@@ -520,9 +740,9 @@
   "page": "walking"
  },
  {
-  "text": "Health data on volleyball itself is thin.",
+  "text": "Training to failure is not needed to gain strength or muscle.",
   "by": "",
-  "page": "volleyball"
+  "page": "strength-training"
  },
  {
   "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
@@ -535,14 +755,9 @@
   "page": "energy"
  },
  {
-  "text": "In a trial across 116 volleyball teams, balance-board training reduced ankle sprains, and the benefit was significant only for players who had sprained an ankle before.",
+  "text": "In football, a structured warm-up called the FIFA 11+ reduced injuries by 39% when four trials were pooled.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "The largest reduction in risk of early death was seen at about 30 to 60 minutes of muscle-strengthening activity a week.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "The health evidence on grains concerns whole grains.",
@@ -555,9 +770,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "The bone built in youth sets the starting point for bone health later in life.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Waist measured against height picks out health risk better than BMI does.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Most ACL injuries in volleyball happen without contact, usually when landing from a spike.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "A walk soon after a meal blunts the rise in blood sugar that follows it.",
@@ -565,9 +790,19 @@
   "page": "walking"
  },
  {
+  "text": "Finishing sets nearer to failure may matter a little more for muscle size than for strength.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Long daily sitting is linked to a higher risk of early death, mainly in people who are not very active.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "Short balance and strength sessions, two or three times a week, appear to be enough to lower leg injury risk.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Beans, lentils and chickpeas are filling.",
@@ -580,7 +815,7 @@
   "page": "sleep-appetite"
  },
  {
-  "text": "Across 16 cohort studies, people who did muscle-strengthening activity had a 10 to 17% lower risk of early death, heart disease, cancer and diabetes.",
+  "text": "Resistance training can still add some bone density in later adulthood.",
   "by": "",
   "page": "strength"
  },
@@ -595,6 +830,16 @@
   "page": "habits"
  },
  {
+  "text": "Shoulder pain is common among competitive volleyball players, though estimates depend on how it is defined.",
+  "by": "",
+  "page": "volleyball"
+ },
+ {
+  "text": "The NHS gives a simple test of effort that needs no counting.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Enough daily activity appears to cancel out the risk linked to sitting.",
   "by": "",
   "page": "walking"
@@ -605,9 +850,19 @@
   "page": "eating"
  },
  {
+  "text": "For female athletes, these programmes show their clearest benefit for the knee.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Breaking up sitting with short bouts of activity improves how the body handles a meal.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "How many days a week a muscle is trained matters little once weekly sets are the same.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Blue-light-filtering glasses have not been shown to improve sleep.",
@@ -615,9 +870,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Heavy lifting under supervision appeared safe for women with low bone mass in one Australian trial.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Being fit appears to offset much of the risk linked to a higher weight.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Hitters and jump servers report more shoulder trouble than other players.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Short walking breaks during a long sit lower blood sugar and insulin after meals.",
@@ -630,14 +895,9 @@
   "page": "eating"
  },
  {
-  "text": "Pooled across 17 studies, balance training cut the risk of an ankle sprain by about 40%, and by about half in people with a previous sprain.",
+  "text": "Across 25 trials with 26,610 people, strength training showed the largest protective effect of any exercise type studied.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it out.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "Changing the desk setup can cut sitting time, though the evidence is of low quality.",
@@ -645,14 +905,14 @@
   "page": "energy"
  },
  {
-  "text": "What can be said is that volleyball counts as activity.",
-  "by": "",
-  "page": "volleyball"
- },
- {
   "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "Resting a little over a minute between sets may build slightly more muscle than very short rests.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Eating the same food later in the day raised hunger in a tightly controlled trial.",
@@ -660,9 +920,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Falls kill hundreds of thousands of people a year, mostly older adults.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Exercise can change the body even when the scale does not move.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "In volleyball, a trial of a shoulder warm-up measured fitness rather than injuries.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Japan's 2023 national guide sets walking as the everyday benchmark.",
@@ -675,9 +945,19 @@
   "page": "eating"
  },
  {
+  "text": "A later review of six strength-training trials, with 7,738 people aged 12 to 40, again found injury risk cut to about a third.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Light is the strongest signal for the body clock, which times sleepiness and alertness.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "Gradual progress is the core advice, while many popular details matter less.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Trials point the same way but leave the reason open.",
@@ -690,9 +970,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Exercise programmes cut falls in older people, and the best-supported ones pair balance work with strength work.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Weight still matters, modestly in the overweight range.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "At the top level, volleyball has a low injury rate for a team sport.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking eases symptoms of depression and anxiety.",
@@ -700,14 +990,19 @@
   "page": "walking"
  },
  {
+  "text": "Stretching before exercise did not prevent injury in a large army trial.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "People who spend more daylight hours outdoors report less tiredness.",
   "by": "",
   "page": "energy"
  },
  {
-  "text": "During weight loss, resistance training prevented about 93% of the muscle loss that dieting alone caused.",
+  "text": "Adding repetitions works about as well as adding weight.",
   "by": "",
-  "page": "strength"
+  "page": "strength-training"
  },
  {
   "text": "People who feel better during moderate exercise are more likely to be active later.",
@@ -725,9 +1020,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Grip strength, measured by squeezing a hand gauge, tracks with the risk of early death.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "A plateau at about six months is the usual pattern in weight-loss trials.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "One large Dutch trial gives a picture of injury rates in recreational adult play.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "A walk may help when stuck on a problem.",
@@ -735,14 +1040,9 @@
   "page": "walking"
  },
  {
-  "text": "For preventing a repeat sprain, an overview of 46 reviews found strong evidence for bracing and moderate evidence for balance and control training.",
+  "text": "A 2026 review pooled 15 studies with more than 9,000 people and found no effect of regular stretching on muscle, tendon or ligament injuries.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "Resistance training does not enhance weight loss, though it may increase lean mass and fat loss.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "Bright light during the day can raise alertness within the same session.",
@@ -750,14 +1050,14 @@
   "page": "energy"
  },
  {
+  "text": "Push-ups built chest muscle and pressing strength as well as a light bench press in a small Japanese trial.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Sugary drinks are linked to weight gain in cohorts and trials.",
   "by": "",
   "page": "eating"
- },
- {
-  "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
-  "by": "",
-  "page": "volleyball"
  },
  {
   "text": "Overuse injuries in climbers were linked to higher intensity, bouldering, weak grip or fingers, the crimp grip and previous injury.",
@@ -770,9 +1070,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Data from about 1.9 million adults point the same way.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Losing weight slowly may not protect against regain as much as is often said.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Blocking is a common source of finger injuries.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "More daily steps go with lower risk of dementia and depression over time.",
@@ -780,9 +1090,19 @@
   "page": "walking"
  },
  {
+  "text": "Tendons, the cords that join muscle to bone, respond slowly to exercise in adults.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Caffeine raises alertness, but its effect on sleep can last into the night.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "Elastic bands produced strength gains similar to weight machines and dumbbells.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Diet drinks and juice are not simple swaps.",
@@ -790,14 +1110,29 @@
   "page": "eating"
  },
  {
+  "text": "Holding a muscle contraction without moving, called an isometric hold, can ease knee tendon pain for a while.",
+  "by": "",
+  "page": "injury"
+ },
+ {
   "text": "Alcohol can help people drop off, but sleep later in the night suffers.",
   "by": "",
   "page": "sleep-appetite"
  },
  {
+  "text": "A strong grip may partly reflect body size and general health rather than training.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "A typical finger injury happens when the ball strikes the fingertips at the block.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking alone moves the scale only a little.",
@@ -810,19 +1145,19 @@
   "page": "eating"
  },
  {
+  "text": "Muscle soreness after training is most common after a break or when an exercise is new.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Pooled studies show that caffeine shortens sleep and makes it lighter.",
   "by": "",
   "page": "energy"
  },
  {
-  "text": "Volleyball injury reviews recommend landing technique and balance training as the main prevention measures.",
+  "text": "For lasting relief from knee tendon pain, trials favour strength work that gets gradually heavier.",
   "by": "",
   "page": "injury"
- },
- {
-  "text": "In older adults with obesity, lifting while dieting prevented about 93% of the muscle loss that dieting alone caused.",
-  "by": "",
-  "page": "strength-training"
  },
  {
   "text": "Stress tends to tilt eating toward less healthy food, though the effect is small.",
@@ -830,9 +1165,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Resistance training eased symptoms of depression in randomised trials.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Stress nudges eating and weight, but only slightly on average.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Casual volleyball counts as moderate activity and competitive indoor play as vigorous.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking improves health markers that the scale does not show.",
@@ -845,19 +1190,24 @@
   "page": "eating"
  },
  {
+  "text": "Soreness usually drops the second time the same exercise is done.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Even caffeine taken 6 hours before bed can disturb sleep.",
   "by": "",
   "page": "energy"
  },
  {
-  "text": "Resistance training does not add to weight loss, but it may increase lean mass and fat loss and is associated with lower health risk.",
-  "by": "",
-  "page": "strength"
- },
- {
   "text": "Across 66 studies, doing exercise for your own reasons, because you enjoy or value it, was consistently linked to exercising more.",
   "by": "",
   "page": "habits"
+ },
+ {
+  "text": "Delayed muscle soreness is most common at the start of a season or after a new kind of exercise.",
+  "by": "",
+  "page": "injury"
  },
  {
   "text": "Eating while distracted leads to eating more, both then and later.",
@@ -870,9 +1220,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Lifting also eased anxiety a little in randomised trials.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Eating late in the day may itself raise hunger.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Much of a volleyball match is played at modest heart rates.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Regular walking helped keep low back pain from coming back in a large trial.",
@@ -880,14 +1240,14 @@
   "page": "walking"
  },
  {
+  "text": "Soreness is not a sign that a session built more muscle.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Losing water through sweat can dull attention, especially beyond about 2% of body weight.",
   "by": "",
   "page": "energy"
- },
- {
-  "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before.",
-  "by": "",
-  "page": "volleyball"
  },
  {
   "text": "In bouldering, falls mostly injure the legs: 67% of fall injuries in one survey were to the lower limb, most often an ankle sprain, and 85% of the falls were unplanned.",
@@ -900,14 +1260,34 @@
   "page": "eating"
  },
  {
+  "text": "Some rehabilitation programmes use a pain-monitoring rule instead of complete rest.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "Weight-training sports appear to have relatively low injury rates compared with common team sports.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Snacks placed farther away get eaten less.",
   "by": "",
   "page": "sleep-appetite"
  },
  {
+  "text": "Exercise eased long-lasting low back pain in many trials.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Overeating that feels out of control is a reason to get professional help.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Shorter breaks between rallies made the game a better workout in one small trial.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking does not appear to wear out arthritic knees.",
@@ -925,12 +1305,12 @@
   "page": "eating"
  },
  {
-  "text": "Jump training does raise vertical jump in volleyball players, across 14 trials.",
+  "text": "In teenagers, chronic poor sleep goes with more sports injuries.",
   "by": "",
   "page": "injury"
  },
  {
-  "text": "In 24 weight-loss trials, higher-protein diets kept about 0.4 kg more lean mass and lost about 0.9 kg more fat than standard-protein diets.",
+  "text": "Many weight-training injuries seen in US emergency rooms came from dropped weights rather than the lift itself.",
   "by": "",
   "page": "strength-training"
  },
@@ -940,9 +1320,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "In older adults, strength training made everyday movements easier and eased arthritis pain.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Keeping weight off for years is possible, and it goes with keeping habits up.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "People who play team sports report fewer bad mental health days.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "With a sore back, the NHS advises staying active and keeping up daily activities, and lists walking among activities that may help.",
@@ -960,12 +1350,22 @@
   "page": "eating"
  },
  {
+  "text": "In adults, the evidence linking poor sleep to injury is limited.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "Nordic nutrition advice puts adult protein needs at about 0.83 g per kg of body weight a day.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Binge eating disorder also tends to involve eating very fast, past fullness and alone.",
   "by": "",
   "page": "sleep-appetite"
  },
  {
-  "text": "A kilogram of muscle at rest uses about 13 kcal a day.",
+  "text": "Much of the strength gained in the first weeks comes from the nervous system learning to use muscle better.",
   "by": "",
   "page": "strength"
  },
@@ -978,6 +1378,11 @@
   "text": "Habits take longer than the popular 21 days.",
   "by": "",
   "page": "habits"
+ },
+ {
+  "text": "Reviews of adult sport also link team play with better mental health.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Watches count steps fairly well, but their calorie numbers are unreliable.",
@@ -995,14 +1400,19 @@
   "page": "energy"
  },
  {
-  "text": "Across sports, balance training lowers ankle sprain risk by about 40%.",
+  "text": "More training combined with less sleep may matter more than either alone.",
   "by": "",
-  "page": "volleyball"
+  "page": "injury"
  },
  {
   "text": "Balance training lowers ankle sprain risk by about 40% across sports, which matters for landing falls as much as for volleyball.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "Extra protein gives training a modest boost that levels off.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Longer trials suggest a small benefit from eating earlier in the day.",
@@ -1015,9 +1425,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Strength fades when training stops, and it fades more the longer the break.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "The evidence that yo-yo dieting harms metabolism is thin.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Trials of team sport for mental health are few and mixed.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "A phone only counts the steps it is carried for.",
@@ -1030,12 +1450,12 @@
   "page": "energy"
  },
  {
-  "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury.",
+  "text": "The NHS advises protection, rest, ice, compression and elevation for the first two to three days after a sprain, and avoiding heat, alcohol and massage.",
   "by": "",
   "page": "injury"
  },
  {
-  "text": "Adults are advised to do muscle-strengthening activity on two days a week.",
+  "text": "Strength training lowered sports injuries in randomised trials.",
   "by": "",
   "page": "strength-training"
  },
@@ -1050,9 +1470,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Some of the gain survives a break, and it returns quickly.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Large swings in weight are linked to worse outcomes, but cause is not shown.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Jump training raises jump height in healthy people.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking with other people has been tested and appears to help.",
@@ -1065,6 +1495,16 @@
   "page": "energy"
  },
  {
+  "text": "For ankle sprains, a Dutch evidence-based guideline prefers supervised exercise to passive treatments, because exercise helps restore the ankle's stability.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "Combining lifting with other training does not blunt gains in muscle or maximal strength, but may blunt explosive strength.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "The Mediterranean diet has been tested in a large randomised trial.",
   "by": "",
   "page": "eating"
@@ -1075,9 +1515,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Women and men gain muscle and leg strength at similar rates when they train the same way.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "Shame about weight is linked to less healthy behaviour, not more.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Jump training programmes of more than 10 weeks and 20 sessions gave the best chance of clear gains.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking as transport and a few active days both count.",
@@ -1090,24 +1540,24 @@
   "page": "energy"
  },
  {
+  "text": "There were no guidelines for deciding when to play again after a sprain, so an international panel of 155 health professionals drew up a checklist.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "For jump height itself, jump training seems to matter more than lifting alone.",
+  "by": "",
+  "page": "strength-training"
+ },
+ {
   "text": "Nordic and Japanese patterns rest mainly on observational studies.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "The guideline for adults is muscle-strengthening activity on two days a week, alongside 150 minutes of moderate activity.",
-  "by": "",
-  "page": "strength"
- },
- {
   "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
   "by": "",
   "page": "habits"
- },
- {
-  "text": "Knee and shoulder complaints are part of the sport for many players.",
-  "by": "",
-  "page": "volleyball"
  },
  {
   "text": "Experienced climbers tend to be lean with large forearms.",
@@ -1120,9 +1570,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Japan's 2023 national activity guide advises muscle training on two to three days a week for adults and older people.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "The NHS says losing weight can be hard and extra support or treatment may be needed.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Volleyball players gain from jump training even with all the jumping they already do.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Walking in nature seems to lift mood more than walking along streets.",
@@ -1135,12 +1595,12 @@
   "page": "energy"
  },
  {
-  "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain.",
+  "text": "Some signs after an injury need emergency care.",
   "by": "",
   "page": "injury"
  },
  {
-  "text": "Light loads working at first is expected.",
+  "text": "The dose evidence comes mainly from young men.",
   "by": "",
   "page": "strength-training"
  },
@@ -1155,9 +1615,19 @@
   "page": "sleep-appetite"
  },
  {
+  "text": "Most evidence linking strength with longer life comes from observational studies, which follow people over time.",
+  "by": "",
+  "page": "strength"
+ },
+ {
   "text": "The World Health Organization calls obesity a chronic, relapsing disease.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Lifting weights alone may not raise jump height quickly.",
+  "by": "",
+  "page": "volleyball"
  },
  {
   "text": "Whether outdoor walking beats indoor walking is less clear.",
@@ -1168,6 +1638,16 @@
   "text": "A doctor usually starts with questions and an examination, then a few simple blood tests.",
   "by": "",
   "page": "energy"
+ },
+ {
+  "text": "Injuries that heal slowly also deserve a check.",
+  "by": "",
+  "page": "injury"
+ },
+ {
+  "text": "Trials behind the 2026 position stand lasted 6 to 52 weeks, so they say little about years of lifting.",
+  "by": "",
+  "page": "strength-training"
  },
  {
   "text": "Falling short of the guidelines is normal, even in countries known for their food.",

@@ -1,0 +1,559 @@
+{
+  "id": "strength-training",
+  "sources": {
+    "x_strengthtraining_schoenfeldvol": {
+      "title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: a systematic review and meta-analysis",
+      "publisher": "Journal of Sports Sciences, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27433992/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 studies, 34 treatment groups. Each additional weekly set was associated with a 0.37% greater gain in muscle size; a graded dose-response relationship."
+    },
+    "x_strengthtraining_pelland": {
+      "title": "The resistance training dose response: meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains",
+      "publisher": "Sports Medicine, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41343037/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "67 studies, 2,058 participants (79.1% male, mean age 25). Size and strength rise with volume, with diminishing returns much more pronounced for strength; frequency raised strength with diminishing returns but had negligible effects on size."
+    },
+    "x_strengthtraining_acsm": {
+      "title": "American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: an overview of reviews",
+      "publisher": "American College of Sports Medicine, in Medicine and Science in Sports and Exercise, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "137 systematic reviews, more than 30,000 people, trials of 6 to 52 weeks. Strength was enhanced by loads of at least 80% of maximum, full range of motion, 2 to 3 sets, exercises early in the session and at least 2 sessions a week; hypertrophy by at least 10 sets a week. Training to fatigue, equipment type, time under tension and periodisation did not consistently affect outcomes. Advises progressive training."
+    },
+    "x_strengthtraining_schoenfeldload": {
+      "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+      "publisher": "Journal of Strength and Conditioning Research, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "21 studies with all sets to failure. One-repetition maximum gains were greater with high loads; muscle growth was similar with low loads (60% of maximum or less) and high loads."
+    },
+    "x_strengthtraining_lopez": {
+      "title": "Resistance training load effects on muscle hypertrophy and strength gain: systematic review and network meta-analysis",
+      "publisher": "Medicine and Science in Sports and Exercise, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33433148/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "28 studies, 747 adults, sets to failure. No difference in muscle growth between low (more than 15 repetitions), moderate and high loads (8 or fewer); strength gains were greater with moderate and high loads; untrained people gained more muscle."
+    },
+    "x_strengthtraining_grgicfail": {
+      "title": "Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: a systematic review and meta-analysis",
+      "publisher": "Journal of Sport and Health Science, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33497853/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 studies, all in young adults. No significant difference between failure and non-failure training for strength or hypertrophy; failure training does not seem required and does not seem harmful."
+    },
+    "x_strengthtraining_refalo": {
+      "title": "Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: a systematic review with meta-analysis",
+      "publisher": "Sports Medicine, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36334240/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 studies. A trivial hypertrophy advantage for sets taken to any definition of failure (effect size 0.19); no advantage for momentary muscular failure against non-failure."
+    },
+    "x_strengthtraining_robinson": {
+      "title": "Exploring the dose-response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: a series of meta-regressions",
+      "publisher": "Sports Medicine, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38970765/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Exploratory meta-regressions using estimated repetitions in reserve. Strength gains were similar across a wide range; muscle growth improved as sets ended closer to failure."
+    },
+    "x_strengthtraining_nhs": {
+      "title": "Physical activity guidelines for adults aged 19 to 64",
+      "publisher": "NHS (UK National Health Service)",
+      "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "Strengthening activities for all major muscle groups on at least 2 days a week, done to the point where a short rest is needed before repeating. Can be done at home or in a gym, including body weight exercises and resistance bands."
+    },
+    "x_strengthtraining_schoenfeldfreq": {
+      "title": "How many times per week should a muscle be trained to maximize muscle hypertrophy? A systematic review and meta-analysis of studies examining the effects of resistance training frequency",
+      "publisher": "Journal of Sports Sciences, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30558493/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "25 studies. With volume equated, training frequency did not significantly or meaningfully affect hypertrophy; frequency can be chosen by personal preference."
+    },
+    "x_strengthtraining_grgicfreq": {
+      "title": "Effect of resistance training frequency on gains in muscular strength: a systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29470825/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "22 studies. Effect sizes rose from 0.74 to 1.08 for 1 to 4 or more sessions a week, but with volume equated frequency had no significant effect; the benefit seems driven by volume."
+    },
+    "x_strengthtraining_singer": {
+      "title": "Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy",
+      "publisher": "Frontiers in Sports and Active Living, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39205815/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "9 studies. A small hypertrophy benefit for rests longer than 60 seconds, perhaps through less loss of volume load; no appreciable difference beyond 90 seconds."
+    },
+    "x_strengthtraining_plotkin": {
+      "title": "Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations",
+      "publisher": "PeerJ, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36199287/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "43 trained participants, 8 weeks, twice a week. Increasing load and increasing repetitions gave similar muscle growth and strength, with differences of questionable practical significance."
+    },
+    "x_strengthtraining_kikuchi": {
+      "title": "Low-load bench press and push-up induce similar muscle hypertrophy and strength gain",
+      "publisher": "Journal of Exercise Science and Fitness, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29541130/",
+      "kind": "journal",
+      "country": "JP",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "18 young men, twice a week for 8 weeks. Push-ups adjusted to 40% of bench press maximum were comparably effective to 40% bench press for chest and triceps growth and bench press strength."
+    },
+    "x_strengthtraining_lopes": {
+      "title": "Effects of training with elastic resistance versus conventional resistance on muscular strength: a systematic review and meta-analysis",
+      "publisher": "SAGE Open Medicine, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30815258/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "8 studies. No difference in upper or lower limb strength gains between elastic devices and weight machines or dumbbells."
+    },
+    "x_strengthtraining_cheung": {
+      "title": "Delayed onset muscle soreness: treatment strategies and performance factors",
+      "publisher": "Sports Medicine, 2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+      "kind": "journal",
+      "country": "NZ",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. Soreness is most common on returning after reduced activity or starting new activities; eccentric actions cause more micro-injury; the mechanism is uncertain. Exercise eases the pain temporarily; reducing intensity for 1 to 2 days is advised."
+    },
+    "x_strengthtraining_doma": {
+      "title": "The repeated bout effect of multiarticular exercises on muscle damage markers and physical performances: a systematic review and meta-analyses",
+      "publisher": "Journal of Strength and Conditioning Research, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38015738/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 studies. Soreness and muscle damage markers were greater after the first bout than the second, and strength losses were larger after the first."
+    },
+    "x_strengthtraining_herbert": {
+      "title": "Stretching to prevent or reduce muscle soreness after exercise",
+      "publisher": "Cochrane Database of Systematic Reviews, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21735398/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 studies. Stretching after exercise reduced soreness the next day by about 1 point on a 100-point scale; no clinically important reduction."
+    },
+    "x_strengthtraining_damas": {
+      "title": "Resistance training-induced changes in integrated myofibrillar protein synthesis are related to hypertrophy only after attenuation of muscle damage",
+      "publisher": "Journal of Physiology, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27219125/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "10 young men. Muscle damage was highest in week one and was not related to hypertrophy; muscle protein synthesis at weeks 3 and 10, after damage faded, was correlated with growth."
+    },
+    "x_strengthtraining_keogh": {
+      "title": "The epidemiology of injuries across the weight-training sports",
+      "publisher": "Sports Medicine, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27328853/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 studies, only four prospective. Bodybuilding 0.24 to 1 injury per 1,000 hours; strongman 4.5 to 6.1; Highland Games 7.5. Weight-training sports appear to have relatively low injury rates compared with common team sports."
+    },
+    "x_strengthtraining_kerr": {
+      "title": "Epidemiology of weight training-related injuries presenting to United States emergency departments, 1990 to 2007",
+      "publisher": "American Journal of Sports Medicine, 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20139328/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "An estimated 970,801 emergency department injuries. Sprain or strain was the most common diagnosis (46.1%); weights dropping on the person was the most common mechanism (65.5%); 90.4% involved free weights."
+    },
+    "x_strengthtraining_nnr": {
+      "title": "Protein: a scoping review for Nordic Nutrition Recommendations 2023",
+      "publisher": "Food and Nutrition Research, 2023 (for the Nordic Nutrition Recommendations)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10770649/",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "Adults: 0.83 g of good-quality protein per kg of body weight a day. Needs in active people generally range from 1.2 up to 2.0 g per kg in energy restriction; 1.0 to 1.2 g per kg suggested for healthy older adults. Protein comes from both animal and plant foods."
+    },
+    "x_strengthtraining_morton": {
+      "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+      "publisher": "British Journal of Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "49 trials, 1,863 people. Added protein increased one-repetition strength by 2.49 kg and fat-free mass by 0.30 kg; no further gain above a total intake of 1.62 g per kg a day; the effect shrank with age."
+    },
+    "x_strengthtraining_lauersen": {
+      "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+      "publisher": "British Journal of Sports Medicine, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24100287/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "25 trials, 26,610 people. Strength training reduced sports injuries (risk ratio 0.315), to less than a third; stretching showed no benefit (0.963)."
+    },
+    "x_strengthtraining_schumann": {
+      "title": "Compatibility of concurrent aerobic and strength training for skeletal muscle size and function: an updated systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34757594/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "43 studies. Adding aerobic training did not compromise maximal strength or hypertrophy, but explosive strength gains were attenuated, more so in the same session than when sessions were at least 3 hours apart. Aerobic training was cycling or running."
+    },
+    "x_strengthtraining_pardos": {
+      "title": "Effects of strength vs. plyometric training programs on vertical jumping, linear sprint and change of direction speed performance in female soccer players: a systematic review and meta-analysis",
+      "publisher": "International Journal of Environmental Research and Public Health, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33419178/",
+      "kind": "journal",
+      "country": "ES",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 studies in female soccer players. Plyometric training gave better benefits than strength training for vertical jump, sprint and change of direction."
+    },
+    "x_strengthtraining_nunez": {
+      "title": "Strength training in professional soccer: effects on short-sprint and jump performance",
+      "publisher": "International Journal of Sports Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34560812/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Meta-analysis in first-division soccer players. Strength training had a lower effect in-season than pre-season; it could not be confirmed that strength training alone improves sprint and jump in elite players."
+    }
+  },
+  "sections": [
+    {
+      "heading": "Sets, reps and load",
+      "paragraphs": [
+        {
+          "text": "More weekly sets build more muscle, but each extra set adds less than the one before. A 2017 review of 15 studies linked each added weekly set with about 0.4% more muscle growth. A 2026 analysis of 67 studies found the same for size and strength, with sharper diminishing returns for strength.",
+          "cites": ["x_strengthtraining_schoenfeldvol", "x_strengthtraining_pelland"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_schoenfeldvol", "quote": "The final analysis comprised 34 treatment groups from 15 studies." },
+            { "key": "x_strengthtraining_schoenfeldvol", "quote": "Each additional set was associated with an increase in effect size (ES) of 0.023 corresponding to an increase in the percentage gain by 0.37%." },
+            { "key": "x_strengthtraining_pelland", "quote": "utilizing 67 total studies of 2058 participants" },
+            { "key": "x_strengthtraining_pelland", "quote": "indicating that gains in muscle size and strength increase as volume increases. However, both best-fit models suggest diminishing returns, with the diminishing returns for strength being considerably more pronounced." }
+          ]
+        },
+        {
+          "text": "The American College of Sports Medicine's 2026 position stand lists what most helps strength. Strength rose more with loads of at least 80% of maximum, full range of motion, two to three sets, placing the exercise early in a session and at least two sessions a week. Muscle growth was greater with ten or more sets a week.",
+          "cites": ["x_strengthtraining_acsm"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_strengthtraining_acsm", "quote": "However, voluntary strength was enhanced by lifting heavier loads (≥80% one-repetition maximum), through a complete range of motion, for 2-3 sets, at the beginning of training sessions, and ≥2 sessions/wk. Muscle hypertrophy was enhanced by higher volumes (≥10 sets/wk) and eccentric overload." }
+          ]
+        },
+        {
+          "text": "Light weights build as much muscle as heavy ones when sets are taken to failure. A review of 21 studies, in which every set went until no more repetitions were possible, found similar muscle growth with light and heavy loads. Gains in maximum strength, measured as the heaviest weight lifted once, were larger with heavy loads.",
+          "cites": ["x_strengthtraining_schoenfeldload"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_schoenfeldload", "quote": "(b) with all sets in the training protocols being performed to momentary muscular failure" },
+            { "key": "x_strengthtraining_schoenfeldload", "quote": "A total of 21 studies were ultimately included for analysis. Gains in 1RM strength were significantly greater in favor of high- vs. low-load training, whereas no significant differences were found for isometric strength between conditions. Changes in measures of muscle hypertrophy were similar between conditions." }
+          ]
+        },
+        {
+          "text": "Sets of more than 15 repetitions built as much muscle as heavy sets in a 2021 review of 28 studies. Muscle growth did not differ between low, moderate and high loads, all taken to failure. Strength gains were larger with moderate and high loads, and untrained people gained the most muscle.",
+          "cites": ["x_strengthtraining_lopez"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_lopez", "quote": "Including only studies that performed sets to volitional failure, the effects of low- (>15 repetitions maximum (RM)), moderate- (9-15 RM), and high-load (≤8 RM) RTs were examined in healthy adults." },
+            { "key": "x_strengthtraining_lopez", "quote": "Twenty-eight studies involving 747 healthy adults were included. Although no differences in muscle hypertrophy between RT loads were found in overall (P = 0.113-0.469) or subgroup analysis (P = 0.871-0.995), greater effects were observed in untrained participants (P = 0.033)" },
+            { "key": "x_strengthtraining_lopez", "quote": "Muscle strength improvement was superior for both high-load and moderate-load compared with low-load RT" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How close to failure",
+      "paragraphs": [
+        {
+          "text": "Training to failure is not needed to gain strength or muscle. A review of 15 studies in young adults found no significant difference between failure and non-failure training for strength or muscle size. Training to failure did not seem to harm results either.",
+          "cites": ["x_strengthtraining_grgicfail"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_grgicfail", "quote": "Fifteen studies were included in the review. All studies included young adults as participants. Meta-analysis indicated no significant difference between the training conditions for muscular strength" },
+            { "key": "x_strengthtraining_grgicfail", "quote": "Training to muscle failure does not seem to be required for gains in strength and muscle size. However, training in this manner does not seem to have detrimental effects on these adaptations, either." }
+          ]
+        },
+        {
+          "text": "Finishing sets nearer to failure may matter a little more for muscle size than for strength. A 2023 review found only a trivial size advantage for sets taken to failure. A 2024 analysis estimated the repetitions left in reserve and found size rose as sets ended closer to failure, while strength was similar across a wide range.",
+          "cites": ["x_strengthtraining_refalo", "x_strengthtraining_robinson"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_refalo", "quote": "There was a trivial advantage for resistance training performed to set failure versus non-failure for muscle hypertrophy in studies applying any definition of set failure [effect size=0.19 (95% confidence interval 0.00, 0.37), p=0.045]" },
+            { "key": "x_strengthtraining_robinson", "quote": "proximity to failure was quantified as the number of repetitions in reserve (RIR)." },
+            { "key": "x_strengthtraining_robinson", "quote": "Strength gains were similar across a wide range of RIR, while muscle hypertrophy improves as sets are terminated closer to failure." }
+          ]
+        },
+        {
+          "text": "The NHS gives a simple test of effort that needs no counting. It says strength exercises should be done to the point where a short rest is needed before repeating the activity. Ending sets once the movement is hard, with a few repetitions left, fits this and the trials above.",
+          "cites": ["x_strengthtraining_nhs"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_strengthtraining_nhs", "quote": "To get health benefits from strength exercises, you should do them to the point where you need a short rest before repeating the activity." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How often, and rest between sets",
+      "paragraphs": [
+        {
+          "text": "How many days a week a muscle is trained matters little once weekly sets are the same. A review of 25 studies found no meaningful difference in muscle growth between frequencies when volume was equal. A review of 22 studies found strength rose with more sessions, but not when volume was matched.",
+          "cites": ["x_strengthtraining_schoenfeldfreq", "x_strengthtraining_grgicfreq"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_schoenfeldfreq", "quote": "In conclusion, there is strong evidence that resistance training frequency does not significantly or meaningfully impact muscle hypertrophy when volume is equated. Thus, for a given training volume, individuals can choose a weekly frequency per muscle groups based on personal preference." },
+            { "key": "x_strengthtraining_grgicfreq", "quote": "A total of 22 studies were found to meet the inclusion criteria." },
+            { "key": "x_strengthtraining_grgicfreq", "quote": "Effect sizes increased in magnitude from 0.74, 0.82, 0.93, and 1.08 for training 1, 2, 3, and 4+ times per week, respectively. A subgroup analysis of volume-equated studies showed no significant effect (p = 0.421) of RT frequency on muscular strength gains." }
+          ]
+        },
+        {
+          "text": "Resting a little over a minute between sets may build slightly more muscle than very short rests. A 2024 review of nine studies found a small benefit to rests longer than 60 seconds, perhaps because people then lift more in later sets. It found no clear extra gain from resting longer than 90 seconds.",
+          "cites": ["x_strengthtraining_singer"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_singer", "quote": "In conclusion, results suggest a small hypertrophic benefit to employing inter-set rest interval durations >60 s, perhaps mediated by reductions in volume load. However, our analysis did not detect appreciable differences in hypertrophy when resting >90 s between sets" },
+            { "key": "x_strengthtraining_singer", "quote": "all 19 measurements (thigh: 10; arm: 6; whole body: 3) from 9 studies meeting inclusion criteria" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Progress, at home or in a gym",
+      "paragraphs": [
+        {
+          "text": "Gradual progress is the core advice, while many popular details matter less. The 2026 position stand advises healthy adults to train progressively. It found that training to momentary fatigue, equipment type, exercise complexity, time under tension and periodisation, meaning planned changes across weeks, did not consistently change results.",
+          "cites": ["x_strengthtraining_acsm"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_strengthtraining_acsm", "quote": "Healthy adults should perform progressive RT, with variable prescription consistent with our findings, to improve muscle function, size, and physical performance." },
+            { "key": "x_strengthtraining_acsm", "quote": "Training to momentary muscle fatigue, equipment type, exercise complexity, set structure, time under tension, blood flow restriction, and periodization did not consistently impact training outcomes." }
+          ]
+        },
+        {
+          "text": "Adding repetitions works about as well as adding weight. In a trial of 43 people with at least a year of leg training, one group added weight over time while the other kept the weight and added repetitions. After eight weeks, muscle growth and strength were similar.",
+          "cites": ["x_strengthtraining_plotkin"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_strengthtraining_plotkin", "quote": "Forty-three participants with at least 1 year of consistent lower body resistance training experience were randomly assigned to one of two experimental, parallel groups: A group that aimed to increase load while keeping repetitions constant (LOAD: n = 22; 13 men, nine women) or a group that aimed to increase repetitions while keeping load constant" },
+            { "key": "x_strengthtraining_plotkin", "quote": "Rectus femoris growth modestly favored REPS (adjusted effect estimate (CI90%), sum of sites: 2.8 mm [-0.5, 5.8]). Alternatively, dynamic strength increases slightly favored LOAD (2.0 kg [-2.4, 7.8]), with differences of questionable practical significance." }
+          ]
+        },
+        {
+          "text": "Push-ups built chest muscle and pressing strength as well as a light bench press in a small Japanese trial. Eighteen young men trained twice a week for eight weeks, with push-ups adjusted, for example by kneeling, to match 40% of their bench press maximum. Both groups gained similar strength and chest and triceps muscle.",
+          "cites": ["x_strengthtraining_kikuchi"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_strengthtraining_kikuchi", "quote": "Eighteen male participants (age, 20.2 ± 0.73 years, range: 19-22 years, height: 169.8 ± 4.4 cm, weight: 64.5 ± 4.7 kg) were randomly assigned to one of two experimental groups: bench press at 40%1RM (bench-press group, n = 9) or push-ups with position adjusted (e.g. kneeling) to the same load of bench-press 40%1RM (push-up group, n = 9), performed twice per week for 8 weeks." },
+            { "key": "x_strengthtraining_kikuchi", "quote": "Push-up exercise with similar load to 40%1RM bench press is comparably effective for muscle hypertrophy and strength gain over an 8-week training period." }
+          ]
+        },
+        {
+          "text": "Elastic bands produced strength gains similar to weight machines and dumbbells. A review of eight studies found no advantage for either method in upper or lower body strength. The NHS lists bands, body weight exercises and heavy household tasks among ways to build strength at home or in a gym.",
+          "cites": ["x_strengthtraining_lopes", "x_strengthtraining_nhs"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_lopes", "quote": "Eight studies were included. The results of the meta-analysis demonstrated no superiority between the methods analyzed for lower limb (SMD = -0.11, 95% CI -0.40, 0.19, p = 0.48) or upper limb muscular strength" },
+            { "key": "x_strengthtraining_lopes", "quote": "Elastic resistance training is able to promote similar strength gains to conventional resistance training, in different population profiles and using diverse protocols." },
+            { "key": "x_strengthtraining_nhs", "quote": "There are many ways you can strengthen your muscles, whether you're at home or in a gym." },
+            { "key": "x_strengthtraining_nhs", "quote": "working with resistance bands" },
+            { "key": "x_strengthtraining_nhs", "quote": "doing exercises that use your own body weight, such as push-ups and sit-ups" },
+            { "key": "x_strengthtraining_nhs", "quote": "heavy gardening, such as digging and shovelling" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Soreness after training",
+      "paragraphs": [
+        {
+          "text": "Muscle soreness after training is most common after a break or when an exercise is new. A review notes that lowering movements, called eccentric actions, cause more of the small muscle injuries involved, and that the cause of soreness is uncertain. Exercise eases it for a while, and lighter training for one to two days was advised.",
+          "cites": ["x_strengthtraining_cheung"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_strengthtraining_cheung", "quote": "DOMS is most prevalent at the beginning of the sporting season when athletes are returning to training following a period of reduced activity. DOMS is also common when athletes are first introduced to certain types of activities regardless of the time of year. Eccentric activities induce micro-injury at a greater frequency and severity than other types of muscle actions." },
+            { "key": "x_strengthtraining_cheung", "quote": "The mechanisms, treatment strategies, and impact on athletic performance remain uncertain" },
+            { "key": "x_strengthtraining_cheung", "quote": "Exercise is the most effective means of alleviating pain during DOMS, however the analgesic effect is also temporary. Athletes who must train on a daily basis should be encouraged to reduce the intensity and duration of exercise for 1-2 days following intense DOMS-inducing exercise." }
+          ]
+        },
+        {
+          "text": "Soreness usually drops the second time the same exercise is done. A review of 20 studies found more soreness and a larger strength dip after a first session than after a repeat. Stretching does little: a Cochrane review of 12 studies found it cut soreness by about one point on a 100-point scale.",
+          "cites": ["x_strengthtraining_doma", "x_strengthtraining_herbert"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_doma", "quote": "After screening, 20 studies were included. The levels of DOMS and CK were significantly greater during the first bout when compared with the second bout at T24 and T48" },
+            { "key": "x_strengthtraining_doma", "quote": "Muscular strength and vertical jump performance were significantly lower during the first bout compared with the second bout at T24 and T48" },
+            { "key": "x_strengthtraining_herbert", "quote": "Twelve studies were included in the review." },
+            { "key": "x_strengthtraining_herbert", "quote": "Post-exercise stretching reduced soreness at one day after exercise by, on average, one point on a 100-point scale" }
+          ]
+        },
+        {
+          "text": "Soreness is not a sign that a session built more muscle. In a study of ten young men, muscle damage was highest in the first week of training and was unrelated to later growth. Growth was linked with muscle building measured at weeks three and ten, after the damage had faded. Chasing soreness has no support here.",
+          "cites": ["x_strengthtraining_damas"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_strengthtraining_damas", "quote": "Ten young men (27 (1) years, mean (SEM)) had muscle biopsies" },
+            { "key": "x_strengthtraining_damas", "quote": "When muscle damage was the highest, so was the integrated MyoPS (at T1), but neither were related to hypertrophy; however, integrated MyoPS at T2 and T3 were correlated with hypertrophy." },
+            { "key": "x_strengthtraining_damas", "quote": "at the beginning (T1), at 3 weeks (T2) and at 10 weeks of RT (T3)" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Injury risk",
+      "paragraphs": [
+        {
+          "text": "Weight-training sports appear to have relatively low injury rates compared with common team sports. A review of 20 studies found about 0.24 to 1 injury per 1,000 hours in bodybuilding and 4.5 to 7.5 in strongman and Highland Games. Only four of the studies followed athletes forward in time, which weakens the figures.",
+          "cites": ["x_strengthtraining_keogh"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_strengthtraining_keogh", "quote": "Bodybuilding had the lowest injury rates (0.12-0.7 injuries per lifter per year; 0.24-1 injury per 1000 h), with strongman (4.5-6.1 injuries per 1000 h) and Highland Games (7.5 injuries per 1000 h) reporting the highest rates." },
+            { "key": "x_strengthtraining_keogh", "quote": "only four studies utilized a prospective design." },
+            { "key": "x_strengthtraining_keogh", "quote": "the weight-training sports appear to have relatively low rates of injury compared with common team sports." },
+            { "key": "x_strengthtraining_keogh", "quote": "Only five of the 20 eligible studies had a risk of bias score ≥75 %" }
+          ]
+        },
+        {
+          "text": "Many weight-training injuries seen in US emergency rooms came from dropped weights rather than the lift itself. Data from 1990 to 2007 estimated about 970,000 such injuries. Weights dropping on the person caused 65.5%, and 90.4% involved free weights. Careful handling of weights addresses the commonest cause.",
+          "cites": ["x_strengthtraining_kerr"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_strengthtraining_kerr", "quote": "From 1990 to 2007, 25 335 weight training injuries were seen in US emergency departments, correlating to an estimated 970 801 injuries nationwide." },
+            { "key": "x_strengthtraining_kerr", "quote": "The most common mechanism of injury was weights dropping on the person (65.5%). A large number of injuries occurred with free weights (90.4%)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Protein and training",
+      "paragraphs": [
+        {
+          "text": "Nordic nutrition advice puts adult protein needs at about 0.83 g per kg of body weight a day. The review behind it cites 1.2 to 2.0 g per kg for active people eating less than they burn, and 1.0 to 1.2 for healthy older adults. Protein comes from many animal and plant foods.",
+          "cites": ["x_strengthtraining_nnr"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_strengthtraining_nnr", "quote": "0.83 g of good-quality protein/kg BW per day based on an estimated average requirement (EAR) of 0.66/kg BW per day" },
+            { "key": "x_strengthtraining_nnr", "quote": "generally ranges from 1.2 up to 2.0 g/kg per day in cases of energy restriction" },
+            { "key": "x_strengthtraining_nnr", "quote": "a daily amount of 1.0–1.2 g/kg BW per day for healthy older adults" },
+            { "key": "x_strengthtraining_nnr", "quote": "Proteins are widespread in foods, deriving from both animal and plant sources." }
+          ]
+        },
+        {
+          "text": "Extra protein gives training a modest boost that levels off. A review of 49 trials found added protein raised strength by about 2.5 kg on a one-repetition lift and lean mass by 0.3 kg. Gains stopped rising above a total intake of about 1.6 g per kg a day, and were smaller with age.",
+          "cites": ["x_strengthtraining_morton"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_morton", "quote": "Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52))" },
+            { "key": "x_strengthtraining_morton", "quote": "The impact of protein supplementation on gains in FFM was reduced with increasing age" },
+            { "key": "x_strengthtraining_morton", "quote": "Protein supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains in FFM." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Lifting alongside volleyball",
+      "paragraphs": [
+        {
+          "text": "Strength training lowered sports injuries in randomised trials. A review of 25 trials with 26,610 people found that strength training cut injuries to less than a third of the usual rate. Exercise programmes overall almost halved overuse injuries, while stretching showed no clear benefit.",
+          "cites": ["x_strengthtraining_lauersen"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_lauersen", "quote": "25 trials, including 26 610 participants with 3464 injuries, were analysed." },
+            { "key": "x_strengthtraining_lauersen", "quote": "Stratified exposure analyses proved no beneficial effect for stretching (RR 0.963 (0.846-1.095))" },
+            { "key": "x_strengthtraining_lauersen", "quote": "Strength training reduced sports injuries to less than 1/3 and overuse injuries could be almost halved." }
+          ]
+        },
+        {
+          "text": "Combining lifting with other training does not blunt gains in muscle or maximal strength, but may blunt explosive strength. A review of 43 studies found explosive gains were smaller when both were done in the same session, but not when sessions were at least three hours apart. The other training was running or cycling, not court sport.",
+          "cites": ["x_strengthtraining_schumann"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_schumann", "quote": "A total of 43 studies were included." },
+            { "key": "x_strengthtraining_schumann", "quote": "Attenuation of explosive strength was more pronounced when concurrent training was performed within the same session (p = 0.043) than when sessions were separated by at least 3 h (p > 0.05)." },
+            { "key": "x_strengthtraining_schumann", "quote": "Concurrent aerobic and strength training does not compromise muscle hypertrophy and maximal strength development. However, explosive strength gains may be attenuated" },
+            { "key": "x_strengthtraining_schumann", "quote": "type of aerobic training (cycling vs. running)" }
+          ]
+        },
+        {
+          "text": "For jump height itself, jump training seems to matter more than lifting alone. A review of 12 studies in female soccer players found that plyometric training, meaning repeated jumps and bounds, improved vertical jump more than strength training did. In professional soccer, strength training had smaller effects during the season than before it.",
+          "cites": ["x_strengthtraining_pardos", "x_strengthtraining_nunez"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_pardos", "quote": "A systematic search of the PubMed, Web of Science, Google Scholar and SportDiscus databases revealed 12 studies satisfying the inclusion criteria." },
+            { "key": "x_strengthtraining_pardos", "quote": "In conclusion, PT provides better benefits than ST to improve vertical jump, linear sprint and COD performance in female soccer players." },
+            { "key": "x_strengthtraining_nunez", "quote": "Strength training appears to have a lower effect when applied during in-season than when applied in pre-season periods in first division soccer players." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Limits of the evidence",
+      "paragraphs": [
+        {
+          "text": "The dose evidence comes mainly from young men. Participants in the 67 studies of the 2026 dose analysis averaged 25 years of age, and 79% were male. All 15 studies in the failure review were in young adults, and its authors call for more research in older and highly trained people.",
+          "cites": ["x_strengthtraining_pelland", "x_strengthtraining_grgicfail"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_strengthtraining_pelland", "quote": "utilizing 67 total studies of 2058 participants (79.1% male, 20.9% female; average age 25.16 ± 5.22 years)" },
+            { "key": "x_strengthtraining_grgicfail", "quote": "All studies included young adults as participants." },
+            { "key": "x_strengthtraining_grgicfail", "quote": "More studies should be conducted among older adults and highly trained individuals to improve the generalizability of these findings." }
+          ]
+        },
+        {
+          "text": "Trials behind the 2026 position stand lasted 6 to 52 weeks, so they say little about years of lifting. Across 137 reviews with more than 30,000 people, few programme details changed the main results. How training choices play out over decades remains unknown.",
+          "cites": ["x_strengthtraining_acsm"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_strengthtraining_acsm", "quote": "Eligible systematic reviews synthesized randomized trials of healthy adults (≥18 yr) who completed RT (≥6 wk; range: 6-52 wk)" },
+            { "key": "x_strengthtraining_acsm", "quote": "We synthesized data from 137 systematic reviews (>30,000 participants)." },
+            { "key": "x_strengthtraining_acsm", "quote": "Few RT prescription (RTx) variables affected primary adaptations." }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "The importance of muscular strength in athletic performance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26838985/",
+      "why_not": "Narrative review with broad claims about strength and athletic performance; the meta-analyses on combined training and jump training covered the same ground with stronger evidence."
+    },
+    {
+      "title": "Does plyometric training improve vertical jump height? A meta-analytical review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17347316/",
+      "why_not": "About jump training rather than lifting, and jump training for volleyball is already covered by the volleyball article's source; left out to keep the articles from overlapping."
+    },
+    {
+      "title": "Corticosteroid injections, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19793213/",
+      "why_not": "A small treatment trial for an existing tendon injury that includes injections; it belongs with injury care, not general training advice."
+    }
+  ]
+}

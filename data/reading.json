@@ -2250,6 +2250,234 @@
       "strength": "weak"
      }
     ]
+   },
+   {
+    "heading": "Muscle and blood sugar",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Skeletal muscle is the main tissue that clears sugar from the blood when insulin acts. In laboratory tests that hold insulin high, about 80 to 90% of the glucose given is taken up by muscle. Worked muscle also becomes more sensitive to insulin afterwards. Both points come from expert reviews.",
+      "cites": [
+       8,
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "More muscle relative to body size goes with better blood sugar control in a large US survey. Among 13,644 adults, each 10% rise in muscle relative to body weight was linked with 11% lower insulin resistance and 12% lower odds of prediabetes, after allowing for obesity. A single snapshot like this cannot show cause.",
+      "cites": [
+       10
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "In people with type 2 diabetes, resistance training lowers HbA1c, a blood marker of average blood sugar over recent months. A review of 20 trials found a fall of 0.39 percentage points, and bigger strength gains went with bigger drops. An earlier review of 47 trials found resistance, aerobic and combined training each lowered HbA1c.",
+      "cites": [
+       11,
+       12
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Muscle loss with age",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Sarcopenia is the medical name for the loss of muscle strength and mass that comes with age. A European expert group defines it as a muscle disease, with low strength as its key feature. The group notes that it is common in older age but can also begin earlier in life.",
+      "cites": [
+       13
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Strength fades faster than muscle size in later life. A review found that at about age 75, people lose roughly 0.6 to 1% of their muscle mass a year but 2.5 to 4% of their strength. Loss of strength was a more consistent risk for disability and death than loss of muscle.",
+      "cites": [
+       14
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Older muscles still respond well to training. Across 47 studies with 1,079 adults aged 50 and over, resistance training raised strength by about 24 to 33%, depending on the exercise tested, and harder training was linked with larger gains. The authors suggest training as a way to prevent the general weakness linked with ageing.",
+      "cites": [
+       15
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Bones",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The bone built in youth sets the starting point for bone health later in life. A US National Osteoporosis Foundation statement says that lifestyle shapes 20 to 40% of adult peak bone mass. It found the best evidence for calcium and physical activity, especially in late childhood and around puberty. That is one reason starting early helps.",
+      "cites": [
+       16
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Resistance training can still add some bone density in later adulthood. In 17 studies of women after menopause, lifting raised spine and hip density by small to moderate amounts. In 14 trials in adults aged 65 and over, hip density rose about 2.8%, but the spine change was not significant.",
+      "cites": [
+       17,
+       18
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Heavy lifting under supervision appeared safe for women with low bone mass in one Australian trial. In 101 women aged about 65, eight months of twice-weekly, 30-minute sessions at over 85% of maximum raised spine density by 2.9%, against a 1.2% loss with light home exercise. One minor adverse event, a lower back spasm, was reported.",
+      "cites": [
+       19
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Falls",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Falls kill hundreds of thousands of people a year, mostly older adults. The World Health Organization estimated about 842,000 fall deaths in 2023, 71% of them in people aged 60 and over. It names weak strength and poor balance among the risks and advises exercise that challenges balance and builds functional strength.",
+      "cites": [
+       20
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Exercise programmes cut falls in older people, and the best-supported ones pair balance work with strength work. A Cochrane review of 108 trials with 23,407 people found exercise lowered the rate of falls by 23%. Mixed balance, functional and resistance programmes probably cut falls by 34%; resistance training alone had an uncertain effect.",
+      "cites": [
+       21
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Grip strength as a health signal",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Grip strength, measured by squeezing a hand gauge, tracks with the risk of early death. In the PURE study of 139,691 adults in 17 countries, each 5 kg lower grip was linked with a 16% higher risk of death over about four years. Grip predicted death better than blood pressure but was not linked with falls or fractures.",
+      "cites": [
+       22
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Data from about 1.9 million adults point the same way. Across 38 cohort studies, higher grip strength was linked with a 31% lower risk of death, and stronger legs with a 14% lower risk. These are observational links, so they cannot show cause.",
+      "cites": [
+       23
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "A strong grip may partly reflect body size and general health rather than training. In a Chinese cohort of 12,957 adults, grip relative to body weight predicted lower risk of type 2 diabetes, but grip in kilograms did not, and body fat helped explain the link. The PURE authors say it is still untested whether gaining strength lowers death rates.",
+      "cites": [
+       24,
+       22
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Mood and anxiety",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Resistance training eased symptoms of depression in randomised trials. A review of 33 trials with 1,877 adults found a moderate reduction in depressive symptoms. The benefit did not depend on training volume or on whether people got significantly stronger. Trials with blinded assessment showed smaller benefits.",
+      "cites": [
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Lifting also eased anxiety a little in randomised trials. A review of 16 trials found a small drop in anxiety symptoms, larger in healthy people. A 2024 depression review found a benefit from strength training a little smaller than from walking or jogging, with very low confidence. Low mood that lasts for weeks calls for a doctor or therapist.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Back pain, joints and daily tasks",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Exercise eased long-lasting low back pain in many trials. A Cochrane review of 249 trials found that exercise cut pain by about 15 points on a 100-point scale compared with no treatment or usual care, with moderate certainty. The gain in daily function was smaller. Side effects were mostly minor, such as soreness.",
+      "cites": [
+       28
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In older adults, strength training made everyday movements easier and eased arthritis pain. A Cochrane review of 121 trials with 6,700 people found a large gain in strength, a moderate to large improvement in getting up from a chair and a modest rise in walking speed. In six trials of people with osteoarthritis, joint pain fell.",
+      "cites": [
+       29
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "How fast strength comes and goes",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Much of the strength gained in the first weeks comes from the nervous system learning to use muscle better. A 2021 review states that early increases in force are thought to come mainly from changes in the nerves that drive muscle. Exactly where these changes happen is still unclear.",
+      "cites": [
+       30
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Strength fades when training stops, and it fades more the longer the break. A review of 103 studies found losses in all measures of strength and power after training stopped. The losses were larger in people over 65 and, for maximal strength and power, larger in inactive people than in recreational athletes.",
+      "cites": [
+       31
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Some of the gain survives a break, and it returns quickly. In a Belgian study of 30 older men, 12 weeks of training raised leg strength by 10 to 36%, 12 weeks off lost 5 to 15%, and under eight weeks of retraining restored it. A small Norwegian study found extra muscle cell nuclei persisted after 16 weeks off, with unclear benefit.",
+      "cites": [
+       32,
+       33
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Differences and limits",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Women and men gain muscle and leg strength at similar rates when they train the same way. A review of up to 23 studies in young and middle-aged adults found similar relative gains in muscle size and lower-body strength, and larger relative upper-body strength gains in women. Short study lengths may partly explain that difference.",
+      "cites": [
+       34
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Japan's 2023 national activity guide advises muscle training on two to three days a week for adults and older people. For older people, it also advises activity that mixes several types of exercise on at least three days a week. The guide comes from Japan's health ministry and is summarised in a 2025 overview.",
+      "cites": [
+       35
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Most evidence linking strength with longer life comes from observational studies, which follow people over time. Such studies adjust for known differences between people but cannot rule out every other explanation. The PURE authors call for research on whether improving strength reduces deaths. The trials here show effects on strength, blood sugar, bone and mood, not lifespan.",
+      "cites": [
+       22
+      ],
+      "strength": "moderate"
+     }
+    ]
    }
   ],
   "sources": [
@@ -2308,6 +2536,230 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
     "kind": "authority",
     "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "Skeletal muscle insulin resistance is the primary defect in type 2 diabetes",
+    "publisher": "Diabetes Care, 2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2811436/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 9,
+    "title": "The many actions of insulin in skeletal muscle, the paramount tissue determining glycemia",
+    "publisher": "Cell Metabolism, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33826918/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 10,
+    "title": "Relative muscle mass is inversely associated with insulin resistance and prediabetes. Findings from the third National Health and Nutrition Examination Survey",
+    "publisher": "Journal of Clinical Endocrinology and Metabolism, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21778224/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Effect of resistance training on HbA1c in adults with type 2 diabetes mellitus and the moderating effect of changes in muscular strength: a systematic review and meta-analysis",
+    "publisher": "BMJ Open Diabetes Research and Care, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35273011/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 12,
+    "title": "Physical activity advice only or structured exercise training and association with HbA1c levels in type 2 diabetes: a systematic review and meta-analysis",
+    "publisher": "JAMA, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21540423/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 13,
+    "title": "Sarcopenia: revised European consensus on definition and diagnosis",
+    "publisher": "European Working Group on Sarcopenia in Older People 2, in Age and Ageing, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30312372/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 14,
+    "title": "Sarcopenia, dynapenia, and the impact of advancing age on human skeletal muscle size and strength; a quantitative review",
+    "publisher": "Frontiers in Physiology, 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22934016/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 15,
+    "title": "Resistance exercise for muscular strength in older adults: a meta-analysis",
+    "publisher": "Ageing Research Reviews, 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20385254/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 16,
+    "title": "The National Osteoporosis Foundation's position statement on peak bone mass development and lifestyle factors: a systematic review and implementation recommendations",
+    "publisher": "National Osteoporosis Foundation, in Osteoporosis International, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26856587/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 17,
+    "title": "Effects of dynamic resistance exercise on bone mineral density in postmenopausal women: a systematic review and meta-analysis with special emphasis on exercise parameters",
+    "publisher": "Osteoporosis International, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32399891/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 18,
+    "title": "Progressive resistance training for concomitant increases in muscle strength and bone mineral density in older adults: a systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35608815/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 19,
+    "title": "High-intensity resistance and impact training improves bone mineral density and physical function in postmenopausal women with osteopenia and osteoporosis: the LIFTMOR randomized controlled trial",
+    "publisher": "Journal of Bone and Mineral Research, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28975661/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 20,
+    "title": "Falls",
+    "publisher": "World Health Organization fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/falls",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 21,
+    "title": "Exercise for preventing falls in older people living in the community",
+    "publisher": "Cochrane Database of Systematic Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30703272/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 22,
+    "title": "Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study",
+    "publisher": "The Lancet, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25982160/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "Muscular strength as a predictor of all-cause mortality in an apparently healthy population: a systematic review and meta-analysis of data from approximately 2 million men and women",
+    "publisher": "Archives of Physical Medicine and Rehabilitation, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29425700/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 24,
+    "title": "Association between handgrip strength and type 2 diabetes: a prospective cohort study and systematic review with meta-analysis",
+    "publisher": "Journals of Gerontology Series A, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36504134/",
+    "kind": "journal",
+    "country": "CN"
+   },
+   {
+    "n": 25,
+    "title": "Association of efficacy of resistance exercise training with depressive symptoms: meta-analysis and meta-regression analysis of randomized clinical trials",
+    "publisher": "JAMA Psychiatry, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29800984/",
+    "kind": "journal",
+    "country": "IE"
+   },
+   {
+    "n": 26,
+    "title": "The effects of resistance exercise training on anxiety: a meta-analysis and meta-regression analysis of randomized controlled trials",
+    "publisher": "Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28819746/",
+    "kind": "journal",
+    "country": "IE"
+   },
+   {
+    "n": 27,
+    "title": "Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials",
+    "publisher": "The BMJ, 2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Exercise therapy for chronic low back pain",
+    "publisher": "Cochrane Database of Systematic Reviews, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34580864/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 29,
+    "title": "Progressive resistance strength training for improving physical function in older adults",
+    "publisher": "Cochrane Database of Systematic Reviews, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19588334/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 30,
+    "title": "The knowns and unknowns of neural adaptations to resistance training",
+    "publisher": "European Journal of Applied Physiology, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33355714/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "Effect of training cessation on muscular performance: a meta-analysis",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23347054/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 32,
+    "title": "The effect of resistance training, detraining and retraining on muscle strength and power, myofibre size, satellite cells and myonuclei in older men",
+    "publisher": "Experimental Gerontology, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32017951/",
+    "kind": "journal",
+    "country": "BE"
+   },
+   {
+    "n": 33,
+    "title": "Muscle memory in humans: evidence for myonuclear permanence and long-term transcriptional regulation after strength training",
+    "publisher": "Journal of Physiology, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39159314/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 34,
+    "title": "Sex differences in resistance training: a systematic review and meta-analysis",
+    "publisher": "Journal of Strength and Conditioning Research, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32218059/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 35,
+    "title": "Overview of the Physical Activity Guide for Health Promotion 2023",
+    "publisher": "Health Evaluation and Promotion, 2025 (summarising the guide of Japan's Ministry of Health, Labour and Welfare)",
+    "url": "https://www.jstage.jst.go.jp/article/jhep/52/2/52_333/_article/-char/en",
+    "kind": "authority",
+    "country": "JP"
    }
   ]
  },
@@ -3222,6 +3674,234 @@
       "strength": null
      }
     ]
+   },
+   {
+    "heading": "Sudden jumps in training",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "An International Olympic Committee expert group named poor load management as a major risk factor for injury in athletes. Load here covers rapid changes in training and competition, crowded schedules, psychological stress and travel. It was written for elite sport, not recreational play.",
+      "cites": [
+       8
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "One influential review argues that hard training protects, and that sudden spikes are what cause harm. Its author wrote that excessive and rapid increases in load are likely behind a large share of non-contact soft-tissue injuries. He recommends building up to high loads in graded steps. This is a narrative review, so it proposes a model rather than testing one.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "The acute-to-chronic workload ratio, which compares recent training with a longer-term average, became the best-known way to spot spikes. A 2020 critique found no evidence supporting its use for training decisions aimed at reducing injury. The authors added that the ratio is an inaccurate measure that adds statistical noise.",
+      "cites": [
+       10
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "A 2026 meta-analysis of 16 studies with 797 team-sport athletes found a small-to-moderate link between a high acute-to-chronic ratio and injury. Results varied enormously from study to study. The authors concluded that the ratio should be read as one sign within a wider monitoring system, not as a stand-alone predictor of injury.",
+      "cites": [
+       11
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Warm-ups that train balance and landing",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "In football, a structured warm-up called the FIFA 11+ reduced injuries by 39% when four trials were pooled. An earlier routine, the FIFA 11, showed no effect in two trials, so not every warm-up works. The trials were in recreational and sub-elite players.",
+      "cites": [
+       12
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Short balance and strength sessions, two or three times a week, appear to be enough to lower leg injury risk. Pooling 16 trials in athletes aged 21 or under, one meta-analysis found 42% fewer leg injuries, and 10 to 15 minute sessions worked as well as longer ones. Another pooled analysis across youth team sports found a 36% reduction.",
+      "cites": [
+       13,
+       14
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "For female athletes, these programmes show their clearest benefit for the knee. A 2025 review of 82 studies in female athletes found that balance, strength and agility programmes done for at least 10 minutes twice a week cut ACL injuries, tears of the main ligament inside the knee, by 61% with high certainty. For all leg injuries the reduction was 19%, with low certainty.",
+      "cites": [
+       15
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Strength training as protection",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Across 25 trials with 26,610 people, strength training showed the largest protective effect of any exercise type studied. It cut sports injuries to less than a third of the usual rate. Balance training reduced them by about 45%, programmes mixing several methods by about a third, and stretching made no difference.",
+      "cites": [
+       16
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "A later review of six strength-training trials, with 7,738 people aged 12 to 40, again found injury risk cut to about a third. More training brought more protection: each 10% rise in strength-training volume lowered injury risk by more than four percentage points.",
+      "cites": [
+       17
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What stretching does not do",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Stretching before exercise did not prevent injury in a large army trial. In Australia, 1,538 recruits either added a 20-second stretch for six leg muscle groups to every warm-up or did not, for 12 weeks. Injury rates were similar. Fitness and age predicted injury risk, while height, weight and BMI did not.",
+      "cites": [
+       18
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "A 2026 review pooled 15 studies with more than 9,000 people and found no effect of regular stretching on muscle, tendon or ligament injuries. Certainty was very low, and most participants were men. No study tested whether stretching just before activity changes injury risk.",
+      "cites": [
+       19
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "How tendons respond to load",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Tendons, the cords that join muscle to bone, respond slowly to exercise in adults. A review found adult tendon far less responsive to single bouts of loading than animal tendon. Losing load works faster: two to three weeks of leg immobilisation cut collagen production by about 80%.",
+      "cites": [
+       20
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Holding a muscle contraction without moving, called an isometric hold, can ease knee tendon pain for a while. In six volleyball players, one session of isometric contractions cut pain during a single-leg squat from about 7 to near 0 out of 10, for at least 45 minutes. A four-week trial in 20 athletes found holds gave more immediate relief than moving lifts.",
+      "cites": [
+       21,
+       22
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "For lasting relief from knee tendon pain, trials favour strength work that gets gradually heavier. In a Danish trial of 39 men with knee tendon pain, heavy slow lifting gave gains that held at six months, while steroid injections helped only briefly. In a Dutch trial of 76 patients, progressive tendon loading beat eccentric exercise at 24 weeks, yet only 43% were back in sport.",
+      "cites": [
+       23,
+       24
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Soreness, pain and the next morning",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Delayed muscle soreness is most common at the start of a season or after a new kind of exercise. Movements where the muscle lengthens under load cause more of it. A review advises easing off for a day or two after a hard session and bringing in new exercises over one or two weeks. Ice and stretching did not ease the soreness.",
+      "cites": [
+       25
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Some rehabilitation programmes use a pain-monitoring rule instead of complete rest. Pain may reach 5 out of 10 during or just after activity, but should settle to its usual level by the next morning. In a Swedish trial of 38 people with Achilles tendon pain, those who kept running and jumping under this rule improved as much as those who stopped.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Sleep and fatigue",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "In teenagers, chronic poor sleep goes with more sports injuries. A meta-analysis of seven studies found that adolescents who slept poorly over time had 58% higher odds of injury. The effect of a single bad night is not settled. These studies were observational, so they show a link and not a cause.",
+      "cites": [
+       28
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In adults, the evidence linking poor sleep to injury is limited. A review of 12 prospective cohort studies in adult athletes concluded that current evidence does not support poor sleep as an independent risk factor for injury. The authors called for better studies rather than ruling it out.",
+      "cites": [
+       29
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "More training combined with less sleep may matter more than either alone. Among 496 Swedish elite athletes aged 15 to 19 followed for a year, those whose training load and intensity rose while their sleep fell had 2.25 times the injury risk, the strongest factor found. Separately, an expert panel recommends seven or more hours of sleep a night for adults.",
+      "cites": [
+       30,
+       31
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Coming back from an ankle sprain",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The NHS advises protection, rest, ice, compression and elevation for the first two to three days after a sprain, and avoiding heat, alcohol and massage. Most sprains feel better after two weeks. Strenuous exercise such as running may need to wait up to eight weeks, and severe sprains can take months.",
+      "cites": [
+       32
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "For ankle sprains, a Dutch evidence-based guideline prefers supervised exercise to passive treatments, because exercise helps restore the ankle's stability. After a torn ankle ligament, a short spell of immobilisation may ease pain and swelling, but tape or a brace combined with exercise helps most. Surgery is kept for ankles that do not respond to thorough exercise treatment.",
+      "cites": [
+       33
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "There were no guidelines for deciding when to play again after a sprain, so an international panel of 155 health professionals drew up a checklist. It covers pain during sport and over the past day, ankle movement and strength, confidence in the ankle, balance, and hopping, jumping, agility and finishing a full training session.",
+      "cites": [
+       34
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "When to get it checked",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Some signs after an injury need emergency care. The NHS lists hearing a crack, a limb that has changed shape or points at an odd angle, and numbness, tingling or skin that turns blue, grey or cold. It advises urgent advice if the injury is very painful, swelling keeps growing, or no weight can be put on it.",
+      "cites": [
+       32
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Injuries that heal slowly also deserve a check. The NHS advises seeing a doctor if knee pain has not improved within a few weeks, or if a sprain is getting worse or not improving with self-care. In many areas of the UK, people can refer themselves to physiotherapy without seeing a doctor first.",
+      "cites": [
+       35,
+       32
+      ],
+      "strength": "guideline"
+     }
+    ]
    }
   ],
   "sources": [
@@ -3280,6 +3960,230 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429440",
     "kind": "journal",
     "country": "INT"
+   },
+   {
+    "n": 8,
+    "title": "How much is too much? (Part 1) International Olympic Committee consensus statement on load in sport and risk of injury",
+    "publisher": "British Journal of Sports Medicine, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27535989/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 9,
+    "title": "The training-injury prevention paradox: should athletes be training smarter and harder?",
+    "publisher": "British Journal of Sports Medicine, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26758673/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 10,
+    "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+    "publisher": "International Journal of Sports Physiology and Performance, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32502973/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 11,
+    "title": "Acute:chronic workload ratio and load management for team sports: a multilevel meta-analysis",
+    "publisher": "Frontiers in Public Health, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42662491/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 12,
+    "title": "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes",
+    "publisher": "British Journal of Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28087568/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 13,
+    "title": "Dose-Response Relationship of Neuromuscular Training for Injury Prevention in Youth Athletes: A Meta-Analysis",
+    "publisher": "Frontiers in Physiology, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29184511/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 14,
+    "title": "Neuromuscular training injury prevention strategies in youth sport: a systematic review and meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26084526/",
+    "kind": "journal",
+    "country": "CA"
+   },
+   {
+    "n": 15,
+    "title": "Prevention strategies for lower extremity injury: a systematic review and meta-analyses for the Female, woman and/or girl Athlete Injury pRevention (FAIR) consensus",
+    "publisher": "British Journal of Sports Medicine, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40645751/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 16,
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "publisher": "British Journal of Sports Medicine, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24100287/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 17,
+    "title": "Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: a systematic review, qualitative analysis and meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30131332/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "A randomized trial of preexercise stretching for prevention of lower-limb injury",
+    "publisher": "Medicine and Science in Sports and Exercise, 2000",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10694106/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 19,
+    "title": "How Effective is Stretching for Injury Prevention? A Large-Scale Systematic Review with Meta-analysis",
+    "publisher": "Sports Medicine, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43066902/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "The impact of loading, unloading, ageing and injury on the human tendon",
+    "publisher": "Journal of Physiology, 2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6395417/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 21,
+    "title": "Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy",
+    "publisher": "British Journal of Sports Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25979840/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 22,
+    "title": "Isometric Contractions Are More Analgesic Than Isotonic Contractions for Patellar Tendon Pain: An In-Season Randomized Clinical Trial",
+    "publisher": "Clinical Journal of Sport Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27513733/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "Corticosteroid injections, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19793213/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 24,
+    "title": "Effectiveness of progressive tendon-loading exercise therapy in patients with patellar tendinopathy: a randomised clinical trial",
+    "publisher": "British Journal of Sports Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33219115/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 25,
+    "title": "Delayed onset muscle soreness: treatment strategies and performance factors",
+    "publisher": "Sports Medicine, 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+    "kind": "journal",
+    "country": "NZ"
+   },
+   {
+    "n": 26,
+    "title": "Pain-guided activity modification during treatment for patellar tendinopathy: a feasibility and pilot randomized clinical trial",
+    "publisher": "Pilot and Feasibility Studies, 2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7905015",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 27,
+    "title": "Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study",
+    "publisher": "American Journal of Sports Medicine, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17307888/",
+    "kind": "journal",
+    "country": "SE"
+   },
+   {
+    "n": 28,
+    "title": "Lack of Sleep and Sports Injuries in Adolescents: A Systematic Review and Meta-analysis",
+    "publisher": "Journal of Pediatric Orthopaedics, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30888337/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 29,
+    "title": "The Association Between Poor Sleep and the Incidence of Sport and Physical Training-Related Injuries in Adult Athletic Populations: A Systematic Review",
+    "publisher": "Sports Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33560506/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 30,
+    "title": "Multiple factors explain injury risk in adolescent elite athletes: Applying a biopsychosocial perspective",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28207969/",
+    "kind": "journal",
+    "country": "SE"
+   },
+   {
+    "n": 31,
+    "title": "Seven or more hours of sleep per night: a health necessity for adults",
+    "publisher": "American Academy of Sleep Medicine and Sleep Research Society, 2015",
+    "url": "https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 32,
+    "title": "Sprains and strains",
+    "publisher": "NHS (UK National Health Service)",
+    "url": "https://www.nhs.uk/conditions/sprains-and-strains/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 33,
+    "title": "Diagnosis, treatment and prevention of ankle sprains: update of an evidence-based clinical guideline",
+    "publisher": "British Journal of Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29514819/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 34,
+    "title": "Return to sport decisions after an acute lateral ankle sprain injury: introducing the PAASS framework, an international multidisciplinary consensus",
+    "publisher": "British Journal of Sports Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34158354/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 35,
+    "title": "Knee pain",
+    "publisher": "NHS (UK National Health Service)",
+    "url": "https://www.nhs.uk/symptoms/knee-pain/",
+    "kind": "authority",
+    "country": "UK"
    }
   ]
  },
@@ -3382,6 +4286,231 @@
       "strength": "weak"
      }
     ]
+   },
+   {
+    "heading": "How much jumping the game involves",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Volleyball is a game of repeated jumps and landings. In video of elite women's matches, each player averaged nearly 22 jump-landings per game. Most jumps were taken off two feet, but more than half of the landings after a block were on one foot. The study covered only two matches among four teams.",
+      "cites": [
+       7
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Setters on one professional team averaged 121 jumps per training session. Sensors on 14 professional players recorded 129,173 jumps across 142 sessions in a season. Weekly totals swung widely, and every player had at least one week in which the jump count doubled.",
+      "cites": [
+       8
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Jump load and jumper's knee",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "In young elite players, more volleyball went with more jumper's knee. A four-year Norwegian study followed 141 players aged 16 to 18, and 28 developed it. Each extra weekly hour of training raised the odds about 1.7 times, and each extra set of matches per week about 3.9 times. Boys had three to four times the risk of girls, and body composition made no difference.",
+      "cites": [
+       9
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "In adult professional players, a link between jump load and knee pain has not been confirmed. Tracking 65 elite men over three seasons and more than 21,000 sessions, a Norwegian study found no certain link between weekly jump load and knee complaints. Differences in risk were small, and the authors say much larger studies would be needed to settle the question.",
+      "cites": [
+       10
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Landings and the knee",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "How a player lands may matter for the knee tendon. In a Dutch laboratory study, players who had recovered from jumper's knee landed from drop jumps with stiffer knees and faster loading than healthy players. The authors suggest stiff landing may be a risk factor, though each group had only seven to nine players and the design cannot show cause.",
+      "cites": [
+       11
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Most ACL injuries in volleyball happen without contact, usually when landing from a spike. The ACL is the main ligament in the middle of the knee. A review of 15 studies found the highest rates in female high-school players and in outside hitters, with rates varying widely by exposure and level of play.",
+      "cites": [
+       12
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Shoulders",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Shoulder pain is common among competitive volleyball players, though estimates depend on how it is defined. A 2026 review of 27 studies put its prevalence between 22% and 38%. Linked factors included earlier shoulder pain, poor control of the shoulder blade, strength imbalance and the number of arm swings. Most studies were observational and at risk of bias.",
+      "cites": [
+       13
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Hitters and jump servers report more shoulder trouble than other players. Among 422 US college club players, about 60% reported a past shoulder problem, and attackers and jump servers had more problems than setters, defensive players and float servers. Women reported more limitation than men. The study was a one-time survey and examination.",
+      "cites": [
+       14
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "In volleyball, a trial of a shoulder warm-up measured fitness rather than injuries. The eight-week programme improved a shoulder stability test in 32 young elite players. In handball, another overhead sport, a trial in 660 elite players found that shoulder rotation, strength and mobility exercises three times a week in the warm-up lowered the risk of shoulder problems by 28%.",
+      "cites": [
+       15,
+       16
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Injury rates, elite and recreational",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "At the top level, volleyball has a low injury rate for a team sport. Data from 32 major international tournaments showed 3.8 time-loss injuries per 1,000 player hours of matches. The ankle accounted for 26% of injuries, the knee 15% and fingers or thumb 11%. The authors note this rate matches studies of lower levels of play.",
+      "cites": [
+       17
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "One large Dutch trial gives a picture of injury rates in recreational adult play. Among 672 recreational players, the usual-warm-up group had 11.3 acute injuries per 1,000 hours, against 8.9 with a structured warm-up called VolleyVeilig. After adjustment the difference was no longer clear. Injury was counted differently from the elite data, so the two rates cannot be compared directly.",
+      "cites": [
+       18,
+       17
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Fingers and blocking",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Blocking is a common source of finger injuries. In a Danish survey of 295 elite and recreational players, indoor injuries occurred mostly during blocking and spiking, with blocking leading to finger injuries. Among Danish elite players, fingers were the most common site of acute injury at 21%, and 28% of all injuries happened while blocking.",
+      "cites": [
+       19,
+       20
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "A typical finger injury happens when the ball strikes the fingertips at the block. World-level data suggest these injuries are undercounted, because players often tape the finger and keep playing. In Danish emergency department records, women had more hand and finger injuries than men, and the authors called for better blocking and overhand passing technique.",
+      "cites": [
+       17,
+       21
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "How hard volleyball works you",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Casual volleyball counts as moderate activity and competitive indoor play as vigorous. The 2024 Compendium of Physical Activities, mostly built on measured values, rates casual team play at 3.0 METs, competitive indoor play at 6.0 and beach play at 8.0. One MET is the energy used sitting quietly. The CDC counts 3 to 5.9 METs as moderate and 6 or more as vigorous.",
+      "cites": [
+       22,
+       23,
+       24
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Much of a volleyball match is played at modest heart rates. In 24 senior female players in Turkey, average heart rate during a match was 117 beats a minute, and every player spent more than half of the match below 60% of her maximum. Liberos had the highest heart rates and setters the lowest.",
+      "cites": [
+       25
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Shorter breaks between rallies made the game a better workout in one small trial. In Serbia, 34 untrained men aged 25 to 55 played twice a week for 12 weeks. Both groups lowered their blood pressure, but only the group playing with shorter breaks improved body weight, BMI and a shuttle-run fitness test.",
+      "cites": [
+       26
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Team play and mental health",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "People who play team sports report fewer bad mental health days. In a survey of 1.2 million US adults, those who exercised reported 1.49 fewer poor mental health days a month than matched non-exercisers, and team sports showed the largest difference, at 22%. The survey was a snapshot, so it cannot show that the sport caused the difference.",
+      "cites": [
+       27
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Reviews of adult sport also link team play with better mental health. A 2023 review of 29 studies linked sport with better wellbeing, less depression, anxiety and stress, and a sense of belonging, with team sport showing more favourable results than individual sport. An earlier review credited the social side of club and team sport, while noting that most studies were cross-sectional.",
+      "cites": [
+       28,
+       29
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Trials of team sport for mental health are few and mixed. A 2026 review found six studies with 744 adults, with inconsistent effects, and suggested the main value may be wellbeing and social connection. On sticking with exercise, the evidence is indirect: feeling good during exercise and doing it for its own sake are both linked to staying active.",
+      "cites": [
+       30,
+       31,
+       32
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Training to jump higher",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Jump training raises jump height in healthy people. A meta-analysis of 26 studies found that plyometric training, meaning quick rebounding jumps, raised standing jump height by about 9%, and jump height with an arm swing by about 7.5%. On a 50 centimetre jump, 9% would be about 4.5 centimetres.",
+      "cites": [
+       33
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Jump training programmes of more than 10 weeks and 20 sessions gave the best chance of clear gains. A meta-analysis of 56 studies also found that mixing squat jumps, countermovement jumps and drop jumps beat using one type, and that adding weight brought no extra benefit. People with more sports experience improved more.",
+      "cites": [
+       34
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Volleyball players gain from jump training even with all the jumping they already do. Across 12 trials in 326 players, plyometric training alone improved jump height, and programme length made no clear difference. Another 2026 review found that splitting the same weekly jumps into more frequent sessions changed little, though certainty was low.",
+      "cites": [
+       35,
+       36
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Lifting weights alone may not raise jump height quickly. In a Greek trial of 55 female players over eight weeks, weight training raised squat strength by 17 to 19% in every training group. Jump height improved clearly only in the groups that added drop jumps from a well-chosen height on top of the weights.",
+      "cites": [
+       37
+      ],
+      "strength": "weak"
+     }
+    ]
    }
   ],
   "sources": [
@@ -3432,6 +4561,254 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429440",
     "kind": "journal",
     "country": "INT"
+   },
+   {
+    "n": 7,
+    "title": "Jumping and Landing Techniques in Elite Women's Volleyball",
+    "publisher": "Journal of Sports Science and Medicine, 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24497818/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "High jump demands in professional volleyball: large variability exists between players and player positions",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29956376/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 9,
+    "title": "Training volume and body composition as risk factors for developing jumper's knee among young elite volleyball players",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22260424/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 10,
+    "title": "Causal inference did not detect any effect of jump load on knee complaints in elite men's volleyball",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38671558/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 11,
+    "title": "Relationship between landing strategy and patellar tendinopathy in volleyball",
+    "publisher": "British Journal of Sports Medicine, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17224437/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 12,
+    "title": "Understanding ACL injuries in volleyball: a systematic review of epidemiology and risk factors",
+    "publisher": "Frontiers in Sports and Active Living, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41438279/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 13,
+    "title": "Epidemiological burden and associated factors of shoulder problems in indoor competitive volleyball players: a systematic review",
+    "publisher": "BMC Sports Science, Medicine and Rehabilitation, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42972471/",
+    "kind": "journal",
+    "country": "CN"
+   },
+   {
+    "n": 14,
+    "title": "Risk factors for volleyball-related shoulder pain and dysfunction",
+    "publisher": "PM&R, 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20129510/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 15,
+    "title": "The effect of a shoulder injury prevention programme on proprioception and dynamic stability of young volleyball players; a randomized controlled trial",
+    "publisher": "BMC Sports Science, Medicine and Rehabilitation, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34193267/",
+    "kind": "journal",
+    "country": "IR"
+   },
+   {
+    "n": 16,
+    "title": "Preventing overuse shoulder injuries among throwing athletes: a cluster-randomised controlled trial in 660 elite handball players",
+    "publisher": "British Journal of Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27313171/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 17,
+    "title": "Injury risk is low among world-class volleyball players: 4-year data from the FIVB Injury Surveillance System",
+    "publisher": "British Journal of Sports Medicine, 2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4552924/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Preventing injuries among recreational adult volleyball players: Results of a prospective randomised controlled trial",
+    "publisher": "Journal of Sports Sciences, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31992133/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 19,
+    "title": "An epidemiological analysis of the injury pattern in indoor and in beach volleyball",
+    "publisher": "International Journal of Sports Medicine, 1997",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9187978/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 20,
+    "title": "Injuries in elite volleyball",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 1996",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8896096/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 21,
+    "title": "Volleyball injuries presenting in casualty: a prospective study",
+    "publisher": "British Journal of Sports Medicine, 1995",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8800857/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 22,
+    "title": "Sports: 2024 Adult Compendium of Physical Activities",
+    "publisher": "Compendium of Physical Activities, 2024",
+    "url": "https://pacompendium.com/adult-compendium/sports/",
+    "kind": "other",
+    "country": "US"
+   },
+   {
+    "n": 23,
+    "title": "2024 Adult Compendium of Physical Activities: A third update of the energy costs of human activities",
+    "publisher": "Journal of Sport and Health Science, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38242596/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 24,
+    "title": "Measuring physical activity intensity",
+    "publisher": "US Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 25,
+    "title": "Heart rate and blood lactate responses during the volleyball match",
+    "publisher": "Scientific Reports, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36097030/",
+    "kind": "journal",
+    "country": "TR"
+   },
+   {
+    "n": 26,
+    "title": "Intensity-Modified Recreational Volleyball Training Improves Health Markers and Physical Fitness in 25-55-Year-Old Men",
+    "publisher": "BioMed Research International, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34239935/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 27,
+    "title": "Association between physical exercise and mental health in 1.2 million individuals in the USA between 2011 and 2015: a cross-sectional study",
+    "publisher": "Lancet Psychiatry, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30099000/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 28,
+    "title": "The impact of sports participation on mental health and social outcomes in adults: a systematic review and the 'Mental Health through Sport' conceptual model",
+    "publisher": "Systematic Reviews, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37344901/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 29,
+    "title": "A systematic review of the psychological and social benefits of participation in sport for adults: informing development of a conceptual model of health through sport",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24313992/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 30,
+    "title": "Are Team Sports Effective in Improving Mental Health? A Systematic Review on the Primary Outcomes of Anxiety and Mood",
+    "publisher": "Clinical Practice and Epidemiology in Mental Health, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42582748/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 31,
+    "title": "Can the affective response to exercise predict future motives and physical activity behavior? A systematic review of published evidence",
+    "publisher": "Annals of Behavioral Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25921307/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 32,
+    "title": "Exercise, physical activity, and self-determination theory: a systematic review",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3441783/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 33,
+    "title": "Does plyometric training improve vertical jump height? A meta-analytical review",
+    "publisher": "British Journal of Sports Medicine, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17347316/",
+    "kind": "journal",
+    "country": "HR"
+   },
+   {
+    "n": 34,
+    "title": "Determining variables of plyometric training for improving vertical jump height performance: a meta-analysis",
+    "publisher": "Journal of Strength and Conditioning Research, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19197203/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 35,
+    "title": "Effects of standalone plyometric training on countermovement jump and linear sprint performance in volleyball athletes: a systematic review and meta-analysis",
+    "publisher": "Frontiers in Physiology, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43047452/",
+    "kind": "journal",
+    "country": "CN"
+   },
+   {
+    "n": 36,
+    "title": "Microdosing in Plyometric Training: Effects of Frequency Distribution on Physical Performance in Team-Sport Athletes: A Systematic Review and Meta-Analysis",
+    "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/43066527/",
+    "kind": "journal",
+    "country": "CN"
+   },
+   {
+    "n": 37,
+    "title": "Effects of Drop Jump Training from Different Heights and Weight Training on Vertical Jump and Maximum Strength Performance in Female Volleyball Players",
+    "publisher": "Journal of Strength and Conditioning Research, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35836281/",
+    "kind": "journal",
+    "country": "GR"
    }
   ]
  },
@@ -3697,6 +5074,242 @@
       "strength": "weak"
      }
     ]
+   },
+   {
+    "heading": "Sets, reps and load",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "More weekly sets build more muscle, but each extra set adds less than the one before. A 2017 review of 15 studies linked each added weekly set with about 0.4% more muscle growth. A 2026 analysis of 67 studies found the same for size and strength, with sharper diminishing returns for strength.",
+      "cites": [
+       8,
+       9
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The American College of Sports Medicine's 2026 position stand lists what most helps strength. Strength rose more with loads of at least 80% of maximum, full range of motion, two to three sets, placing the exercise early in a session and at least two sessions a week. Muscle growth was greater with ten or more sets a week.",
+      "cites": [
+       10
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Light weights build as much muscle as heavy ones when sets are taken to failure. A review of 21 studies, in which every set went until no more repetitions were possible, found similar muscle growth with light and heavy loads. Gains in maximum strength, measured as the heaviest weight lifted once, were larger with heavy loads.",
+      "cites": [
+       11
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Sets of more than 15 repetitions built as much muscle as heavy sets in a 2021 review of 28 studies. Muscle growth did not differ between low, moderate and high loads, all taken to failure. Strength gains were larger with moderate and high loads, and untrained people gained the most muscle.",
+      "cites": [
+       12
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "How close to failure",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Training to failure is not needed to gain strength or muscle. A review of 15 studies in young adults found no significant difference between failure and non-failure training for strength or muscle size. Training to failure did not seem to harm results either.",
+      "cites": [
+       13
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Finishing sets nearer to failure may matter a little more for muscle size than for strength. A 2023 review found only a trivial size advantage for sets taken to failure. A 2024 analysis estimated the repetitions left in reserve and found size rose as sets ended closer to failure, while strength was similar across a wide range.",
+      "cites": [
+       14,
+       15
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The NHS gives a simple test of effort that needs no counting. It says strength exercises should be done to the point where a short rest is needed before repeating the activity. Ending sets once the movement is hard, with a few repetitions left, fits this and the trials above.",
+      "cites": [
+       16
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "How often, and rest between sets",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "How many days a week a muscle is trained matters little once weekly sets are the same. A review of 25 studies found no meaningful difference in muscle growth between frequencies when volume was equal. A review of 22 studies found strength rose with more sessions, but not when volume was matched.",
+      "cites": [
+       17,
+       18
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Resting a little over a minute between sets may build slightly more muscle than very short rests. A 2024 review of nine studies found a small benefit to rests longer than 60 seconds, perhaps because people then lift more in later sets. It found no clear extra gain from resting longer than 90 seconds.",
+      "cites": [
+       19
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Progress, at home or in a gym",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Gradual progress is the core advice, while many popular details matter less. The 2026 position stand advises healthy adults to train progressively. It found that training to momentary fatigue, equipment type, exercise complexity, time under tension and periodisation, meaning planned changes across weeks, did not consistently change results.",
+      "cites": [
+       10
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Adding repetitions works about as well as adding weight. In a trial of 43 people with at least a year of leg training, one group added weight over time while the other kept the weight and added repetitions. After eight weeks, muscle growth and strength were similar.",
+      "cites": [
+       20
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Push-ups built chest muscle and pressing strength as well as a light bench press in a small Japanese trial. Eighteen young men trained twice a week for eight weeks, with push-ups adjusted, for example by kneeling, to match 40% of their bench press maximum. Both groups gained similar strength and chest and triceps muscle.",
+      "cites": [
+       21
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Elastic bands produced strength gains similar to weight machines and dumbbells. A review of eight studies found no advantage for either method in upper or lower body strength. The NHS lists bands, body weight exercises and heavy household tasks among ways to build strength at home or in a gym.",
+      "cites": [
+       22,
+       16
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Soreness after training",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Muscle soreness after training is most common after a break or when an exercise is new. A review notes that lowering movements, called eccentric actions, cause more of the small muscle injuries involved, and that the cause of soreness is uncertain. Exercise eases it for a while, and lighter training for one to two days was advised.",
+      "cites": [
+       23
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Soreness usually drops the second time the same exercise is done. A review of 20 studies found more soreness and a larger strength dip after a first session than after a repeat. Stretching does little: a Cochrane review of 12 studies found it cut soreness by about one point on a 100-point scale.",
+      "cites": [
+       24,
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Soreness is not a sign that a session built more muscle. In a study of ten young men, muscle damage was highest in the first week of training and was unrelated to later growth. Growth was linked with muscle building measured at weeks three and ten, after the damage had faded. Chasing soreness has no support here.",
+      "cites": [
+       26
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Injury risk",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Weight-training sports appear to have relatively low injury rates compared with common team sports. A review of 20 studies found about 0.24 to 1 injury per 1,000 hours in bodybuilding and 4.5 to 7.5 in strongman and Highland Games. Only four of the studies followed athletes forward in time, which weakens the figures.",
+      "cites": [
+       27
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Many weight-training injuries seen in US emergency rooms came from dropped weights rather than the lift itself. Data from 1990 to 2007 estimated about 970,000 such injuries. Weights dropping on the person caused 65.5%, and 90.4% involved free weights. Careful handling of weights addresses the commonest cause.",
+      "cites": [
+       28
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Protein and training",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Nordic nutrition advice puts adult protein needs at about 0.83 g per kg of body weight a day. The review behind it cites 1.2 to 2.0 g per kg for active people eating less than they burn, and 1.0 to 1.2 for healthy older adults. Protein comes from many animal and plant foods.",
+      "cites": [
+       29
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Extra protein gives training a modest boost that levels off. A review of 49 trials found added protein raised strength by about 2.5 kg on a one-repetition lift and lean mass by 0.3 kg. Gains stopped rising above a total intake of about 1.6 g per kg a day, and were smaller with age.",
+      "cites": [
+       30
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Lifting alongside volleyball",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Strength training lowered sports injuries in randomised trials. A review of 25 trials with 26,610 people found that strength training cut injuries to less than a third of the usual rate. Exercise programmes overall almost halved overuse injuries, while stretching showed no clear benefit.",
+      "cites": [
+       31
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Combining lifting with other training does not blunt gains in muscle or maximal strength, but may blunt explosive strength. A review of 43 studies found explosive gains were smaller when both were done in the same session, but not when sessions were at least three hours apart. The other training was running or cycling, not court sport.",
+      "cites": [
+       32
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "For jump height itself, jump training seems to matter more than lifting alone. A review of 12 studies in female soccer players found that plyometric training, meaning repeated jumps and bounds, improved vertical jump more than strength training did. In professional soccer, strength training had smaller effects during the season than before it.",
+      "cites": [
+       33,
+       34
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Limits of the evidence",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The dose evidence comes mainly from young men. Participants in the 67 studies of the 2026 dose analysis averaged 25 years of age, and 79% were male. All 15 studies in the failure review were in young adults, and its authors call for more research in older and highly trained people.",
+      "cites": [
+       9,
+       13
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Trials behind the 2026 position stand lasted 6 to 52 weeks, so they say little about years of lifting. Across 137 reviews with more than 30,000 people, few programme details changed the main results. How training choices play out over decades remains unknown.",
+      "cites": [
+       10
+      ],
+      "strength": "guideline"
+     }
+    ]
    }
   ],
   "sources": [
@@ -3753,6 +5366,222 @@
     "title": "Resistance training prevents muscle loss induced by caloric restriction in obese elderly individuals: a systematic review and meta-analysis",
     "publisher": "Nutrients, 2018",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5946208/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 8,
+    "title": "Dose-response relationship between weekly resistance training volume and increases in muscle mass: a systematic review and meta-analysis",
+    "publisher": "Journal of Sports Sciences, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27433992/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 9,
+    "title": "The resistance training dose response: meta-regressions exploring the effects of weekly volume and frequency on muscle hypertrophy and strength gains",
+    "publisher": "Sports Medicine, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41343037/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 10,
+    "title": "American College of Sports Medicine position stand. Resistance training prescription for muscle function, hypertrophy, and physical performance in healthy adults: an overview of reviews",
+    "publisher": "American College of Sports Medicine, in Medicine and Science in Sports and Exercise, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Strength and hypertrophy adaptations between low- vs. high-load resistance training: a systematic review and meta-analysis",
+    "publisher": "Journal of Strength and Conditioning Research, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 12,
+    "title": "Resistance training load effects on muscle hypertrophy and strength gain: systematic review and network meta-analysis",
+    "publisher": "Medicine and Science in Sports and Exercise, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33433148/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 13,
+    "title": "Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: a systematic review and meta-analysis",
+    "publisher": "Journal of Sport and Health Science, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33497853/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 14,
+    "title": "Influence of resistance training proximity-to-failure on skeletal muscle hypertrophy: a systematic review with meta-analysis",
+    "publisher": "Sports Medicine, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36334240/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 15,
+    "title": "Exploring the dose-response relationship between estimated resistance training proximity to failure, strength gain, and muscle hypertrophy: a series of meta-regressions",
+    "publisher": "Sports Medicine, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38970765/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 16,
+    "title": "Physical activity guidelines for adults aged 19 to 64",
+    "publisher": "NHS (UK National Health Service)",
+    "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 17,
+    "title": "How many times per week should a muscle be trained to maximize muscle hypertrophy? A systematic review and meta-analysis of studies examining the effects of resistance training frequency",
+    "publisher": "Journal of Sports Sciences, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30558493/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Effect of resistance training frequency on gains in muscular strength: a systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29470825/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 19,
+    "title": "Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy",
+    "publisher": "Frontiers in Sports and Active Living, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39205815/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Progressive overload without progressing load? The effects of load or repetition progression on muscular adaptations",
+    "publisher": "PeerJ, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36199287/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 21,
+    "title": "Low-load bench press and push-up induce similar muscle hypertrophy and strength gain",
+    "publisher": "Journal of Exercise Science and Fitness, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29541130/",
+    "kind": "journal",
+    "country": "JP"
+   },
+   {
+    "n": 22,
+    "title": "Effects of training with elastic resistance versus conventional resistance on muscular strength: a systematic review and meta-analysis",
+    "publisher": "SAGE Open Medicine, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30815258/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 23,
+    "title": "Delayed onset muscle soreness: treatment strategies and performance factors",
+    "publisher": "Sports Medicine, 2003",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12617692/",
+    "kind": "journal",
+    "country": "NZ"
+   },
+   {
+    "n": 24,
+    "title": "The repeated bout effect of multiarticular exercises on muscle damage markers and physical performances: a systematic review and meta-analyses",
+    "publisher": "Journal of Strength and Conditioning Research, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38015738/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 25,
+    "title": "Stretching to prevent or reduce muscle soreness after exercise",
+    "publisher": "Cochrane Database of Systematic Reviews, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21735398/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 26,
+    "title": "Resistance training-induced changes in integrated myofibrillar protein synthesis are related to hypertrophy only after attenuation of muscle damage",
+    "publisher": "Journal of Physiology, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27219125/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 27,
+    "title": "The epidemiology of injuries across the weight-training sports",
+    "publisher": "Sports Medicine, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27328853/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Epidemiology of weight training-related injuries presenting to United States emergency departments, 1990 to 2007",
+    "publisher": "American Journal of Sports Medicine, 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20139328/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 29,
+    "title": "Protein: a scoping review for Nordic Nutrition Recommendations 2023",
+    "publisher": "Food and Nutrition Research, 2023 (for the Nordic Nutrition Recommendations)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10770649/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 30,
+    "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+    "publisher": "British Journal of Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "publisher": "British Journal of Sports Medicine, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24100287/",
+    "kind": "journal",
+    "country": "DK"
+   },
+   {
+    "n": 32,
+    "title": "Compatibility of concurrent aerobic and strength training for skeletal muscle size and function: an updated systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34757594/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 33,
+    "title": "Effects of strength vs. plyometric training programs on vertical jumping, linear sprint and change of direction speed performance in female soccer players: a systematic review and meta-analysis",
+    "publisher": "International Journal of Environmental Research and Public Health, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33419178/",
+    "kind": "journal",
+    "country": "ES"
+   },
+   {
+    "n": 34,
+    "title": "Strength training in professional soccer: effects on short-sprint and jump performance",
+    "publisher": "International Journal of Sports Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34560812/",
     "kind": "journal",
     "country": "INT"
    }

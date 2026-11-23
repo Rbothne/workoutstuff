@@ -1,0 +1,519 @@
+{
+  "id": "volleyball",
+  "sources": {
+    "x_volleyball_tillman": {
+      "title": "Jumping and Landing Techniques in Elite Women's Volleyball",
+      "publisher": "Journal of Sports Science and Medicine, 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24497818/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Video of two matches among four elite women's teams. Players averaged nearly 22 jump-landings per game; most jumps used two feet, but over 50% of defensive (block) landings were on one foot."
+    },
+    "x_volleyball_skazalski": {
+      "title": "High jump demands in professional volleyball: large variability exists between players and player positions",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29956376/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "14 professional players, one season: 129,173 jumps over 142 sessions; setters averaged 121 jumps per training session; each player had at least one week with a twofold increase in jumps."
+    },
+    "x_volleyball_visnes13": {
+      "title": "Training volume and body composition as risk factors for developing jumper's knee among young elite volleyball players",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22260424/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "4-year cohort of 141 elite players aged 16 to 18; 28 developed jumper's knee. Boys had 3 to 4 times the risk; OR 1.72 per extra hour of volleyball training and OR 3.88 per extra set played per week; body composition did not differ."
+    },
+    "x_volleyball_bache": {
+      "title": "Causal inference did not detect any effect of jump load on knee complaints in elite men's volleyball",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38671558/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "65 players over three seasons, 21,088 player sessions. No certain evidence of an association between weekly jump load and knee complaints; small risk differences; much larger samples would be needed."
+    },
+    "x_volleyball_bisseling": {
+      "title": "Relationship between landing strategy and patellar tendinopathy in volleyball",
+      "publisher": "British Journal of Sports Medicine, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17224437/",
+      "kind": "journal",
+      "country": "NL",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Groups of 7 to 9 players. Players with a previous jumper's knee used a stiffer landing strategy with higher knee angular velocities and loading rates than healthy players, which the authors suggest may be a risk factor."
+    },
+    "x_volleyball_acl": {
+      "title": "Understanding ACL injuries in volleyball: a systematic review of epidemiology and risk factors",
+      "publisher": "Frontiers in Sports and Active Living, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41438279/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 cohort studies. Non-contact mechanisms were the most frequent cause of ACL injury, mostly during spike landings; female high-school players and outside hitters had the highest incidence; rates varied with exposure and level."
+    },
+    "x_volleyball_shoulderrev": {
+      "title": "Epidemiological burden and associated factors of shoulder problems in indoor competitive volleyball players: a systematic review",
+      "publisher": "BMC Sports Science, Medicine and Rehabilitation, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42972471/",
+      "kind": "journal",
+      "country": "CN",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "27 studies. Shoulder pain prevalence 22% to 38%, depending on definition; associated factors included previous shoulder pain, scapular dyskinesis, strength imbalance and swing volume; evidence mostly observational at moderate-to-high risk of bias."
+    },
+    "x_volleyball_reeser": {
+      "title": "Risk factors for volleyball-related shoulder pain and dysfunction",
+      "publisher": "PM&R, 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20129510/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Cross-sectional, 422 collegiate club players. About 60% reported a history of shoulder problems; attackers and jump servers were more likely to have problems than setters, defensive specialists and float servers; women had lower function scores."
+    },
+    "x_volleyball_zarei": {
+      "title": "The effect of a shoulder injury prevention programme on proprioception and dynamic stability of young volleyball players; a randomized controlled trial",
+      "publisher": "BMC Sports Science, Medicine and Rehabilitation, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34193267/",
+      "kind": "journal",
+      "country": "IR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "32 young elite male players, 8 weeks of the FIFA 11+ Shoulder warm-up three times a week. Shoulder dynamic stability improved; position sense did not; injuries were not measured."
+    },
+    "x_volleyball_handball": {
+      "title": "Preventing overuse shoulder injuries among throwing athletes: a cluster-randomised controlled trial in 660 elite handball players",
+      "publisher": "British Journal of Sports Medicine, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27313171/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "45 teams, 660 players. A warm-up programme for glenohumeral rotation, external rotation and scapular strength, kinetic chain and thoracic mobility, three times a week, gave a 28% lower risk of shoulder problems (OR 0.72)."
+    },
+    "x_volleyball_fivb": {
+      "title": "Injury risk is low among world-class volleyball players: 4-year data from the FIVB Injury Surveillance System",
+      "publisher": "British Journal of Sports Medicine, 2015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4552924/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "page opened",
+      "says": "32 major FIVB events. 3.8 time-loss injuries per 1,000 player hours in matches; ankle 25.9%, knee 15.2%, fingers or thumb 10.7%. Finger injuries typically happen when the ball hits the fingertips during a block, and players often tape and continue, so they are under-reported. Rate consistent with lower levels of play."
+    },
+    "x_volleyball_volleyveilig": {
+      "title": "Preventing injuries among recreational adult volleyball players: Results of a prospective randomised controlled trial",
+      "publisher": "Journal of Sports Sciences, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31992133/",
+      "kind": "journal",
+      "country": "NL",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "672 recreational adult players, one season, injuries registered with the OSTRC questionnaire. Acute injury 8.9 vs 11.3 per 1,000 hours with the VolleyVeilig warm-up (crude HR 0.82; adjusted 0.85, 0.71 to 1.02); overuse prevalence 4.8% vs 4.2%."
+    },
+    "x_volleyball_aagaard97": {
+      "title": "An epidemiological analysis of the injury pattern in indoor and in beach volleyball",
+      "publisher": "International Journal of Sports Medicine, 1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9187978/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Questionnaire survey of 295 elite and recreational players. Indoor injuries occurred mostly in blocking and spiking, resulting most often in acute finger and ankle injuries respectively."
+    },
+    "x_volleyball_aagaard96": {
+      "title": "Injuries in elite volleyball",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8896096/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Danish elite divisions, 137 players. Most injuries occurred in spiking (32%) and blocking (28%); acute finger injuries were 21% of injuries."
+    },
+    "x_volleyball_solgard": {
+      "title": "Volleyball injuries presenting in casualty: a prospective study",
+      "publisher": "British Journal of Sports Medicine, 1995",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8800857/",
+      "kind": "journal",
+      "country": "DK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "278 volleyball injuries at two Danish casualty departments. Hand, finger and ankle sprains were most frequent; female players had significantly more hand and finger injuries; authors call for better blocking and overhand pass technique."
+    },
+    "x_volleyball_compendium": {
+      "title": "Sports: 2024 Adult Compendium of Physical Activities",
+      "publisher": "Compendium of Physical Activities, 2024",
+      "url": "https://pacompendium.com/adult-compendium/sports/",
+      "kind": "other",
+      "country": "US",
+      "how": "page opened",
+      "says": "Volleyball 4.0 METs; competitive, in gymnasium 6.0; non-competitive, 6 to 9 member team, general 3.0; beach, in sand 8.0."
+    },
+    "x_volleyball_herrmann": {
+      "title": "2024 Adult Compendium of Physical Activities: A third update of the energy costs of human activities",
+      "publisher": "Journal of Sport and Health Science, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38242596/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "The 2024 update for adults aged 19 to 59 includes 1,114 activities, 912 with measured and 202 with estimated MET values."
+    },
+    "x_volleyball_cdc": {
+      "title": "Measuring physical activity intensity",
+      "publisher": "US Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "3 to 5.9 METs is moderate intensity and 6.0 METs or more is vigorous; one MET equals the energy used while sitting quietly."
+    },
+    "x_volleyball_matchhr": {
+      "title": "Heart rate and blood lactate responses during the volleyball match",
+      "publisher": "Scientific Reports, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36097030/",
+      "kind": "journal",
+      "country": "TR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 senior female players. Mean match heart rate 117.2 bpm; all players spent more than half of the match at 50 to 60% or below 50% of maximum heart rate; setters lowest, liberos highest."
+    },
+    "x_volleyball_vasic": {
+      "title": "Intensity-Modified Recreational Volleyball Training Improves Health Markers and Physical Fitness in 25-55-Year-Old Men",
+      "publisher": "BioMed Research International, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34239935/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "34 untrained men aged 25 to 55, twice a week for 12 weeks. Both groups lowered systolic blood pressure; only the version with shorter breaks between rallies improved body weight, BMI and Yo-Yo intermittent recovery test performance."
+    },
+    "x_volleyball_chekroud": {
+      "title": "Association between physical exercise and mental health in 1.2 million individuals in the USA between 2011 and 2015: a cross-sectional study",
+      "publisher": "Lancet Psychiatry, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30099000/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,237,194 adults. Those who exercised had 1.49 fewer days of poor mental health a month than matched non-exercisers; popular team sports had the largest association (22.3% lower)."
+    },
+    "x_volleyball_eather": {
+      "title": "The impact of sports participation on mental health and social outcomes in adults: a systematic review and the 'Mental Health through Sport' conceptual model",
+      "publisher": "Systematic Reviews, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37344901/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "29 studies of adults aged 18 to 84. Sport participation related to better psychological well-being, lower depression, anxiety and stress, and better social outcomes; team sport participants had more favourable outcomes than individual sport participants."
+    },
+    "x_volleyball_eime": {
+      "title": "A systematic review of the psychological and social benefits of participation in sport for adults: informing development of a conceptual model of health through sport",
+      "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24313992/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "11 studies. Club-based or team-based sport seems associated with better health outcomes than individual activities, due to the social nature of participation; causal links are limited by cross-sectional designs."
+    },
+    "x_volleyball_teamtrials": {
+      "title": "Are Team Sports Effective in Improving Mental Health? A Systematic Review on the Primary Outcomes of Anxiety and Mood",
+      "publisher": "Clinical Practice and Epidemiology in Mental Health, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42582748/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Six studies, 744 adults without diagnosed mental disorders. Effects on anxiety and mood were inconsistent; the value may lie more in psychosocial functioning, well-being and social connection."
+    },
+    "x_volleyball_markovic": {
+      "title": "Does plyometric training improve vertical jump height? A meta-analytical review",
+      "publisher": "British Journal of Sports Medicine, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17347316/",
+      "kind": "journal",
+      "country": "HR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "26 studies in healthy people. Plyometric training raised countermovement jump by 8.7% and countermovement jump with arm swing by 7.5%."
+    },
+    "x_volleyball_villarreal": {
+      "title": "Determining variables of plyometric training for improving vertical jump height performance: a meta-analysis",
+      "publisher": "Journal of Strength and Conditioning Research, 2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19197203/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "56 studies. More than 10 weeks and more than 20 sessions with more than 50 jumps per session seemed to maximise gains; combining squat, countermovement and drop jumps beat one form; added weight gave no extra benefit; more sport experience gave greater gains; men tended to gain more power."
+    },
+    "x_volleyball_plyovb": {
+      "title": "Effects of standalone plyometric training on countermovement jump and linear sprint performance in volleyball athletes: a systematic review and meta-analysis",
+      "publisher": "Frontiers in Physiology, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43047452/",
+      "kind": "journal",
+      "country": "CN",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 controlled trials, 326 volleyball athletes. Plyometric training alone improved countermovement jump (g = 0.55); no significant difference by intervention duration, age or sex."
+    },
+    "x_volleyball_microdose": {
+      "title": "Microdosing in Plyometric Training: Effects of Frequency Distribution on Physical Performance in Team-Sport Athletes: A Systematic Review and Meta-Analysis",
+      "publisher": "Scandinavian Journal of Medicine and Science in Sports, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43066527/",
+      "kind": "journal",
+      "country": "CN",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 studies. With weekly volume matched, higher- versus lower-frequency plyometric training made small average differences (countermovement jump g = 0.09); certainty low."
+    },
+    "x_volleyball_sotiropoulos": {
+      "title": "Effects of Drop Jump Training from Different Heights and Weight Training on Vertical Jump and Maximum Strength Performance in Female Volleyball Players",
+      "publisher": "Journal of Strength and Conditioning Research, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35836281/",
+      "kind": "journal",
+      "country": "GR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "55 female players, 8 weeks, 13 sessions. Half-squat strength rose 17.4 to 19% in all training groups; vertical jump improved more in groups adding drop jumps from optimal or 25% higher heights than in weight training alone or control."
+    }
+  },
+  "sections": [
+    {
+      "heading": "How much jumping the game involves",
+      "paragraphs": [
+        {
+          "text": "Volleyball is a game of repeated jumps and landings. In video of elite women's matches, each player averaged nearly 22 jump-landings per game. Most jumps were taken off two feet, but more than half of the landings after a block were on one foot. The study covered only two matches among four teams.",
+          "cites": ["x_volleyball_tillman"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_tillman", "quote": "Videotape recordings of two matches among four volleyball teams were analyzed for this study. Each activity was categorized by jump type (offensive spike or defensive block) ... Each of the players averaged nearly 22 jump-landings per game. Foot use patterns occurred in unequal amounts (p < 0.001) with over 50% of defensive landings occurring on one foot." }
+          ]
+        },
+        {
+          "text": "Setters on one professional team averaged 121 jumps per training session. Sensors on 14 professional players recorded 129,173 jumps across 142 sessions in a season. Weekly totals swung widely, and every player had at least one week in which the jump count doubled.",
+          "cites": ["x_volleyball_skazalski"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_skazalski", "quote": "A total of 129 173 jumps were performed during 142 sessions (108 practices, 27 matches, 7 friendly matches). Setters performed the greatest volume of jumps (121 jumps/training session). ... Additionally, each player had at least 1 week with a twofold increase in jumps." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Jump load and jumper's knee",
+      "paragraphs": [
+        {
+          "text": "In young elite players, more volleyball went with more jumper's knee. A four-year Norwegian study followed 141 players aged 16 to 18, and 28 developed it. Each extra weekly hour of training raised the odds about 1.7 times, and each extra set of matches per week about 3.9 times. Boys had three to four times the risk of girls, and body composition made no difference.",
+          "cites": ["x_volleyball_visnes13"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_visnes13", "quote": "We recruited 141 healthy students (69 males and 72 females), and 28 developed jumper's knee (22 boys and six girls). In a multivariate analyses, boys had three to four times higher risk compared with girls. Volleyball training had an odds ratio (OR) 1.72 (1.18-2.53) for every extra hour trained, and match exposure was the strongest sports-related predictor for developing jumper's knee with an OR of 3.88 (1.80-8.40) for every extra set played per week. We did not detect any significant differences between the groups in body composition" }
+          ]
+        },
+        {
+          "text": "In adult professional players, a link between jump load and knee pain has not been confirmed. Tracking 65 elite men over three seasons and more than 21,000 sessions, a Norwegian study found no certain link between weekly jump load and knee complaints. Differences in risk were small, and the authors say much larger studies would be needed to settle the question.",
+          "cites": ["x_volleyball_bache"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_bache", "quote": "four men's premier league volleyball teams through three seasons in a prospective cohort study (65 players, 102 player-seasons) ... 21 088 daily player sessions ... No certain evidence of an association was found between weekly jump load and probability of (i) knee complaints ... Small differences in risk across observed jump load levels were observed. It would likely require substantially increased sample sizes to detect this association with certainty." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Landings and the knee",
+      "paragraphs": [
+        {
+          "text": "How a player lands may matter for the knee tendon. In a Dutch laboratory study, players who had recovered from jumper's knee landed from drop jumps with stiffer knees and faster loading than healthy players. The authors suggest stiff landing may be a risk factor, though each group had only seven to nine players and the design cannot show cause.",
+          "cites": ["x_volleyball_bisseling"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_bisseling", "quote": "(CON, n = 8; PJK, n = 7; RJK, n = 9) ... PJK showed higher knee angular velocities (p<0.01), and higher ankle plantar flexion moment loading rate (p<0.01). ... PJK used a stiffer landing strategy, which may be a risk factor in the development of patellar tendinopathy." }
+          ]
+        },
+        {
+          "text": "Most ACL injuries in volleyball happen without contact, usually when landing from a spike. The ACL is the main ligament in the middle of the knee. A review of 15 studies found the highest rates in female high-school players and in outside hitters, with rates varying widely by exposure and level of play.",
+          "cites": ["x_volleyball_acl"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_acl", "quote": "From an initial pool of 1,491 titles, 15 studies met the inclusion criteria ... substantial variation in ACL injury rates, largely influenced by factors such as exposure time, competition level, and injury mechanism. Notably, non-contact mechanisms were the most frequent cause of ACL injuries, predominantly occurring during spike landings in competitive settings. Female athletes, particularly high school players and those in the outside hitter position, exhibited the highest incidence" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Shoulders",
+      "paragraphs": [
+        {
+          "text": "Shoulder pain is common among competitive volleyball players, though estimates depend on how it is defined. A 2026 review of 27 studies put its prevalence between 22% and 38%. Linked factors included earlier shoulder pain, poor control of the shoulder blade, strength imbalance and the number of arm swings. Most studies were observational and at risk of bias.",
+          "cites": ["x_volleyball_shoulderrev"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_shoulderrev", "quote": "Twenty-seven studies were included ... Shoulder pain prevalence ranged from 22% (point prevalence) to 38% (lifetime prevalence). ... Reported associated factors included previous shoulder pain or injury, scapular dyskinesis, strength imbalance ... swing volume ... Most evidence was observational, heterogeneous, and at moderate-to-high risk of bias." }
+          ]
+        },
+        {
+          "text": "Hitters and jump servers report more shoulder trouble than other players. Among 422 US college club players, about 60% reported a past shoulder problem, and attackers and jump servers had more problems than setters, defensive players and float servers. Women reported more limitation than men. The study was a one-time survey and examination.",
+          "cites": ["x_volleyball_reeser"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_reeser", "quote": "A total of 422 athletes returned questionnaires ... Approximately 60% of participants reported a history of shoulder problems. Attackers and \"jump\" servers were more likely to have shoulder problems than setters, defensive specialists, and \"float\" servers. ... female athletes providing lower SST scores than male athletes" }
+          ]
+        },
+        {
+          "text": "In volleyball, a trial of a shoulder warm-up measured fitness rather than injuries. The eight-week programme improved a shoulder stability test in 32 young elite players. In handball, another overhead sport, a trial in 660 elite players found that shoulder rotation, strength and mobility exercises three times a week in the warm-up lowered the risk of shoulder problems by 28%.",
+          "cites": ["x_volleyball_zarei", "x_volleyball_handball"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_zarei", "quote": "Thirty-two healthy young elite male volleyball players ... the \"FIFA 11 + shoulder\" programme as their warm up protocol, three times per week ... shoulder stability however significantly increased only in the intervention group (p = 0.03" },
+            { "key": "x_volleyball_handball", "quote": "45 elite handball teams (22 female teams, 23 male teams, 660 players) ... an exercise programme to increase glenohumeral internal rotation, external rotation strength and scapular muscle strength, as well as improve kinetic chain and thoracic mobility, was delivered by coaches and captains 3 times per week as a part of the handball warm-up. ... a 28% lower risk of shoulder problems (OR 0.72, 95% CI 0.52 to 0.98, p=0.038)" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Injury rates, elite and recreational",
+      "paragraphs": [
+        {
+          "text": "At the top level, volleyball has a low injury rate for a team sport. Data from 32 major international tournaments showed 3.8 time-loss injuries per 1,000 player hours of matches. The ankle accounted for 26% of injuries, the knee 15% and fingers or thumb 11%. The authors note this rate matches studies of lower levels of play.",
+          "cites": ["x_volleyball_fivb"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_fivb", "quote": "The incidence of time-loss injuries during match play was 3.8/1000 player hours (95% CI 3.0 to 4.5) ... the ankle was the most commonly injured body part (25.9%), followed by the knee (15.2%), fingers/thumb (10.7%) ... which is substantially lower than other major team sports like football ... This injury rate is consistent with previous prospective studies reporting time-loss injuries from lower levels of play" }
+          ]
+        },
+        {
+          "text": "One large Dutch trial gives a picture of injury rates in recreational adult play. Among 672 recreational players, the usual-warm-up group had 11.3 acute injuries per 1,000 hours, against 8.9 with a structured warm-up called VolleyVeilig. After adjustment the difference was no longer clear. Injury was counted differently from the elite data, so the two rates cannot be compared directly.",
+          "cites": ["x_volleyball_volleyveilig", "x_volleyball_fivb"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_volleyveilig", "quote": "The Dutch version of the Oslo Sports Trauma Research Centre questionnaire was used to register and monitor acute and overuse injuries. A total of 672 volleyball players were enrolled ... The incidence rate of acute injury was 21% lower in the intervention group, namely 8.9 versus 11.3 per 1,000 h in the control group (Cox mixed effects crude model: hazard ratio = 0.82 [95%CI: 0.69-0.98]; Cox mixed effects adjusted model: 0.85 [95%CI: 0.71-1.02])." },
+            { "key": "x_volleyball_fivb", "quote": "The incidence of time-loss injuries during match play was 3.8/1000 player hours" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fingers and blocking",
+      "paragraphs": [
+        {
+          "text": "Blocking is a common source of finger injuries. In a Danish survey of 295 elite and recreational players, indoor injuries occurred mostly during blocking and spiking, with blocking leading to finger injuries. Among Danish elite players, fingers were the most common site of acute injury at 21%, and 28% of all injuries happened while blocking.",
+          "cites": ["x_volleyball_aagaard97", "x_volleyball_aagaard96"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_aagaard97", "quote": "Injuries in 295 volleyball players were recorded ... Equal numbers of men and women, elite and recreational players were represented. ... In indoor volleyball most injuries occurred during blocking and spiking, resulting most frequently in acute finger and ankle injuries, respectively." },
+            { "key": "x_volleyball_aagaard96", "quote": "Most injuries occurred in spiking (32%) and in blocking (28%). The injuries were predominantly either acute injuries to fingers (21%) and ankles (18%)" }
+          ]
+        },
+        {
+          "text": "A typical finger injury happens when the ball strikes the fingertips at the block. World-level data suggest these injuries are undercounted, because players often tape the finger and keep playing. In Danish emergency department records, women had more hand and finger injuries than men, and the authors called for better blocking and overhand passing technique.",
+          "cites": ["x_volleyball_fivb", "x_volleyball_solgard"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_fivb", "quote": "a typical situation is during a block where the ball hits the fingertips ... players often continue playing after securing the injured finger with tape" },
+            { "key": "x_volleyball_solgard", "quote": "Female players had significantly more hand/finger injuries than male players ... The study suggests the need to enhance prophylactic measures with regard to blocking and overhand pass techniques, in order to reduce the number and extent of ankle and hand/finger injuries." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How hard volleyball works you",
+      "paragraphs": [
+        {
+          "text": "Casual volleyball counts as moderate activity and competitive indoor play as vigorous. The 2024 Compendium of Physical Activities, mostly built on measured values, rates casual team play at 3.0 METs, competitive indoor play at 6.0 and beach play at 8.0. One MET is the energy used sitting quietly. The CDC counts 3 to 5.9 METs as moderate and 6 or more as vigorous.",
+          "cites": ["x_volleyball_compendium", "x_volleyball_herrmann", "x_volleyball_cdc"],
+          "strength": "guideline",
+          "support": [
+            { "key": "x_volleyball_compendium", "quote": "15711 | 6.0 | Volleyball, competitive, in gymnasium; 15720 | 3.0 | Volleyball, non-competitive, 6 – 9 member team, general; 15725 | 8.0 | Volleyball, beach, in sand" },
+            { "key": "x_volleyball_herrmann", "quote": "The 2024 Adult Compendium includes 1114 PAs (912 with measured and 202 with estimated values) across 22 Major Headings." },
+            { "key": "x_volleyball_cdc", "quote": "Physical activity that burns 3 to 5.9 METs is moderate intensity. ... Physical activity that burns 6.0 METs or more is vigorous intensity. ... One MET equals the energy or oxygen used while sitting quietly." }
+          ]
+        },
+        {
+          "text": "Much of a volleyball match is played at modest heart rates. In 24 senior female players in Turkey, average heart rate during a match was 117 beats a minute, and every player spent more than half of the match below 60% of her maximum. Liberos had the highest heart rates and setters the lowest.",
+          "cites": ["x_volleyball_matchhr"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_matchhr", "quote": "The mean heart rate and blood lactate level of volleyball players were determined 117.2 ± 13.9 bpm ... The setters have the lowest heart rate and the libero players have the highest during the match. All subjects have a heart rate 50-60% and below 50% of their heart rate maximum during more than half of the match duration." }
+          ]
+        },
+        {
+          "text": "Shorter breaks between rallies made the game a better workout in one small trial. In Serbia, 34 untrained men aged 25 to 55 played twice a week for 12 weeks. Both groups lowered their blood pressure, but only the group playing with shorter breaks improved body weight, BMI and a shuttle-run fitness test.",
+          "cites": ["x_volleyball_vasic"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_vasic", "quote": "Thirty-four healthy untrained men aged 25-55 years were randomized ... Both groups performed volleyball training twice a week over 12 weeks, with participants in MRV playing a modified game with higher intensity due to shorter breaks between rallies. The small to moderate improvements of both groups were observed in SBP ... However, only the MRV significantly improved (p < 0.001) the mean body weight ... and BMI ... and the YYIR1 performance" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Team play and mental health",
+      "paragraphs": [
+        {
+          "text": "People who play team sports report fewer bad mental health days. In a survey of 1.2 million US adults, those who exercised reported 1.49 fewer poor mental health days a month than matched non-exercisers, and team sports showed the largest difference, at 22%. The survey was a snapshot, so it cannot show that the sport caused the difference.",
+          "cites": ["x_volleyball_chekroud"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_chekroud", "quote": "we analysed data from 1 237 194 people aged 18 years or older ... Individuals who exercised had 1·49 (43·2%) fewer days of poor mental health in the past month than individuals who did not exercise but were otherwise matched ... The largest associations were seen for popular team sports (22·3% lower)" }
+          ]
+        },
+        {
+          "text": "Reviews of adult sport also link team play with better mental health. A 2023 review of 29 studies linked sport with better wellbeing, less depression, anxiety and stress, and a sense of belonging, with team sport showing more favourable results than individual sport. An earlier review credited the social side of club and team sport, while noting that most studies were cross-sectional.",
+          "cites": ["x_volleyball_eather", "x_volleyball_eime"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_eather", "quote": "29 involving adults 18-84 years were included for analysis ... participation in sport (community and elite) is related to better mental health, including improved psychological well-being ... reduced levels of depression, anxiety, and stress ... fostering a sense of belonging ... adults participating in team sport had more favorable health outcomes than those participating in individual sport" },
+            { "key": "x_volleyball_eime", "quote": "club-based or team-based sport seems to be associated with improved health outcomes compared to individual activities, due to the social nature of the participation. ... the capacity to determine the existence and direction of causal links between participation and health is limited by the cross-sectional nature of studies to date." }
+          ]
+        },
+        {
+          "text": "Trials of team sport for mental health are few and mixed. A 2026 review found six studies with 744 adults, with inconsistent effects, and suggested the main value may be wellbeing and social connection. On sticking with exercise, the evidence is indirect: feeling good during exercise and doing it for its own sake are both linked to staying active.",
+          "cites": ["x_volleyball_teamtrials", "rhodes", "teixeira"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_volleyball_teamtrials", "quote": "Six studies involving 744 participants met the inclusion criteria. ... in non-clinical adult populations, the value of TSG may lie less in producing large reductions in psychiatric symptoms and more in improving psychosocial functioning, perceived well-being, and social connection. ... these effects were inconsistent among studies" },
+            { "key": "rhodes", "quote": "24 studies. Feeling better during moderate exercise was linked to future activity; how people felt afterwards was not." },
+            { "key": "teixeira", "quote": "66 studies. Consistent support for a positive relation between more autonomous forms of motivation and exercise." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Training to jump higher",
+      "paragraphs": [
+        {
+          "text": "Jump training raises jump height in healthy people. A meta-analysis of 26 studies found that plyometric training, meaning quick rebounding jumps, raised standing jump height by about 9%, and jump height with an arm swing by about 7.5%. On a 50 centimetre jump, 9% would be about 4.5 centimetres.",
+          "cites": ["x_volleyball_markovic"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_volleyball_markovic", "quote": "A total of 26 studies ... The pooled estimate of the effect of PT on vertical jump height was 4.7% (95% CI 1.8 to 7.6%), 8.7% (95% CI 7.0 to 10.4%), 7.5% (95% CI 4.2 to 10.8%) and 4.7% (95% CI 0.8 to 8.6%) for the SJ, CMJ, CMJA and DJ, respectively." }
+          ]
+        },
+        {
+          "text": "Jump training programmes of more than 10 weeks and 20 sessions gave the best chance of clear gains. A meta-analysis of 56 studies also found that mixing squat jumps, countermovement jumps and drop jumps beat using one type, and that adding weight brought no extra benefit. People with more sports experience improved more.",
+          "cites": ["x_volleyball_villarreal"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_volleyball_villarreal", "quote": "A meta-analysis of 56 studies ... Subjects with more experience in sport obtained greater enhancements in VJH performance (p < 0.01). ... training volumes of more than 10 weeks and more than 20 sessions, using high-intensity programs (with more than 50 jumps per session), were the strategies that seemed to maximize the probability of obtaining significantly greater improvements ... the combination of different types of plyometrics (squat jump + countermovement jump + drop jump) is recommended rather than using only 1 form ... no extra benefits were found to be gained from doing plyometrics with added weight." }
+          ]
+        },
+        {
+          "text": "Volleyball players gain from jump training even with all the jumping they already do. Across 12 trials in 326 players, plyometric training alone improved jump height, and programme length made no clear difference. Another 2026 review found that splitting the same weekly jumps into more frequent sessions changed little, though certainty was low.",
+          "cites": ["x_volleyball_plyovb", "x_volleyball_microdose"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_volleyball_plyovb", "quote": "12 controlled trials encompassing a total of 326 volleyball athletes ... standalone plyometric training produced statistically significant improvements in both countermovement jump performance (g = 0.55 ... Subgroup analyses showed no statistically significant between-group differences for CMJ performance by age (Q_between = 3.11, p = 0.077), intervention duration" },
+            { "key": "x_volleyball_microdose", "quote": "average differences between higher- and lower-frequency PJT were small when cumulative/average weekly planned volume was matched or closely matched ... Certainty was low for countermovement jump" }
+          ]
+        },
+        {
+          "text": "Lifting weights alone may not raise jump height quickly. In a Greek trial of 55 female players over eight weeks, weight training raised squat strength by 17 to 19% in every training group. Jump height improved clearly only in the groups that added drop jumps from a well-chosen height on top of the weights.",
+          "cites": ["x_volleyball_sotiropoulos"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_volleyball_sotiropoulos", "quote": "Fifty-five female volleyball players (age: 23.8 ± 4.3 years) were randomly and equally allocated ... for 8 weeks for a total of 13 sessions. After training, vertical jump performance improved by 3.6-17.4% ( p < 0.05; effect size [ES]: 1.03-1.23) in the OG and the HG compared with the LG, WG, and CG ... Half-squat maximum strength was increased in all experimental groups by 17.4-19% compared with the CG" }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    { "title": "A valid and reliable method to measure jump-specific training and competition load in elite volleyball players (Scandinavian Journal of Medicine and Science in Sports, 2018)", "url": "https://pubmed.ncbi.nlm.nih.gov/29315832/", "why_not": "Validates a jump-counting device; no health or injury outcome relevant to the reader." },
+    { "title": "No effect of eccentric training on jumper's knee in volleyball players during the competitive season: a randomized clinical trial (Clinical Journal of Sport Medicine, 2005)", "url": "https://pubmed.ncbi.nlm.nih.gov/16003036/", "why_not": "Holds up, but tendon treatment is covered in the Staying uninjured article; left out to avoid overlap and for length." },
+    { "title": "Effectiveness of a warm-up programme to reduce injuries in youth volleyball players: a quasi-experiment (British Journal of Sports Medicine, 2023)", "url": "https://pubmed.ncbi.nlm.nih.gov/36801807/", "why_not": "Children aged about 12 to 13 in a non-randomised design; the adult recreational trial of the same programme is cited instead." },
+    { "title": "Preventive effect of tailored exercises on patellar tendinopathy in elite youth athletes: A cohort study (Physical Therapy in Sport, 2022)", "url": "https://pubmed.ncbi.nlm.nih.gov/34837804/", "why_not": "Non-randomised before-and-after cohort in youth athletes; too weak to support a prevention claim for an adult." },
+    { "title": "The impact of warm-up with the volleyveilig approach on upper extremity function in female volleyball players (Scientific Reports, 2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/40702076/", "why_not": "30 players, fitness tests only and no injury outcome." },
+    { "title": "The effects of a 16-week periodized linear strength training program incorporating landmine exercises on physical performance in professional female volleyball players (Physical Activity and Nutrition, 2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/41508644/", "why_not": "18 professionals, no untrained control group, and compares an equipment variation rather than strength training itself." },
+    { "title": "Heart rate during basketball game play and volleyball drills accurately predicts oxygen uptake and energy expenditure (Journal of Sports Medicine and Physical Fitness, 2015)", "url": "https://pubmed.ncbi.nlm.nih.gov/25323479/", "why_not": "Develops prediction equations and gives no volleyball intensity figures in the abstract." },
+    { "title": "Optimizing position-specific preparation: long-term pre-match warm-up external load analysis using micro-sensor integrated LPS in elite female volleyball players (BMC Sports Science, Medicine and Rehabilitation, 2025)", "url": "https://pubmed.ncbi.nlm.nih.gov/41126310/", "why_not": "Warm-up loads in 14 elite players; not informative for recreational play." },
+    { "title": "Subjective and Objective Monitoring Markers: Are They Related to Game Performance Indicators in Elite Female Volleyball Players? (International Journal of Sports Physiology and Performance, 2024)", "url": "https://pubmed.ncbi.nlm.nih.gov/38772546/", "why_not": "About elite performance statistics, not health." },
+    { "title": "Ball-Contact Injuries in 11 National Collegiate Athletic Association Sports, 2009-2010 through 2014-2015 (Journal of Athletic Training, 2017)", "url": "https://pubmed.ncbi.nlm.nih.gov/28535098/", "why_not": "The abstract does not separate volleyball from the other ten sports." }
+  ]
+}
