@@ -1,0 +1,1035 @@
+{
+  "id": "sleep-appetite",
+  "sources": {
+    "x_sleepappetite_zhu": {
+      "title": "Effects of sleep restriction on metabolism-related parameters in healthy adults: a comprehensive review and meta-analysis of randomized controlled trials",
+      "publisher": "Sleep Medicine Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30870662/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "41 randomised trials. Sleep restriction raised hunger by 13.4 on a 100 mm scale, intake by 252.8 kcal a day and weight by 0.34 kg; no strong evidence for changes in mean leptin, ghrelin or energy expenditure; brain responses to food changed in control and reward regions."
+    },
+    "x_sleepappetite_lin": {
+      "title": "Associations of short sleep duration with appetite-regulating hormones and adipokines: a systematic review and meta-analysis",
+      "publisher": "Obesity Reviews, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32537891/",
+      "kind": "journal",
+      "country": "CN",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "21 studies, 2,250 participants. Ghrelin was higher in short sleepers (SMD 0.14)."
+    },
+    "x_sleepappetite_fenton": {
+      "title": "The influence of sleep health on dietary intake: a systematic review and meta-analysis of intervention studies",
+      "publisher": "Journal of Human Nutrition and Dietetics, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33001515/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 intervention studies meta-analysed. Partial sleep restriction to 5.5 hours or less raised daily intake by 204 kcal, with more fat, protein and carbohydrate."
+    },
+    "x_sleepappetite_spiegel": {
+      "title": "Brief communication: sleep curtailment in healthy young men is associated with decreased leptin levels, elevated ghrelin levels, and increased hunger and appetite",
+      "publisher": "Annals of Internal Medicine, 2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15583226/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 healthy young men, 2 days of restriction against extension. Leptin fell 18%, ghrelin rose 28%, hunger rose 24%, and appetite for calorie-dense, high-carbohydrate foods rose 33 to 45%."
+    },
+    "x_sleepappetite_greer": {
+      "title": "The impact of sleep deprivation on food desire in the human brain",
+      "publisher": "Nature Communications, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23922121/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Sleep deprivation lowered activity in frontal and insular evaluation regions and amplified amygdala activity during food choices, with greater desire for high-calorie foods."
+    },
+    "x_sleepappetite_markwald": {
+      "title": "Impact of insufficient sleep on total daily energy expenditure, food intake, and weight gain",
+      "publisher": "Proceedings of the National Academy of Sciences, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23479616/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 adults, inpatient. Five short nights raised energy expenditure about 5% but intake, especially at night after dinner, exceeded need; weight gain 0.82 kg; insufficient sleep reduced dietary restraint in women."
+    },
+    "x_sleepappetite_tasali": {
+      "title": "Effect of sleep extension on objectively assessed energy intake among adults with overweight in real-life settings: a randomized clinical trial",
+      "publisher": "JAMA Internal Medicine, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35129580/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "80 adults with overweight who slept under 6.5 hours. Sleep hygiene counselling added about 1.2 hours of sleep a night and lowered energy intake by 270 kcal a day against control."
+    },
+    "x_sleepappetite_depner": {
+      "title": "Ad libitum weekend recovery sleep fails to prevent metabolic dysregulation during a repeating pattern of insufficient sleep and weekend recovery sleep",
+      "publisher": "Current Biology, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30827911/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Groups of 8 to 14 young adults. Weekend recovery sleep did not prevent higher after-dinner intake and weight gain once short nights resumed; insulin sensitivity fell 9 to 27%."
+    },
+    "x_sleepappetite_windred": {
+      "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: a prospective cohort study",
+      "publisher": "Sleep, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37738616/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "60,977 UK Biobank participants with accelerometer data. Higher sleep regularity was associated with 20 to 48% lower all-cause mortality; regularity predicted mortality better than duration."
+    },
+    "x_sleepappetite_sletten": {
+      "title": "The importance of sleep regularity: a consensus statement of the National Sleep Foundation sleep timing and variability panel",
+      "publisher": "Sleep Health, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37684151/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Expert consensus from 63 publications: consistency of sleep onset and offset timing is important for health, safety and performance; weekend catch-up sleep may be beneficial when weekday sleep is short."
+    },
+    "x_sleepappetite_roenneberg": {
+      "title": "Social jetlag and obesity",
+      "publisher": "Current Biology, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22578422/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Large-scale epidemiological study: beyond sleep duration, social jetlag, the mismatch between circadian and social clocks, was associated with increased BMI."
+    },
+    "x_sleepappetite_chang": {
+      "title": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness",
+      "publisher": "Proceedings of the National Academy of Sciences, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25535358/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Reading a light-emitting eBook before bed, against a printed book, delayed sleep onset, reduced evening sleepiness and melatonin, delayed the circadian clock and reduced next-morning alertness."
+    },
+    "x_sleepappetite_hartstein": {
+      "title": "The impact of screen use on sleep health across the lifespan: a National Sleep Foundation consensus statement",
+      "publisher": "Sleep Health, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38806392/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16-person panel reached consensus on 5 of 10 statements: screen use impairs sleep in children and adolescents, and behavioural strategies may attenuate screen effects on sleep."
+    },
+    "x_sleepappetite_singh": {
+      "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults",
+      "publisher": "Cochrane Database of Systematic Reviews, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "17 trials of 5 to 156 people; no meta-analysis possible. Effects on sleep quality were indeterminate, with very low-certainty evidence and mixed results across six trials."
+    },
+    "x_sleepappetite_vujovic": {
+      "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+      "publisher": "Cell Metabolism, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36198293/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Randomised crossover trial controlling nutrient intake, activity, sleep and light. Late eating increased hunger and the 24-hour ghrelin to leptin ratio, and decreased waketime energy expenditure."
+    },
+    "x_sleepappetite_young": {
+      "title": "Distribution of energy intake across the day and weight loss: a systematic review and meta-analysis",
+      "publisher": "Obesity Reviews, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36530130/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "9 randomised trials. Within an energy-reduced diet, earlier distribution of intake gave 1.23 kg greater weight loss; described as short-term."
+    },
+    "x_sleepappetite_garaulet": {
+      "title": "Timing of food intake predicts weight loss effectiveness",
+      "publisher": "International Journal of Obesity, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23357955/",
+      "kind": "journal",
+      "country": "ES",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "420 people in a 20-week programme in Spain. Those eating the main meal after 3 pm lost less weight, although energy intake, diet composition, estimated expenditure, appetite hormones and sleep duration were similar."
+    },
+    "x_sleepappetite_kinsey": {
+      "title": "The health impact of nighttime eating: old and new perspectives",
+      "publisher": "Nutrients, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25859885/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. Negative outcomes are shown for large mixed meals in people eating most of their food at night; small (about 150 kcal) night-time snacks do not appear harmful."
+    },
+    "x_sleepappetite_gardineralc": {
+      "title": "The effect of alcohol on subsequent sleep in healthy adults: a systematic review and meta-analysis",
+      "publisher": "Sleep Medicine Reviews, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39631226/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "27 studies. REM sleep was disrupted from a low dose (about two standard drinks) and worsened with dose; shorter sleep onset was seen only at a high dose (about five standard drinks)."
+    },
+    "x_sleepappetite_ebrahim": {
+      "title": "Alcohol and sleep I: effects on normal sleep",
+      "publisher": "Alcoholism: Clinical and Experimental Research, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23347102/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Qualitative review of studies in healthy volunteers. At all doses alcohol shortened time to sleep and increased sleep disruption in the second half of the night."
+    },
+    "x_sleepappetite_jpsleep": {
+      "title": "Sleep Guide for Health Promotion 2023",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan, Review Committee on the Revision of Sleep Guideline for Health Promotion, 2024",
+      "url": "https://www.mhlw.go.jp/content/001732662.pdf",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "Heavy drinking or daily drinking, including the nightcap, is not recommended for good sleep; consultation with a physician is recommended if insomnia symptoms lead to the need for nightcaps."
+    },
+    "x_sleepappetite_hill": {
+      "title": "Stress and eating behaviours in healthy adults: a systematic review and meta-analysis",
+      "publisher": "Health Psychology Review, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33913377/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "54 studies, 119,820 people. Stress had a small positive association with overall intake (g = 0.114), more unhealthy food (g = 0.116) and less healthy food (g = -0.111)."
+    },
+    "x_sleepappetite_nhsinsomnia": {
+      "title": "Insomnia",
+      "publisher": "NHS (UK National Health Service), 2024",
+      "url": "https://www.nhs.uk/conditions/insomnia/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "Lists stress, anxiety or depression first among the most common causes of insomnia. Self-help includes going to bed only when sleepy, getting up at the same time every day and not sleeping in after a bad night."
+    },
+    "x_sleepappetite_robinson": {
+      "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating",
+      "publisher": "American Journal of Clinical Nutrition, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23446890/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies. Distracted eating raised immediate intake (SMD 0.39) and later intake more (SMD 0.76); removing visual information about the amount eaten raised immediate intake (SMD 0.48)."
+    },
+    "x_sleepappetite_hollandsprox": {
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+      "publisher": "Cochrane Database of Systematic Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Food placed farther away was eaten moderately less (SMD -0.60, 12 studies, 1,098 people, low certainty); the effect was greater the farther away it was placed. Most studies were in laboratories."
+    },
+    "x_sleepappetite_niddkdef": {
+      "title": "Definition and facts for binge eating disorder",
+      "publisher": "US National Institute of Diabetes and Digestive and Kidney Diseases, 2021",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder/definition-facts",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "Binge eating is a large amount of food in a short time with a feeling of lost control; regular binges at least once a week for 3 months may mean binge eating disorder. It is the most common eating disorder in the US; many more people have binge episodes too infrequent to meet the criteria."
+    },
+    "x_sleepappetite_niddksym": {
+      "title": "Symptoms and causes of binge eating disorder",
+      "publisher": "US National Institute of Diabetes and Digestive and Kidney Diseases, 2021",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder/symptoms-causes",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "Based on DSM-5: a large amount of food in a short time, for example within 2 hours, with lack of control; may also eat quickly, until uncomfortably full, when not hungry, alone from embarrassment, and feel disgusted, depressed or guilty afterwards."
+    },
+    "x_sleepappetite_udo": {
+      "title": "Prevalence and correlates of DSM-5-defined eating disorders in a nationally representative sample of U.S. adults",
+      "publisher": "Biological Psychiatry, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29859631/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "36,306 US adults. Binge eating disorder: lifetime 0.85%, 12-month 0.44%; odds significantly greater for women than men."
+    },
+    "x_sleepappetite_nimhstats": {
+      "title": "Eating disorders (statistics)",
+      "publisher": "US National Institute of Mental Health",
+      "url": "https://www.nimh.nih.gov/health/statistics/eating-disorders",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "From the 2001 to 2003 National Comorbidity Survey Replication: past-year binge eating disorder 1.2% of adults (1.6% of women, 0.8% of men); lifetime 2.8%."
+    },
+    "x_sleepappetite_nhsbed": {
+      "title": "Overview: binge eating disorder",
+      "publisher": "NHS (UK National Health Service), 2023",
+      "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "If you think you may have binge eating disorder, see a GP as soon as you can. Most people recover with the right support and treatment; the main treatments are guided self-help and cognitive behavioural therapy."
+    },
+    "x_sleepappetite_hilbert": {
+      "title": "Meta-analysis of the efficacy of psychological and medical treatments for binge-eating disorder",
+      "publisher": "Journal of Consulting and Clinical Psychology, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30570304/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "81 trials, 7,515 people. Psychotherapy, mostly cognitive behavioural therapy, showed large effects on binge episodes against inactive controls; overall evidence quality was very low."
+    },
+    "x_sleepappetite_qaseem": {
+      "title": "Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians",
+      "publisher": "Annals of Internal Medicine, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27136449/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Recommends that all adults receive cognitive behavioral therapy for insomnia as the initial treatment for chronic insomnia disorder (strong recommendation, moderate-quality evidence)."
+    },
+    "x_sleepappetite_riemann": {
+      "title": "The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023",
+      "publisher": "Journal of Sleep Research, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38016484/",
+      "kind": "authority",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Cognitive-behavioural therapy for insomnia is recommended as first-line treatment for chronic insomnia in adults of any age, in person or digitally (grade A)."
+    },
+    "x_sleepappetite_trauer": {
+      "title": "Cognitive behavioral therapy for chronic insomnia: a systematic review and meta-analysis",
+      "publisher": "Annals of Internal Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26054060/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "20 trials, 1,162 people. Sleep onset improved by 19.03 minutes and wake after sleep onset by 26.00 minutes; programmes combined at least 3 of cognitive therapy, stimulus control, sleep restriction, sleep hygiene and relaxation."
+    },
+    "x_sleepappetite_edinger": {
+      "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+      "publisher": "Journal of Clinical Sleep Medicine, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+      "kind": "authority",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Strong recommendation for multicomponent CBT for insomnia; conditional for stimulus control, sleep restriction and relaxation alone; conditional recommendation against sleep hygiene as a single-component therapy."
+    },
+    "x_sleepappetite_chung": {
+      "title": "Sleep hygiene education as a treatment of insomnia: a systematic review and meta-analysis",
+      "publisher": "Family Practice, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29194467/",
+      "kind": "journal",
+      "country": "HK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 studies. Sleep hygiene education gave small to medium improvements but was significantly less efficacious than CBT for insomnia."
+    },
+    "x_sleepappetite_irish": {
+      "title": "The role of sleep hygiene in promoting public health: a review of empirical evidence",
+      "publisher": "Sleep Medicine Reviews, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25454674/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. Individual sleep hygiene recommendations are associated with sleep, but their direct effects remain largely untested in the general population."
+    },
+    "x_sleepappetite_stutz": {
+      "title": "Effects of evening exercise on sleep in healthy participants: a systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30374942/",
+      "kind": "journal",
+      "country": "CH",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 studies. Evidence does not support that evening exercise harms sleep, rather the opposite; sleep onset, total sleep and efficiency might be impaired after vigorous exercise ending 1 hour or less before bed."
+    },
+    "x_sleepappetite_kredlow": {
+      "title": "The effects of physical activity on sleep: a meta-analytic review",
+      "publisher": "Journal of Behavioral Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25596964/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "66 studies. Regular exercise had small benefits on total sleep time and efficiency, small to medium on sleep onset, and moderate on sleep quality; effects varied by sex, age and baseline activity."
+    }
+  },
+  "sections": [
+    {
+      "heading": "How a short night changes hunger",
+      "paragraphs": [
+        {
+          "text": "Short sleep raises hunger and food intake fairly consistently, while hormone changes are less consistent. Across 41 randomised trials, restricted sleep raised hunger ratings and led people to eat about 253 more calories a day. The review found no strong evidence that average levels of the appetite hormones leptin or ghrelin changed.",
+          "cites": [
+            "x_sleepappetite_zhu"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_zhu",
+              "quote": "We identified 41 randomized controlled trials using sleep restriction intervention."
+            },
+            {
+              "key": "x_sleepappetite_zhu",
+              "quote": "Sleep restriction resulted in a significant increase in subjective hunger on a 100 mm scale (mean difference = 13.4, p < 0.001). Participants consumed 252.8 more kcal/d (p = 0.011) under sleep restriction than under normal sleep."
+            },
+            {
+              "key": "x_sleepappetite_zhu",
+              "quote": "we did not find strong evidence supporting the significant impact of sleep restriction on mean leptin or ghrelin levels or energy expenditure"
+            }
+          ]
+        },
+        {
+          "text": "Other pooled studies point the same way, with a small rise in ghrelin, a hormone that drives hunger. A review of 21 studies with 2,250 people found slightly higher ghrelin in short sleepers. Another analysis found that sleeping 5.5 hours or less raised daily intake by about 204 calories.",
+          "cites": [
+            "x_sleepappetite_lin",
+            "x_sleepappetite_fenton"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_lin",
+              "quote": "Twenty-one of 3536 studies, covering a total of 2250 participants, met the inclusion criteria."
+            },
+            {
+              "key": "x_sleepappetite_lin",
+              "quote": "Ghrelin levels were higher in the short sleep group (standard mean difference [SMD] = 0.14"
+            },
+            {
+              "key": "x_sleepappetite_fenton",
+              "quote": "Partial sleep restriction with duration of ≤5.5 h day-1 increases daily energy intake"
+            },
+            {
+              "key": "x_sleepappetite_fenton",
+              "quote": "with a mean difference of 204 kcal (95% CI = 112-295; P < 0.001) in daily energy intake"
+            }
+          ]
+        },
+        {
+          "text": "Short sleep may also change which foods appeal. In a study of 12 young men, two short nights raised hunger by 24% and appetite for calorie-dense, high-carbohydrate foods by 33 to 45%. In a brain-imaging study, sleep loss dulled frontal areas that weigh food choices and raised desire for high-calorie foods.",
+          "cites": [
+            "x_sleepappetite_spiegel",
+            "x_sleepappetite_greer"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_sleepappetite_spiegel",
+              "quote": "12 healthy men"
+            },
+            {
+              "key": "x_sleepappetite_spiegel",
+              "quote": "2 days of sleep restriction and 2 days of sleep extension"
+            },
+            {
+              "key": "x_sleepappetite_spiegel",
+              "quote": "increased hunger (increase, 24%; P < 0.01) and appetite (increase, 23%; P = 0.01), especially for calorie-dense foods with high carbohydrate content (increase, 33% to 45%; P = 0.02)"
+            },
+            {
+              "key": "x_sleepappetite_greer",
+              "quote": "sleep deprivation significantly decreases activity in appetitive evaluation regions within the human frontal cortex and insular cortex during food desirability choices"
+            },
+            {
+              "key": "x_sleepappetite_greer",
+              "quote": "a significant increase in the desire for weight-gain promoting high-calorie foods following sleep deprivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Why the extra eating comes late",
+      "paragraphs": [
+        {
+          "text": "After short nights, much of the extra food tends to be eaten after dinner. In an inpatient study of 16 adults, five short nights raised energy burned by about 5%, but intake rose by more, especially at night after dinner. Weight rose about 0.8 kg, and the women showed less dietary restraint.",
+          "cites": [
+            "x_sleepappetite_markwald"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_sleepappetite_markwald",
+              "quote": "We studied 16 adults in a 14- to 15-d-long inpatient study"
+            },
+            {
+              "key": "x_sleepappetite_markwald",
+              "quote": "insufficient sleep increased total daily energy expenditure by ∼5%; however, energy intake--especially at night after dinner--was in excess of energy needed to maintain energy balance. Insufficient sleep led to 0.82 ± 0.47 kg (±SD) weight gain"
+            },
+            {
+              "key": "x_sleepappetite_markwald",
+              "quote": "insufficient sleep reduced dietary restraint and led to weight gain in women"
+            }
+          ]
+        },
+        {
+          "text": "Sleeping longer reduced intake in a trial of people who usually slept too little. Among 80 adults with overweight who slept under 6.5 hours a night, one counselling session added about 1.2 hours of sleep. That group then ate about 270 fewer calories a day than the control group.",
+          "cites": [
+            "x_sleepappetite_tasali"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_tasali",
+              "quote": "had habitual sleep duration of less than 6.5 hours per night"
+            },
+            {
+              "key": "x_sleepappetite_tasali",
+              "quote": "an individualized sleep hygiene counseling session that was intended to extend their bedtime to 8.5 hours"
+            },
+            {
+              "key": "x_sleepappetite_tasali",
+              "quote": "Data from 80 randomized participants"
+            },
+            {
+              "key": "x_sleepappetite_tasali",
+              "quote": "Sleep duration was increased by approximately 1.2 hours per night"
+            },
+            {
+              "key": "x_sleepappetite_tasali",
+              "quote": "The sleep extension group had a significant decrease in energy intake compared with the control group (-270 kcal/d"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Regular timing, not only length",
+      "paragraphs": [
+        {
+          "text": "Going to bed and getting up at consistent times may matter as much as total sleep. In 60,977 UK adults tracked by wrist devices, the more regular sleepers had a 20 to 48% lower risk of death. Regularity predicted risk better than sleep length. The study was observational.",
+          "cites": [
+            "x_sleepappetite_windred"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_windred",
+              "quote": "from > 10 million hours of accelerometer data in 60 977 UK Biobank participants"
+            },
+            {
+              "key": "x_sleepappetite_windred",
+              "quote": "Higher sleep regularity was associated with a 20%-48% lower risk of all-cause mortality"
+            },
+            {
+              "key": "x_sleepappetite_windred",
+              "quote": "Sleep regularity was a stronger predictor of all-cause mortality than sleep duration"
+            }
+          ]
+        },
+        {
+          "text": "A US expert panel agreed that regular sleep timing is important for health, safety and performance. The panel, convened by the National Sleep Foundation, reviewed 63 publications. It judged weekend catch-up sleep may help when weekday sleep is short, but in one small trial, lie-ins did not stop extra eating after dinner.",
+          "cites": [
+            "x_sleepappetite_sletten",
+            "x_sleepappetite_depner"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_sletten",
+              "quote": "The literature search and panel review identified 63 full text publications to inform consensus voting."
+            },
+            {
+              "key": "x_sleepappetite_sletten",
+              "quote": "Consistency of sleep onset and offset timing is important for health, safety, and performance. Nonetheless, when insufficient sleep is obtained during the week/work days, weekend/non-work day catch-up sleep may be beneficial."
+            },
+            {
+              "key": "x_sleepappetite_depner",
+              "quote": "during recurrent insufficient sleep following the weekend, the circadian phase was delayed, and after-dinner energy intake and body weight increased versus baseline"
+            },
+            {
+              "key": "x_sleepappetite_depner",
+              "quote": "control (CON; 9-h sleep opportunities, n = 8)"
+            }
+          ]
+        },
+        {
+          "text": "A gap between the body clock and the hours that work demands is linked to higher body weight. In a large population study, this social jetlag was linked to a higher body mass index, beyond the effect of sleep length. It shows a link, not a cause.",
+          "cites": [
+            "x_sleepappetite_roenneberg"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_roenneberg",
+              "quote": "Social jetlag quantifies the discrepancy that often arises between circadian and social clocks"
+            },
+            {
+              "key": "x_sleepappetite_roenneberg",
+              "quote": "we report the results from a large-scale epidemiological study, showing that, beyond sleep duration, social jetlag is associated with increased BMI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Evening light and screens",
+      "paragraphs": [
+        {
+          "text": "A bright screen in the evening can push the body clock later. In a controlled study, reading on a light-emitting e-reader before bed instead of a printed book meant taking longer to fall asleep, less melatonin, a later body clock and lower alertness the next morning.",
+          "cites": [
+            "x_sleepappetite_chang"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_chang",
+              "quote": "Participants reading an LE-eBook took longer to fall asleep and had reduced evening sleepiness, reduced melatonin secretion, later timing of their circadian clock, and reduced next-morning alertness than when reading a printed book."
+            }
+          ]
+        },
+        {
+          "text": "Experts agree more firmly about screens and sleep in young people than in adults. A National Sleep Foundation panel of 16 experts agreed that screen use impairs sleep in children and adolescents. It agreed on only 5 of 10 statements, and judged that changing screen habits may reduce the harm.",
+          "cites": [
+            "x_sleepappetite_hartstein"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_hartstein",
+              "quote": "The National Sleep Foundation convened a 16-person multidisciplinary expert panel"
+            },
+            {
+              "key": "x_sleepappetite_hartstein",
+              "quote": "ultimately achieving consensus on 5 out of the 10 statements"
+            },
+            {
+              "key": "x_sleepappetite_hartstein",
+              "quote": "(1) in general, screen use impairs sleep health among children and adolescents"
+            },
+            {
+              "key": "x_sleepappetite_hartstein",
+              "quote": "(3) behavioral strategies and interventions may attenuate the negative effects of screen use on sleep health"
+            }
+          ]
+        },
+        {
+          "text": "Blue-light-filtering glasses have not been shown to improve sleep. A Cochrane review of 17 small trials found mixed results for sleep quality and rated the evidence very low in certainty. The data were too uneven to pool, and the authors called for better trials.",
+          "cites": [
+            "x_sleepappetite_singh"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_singh",
+              "quote": "We included 17 RCTs, with sample sizes ranging from five to 156 participants"
+            },
+            {
+              "key": "x_sleepappetite_singh",
+              "quote": "We do not know if blue-light filtering spectacle lenses are equivalent or superior to non-blue-light filtering spectacle lenses with respect to sleep quality (very low-certainty evidence)."
+            },
+            {
+              "key": "x_sleepappetite_singh",
+              "quote": "We did not perform meta-analyses for any of the outcome measures"
+            },
+            {
+              "key": "x_sleepappetite_singh",
+              "quote": "Future high-quality randomised trials are required"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Late eating: what is known",
+      "paragraphs": [
+        {
+          "text": "Eating the same food later in the day raised hunger in a tightly controlled trial. Adults with overweight ate identical meals on early and late schedules. The late schedule increased hunger, raised the ratio of ghrelin to the fullness hormone leptin, and lowered energy burned while awake.",
+          "cites": [
+            "x_sleepappetite_vujovic"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_vujovic",
+              "quote": "we conducted a randomized, controlled, crossover trial (ClinicalTrials.gov NCT02298790) to determine the effects of late versus early eating while rigorously controlling for nutrient intake, physical activity, sleep, and light exposure"
+            },
+            {
+              "key": "x_sleepappetite_vujovic",
+              "quote": "Late eating increased hunger"
+            },
+            {
+              "key": "x_sleepappetite_vujovic",
+              "quote": "increasing waketime and 24-h ghrelin:leptin ratio"
+            },
+            {
+              "key": "x_sleepappetite_vujovic",
+              "quote": "late eating decreased waketime energy expenditure"
+            }
+          ]
+        },
+        {
+          "text": "Eating more of the day's food earlier helped weight loss a little in short trials. A pooled analysis of 9 randomised trials found that, within a reduced-calorie diet, an earlier pattern led to about 1.2 kg more weight loss. The authors describe this as short-term and call for more studies.",
+          "cites": [
+            "x_sleepappetite_young"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_young",
+              "quote": "nine randomized controlled trials investigating the impact of energy intake distribution on weight loss were identified"
+            },
+            {
+              "key": "x_sleepappetite_young",
+              "quote": "in the context of an energy-reduced diet, distributing energy intake with a focus on earlier intake resulted in significantly greater weight loss (-1.23 kg"
+            },
+            {
+              "key": "x_sleepappetite_young",
+              "quote": "a focus on earlier intakes can result in greater short-term weight loss compared with later intakes. Future studies are needed"
+            }
+          ]
+        },
+        {
+          "text": "The research does not show that any food after a set hour is harmful. In a Spanish observational study of 420 dieters, late main-meal eaters lost less weight despite similar intake. A review found harm mainly with large meals in people eating most of their food at night, while snacks of about 150 calories did not appear harmful.",
+          "cites": [
+            "x_sleepappetite_garaulet",
+            "x_sleepappetite_kinsey"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_sleepappetite_garaulet",
+              "quote": "a sample of 420 individuals who followed a 20-week weight-loss treatment"
+            },
+            {
+              "key": "x_sleepappetite_garaulet",
+              "quote": "Late lunch eaters lost less weight and displayed a slower weight-loss rate during the 20 weeks of treatment than early eaters (P=0.002). Surprisingly, energy intake, dietary composition, estimated energy expenditure, appetite hormones and sleep duration was similar between both groups."
+            },
+            {
+              "key": "x_sleepappetite_kinsey",
+              "quote": "negative outcomes have been demonstrated in response to large mixed meals in populations that consume a majority of their daily food intake during the night"
+            },
+            {
+              "key": "x_sleepappetite_kinsey",
+              "quote": "nighttime consumption of small (~150 kcals) single nutrients or mixed-meals does not appear to be harmful"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Alcohol and sleep",
+      "paragraphs": [
+        {
+          "text": "Even two drinks in the evening can disturb dream sleep. A pooled analysis of 27 studies found that about two standard drinks reduced REM sleep, the dreaming stage, and more alcohol made it worse. Falling asleep faster was seen only after about five drinks.",
+          "cites": [
+            "x_sleepappetite_gardineralc"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_gardineralc",
+              "quote": "A systematic search of the literature identified 27 studies for inclusion in the analysis."
+            },
+            {
+              "key": "x_sleepappetite_gardineralc",
+              "quote": "disruptions to REM sleep occurred following consumption of a low dose of alcohol (≤0.50 g∙kg-1 or approximately two standard drinks) and progressively worsened with increasing doses of alcohol"
+            },
+            {
+              "key": "x_sleepappetite_gardineralc",
+              "quote": "Reductions in sleep onset latency and latency to deep sleep (i.e., non-rapid eye movement stage three (N3)) were only observed following the consumption of a high dose of alcohol (≥0.85∙g kg-1 or approximately five standard drinks)."
+            }
+          ]
+        },
+        {
+          "text": "Alcohol can help people drop off, but sleep later in the night suffers. A review of studies in healthy volunteers found more broken sleep in the second half of the night at all doses. Japan's sleep guide advises against heavy drinking and nightcaps, and suggests seeing a doctor if sleep seems to need one.",
+          "cites": [
+            "x_sleepappetite_ebrahim",
+            "x_sleepappetite_jpsleep"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_sleepappetite_ebrahim",
+              "quote": "At all dosages, alcohol causes a reduction in sleep onset latency, a more consolidated first half sleep and an increase in sleep disruption in the second half of sleep."
+            },
+            {
+              "key": "x_sleepappetite_jpsleep",
+              "quote": "consuming large amounts of alcohol (heavy drinking) or daily drinking, including the so-called \"nightcap,\" are not recommended for good sleep"
+            },
+            {
+              "key": "x_sleepappetite_jpsleep",
+              "quote": "Consultation with a physician is recommended if you have insomnia symptoms that may lead to the need for nightcaps."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Stress, distraction and the desk",
+      "paragraphs": [
+        {
+          "text": "Stress tends to tilt eating toward less healthy food, though the effect is small. Across 54 studies with nearly 120,000 adults, a pooled analysis linked stress to slightly more eating overall, more unhealthy food and less healthy food. Stress also tops the NHS list of common causes of insomnia, alongside anxiety and depression.",
+          "cites": [
+            "x_sleepappetite_hill",
+            "x_sleepappetite_nhsinsomnia"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_hill",
+              "quote": "54 studies (combined N = 119,820) were retained in the meta-analysis. A small, positive effect size was found for the stress-overall food intake relationship (Hedges' g = 0.114). Stress was associated with increased consumption of unhealthy foods (Hedges' g = 0.116) but decreased consumption of healthy foods (Hedges' g = -0.111)."
+            },
+            {
+              "key": "x_sleepappetite_nhsinsomnia",
+              "quote": "The most common causes of insomnia are: stress, anxiety or depression"
+            }
+          ]
+        },
+        {
+          "text": "Eating while distracted, for example at a screen, raises intake at that meal and later. Across 24 studies, distraction moderately increased how much was eaten at the time, and later intake even more. Not being able to see how much had been eaten also raised intake.",
+          "cites": [
+            "x_sleepappetite_robinson"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_robinson",
+              "quote": "Twenty-four studies were reviewed. Evidence indicated that eating when distracted produced a moderate increase in immediate intake (SMD: 0.39; 95% CI: 0.25, 0.53) but increased later intake to a greater extent (SMD: 0.76; 95% CI: 0.45, 1.07)."
+            },
+            {
+              "key": "x_sleepappetite_robinson",
+              "quote": "Removing visual information about the amount of food eaten during a meal increased immediate intake (SMD: 0.48; 95% CI: 0.27, 0.68)."
+            }
+          ]
+        },
+        {
+          "text": "Snacks placed farther away get eaten less. A Cochrane review found such food was eaten moderately less, across 12 studies with 1,098 people, and the effect grew with distance. Certainty was low, and most studies were laboratory tests. Keeping snacks in the kitchen, not on the desk, applies this idea.",
+          "cites": [
+            "x_sleepappetite_hollandsprox"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_hollandsprox",
+              "quote": "For consumption outcomes, meta-analysis of 15 comparisons from 12 studies (n = 1098) found that exposure to food placed farther away resulted in a moderate reduction in its consumption: SMD -0.60 (95% CI -0.84 to -0.36) (low certainty evidence)."
+            },
+            {
+              "key": "x_sleepappetite_hollandsprox",
+              "quote": "this effect was greater: the farther away the product was placed"
+            },
+            {
+              "key": "x_sleepappetite_hollandsprox",
+              "quote": "The majority were conducted in laboratory settings (14/24)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Overeating or binge eating disorder",
+      "paragraphs": [
+        {
+          "text": "Binge eating disorder is a specific condition, different from sometimes eating more than planned. A US health institute describes a binge as a large amount of food in a short time, for example within 2 hours, with a feeling of lost control. Binges at least once a week for 3 months may point to the disorder.",
+          "cites": [
+            "x_sleepappetite_niddkdef",
+            "x_sleepappetite_niddksym"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_niddkdef",
+              "quote": "Binge eating is when you eat a large amount of food in a short amount of time and feel you can’t control what or how much you are eating. If you binge eat regularly—at least once a week for 3 months—you may have binge eating disorder."
+            },
+            {
+              "key": "x_sleepappetite_niddksym",
+              "quote": "eat a large amount of food in a short amount of time; for example, within 2 hours"
+            }
+          ]
+        },
+        {
+          "text": "Binge eating disorder also tends to involve eating very fast, past fullness and alone. Other signs are eating large amounts when not hungry, hiding it from embarrassment, and feeling disgusted, depressed or guilty afterwards. Unlike in bulimia, binges are not regularly followed by vomiting, laxatives, fasting or hard exercise.",
+          "cites": [
+            "x_sleepappetite_niddksym",
+            "x_sleepappetite_niddkdef"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_niddksym",
+              "quote": "eat more quickly than usual during binge episodes eat until you feel uncomfortably full eat large amounts of food even when you are not hungry eat alone because you are embarrassed about the amount of food you eat feel disgusted, depressed, or guilty after overeating"
+            },
+            {
+              "key": "x_sleepappetite_niddkdef",
+              "quote": "People who have bulimia nervosa routinely try to prevent weight gain after binge eating by vomiting, using laxatives or diuretics , fasting, or exercising excessively."
+            },
+            {
+              "key": "x_sleepappetite_niddkdef",
+              "quote": "but it is not a regular part of their binge-eating behavior"
+            }
+          ]
+        },
+        {
+          "text": "Binge eating disorder is uncommon, although it is the most common eating disorder in the US. A survey of 36,306 US adults found it in 0.44% over the past year and 0.85% at some point in life, more often in women. Binges too infrequent to meet the criteria are much more common.",
+          "cites": [
+            "x_sleepappetite_udo",
+            "x_sleepappetite_niddkdef",
+            "x_sleepappetite_nimhstats"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_sleepappetite_niddkdef",
+              "quote": "Binge eating disorder is the most common eating disorder in the United States"
+            },
+            {
+              "key": "x_sleepappetite_udo",
+              "quote": "A national sample of 36,306 U.S. adults completed structured diagnostic interviews"
+            },
+            {
+              "key": "x_sleepappetite_udo",
+              "quote": "Prevalence estimates of lifetime AN, BN, and BED were 0.80% (SE 0.07%), 0.28% (SE 0.03%), and 0.85% (SE 0.05%), respectively. Twelve-month estimates for AN, BN, and BED were 0.05% (SE 0.02%), 0.14% (SE 0.02%), and 0.44% (SE 0.04%)."
+            },
+            {
+              "key": "x_sleepappetite_udo",
+              "quote": "The odds of lifetime and 12-month diagnoses of all three eating disorders were significantly greater for women than for men"
+            },
+            {
+              "key": "x_sleepappetite_niddkdef",
+              "quote": "A much larger percentage of teens and adults have episodes of binge eating or loss-of-control eating"
+            },
+            {
+              "key": "x_sleepappetite_nimhstats",
+              "quote": "Prevalence of binge eating disorder was twice as high among females (1.6%) than males (0.8%)."
+            }
+          ]
+        },
+        {
+          "text": "Anyone who thinks they may have binge eating disorder should see a GP soon, and effective treatment exists. The NHS reports that recovery is common with the right support, mainly guided self-help or cognitive behavioural therapy. Across 81 trials, psychotherapy, mostly of this kind, had large effects on binge episodes.",
+          "cites": [
+            "x_sleepappetite_nhsbed",
+            "x_sleepappetite_hilbert"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_nhsbed",
+              "quote": "If you think you may have binge eating disorder, see a GP as soon as you can."
+            },
+            {
+              "key": "x_sleepappetite_nhsbed",
+              "quote": "Most people recover from binge eating disorder with the right support and treatment, but it may take time. The main treatments are: guided self-help programmes a type of talking therapy called cognitive behavioural therapy (CBT)"
+            },
+            {
+              "key": "x_sleepappetite_hilbert",
+              "quote": "81 published and unpublished randomized-controlled trials (RCTs), totaling 7,515 individuals with BED"
+            },
+            {
+              "key": "x_sleepappetite_hilbert",
+              "quote": "psychotherapy, mostly consisting of cognitive-behavioral therapy, showed large-size effects for the reduction of binge-eating episodes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Sleep habits with evidence",
+      "paragraphs": [
+        {
+          "text": "For long-term insomnia, US and European guidelines recommend cognitive behavioural therapy for insomnia as the first treatment. It combines parts such as stimulus control, sleep restriction, relaxation and work on thoughts about sleep. Across 20 trials, it helped people fall asleep about 19 minutes faster and spend 26 fewer minutes awake.",
+          "cites": [
+            "x_sleepappetite_qaseem",
+            "x_sleepappetite_riemann",
+            "x_sleepappetite_trauer"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_sleepappetite_qaseem",
+              "quote": "ACP recommends that all adult patients receive cognitive behavioral therapy for insomnia (CBT-I) as the initial treatment for chronic insomnia disorder."
+            },
+            {
+              "key": "x_sleepappetite_riemann",
+              "quote": "Cognitive-behavioural therapy for insomnia is recommended as the first-line treatment for chronic insomnia in adults of any age"
+            },
+            {
+              "key": "x_sleepappetite_trauer",
+              "quote": "Approaches to CBT-i incorporated at least 3 of the following: cognitive therapy, stimulus control, sleep restriction, sleep hygiene, and relaxation."
+            },
+            {
+              "key": "x_sleepappetite_trauer",
+              "quote": "20 studies (1162 participants"
+            },
+            {
+              "key": "x_sleepappetite_trauer",
+              "quote": "SOL improved by 19.03 (95% CI, 14.12 to 23.93) minutes, WASO improved by 26.00 (CI, 15.48 to 36.52) minutes"
+            }
+          ]
+        },
+        {
+          "text": "Lists of sleep hygiene tips are a weak treatment on their own. The American Academy of Sleep Medicine advises against using sleep hygiene as a stand-alone therapy for insomnia, and 15 pooled studies found it less effective than cognitive behavioural therapy. The direct effect of single tips is largely untested.",
+          "cites": [
+            "x_sleepappetite_edinger",
+            "x_sleepappetite_chung",
+            "x_sleepappetite_irish"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_edinger",
+              "quote": "We suggest that clinicians not use sleep hygiene as a single-component therapy for the treatment of chronic insomnia disorder in adults. (CONDITIONAL)."
+            },
+            {
+              "key": "x_sleepappetite_chung",
+              "quote": "Twelve of 15 studies compared SHE with CBT-I"
+            },
+            {
+              "key": "x_sleepappetite_chung",
+              "quote": "SHE was significantly less efficacious than CBT-I, with difference in effect size ranging from medium to large"
+            },
+            {
+              "key": "x_sleepappetite_irish",
+              "quote": "the direct effects of individual recommendations on sleep remains largely untested in the general population"
+            }
+          ]
+        },
+        {
+          "text": "The popular advice to avoid all evening exercise is not supported by pooled studies. Across 23 studies, evening exercise did not harm sleep, though vigorous exercise ending within an hour of bedtime might. In a separate analysis of 66 studies, regular exercise had small to moderate benefits for sleep.",
+          "cites": [
+            "x_sleepappetite_stutz",
+            "x_sleepappetite_kredlow"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_sleepappetite_stutz",
+              "quote": "The search yielded 11,717 references, of which 23 were included."
+            },
+            {
+              "key": "x_sleepappetite_stutz",
+              "quote": "the studies reviewed here do not support the hypothesis that evening exercise negatively affects sleep, in fact rather the opposite. However, sleep-onset latency, total sleep time, and SE might be impaired after vigorous exercise ending ≤ 1 h before bedtime."
+            },
+            {
+              "key": "x_sleepappetite_kredlow",
+              "quote": "PubMed and PsycINFO were used to identify 66 studies"
+            },
+            {
+              "key": "x_sleepappetite_kredlow",
+              "quote": "Regular exercise has small beneficial effects on total sleep time and sleep efficiency, small-to-medium beneficial effects on sleep onset latency, and moderate beneficial effects on sleep quality."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "The effects of partial sleep deprivation on energy balance: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27804960/",
+      "why_not": "Already cited in the existing article as alkhatib; not repeated."
+    },
+    {
+      "title": "Portion, package or tableware size for changing selection and consumption of food, alcohol and tobacco",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26368271/",
+      "why_not": "Already cited in the existing article as hollands; the 2019 proximity review is used instead for new points."
+    },
+    {
+      "title": "Eating disorders (NIMH health topic page)",
+      "url": "https://www.nimh.nih.gov/health/topics/eating-disorders",
+      "why_not": "General overview with no figures beyond those on the NIDDK and NIMH statistics pages already cited."
+    },
+    {
+      "title": "Tiredness and fatigue (NHS)",
+      "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+      "why_not": "Its sleep tips duplicate the NHS insomnia page; it advises against eating, caffeine or exercise in the couple of hours before sleep without citing evidence, and the exercise part conflicts with the evening-exercise meta-analysis."
+    }
+  ]
+}

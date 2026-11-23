@@ -1,0 +1,863 @@
+{
+  "id": "energy",
+  "sources": {
+    "x_energy_basso": {
+      "title": "The effects of acute exercise on mood, cognition, neurophysiology, and neurochemical pathways: a review",
+      "publisher": "Brain Plasticity, 2017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5928534/",
+      "kind": "journal",
+      "country": "US",
+      "how": "page opened",
+      "says": "Narrative review. A single bout of exercise raises blood levels of dopamine, epinephrine, norepinephrine, endogenous opioids and endocannabinoids; most changes were measured outside the brain, and links to mood are not yet established."
+    },
+    "x_energy_loy": {
+      "title": "The effect of histamine on changes in mental energy and fatigue after a single bout of exercise",
+      "publisher": "Physiology and Behavior, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26482543/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Randomised double-blind crossover in 20 women with low vigor and high fatigue. After 30 minutes of light cycling, mental fatigue rose with a brain histamine blocker but not with placebo; authors infer histamine has a role in exercise-induced reductions in mental fatigue."
+    },
+    "x_energy_puetzepi": {
+      "title": "Physical activity and feelings of energy and fatigue: epidemiological evidence",
+      "publisher": "Sports Medicine, 2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16937952/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 population-based studies. Active adults had lower odds of low energy and fatigue than sedentary peers (odds ratio 0.61). No compelling evidence has confirmed a biological mechanism."
+    },
+    "x_energy_puetzmeta": {
+      "title": "Effects of chronic exercise on feelings of energy and fatigue: a quantitative synthesis",
+      "publisher": "Psychological Bulletin, 2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17073524/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Meta-analysis. Chronic exercise raised energy and lowered fatigue against controls by a mean effect of 0.37; trials with a placebo control that examined exercise alone found no effect."
+    },
+    "x_energy_shen": {
+      "title": "Distinguishing sleepiness and fatigue: focus on definition and measurement",
+      "publisher": "Sleep Medicine Reviews, 2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16376590/",
+      "kind": "journal",
+      "country": "CA",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. Sleepiness and fatigue are interrelated but distinct, often merged under the lay word tired. Sleepiness involves impairment of the normal arousal mechanism; fatigue measures remain subjective with no gold standard."
+    },
+    "x_energy_monk": {
+      "title": "The post-lunch dip in performance",
+      "publisher": "Clinics in Sports Medicine, 2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15892914/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. A mid-afternoon dip linked to higher sleep propensity occurs even without lunch and without knowing the time; it is worsened by a high-carbohydrate lunch and may be more likely in extreme morning types."
+    },
+    "x_energy_dutheil": {
+      "title": "Effects of a short daytime nap on the cognitive performance: a systematic review and meta-analysis",
+      "publisher": "International Journal of Environmental Research and Public Health, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34639511/",
+      "kind": "journal",
+      "country": "FR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "11 studies, 381 participants, almost all in laboratories. Napping improved cognitive performance (0.18), especially alertness (0.29), mainly until 120 minutes after the nap; early afternoon naps did better."
+    },
+    "x_energy_ekelund": {
+      "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+      "publisher": "The Lancet, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27475271/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,005,791 people in 13 cohorts. Sitting more than 8 hours a day in the least active quartile: hazard ratio 1.59. About 60 to 75 minutes a day of moderate activity seemed to eliminate the excess risk linked to high sitting time."
+    },
+    "x_energy_patterson": {
+      "title": "Sedentary behaviour and risk of all-cause, cardiovascular and cancer mortality, and incident type 2 diabetes: a systematic review and dose response meta-analysis",
+      "publisher": "European Journal of Epidemiology, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29589226/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "34 studies, 1,331,468 participants. Independent of physical activity, risk rose above a threshold of 6 to 8 hours a day of total sitting and 3 to 4 hours of TV viewing."
+    },
+    "x_energy_loh": {
+      "title": "Effects of interrupting prolonged sitting with physical activity breaks on blood glucose, insulin and triacylglycerol measures: a systematic review and meta-analysis",
+      "publisher": "Sports Medicine, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31552570/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "37 studies in the meta-analysis. Activity breaks against continuous sitting: glucose SMD -0.54, insulin SMD -0.56, triacylglycerol SMD -0.26; greater glycaemic effect in people with higher BMI."
+    },
+    "x_energy_shrestha": {
+      "title": "Workplace interventions for reducing sitting at work",
+      "publisher": "Cochrane Database of Systematic Reviews, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30556590/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "34 studies, 3,397 participants. Sit-stand desks cut workplace sitting by 100 minutes per workday at up to three months (low-quality evidence). Short breaks of one to two minutes every half hour cut sitting by 40 minutes a day in one study."
+    },
+    "x_energy_nigms": {
+      "title": "Circadian rhythms",
+      "publisher": "US National Institute of General Medical Sciences, 2023",
+      "url": "https://nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "Light and dark have the biggest influence on circadian rhythms. The suprachiasmatic nucleus controls melatonin production based on the light the eyes receive; in the evening more melatonin causes sleepiness."
+    },
+    "x_energy_jpsleep": {
+      "title": "Sleep Guide for Health Promotion 2023",
+      "publisher": "Ministry of Health, Labour and Welfare of Japan, Review Committee on the Revision of Sleep Guideline for Health Promotion, 2024",
+      "url": "https://www.mhlw.go.jp/content/001732662.pdf",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "Advises sufficient bright light during the day and avoiding bright light, including blue light, before bedtime. For Japanese people, the half-life of caffeine in the blood varies from 3 to 7 hours."
+    },
+    "x_energy_burns": {
+      "title": "Time spent in outdoor light is associated with mood, sleep, and circadian rhythm-related outcomes: a cross-sectional and longitudinal study in over 400,000 UK Biobank participants",
+      "publisher": "Journal of Affective Disorders, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34488088/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Median 2.5 daylight hours outdoors. Each extra hour was associated with greater ease of getting up (OR 1.46 to 1.49), less frequent tiredness (OR 0.80 to 0.82) and fewer insomnia symptoms; longitudinal results agreed with smaller effects."
+    },
+    "x_energy_bjerrum": {
+      "title": "Acute effects of light during daytime on central aspects of attention and affect: a systematic review",
+      "publisher": "Biological Psychology, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38981576/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "62 studies in healthy adults. Alertness and working memory were most affected by daytime light; self-reported alertness improved most with bright white light. Studies were strongly heterogeneous."
+    },
+    "x_energy_efsa": {
+      "title": "Caffeine",
+      "publisher": "European Food Safety Authority, topic page on the 2015 scientific opinion",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "In moderate doses caffeine increases alertness and reduces sleepiness. Single doses of 100 mg may affect sleep duration and patterns in some adults, particularly close to bedtime."
+    },
+    "x_energy_gardiner": {
+      "title": "The effect of caffeine on subsequent sleep: a systematic review and meta-analysis",
+      "publisher": "Sleep Medicine Reviews, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36870101/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies. Caffeine reduced total sleep time by 45 minutes and sleep efficiency by 7%, and deep sleep by 11.4 minutes. Coffee (107 mg) should be taken at least 8.8 hours and 217.5 mg at least 13.2 hours before bedtime."
+    },
+    "x_energy_drake": {
+      "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+      "publisher": "Journal of Clinical Sleep Medicine, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24235903/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "400 mg of caffeine at 0, 3 or 6 hours before habitual bedtime each disturbed sleep against placebo at home; supports refraining from substantial caffeine for at least 6 hours before bed."
+    },
+    "x_energy_wittbrodt": {
+      "title": "Dehydration impairs cognitive performance: a meta-analysis",
+      "publisher": "Medicine and Science in Sports and Exercise, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29933347/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "33 studies, 413 subjects. Small overall impairment (ES -0.21); attention, executive function and motor coordination most affected; impairment greater above 2% body mass loss."
+    },
+    "x_energy_ganio": {
+      "title": "Mild dehydration impairs cognitive performance and mood of men",
+      "publisher": "British Journal of Nutrition, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21736786/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "26 men; mean body mass loss 1.59%. Fatigue and tension or anxiety increased with dehydration."
+    },
+    "x_energy_armstrong": {
+      "title": "Mild dehydration affects mood in healthy young women",
+      "publisher": "Journal of Nutrition, 2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22190027/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "25 women; 1.36% dehydration degraded mood, raised perceived task difficulty, lowered concentration and caused headache; vigor-activity and fatigue-inertia scores were adversely affected."
+    },
+    "x_energy_pross": {
+      "title": "Effects of changes in water intake on mood of high and low drinkers",
+      "publisher": "PLoS One, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24728141/",
+      "kind": "journal",
+      "country": "FR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "30 low drinkers (under 1.2 L a day) raised to 2.5 L for 3 days had less fatigue; 22 high drinkers restricted to 1 L had less vigor and calmness."
+    },
+    "x_energy_valtin": {
+      "title": "\"Drink at least eight glasses of water a day.\" Really? Is there scientific evidence for \"8 x 8\"?",
+      "publisher": "American Journal of Physiology: Regulatory, Integrative and Comparative Physiology, 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12376390/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. No scientific studies were found in support of 8 x 8 for healthy adults in a temperate climate; caffeinated drinks may count toward the daily total; larger intakes are called for in vigorous work and exercise, especially in heat."
+    },
+    "x_energy_nimhdep": {
+      "title": "Depression",
+      "publisher": "US National Institute of Mental Health, publication page",
+      "url": "https://www.nimh.nih.gov/health/publications/depression",
+      "kind": "authority",
+      "country": "US",
+      "how": "page opened",
+      "says": "Lists fatigue, lack of energy, or feeling slowed down among signs of depression. Diagnosis requires symptoms most of the day, nearly every day, for at least 2 weeks, one of them depressed mood or loss of interest."
+    },
+    "x_energy_corfield": {
+      "title": "Co-occurrence and symptomatology of fatigue and depression",
+      "publisher": "Comprehensive Psychiatry, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27567301/",
+      "kind": "journal",
+      "country": "AU",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Community sample of Australian twins over 50 (766 fatigued, 1,849 not). Either fatigue or depression carried about a two-fold risk of both; fatigue with insomnia and poor concentration was a strong predictor of depression."
+    },
+    "x_energy_yoon": {
+      "title": "The demographic features of fatigue in the general population worldwide: a systematic review and meta-analysis",
+      "publisher": "Frontiers in Public Health, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37575103/",
+      "kind": "journal",
+      "country": "KR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "91 studies, 623,624 participants. General fatigue 20.4% of adults; chronic fatigue over 6 months 10.1%; female-predominant in all subgroups, odds ratio 1.4."
+    },
+    "x_energy_hinz": {
+      "title": "Fatigue in the general population: German normative values of the EORTC QLQ-FA12",
+      "publisher": "Quality of Life Research, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29909484/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "2,411 people representative of the German population. Women reported more fatigue on all three scales (d = 0.29, 0.22, 0.11); there were no linear age trends."
+    },
+    "x_energy_nhstired": {
+      "title": "Tiredness and fatigue",
+      "publisher": "NHS (UK National Health Service), 2023",
+      "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+      "kind": "authority",
+      "country": "UK",
+      "how": "page opened",
+      "says": "See a GP if tired for a few weeks without knowing why, if it affects daily life, or with other symptoms such as weight loss, mood changes, or gasping, snorting or choking noises in sleep. Tests may include blood tests for anaemia, diabetes or hyperthyroidism."
+    },
+    "x_energy_maisel": {
+      "title": "Fatigue as the chief complaint: epidemiology, causes, diagnosis, and treatment",
+      "publisher": "Deutsches Arzteblatt International, 2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8579431/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "page opened",
+      "says": "Review drawing on the German general practice (DEGAM) guideline. Sleep disorders, depression and psychosocial stress are the commonest causes; basic tests are blood sugar, blood count, ESR or CRP, liver enzymes and TSH, with ferritin in premenopausal women; further tests only with specific findings."
+    }
+  },
+  "sections": [
+    {
+      "heading": "Why moving lifts energy",
+      "paragraphs": [
+        {
+          "text": "A single bout of exercise changes several brain chemicals linked to mood and alertness. One review reports rises in dopamine, norepinephrine, endorphins and endocannabinoids, mostly measured in blood rather than in the brain. In a small trial of 20 tired women, blocking histamine in the brain made mental fatigue rise after light cycling, which did not happen without the drug.",
+          "cites": [
+            "x_energy_basso",
+            "x_energy_loy"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_basso",
+              "quote": "In humans, acute exercise has been shown to increase peripheral levels of monoamines including dopamine, epinephrine, and norepinephrine"
+            },
+            {
+              "key": "x_energy_basso",
+              "quote": "Though many of these neurochemicals have been confirmed peripherally following acute bouts of exercise, gaps still exist in the literature as to where these changes occur in the brain"
+            },
+            {
+              "key": "x_energy_basso",
+              "quote": "Acute exercise increases peripheral levels of endocannabinoids"
+            },
+            {
+              "key": "x_energy_loy",
+              "quote": "After exercise, mental fatigue increased for the doxepin condition (p=0.014) but not placebo (p=0.700)"
+            }
+          ]
+        },
+        {
+          "text": "Active adults are less likely to report low energy, but the reason is not settled. Across 12 population studies, active adults had 39% lower odds of low energy or fatigue than sedentary peers. The author found no compelling evidence for any biological mechanism, and such studies cannot show cause.",
+          "cites": [
+            "x_energy_puetzepi"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_puetzepi",
+              "quote": "All of the studies suggested that there was an association between physical activity and a reduced risk of experiencing feelings of low energy and fatigue when active adults were compared with sedentary peers (odds ratio = 0.61; 95% CI 0.52, 0.72)."
+            },
+            {
+              "key": "x_energy_puetzepi",
+              "quote": "No compelling evidence has confirmed any plausible biological mechanisms that explain the apparent protective effect of physical activity against feelings of low energy and fatigue."
+            }
+          ]
+        },
+        {
+          "text": "Pooled trials suggest regular exercise lifts energy on average, though expectation may explain part of it. A 2006 analysis found an average effect of 0.37 in favour of exercise. Trials that compared exercise alone with a placebo condition found no effect, so how much comes from the exercise itself remains uncertain.",
+          "cites": [
+            "x_energy_puetzmeta"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_puetzmeta",
+              "quote": "Chronic exercise increased feelings of energy and lessened feelings of fatigue compared with control conditions by a mean effect delta of 0.37."
+            },
+            {
+              "key": "x_energy_puetzmeta",
+              "quote": "Investigations that used a placebo control and examined chronic exercise alone found no effect of chronic exercise on feelings of energy and fatigue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Tired is not the same as sleepy",
+      "paragraphs": [
+        {
+          "text": "Sleepiness and fatigue are related but separate states, even though both are often just called tired. A 2006 review describes sleepiness as a change in the normal arousal system, the pull toward falling asleep. Fatigue has several definitions, and there is still no gold-standard way to measure it.",
+          "cites": [
+            "x_energy_shen"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_shen",
+              "quote": "Sleepiness and fatigue are two interrelated, but distinct phenomena"
+            },
+            {
+              "key": "x_energy_shen",
+              "quote": "these two terms are often used interchangeably, or merged under the more general lay term of 'tired'"
+            },
+            {
+              "key": "x_energy_shen",
+              "quote": "distinguished from fatigue by a presumed impairment of the normal arousal mechanism"
+            },
+            {
+              "key": "x_energy_shen",
+              "quote": "Measures of fatigue have remained subjective, with a 'gold standard' for its measurement remaining elusive."
+            }
+          ]
+        },
+        {
+          "text": "A dip in alertness in the mid-afternoon is normal and has roots in the body clock. A review describes this post-lunch dip as real even when no lunch is eaten and the person does not know the time. A high-carbohydrate lunch makes it worse, and it may be stronger in extreme morning types.",
+          "cites": [
+            "x_energy_monk"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_monk",
+              "quote": "The post-lunch dip is a real phenomenon that can occur even when the individual has had no lunch and is unaware of the time of day. This dip has its roots in human biology"
+            },
+            {
+              "key": "x_energy_monk",
+              "quote": "It is certainly exacerbated by a high-carbohydrate lunch, and may be more likely to occur in extreme morning-type individuals."
+            }
+          ]
+        },
+        {
+          "text": "A short daytime nap can sharpen thinking for the next couple of hours. In a pooled analysis of 11 studies with 381 adults, napping improved mental performance, especially alertness, mainly for up to 120 minutes afterwards. Naps before 1 pm looked better, but that result was uncertain. Almost all studies were done in laboratories.",
+          "cites": [
+            "x_energy_dutheil"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_dutheil",
+              "quote": "We included 11 studies (all in laboratory conditions including one with a subgroup in working conditions) for a total of 381 participants."
+            },
+            {
+              "key": "x_energy_dutheil",
+              "quote": "improved in the nap group following the nap (t1) (0.18, 0.09 to 0.27), especially for alertness (0.29, 0.10 to 0.48)"
+            },
+            {
+              "key": "x_energy_dutheil",
+              "quote": "performance mainly improved until 120 min after nap"
+            },
+            {
+              "key": "x_energy_dutheil",
+              "quote": "Early naps in the afternoon (before 1.00 p.m.) gave better cognitive performance (0.24, -0.07 to 0.34)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Long sitting and short breaks",
+      "paragraphs": [
+        {
+          "text": "Long daily sitting is linked to a higher risk of early death, mainly in people who are not very active. In data on over 1 million adults, the least active people who sat over 8 hours a day had 59% higher death rates than active people who sat little. About 60 to 75 minutes of moderate activity a day seemed to remove the extra risk. Another review put the threshold at 6 to 8 hours.",
+          "cites": [
+            "x_energy_ekelund",
+            "x_energy_patterson"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_ekelund",
+              "quote": "Compared with the referent group (ie, those sitting <4 h/day and in the most active quartile [>35·5 MET-h per week]), mortality rates during follow-up were 12-59% higher in the two lowest quartiles of physical activity"
+            },
+            {
+              "key": "x_energy_ekelund",
+              "quote": "to HR=1·59, 1·52-1·66, for the lowest quartile of physical activity [<2·5 MET-h per week] and sitting >8 h/day"
+            },
+            {
+              "key": "x_energy_ekelund",
+              "quote": "High levels of moderate intensity physical activity (ie, about 60-75 min per day) seem to eliminate the increased risk of death associated with high sitting time."
+            },
+            {
+              "key": "x_energy_patterson",
+              "quote": "For all-cause and CVD mortality, a threshold of 6-8 h/day of total sitting and 3-4 h/day of TV viewing was identified, above which the risk is increased."
+            }
+          ]
+        },
+        {
+          "text": "Breaking up sitting with short bouts of activity improves how the body handles a meal. Across 37 trials, activity breaks moderately lowered blood sugar and insulin after eating, compared with unbroken sitting. The effect on blood sugar was larger in people with a higher body mass index, and blood fats fell slightly.",
+          "cites": [
+            "x_energy_loh"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_loh",
+              "quote": "a total of 37 studies were included in the meta-analysis"
+            },
+            {
+              "key": "x_energy_loh",
+              "quote": "The use of PA breaks during sitting moderately attenuated post-prandial glucose, insulin, and TAG, with greater glycaemic attenuation in people with higher BMI."
+            },
+            {
+              "key": "x_energy_loh",
+              "quote": "For TAG, there was an SMD of - 0.26"
+            }
+          ]
+        },
+        {
+          "text": "Changing the desk setup can cut sitting time, though the evidence is of low quality. A Cochrane review found sit-stand desks reduced sitting at work by about 100 minutes a day over the first three months. In one study, breaks of one to two minutes every half hour cut sitting by 40 minutes a day.",
+          "cites": [
+            "x_energy_shrestha"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_shrestha",
+              "quote": "Interventions using sit-stand desks, either alone or in combination with information and counselling, reduced sitting time at work on average by 100 minutes per workday at short-term follow-up (up to three months) compared to sit-desks (95% confidence interval (CI) -116 to -84, 10 studies, low-quality evidence)."
+            },
+            {
+              "key": "x_energy_shrestha",
+              "quote": "Short breaks (one to two minutes every half hour) reduced time spent sitting at work on average by 40 minutes per day (95% CI -66 to -15, one study, low-quality evidence)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Daylight and the body clock",
+      "paragraphs": [
+        {
+          "text": "Light is the strongest signal for the body clock, which times sleepiness and alertness. A small brain area called the suprachiasmatic nucleus sets the release of melatonin, a sleep hormone, by how much light the eyes receive. Japan's 2023 sleep guide advises plenty of bright light by day and as little bright light as possible before bed.",
+          "cites": [
+            "x_energy_nigms",
+            "x_energy_jpsleep"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_energy_nigms",
+              "quote": "Light and dark have the biggest influence on circadian rhythms"
+            },
+            {
+              "key": "x_energy_nigms",
+              "quote": "the SCN controls production of the hormone melatonin based on the amount of light the eyes receive. In the evening, a person’s master clock tells their brain to make more melatonin, causing sleepiness."
+            },
+            {
+              "key": "x_energy_jpsleep",
+              "quote": "Sufficient exposure to bright light during the day and avoiding bright light, including blue light, as much as possible before bedtime, will promote good sleep."
+            }
+          ]
+        },
+        {
+          "text": "People who spend more daylight hours outdoors report less tiredness. In a UK study of over 400,000 adults, each extra daily hour outdoors was linked to less frequent tiredness, easier getting up and fewer insomnia symptoms. Follow-up data pointed the same way with smaller effects. This shows a link, not a cause.",
+          "cites": [
+            "x_energy_burns"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_energy_burns",
+              "quote": "each hour of daytime light was associated with greater ease of getting up (OR:1.46-1.49), less frequent tiredness (OR:0.80-0.82), fewer insomnia symptoms (OR:0.94-0.97)"
+            },
+            {
+              "key": "x_energy_burns",
+              "quote": "Overall, longitudinal associations support cross-sectional findings, though generally with smaller effect sizes."
+            }
+          ]
+        },
+        {
+          "text": "Bright light during the day can raise alertness within the same session. A systematic review of 62 experiments in healthy adults found that alertness and working memory were the outcomes most affected, and self-rated alertness improved most with bright white light. The light set-ups varied widely, so the best amount is unclear.",
+          "cites": [
+            "x_energy_bjerrum"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_energy_bjerrum",
+              "quote": "Results from included studies (n = 62) showed that alertness and working memory were most affected by light."
+            },
+            {
+              "key": "x_energy_bjerrum",
+              "quote": "Self-reported alertness and measures of working memory improved the most with bright white light."
+            },
+            {
+              "key": "x_energy_bjerrum",
+              "quote": "Studies were strongly heterogeneous in terms of light stimuli characteristics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Caffeine lasts longer than it feels",
+      "paragraphs": [
+        {
+          "text": "Caffeine raises alertness, but its effect on sleep can last into the night. The European Food Safety Authority notes that a single 100 mg dose may affect sleep in some adults, mainly close to bedtime. Japan's sleep guide puts its half-life, the time for blood levels to halve, at 3 to 7 hours in Japanese people.",
+          "cites": [
+            "x_energy_efsa",
+            "x_energy_jpsleep"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_energy_efsa",
+              "quote": "in moderate doses increases alertness and reduces sleepiness"
+            },
+            {
+              "key": "x_energy_efsa",
+              "quote": "Single doses of 100mg (about 1.4mg/kg bw) of caffeine may affect sleep duration and patterns in some adults, particularly when consumed close to bedtime."
+            },
+            {
+              "key": "x_energy_jpsleep",
+              "quote": "For Japanese people, the half-life of caffeine in the blood (the time it takes for the caffeine concentration in the blood to halve) varies from 3 to 7 hours"
+            }
+          ]
+        },
+        {
+          "text": "Pooled studies show that caffeine shortens sleep and makes it lighter. Across 24 studies, caffeine cut total sleep by 45 minutes and deep sleep by about 11 minutes. To avoid losing sleep, the authors advise having a 107 mg coffee at least 8.8 hours before bed, and a 217.5 mg dose at least 13.2 hours before.",
+          "cites": [
+            "x_energy_gardiner"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_gardiner",
+              "quote": "Caffeine consumption reduced total sleep time by 45 min and sleep efficiency by 7%"
+            },
+            {
+              "key": "x_energy_gardiner",
+              "quote": "the duration (-11.4 min) and proportion (-1.4%) of deep sleep (N3 and N4) decreased with caffeine intake"
+            },
+            {
+              "key": "x_energy_gardiner",
+              "quote": "coffee (107 mg per 250 mL) should be consumed at least 8.8 h prior to bedtime and a standard serve of pre-workout supplement (217.5 mg) should be consumed at least 13.2 h prior to bedtime"
+            }
+          ]
+        },
+        {
+          "text": "Even caffeine taken 6 hours before bed can disturb sleep. In a home-based trial, 400 mg of caffeine taken at bedtime, 3 hours before or 6 hours before each disturbed sleep compared with a placebo. The authors concluded this supports avoiding large amounts for at least 6 hours before bed.",
+          "cites": [
+            "x_energy_drake"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_energy_drake",
+              "quote": "Results demonstrated a moderate dose of caffeine at bedtime, 3 hours prior to bedtime, or 6 hours prior to bedtime each have significant effects on sleep disturbance relative to placebo"
+            },
+            {
+              "key": "x_energy_drake",
+              "quote": "provides empirical support for sleep hygiene recommendations to refrain from substantial caffeine use for a minimum of 6 hours prior to bedtime"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Water and energy",
+      "paragraphs": [
+        {
+          "text": "Losing water through sweat can dull attention, especially beyond about 2% of body weight. A pooled analysis of 33 studies with 413 people found a small overall drop in mental performance. Tasks of attention, coordination and planning were hit most, and the effect was larger when water loss exceeded 2% of body mass.",
+          "cites": [
+            "x_energy_wittbrodt"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_wittbrodt",
+              "quote": "Thirty-three studies were identified, providing 280 ES estimates from 413 subjects"
+            },
+            {
+              "key": "x_energy_wittbrodt",
+              "quote": "Impairment of cognitive performance (all domains/outcomes) with DEH was small but significant"
+            },
+            {
+              "key": "x_energy_wittbrodt",
+              "quote": "DEH impairs cognitive performance, particularly for tasks involving attention, executive function, and motor coordination when water deficits exceed 2% BML."
+            }
+          ]
+        },
+        {
+          "text": "Mild water loss can also make people feel more tired. In two small trials, 26 men and 25 women lost about 1.4 to 1.6% of body weight through exercise and reported more fatigue, and the women also reported lower vigor and headaches. In another small study, people who usually drank little reported less fatigue after drinking more.",
+          "cites": [
+            "x_energy_ganio",
+            "x_energy_armstrong",
+            "x_energy_pross"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_ganio",
+              "quote": "A total of twenty-six men"
+            },
+            {
+              "key": "x_energy_ganio",
+              "quote": "mean 1·59 (sd 0·42) %"
+            },
+            {
+              "key": "x_energy_ganio",
+              "quote": "Fatigue and tension/anxiety increased due to dehydration at rest"
+            },
+            {
+              "key": "x_energy_armstrong",
+              "quote": "Twenty-five females"
+            },
+            {
+              "key": "x_energy_armstrong",
+              "quote": "Significant adverse effects of dehydration were present at rest and during exercise for vigor-activity, fatigue-inertia, and total mood disturbance scores"
+            },
+            {
+              "key": "x_energy_armstrong",
+              "quote": "degraded mood, increased perception of task difficulty, lower concentration, and headache symptoms resulted from 1.36% dehydration in females"
+            },
+            {
+              "key": "x_energy_pross",
+              "quote": "In LOW, increased water consumption resulted in a significant decrease in fatigue/inertia"
+            }
+          ]
+        },
+        {
+          "text": "The rule of eight glasses of water a day has no direct study behind it. A 2002 review found no scientific studies supporting it for healthy adults in a mild climate, and noted that caffeinated drinks can count toward the total. More fluid is called for during hard work and exercise, especially in heat.",
+          "cites": [
+            "x_energy_valtin"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_valtin",
+              "quote": "No scientific studies were found in support of 8 x 8."
+            },
+            {
+              "key": "x_energy_valtin",
+              "quote": "caffeinated drinks (and, to a lesser extent, mild alcoholic beverages like beer in moderation) may indeed be counted toward the daily total"
+            },
+            {
+              "key": "x_energy_valtin",
+              "quote": "the conclusion is limited to healthy adults in a temperate climate leading a largely sedentary existence"
+            },
+            {
+              "key": "x_energy_valtin",
+              "quote": "certainly are called for under special circumstances, such as vigorous work and exercise, especially in hot climates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Low mood and low energy",
+      "paragraphs": [
+        {
+          "text": "Fatigue and lack of energy are listed symptoms of depression, so the two can be hard to tell apart. The US National Institute of Mental Health says a diagnosis needs symptoms most of the day, nearly every day, for at least 2 weeks, including low mood or a loss of interest in most activities.",
+          "cites": [
+            "x_energy_nimhdep"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_energy_nimhdep",
+              "quote": "Fatigue, lack of energy, or feeling slowed down"
+            },
+            {
+              "key": "x_energy_nimhdep",
+              "quote": "To be diagnosed with depression, a person must have symptoms most of the day, nearly every day, for at least 2 weeks. One of the symptoms must be a depressed mood or a loss of interest or pleasure in most activities."
+            }
+          ]
+        },
+        {
+          "text": "Tiredness and low mood often occur together. In a community study of about 2,600 Australian twins over 50, people with either fatigue or depression were about twice as likely to have both. Fatigue with poor sleep and poor concentration stood out as a warning sign of depression in this older group.",
+          "cites": [
+            "x_energy_corfield"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_energy_corfield",
+              "quote": "fatigued (N=766) and non-fatigued (N=1849)"
+            },
+            {
+              "key": "x_energy_corfield",
+              "quote": "community-based sample of Australian twins aged over 50years"
+            },
+            {
+              "key": "x_energy_corfield",
+              "quote": "Individuals with either fatigue or depression have an approximately two-fold increased risk for comorbid presentation of both traits"
+            },
+            {
+              "key": "x_energy_corfield",
+              "quote": "presentation with fatigue, and in particular the symptoms of insomnia and poor concentration, should be considered as warning signs of depression in older adults"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Who reports more tiredness",
+      "paragraphs": [
+        {
+          "text": "About one in five adults worldwide reports fatigue at any given time. A pooled analysis of 91 studies with over 620,000 people found general fatigue in 20.4% of adults and fatigue lasting more than 6 months in 10.1%. Women reported fatigue more often than men across every subgroup analysed.",
+          "cites": [
+            "x_energy_yoon"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_energy_yoon",
+              "quote": "91 studies accounting for 115 prevalence data points (623,624 participants)"
+            },
+            {
+              "key": "x_energy_yoon",
+              "quote": "The prevalence of general fatigue (fatigue lasting < 6 months, or fatigue of unspecified duration) was 20.4% (95% CI, 16.7-25.0) in adults"
+            },
+            {
+              "key": "x_energy_yoon",
+              "quote": "Chronic fatigue (fatigue lasting more than 6 months) affected 10.1% (95% CI, 8.2-12.5) of adults"
+            },
+            {
+              "key": "x_energy_yoon",
+              "quote": "There was an overall female-predominant prevalence for all subgroup analyses, with a total odds ratio of 1.4"
+            }
+          ]
+        },
+        {
+          "text": "In one large German survey, age showed no steady pattern in fatigue. Among 2,411 adults chosen to represent the population, women reported more physical, emotional and mental fatigue than men, and there were no linear age trends. The differences between women and men were small in size.",
+          "cites": [
+            "x_energy_hinz"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_energy_hinz",
+              "quote": "A total of 2411 individuals (53.5% women), representatively selected from the German general population"
+            },
+            {
+              "key": "x_energy_hinz",
+              "quote": "Women reported more fatigue than men on all three scales of the EORTC QLQ-FA12 with the following effect sizes: d = 0.29 (physical fatigue), d = 0.22 (emotional fatigue), and d = 0.11 (cognitive fatigue). There were no linear age trends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "When to raise it with a doctor",
+      "paragraphs": [
+        {
+          "text": "Tiredness that lasts a few weeks without a clear reason is worth raising with a GP. The NHS also advises seeing one if tiredness affects daily life, comes with weight loss or mood changes, or if someone has noticed gasping, snorting or choking noises during sleep, which can be a sign of sleep apnoea.",
+          "cites": [
+            "x_energy_nhstired"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_energy_nhstired",
+              "quote": "you've been feeling tired for a few weeks and you're not sure why your tiredness affects your daily life you feel tired and have other symptoms, such as weight loss or mood changes, or you've been told you're making gasping, snorting or choking noises when you're asleep"
+            },
+            {
+              "key": "x_energy_nhstired",
+              "quote": "making gasping, snorting or choking noises at night and loud snoring Sleep apnoea"
+            }
+          ]
+        },
+        {
+          "text": "A doctor usually starts with questions and an examination, then a few simple blood tests. A German family medicine review lists blood sugar, a blood count, an inflammation marker, liver enzymes and a thyroid test, plus iron stores in premenopausal women. Sleep problems, depression and heavy stress are the commonest causes it reports.",
+          "cites": [
+            "x_energy_maisel"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_energy_maisel",
+              "quote": "Targeted laboratory testing should include blood sugar, complete blood count, erythrocyte sedimentation rate/CRP, transaminases or γ-GT, and TSH."
+            },
+            {
+              "key": "x_energy_maisel",
+              "quote": "In premenopausal women whose basic evaluation is negative, the ferritin concentration should be measured as well."
+            },
+            {
+              "key": "x_energy_maisel",
+              "quote": "Sleep disorders and sleep-related disorders of breathing, depression (18.5%), and excessive psychosocial stress are the most common causes of persistent fatigue."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "QuickStats: Percentage of adults aged 18 years and over who felt very tired or exhausted most days or every day in the past 3 months, by sex and age group, National Health Interview Survey, United States, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37943712/",
+      "why_not": "The PubMed record has no abstract and the CDC page refused the automated reader, so no figures could be read."
+    },
+    {
+      "title": "Bright light therapy for nonseasonal depressive disorders: a systematic review and meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39356500/",
+      "why_not": "Concerns light as an add-on clinical treatment for diagnosed depression, outside the everyday scope of this article."
+    },
+    {
+      "title": "Pharmacokinetics of caffeine: a systematic analysis of reported data for application in metabolic phenotyping and liver function testing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35280254/",
+      "why_not": "The abstract gives no half-life figure; the Japanese sleep guide was used for that instead."
+    },
+    {
+      "title": "Workplace interventions for reducing sitting at work (June 2018 version)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29926475/",
+      "why_not": "Superseded by the December 2018 update of the same Cochrane review, which is cited."
+    },
+    {
+      "title": "The differential diagnosis of tiredness: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27765009/",
+      "why_not": "Already cited in the existing article as stadje; its figures are not repeated here."
+    },
+    {
+      "title": "Depression (NIMH health topic landing page)",
+      "url": "https://www.nimh.nih.gov/health/topics/depression",
+      "why_not": "The page as served held only navigation text; the NIMH depression publication page was used instead."
+    }
+  ]
+}

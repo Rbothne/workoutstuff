@@ -5,6 +5,16 @@
   "page": "eating"
  },
  {
+  "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Treat the day after a short night as a day you will be hungrier, and decide what you will eat in advance.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
   "by": "",
   "page": "weight"
@@ -30,6 +40,16 @@
   "page": "strength-training"
  },
  {
+  "text": "Break up long sitting with a few minutes of walking each hour.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Keep a steady wake time and aim for seven hours or more.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Expect slow change. One to two pounds a week is the pace most likely to last.",
   "by": "",
   "page": "weight"
@@ -38,11 +58,6 @@
   "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
-  "by": "",
-  "page": "energy"
  },
  {
   "text": "Count every volleyball night toward the 150 to 300 minutes of weekly activity the WHO recommends.",
@@ -70,7 +85,12 @@
   "page": "eating"
  },
  {
-  "text": "Treat the day after a short night as a day you will be hungrier, and decide what you will eat in advance.",
+  "text": "Protect seven or more hours of sleep a night.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Put evening snacks on a plate or in a bowl and put the package away.",
   "by": "",
   "page": "sleep-appetite"
  },
@@ -88,6 +108,16 @@
   "text": "Keep sweets, salty snacks and sugary drinks occasional, and serve them on a plate instead of eating from the package.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Make less-processed food the easy option at home, and fill up on fruit and vegetables first.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Treat BMI as a rough screen, not a verdict on your health.",
@@ -115,6 +145,16 @@
   "page": "strength-training"
  },
  {
+  "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Foods with a lot of water and fibre fill you up for less.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
   "by": "",
   "page": "weight"
@@ -130,11 +170,6 @@
   "page": "eating"
  },
  {
-  "text": "Break up long sitting with a few minutes of walking each hour.",
-  "by": "",
-  "page": "energy"
- },
- {
   "text": "Protect your ankles with weekly balance work, most of all if you have sprained one before.",
   "by": "",
   "page": "volleyball"
@@ -145,9 +180,19 @@
   "page": "climbing"
  },
  {
+  "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "The WHO, China and Korea all limit salt, sugar and fat.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Sleep specialists recommend seven or more hours a night for adults.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "If twice is too much, do one short session. Beginners still get stronger.",
@@ -175,6 +220,16 @@
   "page": "eating"
  },
  {
+  "text": "In a trial of 30 sedentary adults, a five-minute walk every hour raised energy, improved mood and reduced fatigue and food cravings compared with six hours of unbroken sitting.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Eating more after a short night, or from a larger package, is what these experiments found on average.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "About one in five people with overweight lose at least 10% of their weight and keep it off for a year.",
   "by": "",
   "page": "weight"
@@ -200,7 +255,12 @@
   "page": "eating"
  },
  {
-  "text": "Keep a steady wake time and aim for seven hours or more.",
+  "text": "Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Short sleep raises hunger and food intake fairly consistently, while hormone changes are less consistent.",
   "by": "",
   "page": "sleep-appetite"
  },
@@ -220,7 +280,7 @@
   "page": "eating"
  },
  {
-  "text": "Protect seven or more hours of sleep a night.",
+  "text": "Tiredness is rarely a sign of serious illness.",
   "by": "",
   "page": "energy"
  },
@@ -233,6 +293,11 @@
   "text": "Use an open hand where you can and save hard crimping.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "Other pooled studies point the same way, with a small rise in ghrelin, a hormone that drives hunger.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "For adults, a BMI of 18.5 to under 25 is classed as healthy weight, 25 to under 30 as overweight, and 30 or more as obesity.",
@@ -260,9 +325,19 @@
   "page": "habits"
  },
  {
+  "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Germany leans furthest toward plants, adding legumes at least weekly, a small handful of nuts daily and whole grains.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Short sleep may also change which foods appeal.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "People who lose about one to two pounds a week are more likely to keep it off, and even modest loss can improve blood pressure, cholesterol and blood sugar.",
@@ -285,9 +360,19 @@
   "page": "strength-training"
  },
  {
+  "text": "A single bout of exercise changes several brain chemicals linked to mood and alertness.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Every one of these food guides also includes physical activity.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "After short nights, much of the extra food tends to be eaten after dinner.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Regaining some weight is the usual outcome, as the five-year figure shows.",
@@ -305,6 +390,16 @@
   "page": "eating"
  },
  {
+  "text": "Active adults are less likely to report low energy, but the reason is not settled.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Sleeping longer reduced intake in a trial of people who usually slept too little.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Hunger can stay raised long after a diet ends.",
   "by": "",
   "page": "weight"
@@ -313,11 +408,6 @@
   "text": "The WHO guideline says some physical activity is better than none.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
-  "by": "",
-  "page": "energy"
  },
  {
   "text": "Take pain just below the kneecap seriously early. It is the sport's commonest overuse problem.",
@@ -330,14 +420,14 @@
   "page": "climbing"
  },
  {
-  "text": "Put evening snacks on a plate or in a bowl and put the package away.",
-  "by": "",
-  "page": "sleep-appetite"
- },
- {
   "text": "People eat more when the portion, package or plate is larger.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Pooled trials suggest regular exercise lifts energy on average, though expectation may explain part of it.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "Ankle sprains are the commonest acute volleyball injury, and up to 80% happen to an ankle that was sprained before.",
@@ -348,6 +438,11 @@
   "text": "For beginners, one weekly session with fewer than three sets per multi-joint exercise, at loads under half of your maximum, is enough to gain strength for at least the first 12 weeks.",
   "by": "",
   "page": "strength-training"
+ },
+ {
+  "text": "Going to bed and getting up at consistent times may matter as much as total sleep.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Appetite appears to push back harder than metabolism does.",
@@ -375,6 +470,16 @@
   "page": "habits"
  },
  {
+  "text": "Sleepiness and fatigue are related but separate states, even though both are often just called tired.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "A US expert panel agreed that regular sleep timing is important for health, safety and performance.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "The idea of a permanently damaged metabolism is not well supported.",
   "by": "",
   "page": "weight"
@@ -390,9 +495,9 @@
   "page": "eating"
  },
  {
-  "text": "Waist size adds information that the scale cannot.",
+  "text": "A dip in alertness in the mid-afternoon is normal and has roots in the body clock.",
   "by": "",
-  "page": "weight"
+  "page": "energy"
  },
  {
   "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt.",
@@ -400,14 +505,19 @@
   "page": "eating"
  },
  {
+  "text": "A gap between the body clock and the hours that work demands is linked to higher body weight.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
+  "text": "Waist size adds information that the scale cannot.",
+  "by": "",
+  "page": "weight"
+ },
+ {
   "text": "Whether pace matters beyond step count is not settled.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
-  "by": "",
-  "page": "energy"
  },
  {
   "text": "Health data on volleyball itself is thin.",
@@ -418,6 +528,11 @@
   "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "A short daytime nap can sharpen thinking for the next couple of hours.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "In a trial across 116 volleyball teams, balance-board training reduced ankle sprains, and the benefit was significant only for players who had sprained an ankle before.",
@@ -435,6 +550,11 @@
   "page": "eating"
  },
  {
+  "text": "A bright screen in the evening can push the body clock later.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Waist measured against height picks out health risk better than BMI does.",
   "by": "",
   "page": "weight"
@@ -445,12 +565,17 @@
   "page": "walking"
  },
  {
+  "text": "Long daily sitting is linked to a higher risk of early death, mainly in people who are not very active.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Beans, lentils and chickpeas are filling.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "Make less-processed food the easy option at home, and fill up on fruit and vegetables first.",
+  "text": "Experts agree more firmly about screens and sleep in young people than in adults.",
   "by": "",
   "page": "sleep-appetite"
  },
@@ -480,6 +605,16 @@
   "page": "eating"
  },
  {
+  "text": "Breaking up sitting with short bouts of activity improves how the body handles a meal.",
+  "by": "",
+  "page": "energy"
+ },
+ {
+  "text": "Blue-light-filtering glasses have not been shown to improve sleep.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Being fit appears to offset much of the risk linked to a higher weight.",
   "by": "",
   "page": "weight"
@@ -505,7 +640,7 @@
   "page": "strength-training"
  },
  {
-  "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter.",
+  "text": "Changing the desk setup can cut sitting time, though the evidence is of low quality.",
   "by": "",
   "page": "energy"
  },
@@ -518,6 +653,11 @@
   "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
   "by": "",
   "page": "climbing"
+ },
+ {
+  "text": "Eating the same food later in the day raised hunger in a tightly controlled trial.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Exercise can change the body even when the scale does not move.",
@@ -535,9 +675,9 @@
   "page": "eating"
  },
  {
-  "text": "Weight still matters, modestly in the overweight range.",
+  "text": "Light is the strongest signal for the body clock, which times sleepiness and alertness.",
   "by": "",
-  "page": "weight"
+  "page": "energy"
  },
  {
   "text": "Trials point the same way but leave the reason open.",
@@ -545,9 +685,24 @@
   "page": "eating"
  },
  {
+  "text": "Eating more of the day's food earlier helped weight loss a little in short trials.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
+  "text": "Weight still matters, modestly in the overweight range.",
+  "by": "",
+  "page": "weight"
+ },
+ {
   "text": "Walking eases symptoms of depression and anxiety.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "People who spend more daylight hours outdoors report less tiredness.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "During weight loss, resistance training prevented about 93% of the muscle loss that dieting alone caused.",
@@ -563,6 +718,11 @@
   "text": "Scientists disagree on whether processing itself is the problem.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "The research does not show that any food after a set hour is harmful.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "A plateau at about six months is the usual pattern in weight-loss trials.",
@@ -585,19 +745,14 @@
   "page": "strength-training"
  },
  {
+  "text": "Bright light during the day can raise alertness within the same session.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Sugary drinks are linked to weight gain in cohorts and trials.",
   "by": "",
   "page": "eating"
- },
- {
-  "text": "Foods with a lot of water and fibre fill you up for less.",
-  "by": "",
-  "page": "sleep-appetite"
- },
- {
-  "text": "In a trial of 30 sedentary adults, a five-minute walk every hour raised energy, improved mood and reduced fatigue and food cravings compared with six hours of unbroken sitting.",
-  "by": "",
-  "page": "energy"
  },
  {
   "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
@@ -610,6 +765,11 @@
   "page": "climbing"
  },
  {
+  "text": "Even two drinks in the evening can disturb dream sleep.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Losing weight slowly may not protect against regain as much as is often said.",
   "by": "",
   "page": "weight"
@@ -620,9 +780,19 @@
   "page": "walking"
  },
  {
+  "text": "Caffeine raises alertness, but its effect on sleep can last into the night.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Diet drinks and juice are not simple swaps.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Alcohol can help people drop off, but sleep later in the night suffers.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved.",
@@ -640,6 +810,11 @@
   "page": "eating"
  },
  {
+  "text": "Pooled studies show that caffeine shortens sleep and makes it lighter.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Volleyball injury reviews recommend landing technique and balance training as the main prevention measures.",
   "by": "",
   "page": "injury"
@@ -648,6 +823,11 @@
   "text": "In older adults with obesity, lifting while dieting prevented about 93% of the muscle loss that dieting alone caused.",
   "by": "",
   "page": "strength-training"
+ },
+ {
+  "text": "Stress tends to tilt eating toward less healthy food, though the effect is small.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Stress nudges eating and weight, but only slightly on average.",
@@ -665,6 +845,11 @@
   "page": "eating"
  },
  {
+  "text": "Even caffeine taken 6 hours before bed can disturb sleep.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Resistance training does not add to weight loss, but it may increase lean mass and fat loss and is associated with lower health risk.",
   "by": "",
   "page": "strength"
@@ -680,6 +865,11 @@
   "page": "eating"
  },
  {
+  "text": "Eating while distracted, for example at a screen, raises intake at that meal and later.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Eating late in the day may itself raise hunger.",
   "by": "",
   "page": "weight"
@@ -690,7 +880,7 @@
   "page": "walking"
  },
  {
-  "text": "Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low.",
+  "text": "Losing water through sweat can dull attention, especially beyond about 2% of body weight.",
   "by": "",
   "page": "energy"
  },
@@ -710,6 +900,11 @@
   "page": "eating"
  },
  {
+  "text": "Snacks placed farther away get eaten less.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Overeating that feels out of control is a reason to get professional help.",
   "by": "",
   "page": "weight"
@@ -720,9 +915,9 @@
   "page": "walking"
  },
  {
-  "text": "Sleep specialists recommend seven or more hours a night for adults.",
+  "text": "Mild water loss can also make people feel more tired.",
   "by": "",
-  "page": "sleep-appetite"
+  "page": "energy"
  },
  {
   "text": "Distance matters as well as portion size.",
@@ -740,6 +935,11 @@
   "page": "strength-training"
  },
  {
+  "text": "Binge eating disorder is a specific condition, different from sometimes eating more than planned.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Keeping weight off for years is possible, and it goes with keeping habits up.",
   "by": "",
   "page": "weight"
@@ -750,9 +950,19 @@
   "page": "walking"
  },
  {
+  "text": "The rule of eight glasses of water a day has no direct study behind it.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "Breakfast is not a proven weight-loss tool.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "Binge eating disorder also tends to involve eating very fast, past fullness and alone.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "A kilogram of muscle at rest uses about 13 kcal a day.",
@@ -780,7 +990,7 @@
   "page": "eating"
  },
  {
-  "text": "Tiredness is rarely a sign of serious illness.",
+  "text": "Fatigue and lack of energy are listed symptoms of depression, so the two can be hard to tell apart.",
   "by": "",
   "page": "energy"
  },
@@ -800,6 +1010,11 @@
   "page": "eating"
  },
  {
+  "text": "Binge eating disorder is uncommon, although it is the most common eating disorder in the US.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "The evidence that yo-yo dieting harms metabolism is thin.",
   "by": "",
   "page": "weight"
@@ -808,6 +1023,11 @@
   "text": "A phone only counts the steps it is carried for.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "Tiredness and low mood often occur together.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury.",
@@ -825,6 +1045,11 @@
   "page": "eating"
  },
  {
+  "text": "Anyone who thinks they may have binge eating disorder should see a GP soon, and effective treatment exists.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "Large swings in weight are linked to worse outcomes, but cause is not shown.",
   "by": "",
   "page": "weight"
@@ -835,9 +1060,19 @@
   "page": "walking"
  },
  {
+  "text": "About one in five adults worldwide reports fatigue at any given time.",
+  "by": "",
+  "page": "energy"
+ },
+ {
   "text": "The Mediterranean diet has been tested in a large randomised trial.",
   "by": "",
   "page": "eating"
+ },
+ {
+  "text": "For long-term insomnia, US and European guidelines recommend cognitive behavioural therapy for insomnia as the first treatment.",
+  "by": "",
+  "page": "sleep-appetite"
  },
  {
   "text": "Shame about weight is linked to less healthy behaviour, not more.",
@@ -850,9 +1085,9 @@
   "page": "walking"
  },
  {
-  "text": "Eating more after a short night, or from a larger package, is what these experiments found on average.",
+  "text": "In one large German survey, age showed no steady pattern in fatigue.",
   "by": "",
-  "page": "sleep-appetite"
+  "page": "energy"
  },
  {
   "text": "Nordic and Japanese patterns rest mainly on observational studies.",
@@ -870,11 +1105,6 @@
   "page": "habits"
  },
  {
-  "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
-  "by": "",
-  "page": "energy"
- },
- {
   "text": "Knee and shoulder complaints are part of the sport for many players.",
   "by": "",
   "page": "volleyball"
@@ -885,6 +1115,11 @@
   "page": "climbing"
  },
  {
+  "text": "Lists of sleep hygiene tips are a weak treatment on their own.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "The NHS says losing weight can be hard and extra support or treatment may be needed.",
   "by": "",
   "page": "weight"
@@ -893,6 +1128,11 @@
   "text": "Walking in nature seems to lift mood more than walking along streets.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "Tiredness that lasts a few weeks without a clear reason is worth raising with a GP.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain.",
@@ -910,6 +1150,11 @@
   "page": "eating"
  },
  {
+  "text": "The popular advice to avoid all evening exercise is not supported by pooled studies.",
+  "by": "",
+  "page": "sleep-appetite"
+ },
+ {
   "text": "The World Health Organization calls obesity a chronic, relapsing disease.",
   "by": "",
   "page": "weight"
@@ -918,6 +1163,11 @@
   "text": "Whether outdoor walking beats indoor walking is less clear.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "A doctor usually starts with questions and an examination, then a few simple blood tests.",
+  "by": "",
+  "page": "energy"
  },
  {
   "text": "Falling short of the guidelines is normal, even in countries known for their food.",

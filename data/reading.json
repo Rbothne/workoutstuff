@@ -924,6 +924,234 @@
       "strength": "guideline"
      }
     ]
+   },
+   {
+    "heading": "Why moving lifts energy",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A single bout of exercise changes several brain chemicals linked to mood and alertness. One review reports rises in dopamine, norepinephrine, endorphins and endocannabinoids, mostly measured in blood rather than in the brain. In a small trial of 20 tired women, blocking histamine in the brain made mental fatigue rise after light cycling, which did not happen without the drug.",
+      "cites": [
+       9,
+       10
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Active adults are less likely to report low energy, but the reason is not settled. Across 12 population studies, active adults had 39% lower odds of low energy or fatigue than sedentary peers. The author found no compelling evidence for any biological mechanism, and such studies cannot show cause.",
+      "cites": [
+       11
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Pooled trials suggest regular exercise lifts energy on average, though expectation may explain part of it. A 2006 analysis found an average effect of 0.37 in favour of exercise. Trials that compared exercise alone with a placebo condition found no effect, so how much comes from the exercise itself remains uncertain.",
+      "cites": [
+       12
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Tired is not the same as sleepy",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Sleepiness and fatigue are related but separate states, even though both are often just called tired. A 2006 review describes sleepiness as a change in the normal arousal system, the pull toward falling asleep. Fatigue has several definitions, and there is still no gold-standard way to measure it.",
+      "cites": [
+       13
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "A dip in alertness in the mid-afternoon is normal and has roots in the body clock. A review describes this post-lunch dip as real even when no lunch is eaten and the person does not know the time. A high-carbohydrate lunch makes it worse, and it may be stronger in extreme morning types.",
+      "cites": [
+       14
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "A short daytime nap can sharpen thinking for the next couple of hours. In a pooled analysis of 11 studies with 381 adults, napping improved mental performance, especially alertness, mainly for up to 120 minutes afterwards. Naps before 1 pm looked better, but that result was uncertain. Almost all studies were done in laboratories.",
+      "cites": [
+       15
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Long sitting and short breaks",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Long daily sitting is linked to a higher risk of early death, mainly in people who are not very active. In data on over 1 million adults, the least active people who sat over 8 hours a day had 59% higher death rates than active people who sat little. About 60 to 75 minutes of moderate activity a day seemed to remove the extra risk. Another review put the threshold at 6 to 8 hours.",
+      "cites": [
+       16,
+       17
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Breaking up sitting with short bouts of activity improves how the body handles a meal. Across 37 trials, activity breaks moderately lowered blood sugar and insulin after eating, compared with unbroken sitting. The effect on blood sugar was larger in people with a higher body mass index, and blood fats fell slightly.",
+      "cites": [
+       18
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Changing the desk setup can cut sitting time, though the evidence is of low quality. A Cochrane review found sit-stand desks reduced sitting at work by about 100 minutes a day over the first three months. In one study, breaks of one to two minutes every half hour cut sitting by 40 minutes a day.",
+      "cites": [
+       19
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Daylight and the body clock",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Light is the strongest signal for the body clock, which times sleepiness and alertness. A small brain area called the suprachiasmatic nucleus sets the release of melatonin, a sleep hormone, by how much light the eyes receive. Japan's 2023 sleep guide advises plenty of bright light by day and as little bright light as possible before bed.",
+      "cites": [
+       20,
+       21
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "People who spend more daylight hours outdoors report less tiredness. In a UK study of over 400,000 adults, each extra daily hour outdoors was linked to less frequent tiredness, easier getting up and fewer insomnia symptoms. Follow-up data pointed the same way with smaller effects. This shows a link, not a cause.",
+      "cites": [
+       22
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Bright light during the day can raise alertness within the same session. A systematic review of 62 experiments in healthy adults found that alertness and working memory were the outcomes most affected, and self-rated alertness improved most with bright white light. The light set-ups varied widely, so the best amount is unclear.",
+      "cites": [
+       23
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Caffeine lasts longer than it feels",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Caffeine raises alertness, but its effect on sleep can last into the night. The European Food Safety Authority notes that a single 100 mg dose may affect sleep in some adults, mainly close to bedtime. Japan's sleep guide puts its half-life, the time for blood levels to halve, at 3 to 7 hours in Japanese people.",
+      "cites": [
+       24,
+       21
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Pooled studies show that caffeine shortens sleep and makes it lighter. Across 24 studies, caffeine cut total sleep by 45 minutes and deep sleep by about 11 minutes. To avoid losing sleep, the authors advise having a 107 mg coffee at least 8.8 hours before bed, and a 217.5 mg dose at least 13.2 hours before.",
+      "cites": [
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Even caffeine taken 6 hours before bed can disturb sleep. In a home-based trial, 400 mg of caffeine taken at bedtime, 3 hours before or 6 hours before each disturbed sleep compared with a placebo. The authors concluded this supports avoiding large amounts for at least 6 hours before bed.",
+      "cites": [
+       26
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Water and energy",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Losing water through sweat can dull attention, especially beyond about 2% of body weight. A pooled analysis of 33 studies with 413 people found a small overall drop in mental performance. Tasks of attention, coordination and planning were hit most, and the effect was larger when water loss exceeded 2% of body mass.",
+      "cites": [
+       27
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Mild water loss can also make people feel more tired. In two small trials, 26 men and 25 women lost about 1.4 to 1.6% of body weight through exercise and reported more fatigue, and the women also reported lower vigor and headaches. In another small study, people who usually drank little reported less fatigue after drinking more.",
+      "cites": [
+       28,
+       29,
+       30
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "The rule of eight glasses of water a day has no direct study behind it. A 2002 review found no scientific studies supporting it for healthy adults in a mild climate, and noted that caffeinated drinks can count toward the total. More fluid is called for during hard work and exercise, especially in heat.",
+      "cites": [
+       31
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Low mood and low energy",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Fatigue and lack of energy are listed symptoms of depression, so the two can be hard to tell apart. The US National Institute of Mental Health says a diagnosis needs symptoms most of the day, nearly every day, for at least 2 weeks, including low mood or a loss of interest in most activities.",
+      "cites": [
+       32
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Tiredness and low mood often occur together. In a community study of about 2,600 Australian twins over 50, people with either fatigue or depression were about twice as likely to have both. Fatigue with poor sleep and poor concentration stood out as a warning sign of depression in this older group.",
+      "cites": [
+       33
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Who reports more tiredness",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "About one in five adults worldwide reports fatigue at any given time. A pooled analysis of 91 studies with over 620,000 people found general fatigue in 20.4% of adults and fatigue lasting more than 6 months in 10.1%. Women reported fatigue more often than men across every subgroup analysed.",
+      "cites": [
+       34
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "In one large German survey, age showed no steady pattern in fatigue. Among 2,411 adults chosen to represent the population, women reported more physical, emotional and mental fatigue than men, and there were no linear age trends. The differences between women and men were small in size.",
+      "cites": [
+       35
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "When to raise it with a doctor",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Tiredness that lasts a few weeks without a clear reason is worth raising with a GP. The NHS also advises seeing one if tiredness affects daily life, comes with weight loss or mood changes, or if someone has noticed gasping, snorting or choking noises during sleep, which can be a sign of sleep apnoea.",
+      "cites": [
+       36
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "A doctor usually starts with questions and an examination, then a few simple blood tests. A German family medicine review lists blood sugar, a blood count, an inflammation marker, liver enzymes and a thyroid test, plus iron stores in premenopausal women. Sleep problems, depression and heavy stress are the commonest causes it reports.",
+      "cites": [
+       37
+      ],
+      "strength": "weak"
+     }
+    ]
    }
   ],
   "sources": [
@@ -990,6 +1218,238 @@
     "url": "https://www.cdc.gov/nchs/products/databriefs/db559.htm",
     "kind": "authority",
     "country": "US"
+   },
+   {
+    "n": 9,
+    "title": "The effects of acute exercise on mood, cognition, neurophysiology, and neurochemical pathways: a review",
+    "publisher": "Brain Plasticity, 2017",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5928534/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 10,
+    "title": "The effect of histamine on changes in mental energy and fatigue after a single bout of exercise",
+    "publisher": "Physiology and Behavior, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26482543/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Physical activity and feelings of energy and fatigue: epidemiological evidence",
+    "publisher": "Sports Medicine, 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16937952/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 12,
+    "title": "Effects of chronic exercise on feelings of energy and fatigue: a quantitative synthesis",
+    "publisher": "Psychological Bulletin, 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17073524/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 13,
+    "title": "Distinguishing sleepiness and fatigue: focus on definition and measurement",
+    "publisher": "Sleep Medicine Reviews, 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16376590/",
+    "kind": "journal",
+    "country": "CA"
+   },
+   {
+    "n": 14,
+    "title": "The post-lunch dip in performance",
+    "publisher": "Clinics in Sports Medicine, 2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15892914/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 15,
+    "title": "Effects of a short daytime nap on the cognitive performance: a systematic review and meta-analysis",
+    "publisher": "International Journal of Environmental Research and Public Health, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34639511/",
+    "kind": "journal",
+    "country": "FR"
+   },
+   {
+    "n": 16,
+    "title": "Does physical activity attenuate, or even eliminate, the detrimental association of sitting time with mortality? A harmonised meta-analysis of data from more than 1 million men and women",
+    "publisher": "The Lancet, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27475271/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 17,
+    "title": "Sedentary behaviour and risk of all-cause, cardiovascular and cancer mortality, and incident type 2 diabetes: a systematic review and dose response meta-analysis",
+    "publisher": "European Journal of Epidemiology, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29589226/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Effects of interrupting prolonged sitting with physical activity breaks on blood glucose, insulin and triacylglycerol measures: a systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31552570/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 19,
+    "title": "Workplace interventions for reducing sitting at work",
+    "publisher": "Cochrane Database of Systematic Reviews, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30556590/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Circadian rhythms",
+    "publisher": "US National Institute of General Medical Sciences, 2023",
+    "url": "https://nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 21,
+    "title": "Sleep Guide for Health Promotion 2023",
+    "publisher": "Ministry of Health, Labour and Welfare of Japan, Review Committee on the Revision of Sleep Guideline for Health Promotion, 2024",
+    "url": "https://www.mhlw.go.jp/content/001732662.pdf",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 22,
+    "title": "Time spent in outdoor light is associated with mood, sleep, and circadian rhythm-related outcomes: a cross-sectional and longitudinal study in over 400,000 UK Biobank participants",
+    "publisher": "Journal of Affective Disorders, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34488088/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 23,
+    "title": "Acute effects of light during daytime on central aspects of attention and affect: a systematic review",
+    "publisher": "Biological Psychology, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38981576/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 24,
+    "title": "Caffeine",
+    "publisher": "European Food Safety Authority, topic page on the 2015 scientific opinion",
+    "url": "https://www.efsa.europa.eu/en/topics/topic/caffeine",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 25,
+    "title": "The effect of caffeine on subsequent sleep: a systematic review and meta-analysis",
+    "publisher": "Sleep Medicine Reviews, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36870101/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 26,
+    "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+    "publisher": "Journal of Clinical Sleep Medicine, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24235903/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 27,
+    "title": "Dehydration impairs cognitive performance: a meta-analysis",
+    "publisher": "Medicine and Science in Sports and Exercise, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29933347/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 28,
+    "title": "Mild dehydration impairs cognitive performance and mood of men",
+    "publisher": "British Journal of Nutrition, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21736786/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 29,
+    "title": "Mild dehydration affects mood in healthy young women",
+    "publisher": "Journal of Nutrition, 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22190027/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 30,
+    "title": "Effects of changes in water intake on mood of high and low drinkers",
+    "publisher": "PLoS One, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24728141/",
+    "kind": "journal",
+    "country": "FR"
+   },
+   {
+    "n": 31,
+    "title": "\"Drink at least eight glasses of water a day.\" Really? Is there scientific evidence for \"8 x 8\"?",
+    "publisher": "American Journal of Physiology: Regulatory, Integrative and Comparative Physiology, 2002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12376390/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 32,
+    "title": "Depression",
+    "publisher": "US National Institute of Mental Health, publication page",
+    "url": "https://www.nimh.nih.gov/health/publications/depression",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 33,
+    "title": "Co-occurrence and symptomatology of fatigue and depression",
+    "publisher": "Comprehensive Psychiatry, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27567301/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 34,
+    "title": "The demographic features of fatigue in the general population worldwide: a systematic review and meta-analysis",
+    "publisher": "Frontiers in Public Health, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37575103/",
+    "kind": "journal",
+    "country": "KR"
+   },
+   {
+    "n": 35,
+    "title": "Fatigue in the general population: German normative values of the EORTC QLQ-FA12",
+    "publisher": "Quality of Life Research, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29909484/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 36,
+    "title": "Tiredness and fatigue",
+    "publisher": "NHS (UK National Health Service), 2023",
+    "url": "https://www.nhs.uk/symptoms/tiredness-and-fatigue/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 37,
+    "title": "Fatigue as the chief complaint: epidemiology, causes, diagnosis, and treatment",
+    "publisher": "Deutsches Arzteblatt International, 2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8579431/",
+    "kind": "journal",
+    "country": "DE"
    }
   ]
  },
@@ -1080,6 +1540,258 @@
       "strength": "strong"
      }
     ]
+   },
+   {
+    "heading": "How a short night changes hunger",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Short sleep raises hunger and food intake fairly consistently, while hormone changes are less consistent. Across 41 randomised trials, restricted sleep raised hunger ratings and led people to eat about 253 more calories a day. The review found no strong evidence that average levels of the appetite hormones leptin or ghrelin changed.",
+      "cites": [
+       7
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Other pooled studies point the same way, with a small rise in ghrelin, a hormone that drives hunger. A review of 21 studies with 2,250 people found slightly higher ghrelin in short sleepers. Another analysis found that sleeping 5.5 hours or less raised daily intake by about 204 calories.",
+      "cites": [
+       8,
+       9
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Short sleep may also change which foods appeal. In a study of 12 young men, two short nights raised hunger by 24% and appetite for calorie-dense, high-carbohydrate foods by 33 to 45%. In a brain-imaging study, sleep loss dulled frontal areas that weigh food choices and raised desire for high-calorie foods.",
+      "cites": [
+       10,
+       11
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Why the extra eating comes late",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "After short nights, much of the extra food tends to be eaten after dinner. In an inpatient study of 16 adults, five short nights raised energy burned by about 5%, but intake rose by more, especially at night after dinner. Weight rose about 0.8 kg, and the women showed less dietary restraint.",
+      "cites": [
+       12
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Sleeping longer reduced intake in a trial of people who usually slept too little. Among 80 adults with overweight who slept under 6.5 hours a night, one counselling session added about 1.2 hours of sleep. That group then ate about 270 fewer calories a day than the control group.",
+      "cites": [
+       13
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Regular timing, not only length",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Going to bed and getting up at consistent times may matter as much as total sleep. In 60,977 UK adults tracked by wrist devices, the more regular sleepers had a 20 to 48% lower risk of death. Regularity predicted risk better than sleep length. The study was observational.",
+      "cites": [
+       14
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "A US expert panel agreed that regular sleep timing is important for health, safety and performance. The panel, convened by the National Sleep Foundation, reviewed 63 publications. It judged weekend catch-up sleep may help when weekday sleep is short, but in one small trial, lie-ins did not stop extra eating after dinner.",
+      "cites": [
+       15,
+       16
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "A gap between the body clock and the hours that work demands is linked to higher body weight. In a large population study, this social jetlag was linked to a higher body mass index, beyond the effect of sleep length. It shows a link, not a cause.",
+      "cites": [
+       17
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Evening light and screens",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A bright screen in the evening can push the body clock later. In a controlled study, reading on a light-emitting e-reader before bed instead of a printed book meant taking longer to fall asleep, less melatonin, a later body clock and lower alertness the next morning.",
+      "cites": [
+       18
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Experts agree more firmly about screens and sleep in young people than in adults. A National Sleep Foundation panel of 16 experts agreed that screen use impairs sleep in children and adolescents. It agreed on only 5 of 10 statements, and judged that changing screen habits may reduce the harm.",
+      "cites": [
+       19
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Blue-light-filtering glasses have not been shown to improve sleep. A Cochrane review of 17 small trials found mixed results for sleep quality and rated the evidence very low in certainty. The data were too uneven to pool, and the authors called for better trials.",
+      "cites": [
+       20
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Late eating: what is known",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Eating the same food later in the day raised hunger in a tightly controlled trial. Adults with overweight ate identical meals on early and late schedules. The late schedule increased hunger, raised the ratio of ghrelin to the fullness hormone leptin, and lowered energy burned while awake.",
+      "cites": [
+       21
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Eating more of the day's food earlier helped weight loss a little in short trials. A pooled analysis of 9 randomised trials found that, within a reduced-calorie diet, an earlier pattern led to about 1.2 kg more weight loss. The authors describe this as short-term and call for more studies.",
+      "cites": [
+       22
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The research does not show that any food after a set hour is harmful. In a Spanish observational study of 420 dieters, late main-meal eaters lost less weight despite similar intake. A review found harm mainly with large meals in people eating most of their food at night, while snacks of about 150 calories did not appear harmful.",
+      "cites": [
+       23,
+       24
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Alcohol and sleep",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Even two drinks in the evening can disturb dream sleep. A pooled analysis of 27 studies found that about two standard drinks reduced REM sleep, the dreaming stage, and more alcohol made it worse. Falling asleep faster was seen only after about five drinks.",
+      "cites": [
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Alcohol can help people drop off, but sleep later in the night suffers. A review of studies in healthy volunteers found more broken sleep in the second half of the night at all doses. Japan's sleep guide advises against heavy drinking and nightcaps, and suggests seeing a doctor if sleep seems to need one.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Stress, distraction and the desk",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Stress tends to tilt eating toward less healthy food, though the effect is small. Across 54 studies with nearly 120,000 adults, a pooled analysis linked stress to slightly more eating overall, more unhealthy food and less healthy food. Stress also tops the NHS list of common causes of insomnia, alongside anxiety and depression.",
+      "cites": [
+       28,
+       29
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Eating while distracted, for example at a screen, raises intake at that meal and later. Across 24 studies, distraction moderately increased how much was eaten at the time, and later intake even more. Not being able to see how much had been eaten also raised intake.",
+      "cites": [
+       30
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Snacks placed farther away get eaten less. A Cochrane review found such food was eaten moderately less, across 12 studies with 1,098 people, and the effect grew with distance. Certainty was low, and most studies were laboratory tests. Keeping snacks in the kitchen, not on the desk, applies this idea.",
+      "cites": [
+       31
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Overeating or binge eating disorder",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Binge eating disorder is a specific condition, different from sometimes eating more than planned. A US health institute describes a binge as a large amount of food in a short time, for example within 2 hours, with a feeling of lost control. Binges at least once a week for 3 months may point to the disorder.",
+      "cites": [
+       32,
+       33
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Binge eating disorder also tends to involve eating very fast, past fullness and alone. Other signs are eating large amounts when not hungry, hiding it from embarrassment, and feeling disgusted, depressed or guilty afterwards. Unlike in bulimia, binges are not regularly followed by vomiting, laxatives, fasting or hard exercise.",
+      "cites": [
+       33,
+       32
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Binge eating disorder is uncommon, although it is the most common eating disorder in the US. A survey of 36,306 US adults found it in 0.44% over the past year and 0.85% at some point in life, more often in women. Binges too infrequent to meet the criteria are much more common.",
+      "cites": [
+       34,
+       32,
+       35
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Anyone who thinks they may have binge eating disorder should see a GP soon, and effective treatment exists. The NHS reports that recovery is common with the right support, mainly guided self-help or cognitive behavioural therapy. Across 81 trials, psychotherapy, mostly of this kind, had large effects on binge episodes.",
+      "cites": [
+       36,
+       37
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Sleep habits with evidence",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "For long-term insomnia, US and European guidelines recommend cognitive behavioural therapy for insomnia as the first treatment. It combines parts such as stimulus control, sleep restriction, relaxation and work on thoughts about sleep. Across 20 trials, it helped people fall asleep about 19 minutes faster and spend 26 fewer minutes awake.",
+      "cites": [
+       38,
+       39,
+       40
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Lists of sleep hygiene tips are a weak treatment on their own. The American Academy of Sleep Medicine advises against using sleep hygiene as a stand-alone therapy for insomnia, and 15 pooled studies found it less effective than cognitive behavioural therapy. The direct effect of single tips is largely untested.",
+      "cites": [
+       41,
+       42,
+       43
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "The popular advice to avoid all evening exercise is not supported by pooled studies. Across 23 studies, evening exercise did not harm sleep, though vigorous exercise ending within an hour of bedtime might. In a separate analysis of 66 studies, regular exercise had small to moderate benefits for sleep.",
+      "cites": [
+       44,
+       45
+      ],
+      "strength": "strong"
+     }
+    ]
    }
   ],
   "sources": [
@@ -1128,6 +1840,318 @@
     "title": "Dietary energy density in the treatment of obesity: a year-long trial comparing 2 weight-loss diets",
     "publisher": "American Journal of Clinical Nutrition, 2007",
     "url": "https://pubmed.ncbi.nlm.nih.gov/17556681/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 7,
+    "title": "Effects of sleep restriction on metabolism-related parameters in healthy adults: a comprehensive review and meta-analysis of randomized controlled trials",
+    "publisher": "Sleep Medicine Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30870662/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 8,
+    "title": "Associations of short sleep duration with appetite-regulating hormones and adipokines: a systematic review and meta-analysis",
+    "publisher": "Obesity Reviews, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32537891/",
+    "kind": "journal",
+    "country": "CN"
+   },
+   {
+    "n": 9,
+    "title": "The influence of sleep health on dietary intake: a systematic review and meta-analysis of intervention studies",
+    "publisher": "Journal of Human Nutrition and Dietetics, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33001515/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 10,
+    "title": "Brief communication: sleep curtailment in healthy young men is associated with decreased leptin levels, elevated ghrelin levels, and increased hunger and appetite",
+    "publisher": "Annals of Internal Medicine, 2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15583226/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "The impact of sleep deprivation on food desire in the human brain",
+    "publisher": "Nature Communications, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23922121/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 12,
+    "title": "Impact of insufficient sleep on total daily energy expenditure, food intake, and weight gain",
+    "publisher": "Proceedings of the National Academy of Sciences, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23479616/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 13,
+    "title": "Effect of sleep extension on objectively assessed energy intake among adults with overweight in real-life settings: a randomized clinical trial",
+    "publisher": "JAMA Internal Medicine, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35129580/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 14,
+    "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration: a prospective cohort study",
+    "publisher": "Sleep, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37738616/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 15,
+    "title": "The importance of sleep regularity: a consensus statement of the National Sleep Foundation sleep timing and variability panel",
+    "publisher": "Sleep Health, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37684151/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 16,
+    "title": "Ad libitum weekend recovery sleep fails to prevent metabolic dysregulation during a repeating pattern of insufficient sleep and weekend recovery sleep",
+    "publisher": "Current Biology, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30827911/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 17,
+    "title": "Social jetlag and obesity",
+    "publisher": "Current Biology, 2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22578422/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 18,
+    "title": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing, and next-morning alertness",
+    "publisher": "Proceedings of the National Academy of Sciences, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25535358/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 19,
+    "title": "The impact of screen use on sleep health across the lifespan: a National Sleep Foundation consensus statement",
+    "publisher": "Sleep Health, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38806392/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 20,
+    "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults",
+    "publisher": "Cochrane Database of Systematic Reviews, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37593770/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 21,
+    "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+    "publisher": "Cell Metabolism, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36198293/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 22,
+    "title": "Distribution of energy intake across the day and weight loss: a systematic review and meta-analysis",
+    "publisher": "Obesity Reviews, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36530130/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 23,
+    "title": "Timing of food intake predicts weight loss effectiveness",
+    "publisher": "International Journal of Obesity, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23357955/",
+    "kind": "journal",
+    "country": "ES"
+   },
+   {
+    "n": 24,
+    "title": "The health impact of nighttime eating: old and new perspectives",
+    "publisher": "Nutrients, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25859885/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 25,
+    "title": "The effect of alcohol on subsequent sleep in healthy adults: a systematic review and meta-analysis",
+    "publisher": "Sleep Medicine Reviews, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39631226/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 26,
+    "title": "Alcohol and sleep I: effects on normal sleep",
+    "publisher": "Alcoholism: Clinical and Experimental Research, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23347102/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 27,
+    "title": "Sleep Guide for Health Promotion 2023",
+    "publisher": "Ministry of Health, Labour and Welfare of Japan, Review Committee on the Revision of Sleep Guideline for Health Promotion, 2024",
+    "url": "https://www.mhlw.go.jp/content/001732662.pdf",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 28,
+    "title": "Stress and eating behaviours in healthy adults: a systematic review and meta-analysis",
+    "publisher": "Health Psychology Review, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33913377/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 29,
+    "title": "Insomnia",
+    "publisher": "NHS (UK National Health Service), 2024",
+    "url": "https://www.nhs.uk/conditions/insomnia/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 30,
+    "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating",
+    "publisher": "American Journal of Clinical Nutrition, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23446890/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 31,
+    "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+    "publisher": "Cochrane Database of Systematic Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 32,
+    "title": "Definition and facts for binge eating disorder",
+    "publisher": "US National Institute of Diabetes and Digestive and Kidney Diseases, 2021",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder/definition-facts",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 33,
+    "title": "Symptoms and causes of binge eating disorder",
+    "publisher": "US National Institute of Diabetes and Digestive and Kidney Diseases, 2021",
+    "url": "https://www.niddk.nih.gov/health-information/weight-management/binge-eating-disorder/symptoms-causes",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 34,
+    "title": "Prevalence and correlates of DSM-5-defined eating disorders in a nationally representative sample of U.S. adults",
+    "publisher": "Biological Psychiatry, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29859631/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 35,
+    "title": "Eating disorders (statistics)",
+    "publisher": "US National Institute of Mental Health",
+    "url": "https://www.nimh.nih.gov/health/statistics/eating-disorders",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 36,
+    "title": "Overview: binge eating disorder",
+    "publisher": "NHS (UK National Health Service), 2023",
+    "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+    "kind": "authority",
+    "country": "UK"
+   },
+   {
+    "n": 37,
+    "title": "Meta-analysis of the efficacy of psychological and medical treatments for binge-eating disorder",
+    "publisher": "Journal of Consulting and Clinical Psychology, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30570304/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 38,
+    "title": "Management of chronic insomnia disorder in adults: a clinical practice guideline from the American College of Physicians",
+    "publisher": "Annals of Internal Medicine, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27136449/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 39,
+    "title": "The European Insomnia Guideline: an update on the diagnosis and treatment of insomnia 2023",
+    "publisher": "Journal of Sleep Research, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38016484/",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 40,
+    "title": "Cognitive behavioral therapy for chronic insomnia: a systematic review and meta-analysis",
+    "publisher": "Annals of Internal Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26054060/",
+    "kind": "journal",
+    "country": "AU"
+   },
+   {
+    "n": 41,
+    "title": "Behavioral and psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep Medicine clinical practice guideline",
+    "publisher": "Journal of Clinical Sleep Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33164742/",
+    "kind": "authority",
+    "country": "US"
+   },
+   {
+    "n": 42,
+    "title": "Sleep hygiene education as a treatment of insomnia: a systematic review and meta-analysis",
+    "publisher": "Family Practice, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29194467/",
+    "kind": "journal",
+    "country": "HK"
+   },
+   {
+    "n": 43,
+    "title": "The role of sleep hygiene in promoting public health: a review of empirical evidence",
+    "publisher": "Sleep Medicine Reviews, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25454674/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 44,
+    "title": "Effects of evening exercise on sleep in healthy participants: a systematic review and meta-analysis",
+    "publisher": "Sports Medicine, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30374942/",
+    "kind": "journal",
+    "country": "CH"
+   },
+   {
+    "n": 45,
+    "title": "The effects of physical activity on sleep: a meta-analytic review",
+    "publisher": "Journal of Behavioral Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25596964/",
     "kind": "journal",
     "country": "US"
    }
