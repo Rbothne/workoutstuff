@@ -161,6 +161,17 @@
     return ids.length ? ids.slice(0, 4) : ['habits', 'strength'];
   }
 
+  // Bank tags: purposes combine (a move for any picked purpose shows); "Staples" narrows to staples.
+  function filterByTags(moves, tags) {
+    tags = tags || [];
+    var staples = tags.indexOf('Staples') !== -1;
+    var purposes = tags.filter(function (t) { return t !== 'Staples'; });
+    return moves.filter(function (m) {
+      if (staples && !m.staple) return false;
+      return !purposes.length || (m.for || []).some(function (p) { return purposes.indexOf(p) !== -1; });
+    });
+  }
+
   function stepSets(n, dir) { return Math.max(1, Math.min(6, n + dir)); }
 
   function movesForArticle(moves, articleId) {
@@ -358,6 +369,7 @@
     planSession: planSession,
     lastWeight: lastWeight,
     stepWeight: stepWeight,
+    filterByTags: filterByTags,
     favorites: favorites,
     projectWeek: projectWeek,
     generateRoutine: generateRoutine,

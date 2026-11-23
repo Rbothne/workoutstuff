@@ -42,7 +42,7 @@
     back: null,                         // what it showed before a bank preview
     lastBank: null,                     // { id, at } for double-click detection
     target: null,                       // the routine move being replaced
-    purpose: 'All',
+    tags: [],                           // bank tags picked; none means all
     bar: null,
     undo: null,
     drafts: {},                         // today's edited numbers per move: { weight, reps, sets }
@@ -348,8 +348,15 @@
   function renderPurposes() {
     var box = $('purposes'); box.textContent = '';
     ['All', 'Staples'].concat(OneMove.PURPOSES).forEach(function (p) {
-      var on = ui.purpose === p && !ui.bar && !ui.target;
-      var c = button(p === 'Staples' ? 'chip staples' : 'chip', p, function () { ui.purpose = p; ui.bar = null; ui.target = null; render(); });
+      var filtered = ui.bar || ui.target;
+      var on = !filtered && (p === 'All' ? !ui.tags.length : ui.tags.indexOf(p) !== -1);
+      var c = button(p === 'Staples' ? 'chip staples' : 'chip', p, function () {
+        // A replacement or week filter is cleared by any tag; the tags picked before it come back.
+        if (p === 'All') ui.tags = [];
+        else if (filtered && ui.tags.indexOf(p) !== -1) { /* keep it picked */ }
+        else toggle(ui.tags, p);
+        ui.bar = null; ui.target = null; render();
+      });
       c.setAttribute('aria-pressed', on ? 'true' : 'false');
       box.appendChild(c);
     });
@@ -359,8 +366,7 @@
     var list;
     if (ui.target) list = OneMove.replacementsFor(moves, ui.target);
     else if (ui.bar) list = moves.filter(function (m) { return OneMove.mainBar(m) === ui.bar; });
-    else if (ui.purpose === 'Staples') list = moves.filter(function (m) { return m.staple; });
-    else list = moves.filter(function (m) { return ui.purpose === 'All' || (m.for || []).indexOf(ui.purpose) !== -1; });
+    else list = OneMove.filterByTags(moves, ui.tags);
     return list.filter(function (m) { return m.id !== 'volleyball'; })
       .sort(function (a, b) { return CAT_ORDER.indexOf(a.category) - CAT_ORDER.indexOf(b.category); });
   }

@@ -151,3 +151,22 @@ test('movesForArticle lists the moves whose purposes that article explains', () 
   assert.ok(!climbing.includes('squat'));
   assert.deepEqual(L.movesForArticle(moves, 'eating'), []);
 });
+
+// ---- bank tags ----
+test('with no tags picked, every move shows', () => {
+  assert.equal(L.filterByTags(moves, []).length, moves.length);
+});
+
+test('several purposes show moves for any of them', () => {
+  const ids = L.filterByTags(moves, ['Climbing', 'Explosiveness']).map((m) => m.id);
+  assert.ok(ids.includes('deadhang') && ids.includes('pogo'));
+  assert.ok(!ids.includes('plank'));
+  for (const id of ids) assert.ok(move(id).for.some((p) => p === 'Climbing' || p === 'Explosiveness'), id);
+});
+
+test('Staples narrows the purposes picked, and alone shows every staple', () => {
+  assert.deepEqual(L.filterByTags(moves, ['Staples']).map((m) => m.id), moves.filter((m) => m.staple).map((m) => m.id));
+  const ids = L.filterByTags(moves, ['Staples', 'Explosiveness']).map((m) => m.id);
+  assert.ok(ids.includes('landing') && ids.includes('squat'));
+  assert.ok(!ids.includes('pogo') && !ids.includes('plank'));
+});
