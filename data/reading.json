@@ -3495,6 +3495,240 @@
       "strength": "moderate"
      }
     ]
+   },
+   {
+    "heading": "How a habit takes hold",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "A habit is an action done almost daily in the same setting, and it runs with little thought. In two diary studies, people doing habitual actions tended to think about unrelated things. They also reported less stress than during actions that were new or done in changing settings.",
+      "cites": [
+       8
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Habit researchers advise repeating the same action in the same situation. A review written for family doctors suggests choosing a time and place met every day of the week, so the setting starts to prompt the action. This is expert guidance drawn from habit studies, not a trial result.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Exercising at a regular time of day was linked to doing more of it. Among 375 US adults who had kept off lost weight, 68% exercised mostly in the same time window. They reported more active days and more often met 150 minutes a week, 86% against 74%.",
+      "cites": [
+       10
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "If-then plans",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "An if-then plan names when and where an action will happen, for example going straight to the gym after work on Monday. Across 13 randomised trials, adults who used such plans and had them reinforced over time became more active, with a small effect of 0.25.",
+      "cites": [
+       11,
+       12
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "A larger review of 41 trials with 5,439 people found that planning raised physical activity by a small amount, 0.35 on a standard scale. Plans worked better when they were made face to face and when they were reinforced during follow-up.",
+      "cites": [
+       13
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "If-then plans also help with eating, more for adding foods than for cutting them. In 23 studies, plans to eat more of a healthy food had an effect of 0.51, against 0.29 for eating less unhealthy food. A review of 12 studies with 3,323 people found a moderate effect of 0.49 for cutting fat.",
+      "cites": [
+       14,
+       15
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Starting small",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Habit researchers advise small, manageable changes, because failure can be discouraging. This is expert advice rather than a measured finding. A short walk after the same meal each day fits it better than a plan that needs a free hour.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "A leaflet of simple habit tips produced modest weight loss in a UK trial of 537 adults with obesity. The Ten Top Tips group lost 0.87 kg more than usual care at 3 months. By 24 months the usual care group had lost a similar amount.",
+      "cites": [
+       16
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Programmes built to form exercise habits do strengthen them. In a meta-analysis of 10 studies, habit strength rose by a small amount, 0.31, and programmes that taught problem solving did better. Effects were larger at follow-ups of 12 weeks or less than at longer ones.",
+      "cites": [
+       17
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Confidence comes from doing",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Self-efficacy means confidence in one's own ability to do something, and it can be raised. Across 27 studies with 5,501 healthy adults, programmes raised it by a small amount. Feedback on past performance, and watching others do the activity, gave the largest gains.",
+      "cites": [
+       18
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Some popular techniques were linked to lower confidence, not higher. Persuasion, graded steps and listing barriers went with lower self-efficacy in one review. In a second analysis, action planning, clear instruction and praise for effort went with higher confidence and more activity.",
+      "cites": [
+       18,
+       19
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "After a missed day",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "One missed day does not undo a habit that is forming. In the habit study described in a review for family doctors, the automatic pull of the action soon returned after a single missed performance. The review reports that missing the occasional opportunity did not seriously impair habit formation, so one gap is no reason to start over.",
+      "cites": [
+       9
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Confidence about getting back on track was linked to fewer lapses. In a Dutch study, 81 adults trying to lose weight answered six short prompts a day for two weeks. Higher confidence in recovering from a lapse went with lower odds of skipping exercise, while feeling hungry went with higher odds.",
+      "cites": [
+       20
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Treating oneself kindly after a setback is linked to healthier behaviour. A meta-analysis of 19 studies with 9,660 adults found a modest link between self-compassion and health-promoting behaviour, partly through lower stress. The studies measured links, so they cannot show cause and effect.",
+      "cites": [
+       21
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Make the wanted action easier",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Placing food farther away reduces how much of it gets eaten. In a Cochrane review, 12 studies with 1,098 people found a moderate drop in eating when food was put farther from reach. The evidence was rated low certainty, and most studies took place in laboratories.",
+      "cites": [
+       22
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "A common rule of thumb follows: put the wanted action within reach and the unwanted one out of the way. For late eating at a desk, that can mean keeping snacks in another room. For exercise, it can mean leaving the gym bag packed by the door. This is practical advice, not a tested finding.",
+      "cites": [],
+      "strength": null
+     }
+    ]
+   },
+   {
+    "heading": "Pairing and rewards",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Saving a favourite pleasure for exercise time raised gym visits at first. In a US field experiment, people who could hear gripping audiobooks only at the gym went 51% more often than controls early on. The effect faded over time, yet 61% later paid to keep the arrangement.",
+      "cites": [
+       23
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Cash rewards raise activity while they last, and some of the effect may remain. In 23 trials, about 1.40 US dollars a day added about 600 steps a day during programmes and about 500 afterwards. A 2025 update of 29 studies found a moderate effect during programmes, a small one afterwards and little long-term evidence.",
+      "cites": [
+       24,
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Expected rewards can lower interest in an activity, while praise tends to raise it. A meta-analysis of 128 experiments found that tangible, expected rewards reduced later free-choice interest, and positive feedback increased it. The review covered motivation in general, not exercise in particular.",
+      "cites": [
+       26
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Exercising with others",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Exercising in a group did not clearly beat exercising alone. A 2026 meta-analysis of 71 studies found a small advantage for group programmes on physical activity, but it was not statistically significant. Both group and individual approaches, in person or online, may work.",
+      "cites": [
+       27
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Support from friends is linked to being more active. In 19 studies of college and university students, social support was moderately related to physical activity, and support from friends more strongly than support from family. These studies measured links, not effects.",
+      "cites": [
+       28
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Claims and limits",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The idea that willpower is a fuel that runs out did not hold up in a large replication. Across 23 laboratories and 2,141 people, the effect of one self-control task on the next was close to zero. The test used one standard pair of tasks, so it does not settle every version of the idea.",
+      "cites": [
+       29
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "No single best time of day for exercise appeared in the registry study. Activity levels did not differ by the time people chose, as long as it stayed consistent. Early morning was common, chosen by 48% of the consistent exercisers.",
+      "cites": [
+       10
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Planning seems to help some people more than others. In the reviews, plans to cut fat worked better for men than for women, and activity plans worked better for men and for patients. A review of 24 studies concluded that if-then plans suit people who already intend to act and feel able to.",
+      "cites": [
+       15,
+       13,
+       11
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Research on keeping a change for years is thin. A review of 100 behaviour theories noted that programmes achieve temporary change but lasting change is rarely attained. A review of 15 long-term studies found habit and activity linked in both directions, so which comes first is still unclear.",
+      "cites": [
+       30,
+       31
+      ],
+      "strength": "moderate"
+     }
+    ]
    }
   ],
   "sources": [
@@ -3553,6 +3787,198 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9257680",
     "kind": "journal",
     "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "Habits in everyday life: thought, emotion, and action",
+    "publisher": "Journal of Personality and Social Psychology, 2002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12500811/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 9,
+    "title": "Making health habitual: the psychology of 'habit-formation' and general practice",
+    "publisher": "British Journal of General Practice, 2012",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 10,
+    "title": "Relationship of consistency in timing of exercise performance and exercise levels among successful weight loss maintainers",
+    "publisher": "Obesity, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31267674/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 11,
+    "title": "Implementation intentions for exercise and physical activity: who do they work for? A systematic review",
+    "publisher": "Journal of Physical Activity and Health, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31923898/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 12,
+    "title": "Impact of implementation intentions on physical activity practice in adults: a systematic review and meta-analysis of randomized clinical trials",
+    "publisher": "PLoS One, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30427874/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 13,
+    "title": "The effectiveness of planning interventions for improving physical activity in the general population: a systematic review and meta-analysis of randomized controlled trials",
+    "publisher": "International Journal of Environmental Research and Public Health, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35742582/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 14,
+    "title": "Do implementation intentions help to eat a healthy diet? A systematic review and meta-analysis of the empirical evidence",
+    "publisher": "Appetite, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21056605/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 15,
+    "title": "Reducing fat intake using implementation intentions: a meta-analytic review",
+    "publisher": "British Journal of Health Psychology, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28244173/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 16,
+    "title": "A brief intervention for weight control based on habit-formation theory delivered through primary care: results from a randomised controlled trial",
+    "publisher": "International Journal of Obesity, 2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27867204/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 17,
+    "title": "Effects of habit formation interventions on physical activity habit strength: meta-analysis and meta-regression",
+    "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37700303/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "What is the best way to change self-efficacy to promote lifestyle and recreational physical activity? A systematic review with meta-analysis",
+    "publisher": "British Journal of Health Psychology, 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19586583/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 19,
+    "title": "What are the most effective intervention techniques for changing physical activity self-efficacy and physical activity behaviour, and are they the same?",
+    "publisher": "Health Education Research, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21321008/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Affective and cognitive predictors of lapse in exercise and dietary behavior: an ecological momentary assessment study amongst Dutch adults trying to lose weight",
+    "publisher": "Psychology and Health, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40415394/",
+    "kind": "journal",
+    "country": "NL"
+   },
+   {
+    "n": 21,
+    "title": "Self-compassion, stress and health behaviour: a systematic review and meta-analysis",
+    "publisher": "Health Psychology Review, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42640104/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 22,
+    "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+    "publisher": "Cochrane Database of Systematic Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "Holding the Hunger Games hostage at the gym: an evaluation of temptation bundling",
+    "publisher": "Management Science, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25843979/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 24,
+    "title": "Financial incentives for physical activity in adults: systematic review and meta-analysis",
+    "publisher": "British Journal of Sports Medicine, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31092399/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 25,
+    "title": "Financial incentives for physical activity in adults: systematic review and meta-analysis update",
+    "publisher": "Preventive Medicine, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39870214/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 26,
+    "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+    "publisher": "Psychological Bulletin, 1999",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10589297/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 27,
+    "title": "Individual versus group-based interventions: a systematic review and meta-analysis of physical activity, functional, psychosocial and health outcomes",
+    "publisher": "Nature Human Behaviour, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41986740/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Social support and physical activity in college and university students: a meta-analysis",
+    "publisher": "Health Education and Behavior, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38305027/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 29,
+    "title": "A multilab preregistered replication of the ego-depletion effect",
+    "publisher": "Perspectives on Psychological Science, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27474142/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 30,
+    "title": "Theoretical explanations for maintenance of behaviour change: a systematic review of behaviour theories",
+    "publisher": "Health Psychology Review, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26854092/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "A systematic review examining the relationship between habit and physical activity behavior in longitudinal studies",
+    "publisher": "Frontiers in Psychology, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33746848/",
+    "kind": "journal",
+    "country": "INT"
    }
   ]
  },
@@ -4916,6 +5342,267 @@
       "strength": "weak"
      }
     ]
+   },
+   {
+    "heading": "What it asks and what it gives",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Climbing works the heart as well as the arms. In a small study of 14 experienced climbers, indoor climbing raised heart rate to 74 to 85% of predicted maximum, with energy use similar to running at 8 to 11 minutes per mile.",
+      "cites": [
+       7
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Most climbing energy comes from steady aerobic work and from the fast system that powers efforts of a few seconds. In a study of 13 climbers, recreational climbers used about 60 kJ on an easy route that cost elite climbers about 40 kJ, so smooth technique saves effort.",
+      "cites": [
+       8
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Beginners gain grip strength from bouldering alone. In a Brazilian study, 27 newcomers who bouldered for 18 weeks improved grip strength, hang time and forearm blood flow more than 26 controls. A meta-analysis of 18 trials of climbing as therapy, in 568 patients, also found a significant physical benefit.",
+      "cites": [
+       9,
+       10
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Climbing and mood",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Bouldering combined with psychotherapy eased depression as much as standard group therapy in a German trial. Among 156 outpatients, 10 weeks of bouldering psychotherapy moved symptoms from moderate to mild, matched group cognitive behavioural therapy and kept its benefit for at least 12 months.",
+      "cites": [
+       11
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "A second German trial found a benefit against usual care. In 128 adults, bouldering psychotherapy cut depression scores by 4.2 points more than treatment as usual, a moderate effect. Response rates were 29.7% with bouldering against 21.1% in the control group.",
+      "cites": [
+       12
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "These results come from therapy groups, not casual climbing. A Swedish review of 7 studies with 471 people, all in Germany or Austria, called for trials that separate climbing from the therapy around it. Low mood lasting weeks calls for a doctor; climbing can add to treatment, not replace it.",
+      "cites": [
+       13
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "How beginners get hurt",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Beginners and experienced climbers tend to get hurt in different ways. In interviews with 314 German indoor climbers, beginners mostly had skin injuries and leg sprains from falling. Experienced climbers more often hurt finger tendons and pulleys on small holds.",
+      "cites": [
+       14
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Serious acute injuries in climbing gyms are uncommon. A German gym logged 515,337 visits over five years and 30 acute injuries, 0.02 per 1,000 hours, with no deaths. A review of more than 400 injury studies ranked indoor climbing lowest of all sports assessed.",
+      "cites": [
+       15,
+       16
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Minor injuries are common in bouldering when climbers report every one. In a 12-month study of 507 indoor boulderers who reported monthly, 44% had at least one injury, though 78% of the 305 injuries were the mildest grade. The two studies counted injuries differently, so their rates cannot be compared directly.",
+      "cites": [
+       17
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Risk tends to rise with experience, grade and hours. A survey of 1,962 sport climbers found 0.2 injuries per 1,000 hours, linked to years climbing, difficulty and weekly time. A review of 19 studies added lead climbing and high intensity as possible risk factors.",
+      "cites": [
+       18,
+       19
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Fingers",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The pulleys are bands of tissue that hold the finger tendons to the bone. A 2026 review puts pulley injuries at up to 20% of climbing injuries, most notably from crimping, where the middle finger joint bends sharply. In a small study, the crimp loaded the main pulley with about three times the fingertip force.",
+      "cites": [
+       20,
+       21
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Expert bodies advise beginners to leave intense finger training for later. The UIAA Medical Commission, part of the international climbing federation, reserves campus board training for climbers with about 8 to 10 years of experience. A Norwegian-led review says fingerboard training should be limited in lower-graded climbers. Both are expert opinion.",
+      "cites": [
+       22,
+       23
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Hangboard trials so far have tested intermediate and advanced climbers, not beginners. In Norway, 35 such climbers gained 17% in peak finger force after 10 weeks of two weekly sessions. In Germany, 30 climbers on an 8-week weighted plan gained more grip strength than controls.",
+      "cites": [
+       24,
+       25
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Whether finger training prevents injury is not known. In a survey of 745 recreational climbers, fingerboard users had higher odds of injury, though a survey cannot show the board caused it. A 2026 clinical review argues for hangboarding as prevention but says randomised trials are still needed.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Shoulders and elbows",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The UIAA Medical Commission links many climbing overuse injuries to muscle imbalance. In its view, pulling muscles grow while the rotator cuff, the small muscles that steady the shoulder, and the forearm muscles that open the hand are neglected. It advises training the complementary muscles. This is expert opinion.",
+      "cites": [
+       22
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Climbers do show a shift in shoulder strength balance. In a Hong Kong study, 31 experienced sport climbers had weaker outward rotation compared with inward rotation than 27 non-climbers. The authors said its clinical meaning has yet to be examined.",
+      "cites": [
+       28
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "One small trial tested a shoulder programme for climbers. Among 84 male student climbers in Ukraine, closed-chain exercises, where the hand pushes against a fixed surface, plus slow lowering and strength work went with fewer shoulder injuries, 0.5 against 3.2 per 1,000 exposures. One trial cannot settle the question.",
+      "cites": [
+       29
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Where climbers get hurt differs by sex. In an international survey of 1,513 climbers, half had an injury in the past year. Shoulders were the most common site in women and fingers in men, which the authors linked partly to training aims and climbing style.",
+      "cites": [
+       30
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Falls and landings",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Bouldering injuries that reach hospital are mostly to the legs. At a Munich trauma centre, 61% of injuries in 430 patients were to the lower limbs, most often the ankle. At a UK trauma centre, ankle fractures made up 40% of 176 cases after an average fall of 2.9 metres.",
+      "cites": [
+       31,
+       32
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Jumping off the wall was linked to the more serious leg injuries in bouldering. In the German 12-month study, leg injuries were more severe and were tied to jumping off the wall and to falling. No preventive measure studied showed a clear protective effect, in line with an earlier US study.",
+      "cites": [
+       17,
+       33
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Teaching falling technique and full mat cover are recommended, but untested. The German interview study blamed beginners’ falls partly on missing fall technique and gaps between crash mats, and called for instruction for beginners. No trial of fall training was found for this article.",
+      "cites": [
+       14
+      ],
+      "strength": "weak"
+     }
+    ]
+   },
+   {
+    "heading": "Bouldering or ropes to start",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Bouldering means short climbs over thick mats with no rope. In top roping the rope runs from an anchor above, so falls are short. In lead climbing the rope is clipped in on the way up, so falls are longer. This is plain description.",
+      "cites": [],
+      "strength": null
+     },
+     {
+      "text": "Each style carries its own pattern of risk. In the German gym study, 6 acute injuries happened while bouldering, 16 while lead climbing and 7 while top roping, and bouldering injuries were mostly falls onto the mat. A review of overuse injuries linked bouldering to higher overuse risk.",
+      "cites": [
+       15,
+       1
+      ],
+      "strength": "moderate"
+     }
+    ]
+   },
+   {
+    "heading": "Warming up",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Warming up is sensible, but its power to prevent injury is not proven. A review of five good-quality trials across sports found three where a warm-up lowered injury risk and two where it did not. The authors judged that the weight of evidence favours a lower risk.",
+      "cites": [
+       34
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Short warm-ups prepare the shoulders, but not the fingers, for climbing. In a Taiwanese crossover study of 22 recreational climbers, three different 10-minute warm-ups all improved shoulder range of motion and stability and raised elbow and shoulder strength. None of them raised finger strength.",
+      "cites": [
+       35
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "The UIAA Medical Commission advises a proper warm-up at the start of a session and stretching at the end, from elbow to fingertip, without overstretching single finger joints. A few easy climbs at the start is one simple way to warm the fingers.",
+      "cites": [
+       22
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Fitting it around volleyball",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Volleyball already loads the fingers, shoulders and ankles that climbing uses. In US emergency data on adult volleyball arm injuries, fingers made up 33% and shoulders 29%. Ankle sprains are the commonest acute volleyball injury, up to half of all injuries.",
+      "cites": [
+       36,
+       37
+      ],
+      "strength": "moderate"
+     },
+     {
+      "text": "Spacing climbing away from volleyball nights is an inference, not a tested plan. Both sports load the fingers, shoulders and ankles, and injuries rose with weekly climbing hours in a Slovenian survey of 191 climbers. Climbing on other days, keeping early months easy and climbing down rather than jumping would limit the overlap.",
+      "cites": [
+       36,
+       17,
+       38
+      ],
+      "strength": "weak"
+     }
+    ]
    }
   ],
   "sources": [
@@ -4966,6 +5653,262 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/36630892/",
     "kind": "journal",
     "country": "INT"
+   },
+   {
+    "n": 7,
+    "title": "Energy expenditure and physiological responses during indoor rock climbing",
+    "publisher": "British Journal of Sports Medicine, 1997",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9298558/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 8,
+    "title": "Energy system contributions in indoor rock climbing",
+    "publisher": "European Journal of Applied Physiology, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17602238/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 9,
+    "title": "Forearm blood flow and vascular conductance improve after 18 weeks of bouldering training in novice climbers",
+    "publisher": "Frontiers in Sports and Active Living, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42306128/",
+    "kind": "journal",
+    "country": "BR"
+   },
+   {
+    "n": 10,
+    "title": "The therapeutic effects of climbing: a systematic review and meta-analysis",
+    "publisher": "PM&R, 2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36031691/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 11,
+    "title": "Bouldering psychotherapy is not inferior to cognitive behavioural therapy in the group treatment of depression: a randomized controlled trial",
+    "publisher": "British Journal of Clinical Psychology, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34791669/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 12,
+    "title": "WISE-Therapy (What's Important: Schedule and Engage) and bouldering psychotherapy for depression: a randomized clinical trial",
+    "publisher": "BMC Medicine, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42204537/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 13,
+    "title": "Effectiveness of indoor rock climbing and bouldering as treatment for depression: a systematic review",
+    "publisher": "BMC Psychiatry, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40988014/",
+    "kind": "journal",
+    "country": "SE"
+   },
+   {
+    "n": 14,
+    "title": "Injuries and overuse syndromes due to rock climbing on artificial walls (in German)",
+    "publisher": "Sportverletzung Sportschaden, 2000",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11199402/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 15,
+    "title": "Acute injury risk and severity in indoor climbing: a prospective analysis of 515,337 indoor climbing wall visits in 5 years",
+    "publisher": "Wilderness and Environmental Medicine, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23877045/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 16,
+    "title": "Evaluation of injury and fatality risk in rock and ice climbing",
+    "publisher": "Sports Medicine, 2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20632737/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 17,
+    "title": "Indoor bouldering: a prospective injury evaluation",
+    "publisher": "Wilderness and Environmental Medicine, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33966976/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 18,
+    "title": "Injury risk evaluation in sport climbing",
+    "publisher": "International Journal of Sports Medicine, 2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21913158/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 19,
+    "title": "Risk factors for injury in sport climbing and bouldering: a systematic review of the literature",
+    "publisher": "British Journal of Sports Medicine, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26009554/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 20,
+    "title": "Biomechanical properties of the crimp grip position in rock climbers",
+    "publisher": "Journal of Biomechanics, 2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11165286/",
+    "kind": "journal",
+    "country": "CH"
+   },
+   {
+    "n": 21,
+    "title": "Climbing pulley injuries: evaluation, treatment and prevention",
+    "publisher": "Current Sports Medicine Reports, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42241601/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 22,
+    "title": "UIAA Medical Commission factsheet on sport climbing",
+    "publisher": "International Climbing and Mountaineering Federation (UIAA) Medical Commission, undated",
+    "url": "https://theuiaa.org/documents/safety/UIAA_Medical_SportClimbing.pdf",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "The connection between resistance training, climbing performance, and injury prevention",
+    "publisher": "Sports Medicine Open, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38240903/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 24,
+    "title": "The effects of 10 weeks hangboard training on climbing specific maximal strength, explosive strength, and finger endurance",
+    "publisher": "Frontiers in Sports and Active Living, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35571743/",
+    "kind": "journal",
+    "country": "NO"
+   },
+   {
+    "n": 25,
+    "title": "Hangboard training in advanced climbers: a randomized controlled trial",
+    "publisher": "Scientific Reports, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34188125/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 26,
+    "title": "Finger, hand and wrist injuries in climbers: insights from climber and provider surveys",
+    "publisher": "BMJ Open Sport and Exercise Medicine, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41948423/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 27,
+    "title": "Hangboard training as a preventive strategy for upper extremity pathologies in rock climbers",
+    "publisher": "Sports Health, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42801271/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 28,
+    "title": "Strength profiles of shoulder rotators in healthy sport climbers and nonclimbers",
+    "publisher": "Journal of Athletic Training, 2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19771292/",
+    "kind": "journal",
+    "country": "HK"
+   },
+   {
+    "n": 29,
+    "title": "Application of closed kinematic chain exercises with eccentric and strength exercises for the shoulder injuries prevention in student rock climbers: a randomized controlled trial",
+    "publisher": "Acta of Bioengineering and Biomechanics, 2021",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34846050/",
+    "kind": "journal",
+    "country": "UA"
+   },
+   {
+    "n": 30,
+    "title": "Painfully ignorant? Impact of gender and aim of training on injuries in climbing",
+    "publisher": "BMJ Open Sport and Exercise Medicine, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39081465/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "Characteristics of bouldering injuries based on 430 patients presented to an urban emergency department",
+    "publisher": "Injury, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35144805/",
+    "kind": "journal",
+    "country": "DE"
+   },
+   {
+    "n": 32,
+    "title": "Bouldering-related trauma: injury patterns and operative burden over 10 years at a UK major trauma centre",
+    "publisher": "Injury, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42155532/",
+    "kind": "journal",
+    "country": "UK"
+   },
+   {
+    "n": 33,
+    "title": "Injuries in bouldering: a prospective study",
+    "publisher": "Wilderness and Environmental Medicine, 2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18076293/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 34,
+    "title": "Does warming up prevent injury in sport? The evidence from randomised controlled trials",
+    "publisher": "Journal of Science and Medicine in Sport, 2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16679062/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 35,
+    "title": "Comparing the effectiveness of 10-minute dynamic stretching, vibration rolling, and climbing-specific warm-ups on exercise performances in rock climbers",
+    "publisher": "Journal of Sports Science and Medicine, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40046228/",
+    "kind": "journal",
+    "country": "TW"
+   },
+   {
+    "n": 36,
+    "title": "Prevalence of upper extremity volleyball injuries within different adult age groups: a comprehensive analysis of national data from 2013-2022",
+    "publisher": "Orthopaedic Journal of Sports Medicine, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39640182/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 37,
+    "title": "Strategies for the prevention of volleyball related injuries",
+    "publisher": "British Journal of Sports Medicine, 2006",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2564299",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 38,
+    "title": "Survey of injuries among Slovenian sport climbers",
+    "publisher": "Journal of Sports Medicine and Physical Fitness, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41661162/",
+    "kind": "journal",
+    "country": "SI"
    }
   ]
  },

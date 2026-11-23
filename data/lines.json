@@ -15,6 +15,11 @@
   "page": "injury"
  },
  {
+  "text": "Start at the weight you are now. Body weight was not linked to climbing overuse injuries.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "On a flat day, do ten easy minutes of movement instead of waiting to feel energetic first.",
   "by": "",
   "page": "energy"
@@ -33,6 +38,11 @@
   "text": "To lose weight, change eating first. Use exercise to keep the weight off and to feel better.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Give a new habit about two months before you judge whether it has stuck.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Count every volleyball night toward the 150 to 300 minutes of weekly activity the WHO recommends.",
@@ -60,6 +70,11 @@
   "page": "injury"
  },
  {
+  "text": "Climb easy routes often before you climb hard ones. Intensity and bouldering are where injury risk rises.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Break up long sitting with a few minutes of walking each hour.",
   "by": "",
   "page": "energy"
@@ -80,6 +95,11 @@
   "page": "weight"
  },
  {
+  "text": "After a missed day, the only job is to do the next one.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Protect your ankles with weekly balance work, most of all if you have sprained one before.",
   "by": "",
   "page": "volleyball"
@@ -88,16 +108,6 @@
   "text": "Do not treat 10,000 as a pass mark. Around 6,000 already carries much of the benefit.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "Start at the weight you are now. Body weight was not linked to climbing overuse injuries.",
-  "by": "",
-  "page": "climbing"
- },
- {
-  "text": "Give a new habit about two months before you judge whether it has stuck.",
-  "by": "",
-  "page": "habits"
  },
  {
   "text": "Make water or unsweetened tea your default drink.",
@@ -113,6 +123,11 @@
   "text": "When climbing, build up slowly and use an open hand where you can instead of a hard crimp.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Use an open hand where you can and save hard crimping.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Protect seven or more hours of sleep a night.",
@@ -133,6 +148,11 @@
   "text": "Choose changes you could still be doing a year from now.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Track with one tap and look back once a week. Very few people keep up detailed logging.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "For a higher jump, a small amount of jump training works. Keep it small, because volleyball is already a lot of jumping.",
@@ -160,6 +180,11 @@
   "page": "injury"
  },
  {
+  "text": "Climb down when you can, and keep your ankles strong for the falls you do not choose.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "If tiredness lasts for weeks despite sleep and movement, tell a doctor, and mention your mood.",
   "by": "",
   "page": "energy"
@@ -178,6 +203,11 @@
   "text": "Treat BMI as a rough screen, not a verdict on your health.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Choose activity that feels good while you are doing it.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Take pain just below the kneecap seriously early. It is the sport's commonest overuse problem.",
@@ -205,6 +235,11 @@
   "page": "injury"
  },
  {
+  "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality.",
   "by": "",
   "page": "energy"
@@ -223,6 +258,11 @@
   "text": "Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "In a field experiment with 61,293 gym members and 54 different programmes, the best performer offered a small reward for coming back after a missed workout.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Health data on volleyball itself is thin.",
@@ -245,14 +285,14 @@
   "page": "strength-training"
  },
  {
-  "text": "Climb easy routes often before you climb hard ones. Intensity and bouldering are where injury risk rises.",
-  "by": "",
-  "page": "climbing"
- },
- {
   "text": "In a trial across 116 volleyball teams, balance-board training reduced ankle sprains, and the benefit was significant only for players who had sprained an ankle before.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter.",
@@ -280,7 +320,7 @@
   "page": "weight"
  },
  {
-  "text": "After a missed day, the only job is to do the next one.",
+  "text": "People who feel better during moderate exercise are more likely to be active later.",
   "by": "",
   "page": "habits"
  },
@@ -303,6 +343,11 @@
   "text": "Pooled across 17 studies, balance training cut the risk of an ankle sprain by about 40%, and by about half in people with a previous sprain.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Overuse injuries in climbers were linked to higher intensity, bouldering, weak grip or fingers, the crimp grip and previous injury.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
@@ -330,6 +375,11 @@
   "page": "weight"
  },
  {
+  "text": "Across 66 studies, doing exercise for your own reasons, because you enjoy or value it, was consistently linked to exercising more.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.",
   "by": "",
   "page": "volleyball"
@@ -348,6 +398,11 @@
   "text": "For preventing a repeat sprain, an overview of 46 reviews found strong evidence for bracing and moderate evidence for balance and control training.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "In bouldering, falls mostly injure the legs: 67% of fall injuries in one survey were to the lower limb, most often an ankle sprain, and 85% of the falls were unplanned.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Fish is in, and red and processed meat is limited.",
@@ -375,6 +430,11 @@
   "page": "weight"
  },
  {
+  "text": "Habits take longer than the popular 21 days.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before.",
   "by": "",
   "page": "volleyball"
@@ -395,6 +455,11 @@
   "page": "injury"
  },
  {
+  "text": "Balance training lowers ankle sprain risk by about 40% across sports, which matters for landing falls as much as for volleyball.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "They also advise on how to eat, not only what.",
   "by": "",
   "page": "eating"
@@ -403,11 +468,6 @@
   "text": "Tiredness is rarely a sign of serious illness.",
   "by": "",
   "page": "energy"
- },
- {
-  "text": "Use an open hand where you can and save hard crimping.",
-  "by": "",
-  "page": "climbing"
  },
  {
   "text": "In 24 weight-loss trials, higher-protein diets kept about 0.4 kg more lean mass and lost about 0.9 kg more fat than standard-protein diets.",
@@ -430,6 +490,11 @@
   "page": "weight"
  },
  {
+  "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Across sports, balance training lowers ankle sprain risk by about 40%.",
   "by": "",
   "page": "volleyball"
@@ -450,9 +515,9 @@
   "page": "injury"
  },
  {
-  "text": "Track with one tap and look back once a week. Very few people keep up detailed logging.",
+  "text": "Experienced climbers tend to be lean with large forearms.",
   "by": "",
-  "page": "habits"
+  "page": "climbing"
  },
  {
   "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
@@ -485,6 +550,11 @@
   "page": "weight"
  },
  {
+  "text": "A habit is an action done almost daily in the same setting, and it runs with little thought.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Knee and shoulder complaints are part of the sport for many players.",
   "by": "",
   "page": "volleyball"
@@ -498,6 +568,11 @@
   "text": "In climbers, overuse injuries were more likely with higher climbing intensity, bouldering, weak fingers or grip, the crimp grip and a previous injury.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Climbing works the heart as well as the arms.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "A single bout of exercise changes several brain chemicals linked to mood and alertness.",
@@ -530,6 +605,11 @@
   "page": "weight"
  },
  {
+  "text": "Habit researchers advise repeating the same action in the same situation.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Volleyball is a game of repeated jumps and landings.",
   "by": "",
   "page": "volleyball"
@@ -543,6 +623,11 @@
   "text": "In a survey of 301 bouldering fall injuries, 67% were to the lower limb and the most common was an ankle sprain.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Most climbing energy comes from steady aerobic work and from the fast system that powers efforts of a few seconds.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "In Japan, 79,594 adults were followed for about 15 years.",
@@ -565,6 +650,11 @@
   "page": "injury"
  },
  {
+  "text": "Beginners gain grip strength from bouldering alone.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Sleeping longer reduced intake in a trial of people who usually slept too little.",
   "by": "",
   "page": "sleep-appetite"
@@ -580,6 +670,11 @@
   "page": "weight"
  },
  {
+  "text": "Exercising at a regular time of day was linked to doing more of it.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Setters on one professional team averaged 121 jumps per training session.",
   "by": "",
   "page": "volleyball"
@@ -588,11 +683,6 @@
   "text": "The WHO guideline says some physical activity is better than none.",
   "by": "",
   "page": "walking"
- },
- {
-  "text": "Climb down when you can, and keep your ankles strong for the falls you do not choose.",
-  "by": "",
-  "page": "climbing"
  },
  {
   "text": "People eat more when the portion, package or plate is larger.",
@@ -615,6 +705,11 @@
   "page": "injury"
  },
  {
+  "text": "Bouldering combined with psychotherapy eased depression as much as standard group therapy in a German trial.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Going to bed and getting up at consistent times may matter as much as total sleep.",
   "by": "",
   "page": "sleep-appetite"
@@ -628,6 +723,11 @@
   "text": "Appetite appears to push back harder than metabolism does.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "An if-then plan names when and where an action will happen, for example going straight to the gym after work on Monday.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "In young elite players, more volleyball went with more jumper's knee.",
@@ -645,11 +745,6 @@
   "page": "eating"
  },
  {
-  "text": "Choose activity that feels good while you are doing it.",
-  "by": "",
-  "page": "habits"
- },
- {
   "text": "Light weights build as much muscle as heavy ones when sets are taken to failure.",
   "by": "",
   "page": "strength-training"
@@ -665,6 +760,11 @@
   "page": "injury"
  },
  {
+  "text": "A second German trial found a benefit against usual care.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "A US expert panel agreed that regular sleep timing is important for health, safety and performance.",
   "by": "",
   "page": "sleep-appetite"
@@ -678,6 +778,11 @@
   "text": "The idea of a permanently damaged metabolism is not well supported.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "A larger review of 41 trials with 5,439 people found that planning raised physical activity by a small amount, 0.35 on a standard scale.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "In adult professional players, a link between jump load and knee pain has not been confirmed.",
@@ -710,6 +815,11 @@
   "page": "injury"
  },
  {
+  "text": "These results come from therapy groups, not casual climbing.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "The guideline targets describe a healthy pattern over weeks: at least 400 g of fruit and vegetables and 25 g of fibre a day, and under 5 g of salt.",
   "by": "",
   "page": "eating"
@@ -730,6 +840,11 @@
   "page": "weight"
  },
  {
+  "text": "If-then plans also help with eating, more for adding foods than for cutting them.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "How a player lands may matter for the knee tendon.",
   "by": "",
   "page": "volleyball"
@@ -745,11 +860,6 @@
   "page": "strength-training"
  },
  {
-  "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
-  "by": "",
-  "page": "climbing"
- },
- {
   "text": "A short daytime nap can sharpen thinking for the next couple of hours.",
   "by": "",
   "page": "energy"
@@ -758,6 +868,11 @@
   "text": "In football, a structured warm-up called the FIFA 11+ reduced injuries by 39% when four trials were pooled.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Beginners and experienced climbers tend to get hurt in different ways.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "The health evidence on grains concerns whole grains.",
@@ -778,6 +893,11 @@
   "text": "Waist measured against height picks out health risk better than BMI does.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Habit researchers advise small, manageable changes, because failure can be discouraging.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Most ACL injuries in volleyball happen without contact, usually when landing from a spike.",
@@ -805,6 +925,11 @@
   "page": "injury"
  },
  {
+  "text": "Serious acute injuries in climbing gyms are uncommon.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Beans, lentils and chickpeas are filling.",
   "by": "",
   "page": "eating"
@@ -825,7 +950,7 @@
   "page": "weight"
  },
  {
-  "text": "In a field experiment with 61,293 gym members and 54 different programmes, the best performer offered a small reward for coming back after a missed workout.",
+  "text": "A leaflet of simple habit tips produced modest weight loss in a UK trial of 537 adults with obesity.",
   "by": "",
   "page": "habits"
  },
@@ -855,6 +980,11 @@
   "page": "injury"
  },
  {
+  "text": "Minor injuries are common in bouldering when climbers report every one.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Breaking up sitting with short bouts of activity improves how the body handles a meal.",
   "by": "",
   "page": "energy"
@@ -880,6 +1010,11 @@
   "page": "weight"
  },
  {
+  "text": "Programmes built to form exercise habits do strengthen them.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Hitters and jump servers report more shoulder trouble than other players.",
   "by": "",
   "page": "volleyball"
@@ -900,14 +1035,14 @@
   "page": "injury"
  },
  {
+  "text": "Risk tends to rise with experience, grade and hours.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Changing the desk setup can cut sitting time, though the evidence is of low quality.",
   "by": "",
   "page": "energy"
- },
- {
-  "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
-  "by": "",
-  "page": "climbing"
  },
  {
   "text": "Resting a little over a minute between sets may build slightly more muscle than very short rests.",
@@ -930,6 +1065,11 @@
   "page": "weight"
  },
  {
+  "text": "Self-efficacy means confidence in one's own ability to do something, and it can be raised.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "In volleyball, a trial of a shoulder warm-up measured fitness rather than injuries.",
   "by": "",
   "page": "volleyball"
@@ -948,6 +1088,11 @@
   "text": "A later review of six strength-training trials, with 7,738 people aged 12 to 40, again found injury risk cut to about a third.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "The pulleys are bands of tissue that hold the finger tendons to the bone.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Light is the strongest signal for the body clock, which times sleepiness and alertness.",
@@ -980,6 +1125,11 @@
   "page": "weight"
  },
  {
+  "text": "Some popular techniques were linked to lower confidence, not higher.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "At the top level, volleyball has a low injury rate for a team sport.",
   "by": "",
   "page": "volleyball"
@@ -995,6 +1145,11 @@
   "page": "injury"
  },
  {
+  "text": "Expert bodies advise beginners to leave intense finger training for later.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "People who spend more daylight hours outdoors report less tiredness.",
   "by": "",
   "page": "energy"
@@ -1003,11 +1158,6 @@
   "text": "Adding repetitions works about as well as adding weight.",
   "by": "",
   "page": "strength-training"
- },
- {
-  "text": "People who feel better during moderate exercise are more likely to be active later.",
-  "by": "",
-  "page": "habits"
  },
  {
   "text": "Scientists disagree on whether processing itself is the problem.",
@@ -1030,6 +1180,11 @@
   "page": "weight"
  },
  {
+  "text": "One missed day does not undo a habit that is forming.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "One large Dutch trial gives a picture of injury rates in recreational adult play.",
   "by": "",
   "page": "volleyball"
@@ -1043,6 +1198,11 @@
   "text": "A 2026 review pooled 15 studies with more than 9,000 people and found no effect of regular stretching on muscle, tendon or ligament injuries.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Hangboard trials so far have tested intermediate and advanced climbers, not beginners.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Bright light during the day can raise alertness within the same session.",
@@ -1060,11 +1220,6 @@
   "page": "eating"
  },
  {
-  "text": "Overuse injuries in climbers were linked to higher intensity, bouldering, weak grip or fingers, the crimp grip and previous injury.",
-  "by": "",
-  "page": "climbing"
- },
- {
   "text": "Even two drinks in the evening can disturb dream sleep.",
   "by": "",
   "page": "sleep-appetite"
@@ -1080,6 +1235,11 @@
   "page": "weight"
  },
  {
+  "text": "Confidence about getting back on track was linked to fewer lapses.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Blocking is a common source of finger injuries.",
   "by": "",
   "page": "volleyball"
@@ -1093,6 +1253,11 @@
   "text": "Tendons, the cords that join muscle to bone, respond slowly to exercise in adults.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Whether finger training prevents injury is not known.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Caffeine raises alertness, but its effect on sleep can last into the night.",
@@ -1115,6 +1280,11 @@
   "page": "injury"
  },
  {
+  "text": "The UIAA Medical Commission links many climbing overuse injuries to muscle imbalance.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Alcohol can help people drop off, but sleep later in the night suffers.",
   "by": "",
   "page": "sleep-appetite"
@@ -1128,6 +1298,11 @@
   "text": "Sleeping longer reduced how much people ate in one trial, with no diet involved.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Treating oneself kindly after a setback is linked to healthier behaviour.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "A typical finger injury happens when the ball strikes the fingertips at the block.",
@@ -1160,6 +1335,11 @@
   "page": "injury"
  },
  {
+  "text": "Climbers do show a shift in shoulder strength balance.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Stress tends to tilt eating toward less healthy food, though the effect is small.",
   "by": "",
   "page": "sleep-appetite"
@@ -1173,6 +1353,11 @@
   "text": "Stress nudges eating and weight, but only slightly on average.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Placing food farther away reduces how much of it gets eaten.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Casual volleyball counts as moderate activity and competitive indoor play as vigorous.",
@@ -1200,14 +1385,14 @@
   "page": "energy"
  },
  {
-  "text": "Across 66 studies, doing exercise for your own reasons, because you enjoy or value it, was consistently linked to exercising more.",
-  "by": "",
-  "page": "habits"
- },
- {
   "text": "Delayed muscle soreness is most common at the start of a season or after a new kind of exercise.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "One small trial tested a shoulder programme for climbers.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Eating while distracted leads to eating more, both then and later.",
@@ -1230,6 +1415,11 @@
   "page": "weight"
  },
  {
+  "text": "Saving a favourite pleasure for exercise time raised gym visits at first.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Much of a volleyball match is played at modest heart rates.",
   "by": "",
   "page": "volleyball"
@@ -1250,11 +1440,6 @@
   "page": "energy"
  },
  {
-  "text": "In bouldering, falls mostly injure the legs: 67% of fall injuries in one survey were to the lower limb, most often an ankle sprain, and 85% of the falls were unplanned.",
-  "by": "",
-  "page": "climbing"
- },
- {
   "text": "Eating with friends is not a way to eat less.",
   "by": "",
   "page": "eating"
@@ -1263,6 +1448,11 @@
   "text": "Some rehabilitation programmes use a pain-monitoring rule instead of complete rest.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Bouldering injuries that reach hospital are mostly to the legs.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Weight-training sports appear to have relatively low injury rates compared with common team sports.",
@@ -1283,6 +1473,11 @@
   "text": "Overeating that feels out of control is a reason to get professional help.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Cash rewards raise activity while they last, and some of the effect may remain.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Shorter breaks between rallies made the game a better workout in one small trial.",
@@ -1310,6 +1505,11 @@
   "page": "injury"
  },
  {
+  "text": "Jumping off the wall was linked to the more serious leg injuries in bouldering.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Many weight-training injuries seen in US emergency rooms came from dropped weights rather than the lift itself.",
   "by": "",
   "page": "strength-training"
@@ -1328,6 +1528,11 @@
   "text": "Keeping weight off for years is possible, and it goes with keeping habits up.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Expected rewards can lower interest in an activity, while praise tends to raise it.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "People who play team sports report fewer bad mental health days.",
@@ -1355,6 +1560,11 @@
   "page": "injury"
  },
  {
+  "text": "Teaching falling technique and full mat cover are recommended, but untested.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "Nordic nutrition advice puts adult protein needs at about 0.83 g per kg of body weight a day.",
   "by": "",
   "page": "strength-training"
@@ -1375,7 +1585,7 @@
   "page": "weight"
  },
  {
-  "text": "Habits take longer than the popular 21 days.",
+  "text": "Exercising in a group did not clearly beat exercising alone.",
   "by": "",
   "page": "habits"
  },
@@ -1405,7 +1615,7 @@
   "page": "injury"
  },
  {
-  "text": "Balance training lowers ankle sprain risk by about 40% across sports, which matters for landing falls as much as for volleyball.",
+  "text": "Each style carries its own pattern of risk.",
   "by": "",
   "page": "climbing"
  },
@@ -1435,6 +1645,11 @@
   "page": "weight"
  },
  {
+  "text": "Support from friends is linked to being more active.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Trials of team sport for mental health are few and mixed.",
   "by": "",
   "page": "volleyball"
@@ -1453,6 +1668,11 @@
   "text": "The NHS advises protection, rest, ice, compression and elevation for the first two to three days after a sprain, and avoiding heat, alcohol and massage.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Warming up is sensible, but its power to prevent injury is not proven.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Strength training lowered sports injuries in randomised trials.",
@@ -1480,6 +1700,11 @@
   "page": "weight"
  },
  {
+  "text": "The idea that willpower is a fuel that runs out did not hold up in a large replication.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Jump training raises jump height in healthy people.",
   "by": "",
   "page": "volleyball"
@@ -1498,6 +1723,11 @@
   "text": "For ankle sprains, a Dutch evidence-based guideline prefers supervised exercise to passive treatments, because exercise helps restore the ankle's stability.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Short warm-ups prepare the shoulders, but not the fingers, for climbing.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Combining lifting with other training does not blunt gains in muscle or maximal strength, but may blunt explosive strength.",
@@ -1525,6 +1755,11 @@
   "page": "weight"
  },
  {
+  "text": "No single best time of day for exercise appeared in the registry study.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Jump training programmes of more than 10 weeks and 20 sessions gave the best chance of clear gains.",
   "by": "",
   "page": "volleyball"
@@ -1545,6 +1780,11 @@
   "page": "injury"
  },
  {
+  "text": "The UIAA Medical Commission advises a proper warm-up at the start of a session and stretching at the end, from elbow to fingertip, without overstretching single finger joints.",
+  "by": "",
+  "page": "climbing"
+ },
+ {
   "text": "For jump height itself, jump training seems to matter more than lifting alone.",
   "by": "",
   "page": "strength-training"
@@ -1553,16 +1793,6 @@
   "text": "Nordic and Japanese patterns rest mainly on observational studies.",
   "by": "",
   "page": "eating"
- },
- {
-  "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
-  "by": "",
-  "page": "habits"
- },
- {
-  "text": "Experienced climbers tend to be lean with large forearms.",
-  "by": "",
-  "page": "climbing"
  },
  {
   "text": "Lists of sleep hygiene tips are a weak treatment on their own.",
@@ -1578,6 +1808,11 @@
   "text": "The NHS says losing weight can be hard and extra support or treatment may be needed.",
   "by": "",
   "page": "weight"
+ },
+ {
+  "text": "Planning seems to help some people more than others.",
+  "by": "",
+  "page": "habits"
  },
  {
   "text": "Volleyball players gain from jump training even with all the jumping they already do.",
@@ -1598,6 +1833,11 @@
   "text": "Some signs after an injury need emergency care.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Volleyball already loads the fingers, shoulders and ankles that climbing uses.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "The dose evidence comes mainly from young men.",
@@ -1625,6 +1865,11 @@
   "page": "weight"
  },
  {
+  "text": "Research on keeping a change for years is thin.",
+  "by": "",
+  "page": "habits"
+ },
+ {
   "text": "Lifting weights alone may not raise jump height quickly.",
   "by": "",
   "page": "volleyball"
@@ -1643,6 +1888,11 @@
   "text": "Injuries that heal slowly also deserve a check.",
   "by": "",
   "page": "injury"
+ },
+ {
+  "text": "Spacing climbing away from volleyball nights is an inference, not a tested plan.",
+  "by": "",
+  "page": "climbing"
  },
  {
   "text": "Trials behind the 2026 position stand lasted 6 to 52 weeks, so they say little about years of lifting.",

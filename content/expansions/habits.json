@@ -1,0 +1,485 @@
+{
+  "id": "habits",
+  "sources": {
+    "x_habits_wood": {
+      "title": "Habits in everyday life: thought, emotion, and action",
+      "publisher": "Journal of Personality and Social Psychology, 2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12500811/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Two diary studies with hourly reports. Habitual behaviour, defined as behaviour performed almost daily in stable contexts, went with thoughts unrelated to the behaviour and with less stress than non-habitual behaviour."
+    },
+    "x_habits_gardner": {
+      "title": "Making health habitual: the psychology of 'habit-formation' and general practice",
+      "publisher": "British Journal of General Practice, 2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "page opened",
+      "says": "Advises repeating an action consistently in the same context, choosing a time and place met every day, and aiming for small, manageable changes because failure can be discouraging. Reports that automaticity gains soon resumed after one missed performance."
+    },
+    "x_habits_schumacher": {
+      "title": "Relationship of consistency in timing of exercise performance and exercise levels among successful weight loss maintainers",
+      "publisher": "Obesity, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31267674/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "375 National Weight Control Registry members. 68.0% exercised at a consistent time; they reported more days (4.8 against 4.4 a week) and minutes, and more often met 150 minutes a week (86.3% against 74.2%). Activity did not differ by the time of day chosen; 47.8% of consistent exercisers chose early morning."
+    },
+    "x_habits_kompf": {
+      "title": "Implementation intentions for exercise and physical activity: who do they work for? A systematic review",
+      "publisher": "Journal of Physical Activity and Health, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31923898/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies. The technique helps people plan when and where they will act. Implementation intentions are effective for people who have pre-existing intentions and strong self-efficacy."
+    },
+    "x_habits_silva": {
+      "title": "Impact of implementation intentions on physical activity practice in adults: a systematic review and meta-analysis of randomized clinical trials",
+      "publisher": "PLoS One, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30427874/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "13 randomised trials, adults aged 18 to 76. In the subgroup with reinforcement of the plans, the effect on physical activity was 0.25 (95% CI 0.05 to 0.45)."
+    },
+    "x_habits_peng": {
+      "title": "The effectiveness of planning interventions for improving physical activity in the general population: a systematic review and meta-analysis of randomized controlled trials",
+      "publisher": "International Journal of Environmental Research and Public Health, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35742582/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "41 trials, 5,439 people. Planning raised physical activity, SMD 0.35 (0.25 to 0.44). More effective among patients and males, with face-to-face delivery and when reinforced during follow-up."
+    },
+    "x_habits_adriaanse": {
+      "title": "Do implementation intentions help to eat a healthy diet? A systematic review and meta-analysis of the empirical evidence",
+      "publisher": "Appetite, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21056605/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 studies. If-then plans helped add healthy foods (d = 0.51) more than they cut unhealthy eating (d = 0.29)."
+    },
+    "x_habits_vila": {
+      "title": "Reducing fat intake using implementation intentions: a meta-analytic review",
+      "publisher": "British Journal of Health Psychology, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28244173/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "12 studies, 3,323 people. Moderate overall effect on fat intake reduction (d = 0.488); planning appeared more powerful for men than for women."
+    },
+    "x_habits_beeken": {
+      "title": "A brief intervention for weight control based on habit-formation theory delivered through primary care: results from a randomised controlled trial",
+      "publisher": "International Journal of Obesity, 2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27867204/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "537 adults with obesity in English primary care. The Ten Top Tips habit leaflet gave 0.87 kg more weight loss than usual care at 3 months; at 24 months the usual care group had lost a similar amount."
+    },
+    "x_habits_ma": {
+      "title": "Effects of habit formation interventions on physical activity habit strength: meta-analysis and meta-regression",
+      "publisher": "International Journal of Behavioral Nutrition and Physical Activity, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37700303/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "10 studies. Habit formation interventions raised physical activity habit strength, SMD 0.31 (0.14 to 0.48). Follow-up of 12 weeks or less showed larger effects; problem solving was linked to better results."
+    },
+    "x_habits_ashford": {
+      "title": "What is the best way to change self-efficacy to promote lifestyle and recreational physical activity? A systematic review with meta-analysis",
+      "publisher": "British Journal of Health Psychology, 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19586583/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "27 studies, 5,501 healthy adults. Small effect on self-efficacy (mean d = 0.16). Feedback on past or others' performance and vicarious experience gave the highest self-efficacy; persuasion, graded mastery and barrier identification were linked to lower levels."
+    },
+    "x_habits_williams": {
+      "title": "What are the most effective intervention techniques for changing physical activity self-efficacy and physical activity behaviour, and are they the same?",
+      "publisher": "Health Education Research, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21321008/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "27 studies. Action planning, providing instruction and reinforcing effort were linked to higher self-efficacy and physical activity; relapse prevention and setting graded tasks to lower levels."
+    },
+    "x_habits_roordink": {
+      "title": "Affective and cognitive predictors of lapse in exercise and dietary behavior: an ecological momentary assessment study amongst Dutch adults trying to lose weight",
+      "publisher": "Psychology and Health, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40415394/",
+      "kind": "journal",
+      "country": "NL",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "81 Dutch adults, six prompts a day over two 7-day weeks. Recovery self-efficacy (OR 0.78) and coping self-efficacy (OR 0.68) were linked to lower risk of an exercise lapse; hunger to higher risk (OR 1.14)."
+    },
+    "x_habits_liu": {
+      "title": "Self-compassion, stress and health behaviour: a systematic review and meta-analysis",
+      "publisher": "Health Psychology Review, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42640104/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "19 studies, 9,660 adults. Self-compassion was positively associated with health-promoting behaviours (r = .23), partly mediated through stress."
+    },
+    "x_habits_hollands19": {
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+      "publisher": "Cochrane Database of Systematic Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies, most in laboratories. Food placed farther away reduced consumption: SMD -0.60 (-0.84 to -0.36) across 12 studies and 1,098 people, low certainty evidence."
+    },
+    "x_habits_milkman14": {
+      "title": "Holding the Hunger Games hostage at the gym: an evaluation of temptation bundling",
+      "publisher": "Management Science, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25843979/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Field experiment. Gym-only access to tempting audiobooks raised gym visits by 51% at first, encouragement alone by 29%; effects declined over time, particularly after Thanksgiving. 61% then paid for gym-only access."
+    },
+    "x_habits_mitchell": {
+      "title": "Financial incentives for physical activity in adults: systematic review and meta-analysis",
+      "publisher": "British Journal of Sports Medicine, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31092399/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 trials, 6,074 people. Incentives of about 1.40 US dollars a day added 607 steps a day during programmes and 514 after they ended; only 4 of 18 studies reported benefits after withdrawal."
+    },
+    "x_habits_salmani": {
+      "title": "Financial incentives for physical activity in adults: systematic review and meta-analysis update",
+      "publisher": "Preventive Medicine, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39870214/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "29 studies, 9,604 people. Moderate effect on daily steps during short programmes (SMD 0.52) and small at follow-up (SMD 0.20); evidence on long-term and follow-up effects is limited."
+    },
+    "x_habits_deci": {
+      "title": "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation",
+      "publisher": "Psychological Bulletin, 1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10589297/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "128 studies. Tangible and expected rewards undermined free-choice intrinsic motivation; positive feedback enhanced free-choice behaviour (d = 0.33) and interest (d = 0.31)."
+    },
+    "x_habits_kritz": {
+      "title": "Individual versus group-based interventions: a systematic review and meta-analysis of physical activity, functional, psychosocial and health outcomes",
+      "publisher": "Nature Human Behaviour, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41986740/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "71 studies. Group-based programmes showed a small, non-significant advantage for physical activity (g = 0.086); both individual and group approaches, in person or online, may be effective."
+    },
+    "x_habits_wang": {
+      "title": "Social support and physical activity in college and university students: a meta-analysis",
+      "publisher": "Health Education and Behavior, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38305027/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "19 articles. Total social support was associated with physical activity (r = 0.30); friend support more strongly than family support."
+    },
+    "x_habits_hagger": {
+      "title": "A multilab preregistered replication of the ego-depletion effect",
+      "publisher": "Perspectives on Psychological Science, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27474142/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 laboratories, 2,141 people, one standardised sequential-task protocol. The ego-depletion effect was d = 0.04, with a confidence interval that included zero."
+    },
+    "x_habits_kwasnicka": {
+      "title": "Theoretical explanations for maintenance of behaviour change: a systematic review of behaviour theories",
+      "publisher": "Health Psychology Review, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26854092/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "100 theories. Interventions are effective for temporary change, but maintenance is rarely attained; explanations centre on motives, self-regulation, resources, habits and environmental and social influences."
+    },
+    "x_habits_feil": {
+      "title": "A systematic review examining the relationship between habit and physical activity behavior in longitudinal studies",
+      "publisher": "Frontiers in Psychology, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33746848/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 longitudinal studies. The relationship between habit and physical activity is bidirectional, and whether habit predicts activity or the reverse is still unclear."
+    }
+  },
+  "sections": [
+    {
+      "heading": "How a habit takes hold",
+      "paragraphs": [
+        {
+          "text": "A habit is an action done almost daily in the same setting, and it runs with little thought. In two diary studies, people doing habitual actions tended to think about unrelated things. They also reported less stress than during actions that were new or done in changing settings.",
+          "cites": ["x_habits_wood"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_habits_wood", "quote": "When participants were engaged in habitual behavior, defined as behavior that had been performed almost daily in stable contexts, they were likely to think about issues unrelated to their behavior, presumably because they did not have to consciously guide their actions. ... the self-regulatory benefits of habits were apparent in the lesser feelings of stress associated with habitual than nonhabitual behavior." }
+          ]
+        },
+        {
+          "text": "Habit researchers advise repeating the same action in the same situation. A review written for family doctors suggests choosing a time and place met every day of the week, so the setting starts to prompt the action. This is expert guidance drawn from habit studies, not a trial result.",
+          "cites": ["x_habits_gardner"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_habits_gardner", "quote": "repeat an action consistently in the same context. ... Be consistent: choose a time and place that you encounter every day of the week." }
+          ]
+        },
+        {
+          "text": "Exercising at a regular time of day was linked to doing more of it. Among 375 US adults who had kept off lost weight, 68% exercised mostly in the same time window. They reported more active days and more often met 150 minutes a week, 86% against 74%.",
+          "cites": ["x_habits_schumacher"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_habits_schumacher", "quote": "Most (68.0%) participants reported temporally consistent MVPA. These individuals reported higher MVPA frequency (4.8 ± 1.6 vs. 4.4 ± 1.5 d/wk; P = 0.007) ... and they were more likely to achieve the national MVPA guideline (≥ 150 min/wk) than temporally inconsistent exercisers (86.3% vs. 74.2%, P = 0.004)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "If-then plans",
+      "paragraphs": [
+        {
+          "text": "An if-then plan names when and where an action will happen, for example going straight to the gym after work on Monday. Across 13 randomised trials, adults who used such plans and had them reinforced over time became more active, with a small effect of 0.25.",
+          "cites": ["x_habits_kompf", "x_habits_silva"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_kompf", "quote": "This technique helps individuals plan when and where they will do a behavior." },
+            { "key": "x_habits_silva", "quote": "13 RCTs were considered eligible for this review. ... the result found in the subgroup with reinforcement of the implementation intentions strategy was 0.25 (IC 95% = 0.05-0.45) in favor of the intervention group." }
+          ]
+        },
+        {
+          "text": "A larger review of 41 trials with 5,439 people found that planning raised physical activity by a small amount, 0.35 on a standard scale. Plans worked better when they were made face to face and when they were reinforced during follow-up.",
+          "cites": ["x_habits_peng"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_peng", "quote": "In total, 41 trials with 5439 samples were included in this systematic review ... PA was better promoted in the planned intervention group compared to the control group (SMD = 0.35, 95% CI = 0.25-0.44, I2 = 61.4%). ... when using the face-to-face sessions delivery mode, and when reinforcements were conducted during the follow-up." }
+          ]
+        },
+        {
+          "text": "If-then plans also help with eating, more for adding foods than for cutting them. In 23 studies, plans to eat more of a healthy food had an effect of 0.51, against 0.29 for eating less unhealthy food. A review of 12 studies with 3,323 people found a moderate effect of 0.49 for cutting fat.",
+          "cites": ["x_habits_adriaanse", "x_habits_vila"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_adriaanse", "quote": "Implementation intentions are an effective tool for promoting the inclusion of healthy food items in one's diet (Cohen's d=.51), but results for diminishing unhealthy eating patterns are less strong (Cohen's d=.29)." },
+            { "key": "x_habits_vila", "quote": "Systematic review and meta-analysis of 12 empirical studies (N = 3,323) ... a moderate overall effect of implementation intentions was observed (d = 0.488)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Starting small",
+      "paragraphs": [
+        {
+          "text": "Habit researchers advise small, manageable changes, because failure can be discouraging. This is expert advice rather than a measured finding. A short walk after the same meal each day fits it better than a plan that needs a free hour.",
+          "cites": ["x_habits_gardner"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_habits_gardner", "quote": "Patients should be encouraged to aim for small and manageable behaviour changes, because failure can be discouraging." }
+          ]
+        },
+        {
+          "text": "A leaflet of simple habit tips produced modest weight loss in a UK trial of 537 adults with obesity. The Ten Top Tips group lost 0.87 kg more than usual care at 3 months. By 24 months the usual care group had lost a similar amount.",
+          "cites": ["x_habits_beeken"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_habits_beeken", "quote": "Ten Top Tips (10TT) is a leaflet based on habit-formation theory ... Five-hundred and thirty-seven participants were randomised ... Participants receiving 10TT lost significantly more weight over 3 months than those receiving usual care (mean difference =-0.87kg; 95% confidence interval: -1.47 to -0.27; P=0.004). At 24 months, the 10TT group had maintained their weight loss, but the 'usual care' group had lost a similar amount." }
+          ]
+        },
+        {
+          "text": "Programmes built to form exercise habits do strengthen them. In a meta-analysis of 10 studies, habit strength rose by a small amount, 0.31, and programmes that taught problem solving did better. Effects were larger at follow-ups of 12 weeks or less than at longer ones.",
+          "cites": ["x_habits_ma"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_ma", "quote": "The habit formation interventions significantly increased PA habit (SMD = 0.31, 95% CI 0.14-0.48, P < .001) compared to the control groups. Subgroup analysis demonstrated that the duration of follow-up ≤ 12 weeks have a higher effect size on PA habit than the duration > 12 weeks. Meta-regression revealed that problem solving has a significant positive association with effectiveness improvement" }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Confidence comes from doing",
+      "paragraphs": [
+        {
+          "text": "Self-efficacy means confidence in one's own ability to do something, and it can be raised. Across 27 studies with 5,501 healthy adults, programmes raised it by a small amount. Feedback on past performance, and watching others do the activity, gave the largest gains.",
+          "cites": ["x_habits_ashford"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_ashford", "quote": "27 unique physical activity intervention studies, with a total of 5,501 participants. A significant, yet small, relationship between the interventions and changes in self-efficacy was found (mean d=0.16, p<.001). ... Interventions that included feedback on past or others' performance produced the highest levels of self-efficacy found in this review. Vicarious experience was also associated with higher levels of self-efficacy." }
+          ]
+        },
+        {
+          "text": "Some popular techniques were linked to lower confidence, not higher. Persuasion, graded steps and listing barriers went with lower self-efficacy in one review. In a second analysis, action planning, clear instruction and praise for effort went with higher confidence and more activity.",
+          "cites": ["x_habits_ashford", "x_habits_williams"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_ashford", "quote": "Persuasion, graded mastery, and barrier identification were associated with lower levels of self-efficacy." },
+            { "key": "x_habits_williams", "quote": "'action planning', 'provide instruction' and 'reinforcing effort towards behaviour' were associated with significantly higher levels of both self-efficacy and physical activity. 'Relapse prevention' and 'setting graded tasks' were associated with significantly lower self-efficacy and physical activity levels." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "After a missed day",
+      "paragraphs": [
+        {
+          "text": "One missed day does not undo a habit that is forming. In the habit study described in a review for family doctors, the automatic pull of the action soon returned after a single missed performance. The review reports that missing the occasional opportunity did not seriously impair habit formation, so one gap is no reason to start over.",
+          "cites": ["x_habits_gardner"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_habits_gardner", "quote": "Missing the occasional opportunity to perform the behaviour did not seriously impair the habit formation process: automaticity gains soon resumed after one missed performance." }
+          ]
+        },
+        {
+          "text": "Confidence about getting back on track was linked to fewer lapses. In a Dutch study, 81 adults trying to lose weight answered six short prompts a day for two weeks. Higher confidence in recovering from a lapse went with lower odds of skipping exercise, while feeling hungry went with higher odds.",
+          "cites": ["x_habits_roordink"],
+          "strength": "weak",
+          "support": [
+            { "key": "x_habits_roordink", "quote": "Adults (N = 81) participated in two seven-day EMA weeks. Participants received six semi-random prompts a day ... For exercise behavior, significant associations were observed between feeling hungry (OR = 1.14, 95% CI = 1.01-1.29) and an increased risk of lapsing, and between feeling relaxed (OR = 0.83, 95% CI = 0.72-0.95), coping self-efficacy (OR = 0.68, 95% CI = 0.62-0.75) and recovery self-efficacy (OR = 0.78, 95% CI = 0.69-0.89), and a reduced risk of lapsing." }
+          ]
+        },
+        {
+          "text": "Treating oneself kindly after a setback is linked to healthier behaviour. A meta-analysis of 19 studies with 9,660 adults found a modest link between self-compassion and health-promoting behaviour, partly through lower stress. The studies measured links, so they cannot show cause and effect.",
+          "cites": ["x_habits_liu"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_liu", "quote": "Nineteen studies met the eligibility criteria (combined N = 9660). Results indicated a positive association between self-compassion and health-promoting behaviours (r = .23). ... Mediation analysis revealed that the associations between self-compassion and health-promoting behaviours and self-compassion and health-risk behaviours were partially mediated through stress." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Make the wanted action easier",
+      "paragraphs": [
+        {
+          "text": "Placing food farther away reduces how much of it gets eaten. In a Cochrane review, 12 studies with 1,098 people found a moderate drop in eating when food was put farther from reach. The evidence was rated low certainty, and most studies took place in laboratories.",
+          "cites": ["x_habits_hollands19"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_hollands19", "quote": "For consumption outcomes, meta-analysis of 15 comparisons from 12 studies (n = 1098) found that exposure to food placed farther away resulted in a moderate reduction in its consumption: SMD -0.60 (95% CI -0.84 to -0.36) (low certainty evidence). ... The majority were conducted in laboratory settings (14/24)" }
+          ]
+        },
+        {
+          "text": "A common rule of thumb follows: put the wanted action within reach and the unwanted one out of the way. For late eating at a desk, that can mean keeping snacks in another room. For exercise, it can mean leaving the gym bag packed by the door. This is practical advice, not a tested finding.",
+          "cites": [],
+          "strength": null,
+          "support": []
+        }
+      ]
+    },
+    {
+      "heading": "Pairing and rewards",
+      "paragraphs": [
+        {
+          "text": "Saving a favourite pleasure for exercise time raised gym visits at first. In a US field experiment, people who could hear gripping audiobooks only at the gym went 51% more often than controls early on. The effect faded over time, yet 61% later paid to keep the arrangement.",
+          "cites": ["x_habits_milkman14"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_habits_milkman14", "quote": "Initially, full and intermediate treatment participants visited the gym 51% and 29% more frequently, respectively, than control participants, but treatment effects declined over time (particularly following Thanksgiving). After the study, 61% of participants opted to pay to have gym-only access to iPods containing tempting audiobooks" }
+          ]
+        },
+        {
+          "text": "Cash rewards raise activity while they last, and some of the effect may remain. In 23 trials, about 1.40 US dollars a day added about 600 steps a day during programmes and about 500 afterwards. A 2025 update of 29 studies found a moderate effect during programmes, a small one afterwards and little long-term evidence.",
+          "cites": ["x_habits_mitchell", "x_habits_salmani"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_mitchell", "quote": "incentives were associated with increased mean daily step counts during the intervention period (pooled mean difference (MD), 607.1; 95% CI: 422.1 to 792.1). Among the nine of 12 studies with post-intervention daily step count data incentives were associated with increased mean daily step counts (pooled MD, 513.8; 95% CI:312.7 to 714.9). ... Modest incentives ($1.40 US/day)" },
+            { "key": "x_habits_salmani", "quote": "Twenty-nine studies ... FI had a moderate effect during short-term interventions (standardized mean difference [SMD] [95 % CI] = 0.52 [0.25-0.78], p < 0.001) and a small effect in follow-up (SMD [95 % CI] = 0.20 [0.01-0.40], p = 0.04). ... Evidence is limited regarding long-term and follow-up effects." }
+          ]
+        },
+        {
+          "text": "Expected rewards can lower interest in an activity, while praise tends to raise it. A meta-analysis of 128 experiments found that tangible, expected rewards reduced later free-choice interest, and positive feedback increased it. The review covered motivation in general, not exercise in particular.",
+          "cites": ["x_habits_deci"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_deci", "quote": "A meta-analysis of 128 studies examined the effects of extrinsic rewards on intrinsic motivation. ... significantly undermined free-choice intrinsic motivation ... as did all rewards, all tangible rewards, and all expected rewards. ... Positive feedback enhanced both free-choice behavior (d = 0.33) and self-reported interest (d = 0.31)." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Exercising with others",
+      "paragraphs": [
+        {
+          "text": "Exercising in a group did not clearly beat exercising alone. A 2026 meta-analysis of 71 studies found a small advantage for group programmes on physical activity, but it was not statistically significant. Both group and individual approaches, in person or online, may work.",
+          "cites": ["x_habits_kritz"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_kritz", "quote": "A meta-analysis of 71 studies (523 effect sizes) ... group-based conditions showed a small but non-significant advantage for PA (n = 22,042; g = 0.086, 95% CI (-0.061, 0.233), P = 0.249) ... Both individual and group-based approaches (in-person or online) may be effective." }
+          ]
+        },
+        {
+          "text": "Support from friends is linked to being more active. In 19 studies of college and university students, social support was moderately related to physical activity, and support from friends more strongly than support from family. These studies measured links, not effects.",
+          "cites": ["x_habits_wang"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_wang", "quote": "This review included 19 articles. The results showed total SS was significantly associated with PA (r = 0.30, 95% confidence interval [CI]: [0.22, 0.37], p < .001). With respect to different types of support, friend support was more strongly associated with PA than family support." }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Claims and limits",
+      "paragraphs": [
+        {
+          "text": "The idea that willpower is a fuel that runs out did not hold up in a large replication. Across 23 laboratories and 2,141 people, the effect of one self-control task on the next was close to zero. The test used one standard pair of tasks, so it does not settle every version of the idea.",
+          "cites": ["x_habits_hagger"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_hagger", "quote": "Multiple laboratories (k = 23, total N = 2,141) conducted replications of a standardized ego-depletion protocol based on a sequential-task paradigm by Sripada et al. Meta-analysis of the studies revealed that the size of the ego-depletion effect was small with 95% confidence intervals (CIs) that encompassed zero (d = 0.04, 95% CI [-0.07, 0.15]." }
+          ]
+        },
+        {
+          "text": "No single best time of day for exercise appeared in the registry study. Activity levels did not differ by the time people chose, as long as it stayed consistent. Early morning was common, chosen by 48% of the consistent exercisers.",
+          "cites": ["x_habits_schumacher"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_habits_schumacher", "quote": "Among temporally consistent exercisers, 47.8% were early-morning exercisers; MVPA levels did not differ by time of day of routine MVPA performance (P > 0.05)." }
+          ]
+        },
+        {
+          "text": "Planning seems to help some people more than others. In the reviews, plans to cut fat worked better for men than for women, and activity plans worked better for men and for patients. A review of 24 studies concluded that if-then plans suit people who already intend to act and feel able to.",
+          "cites": ["x_habits_vila", "x_habits_peng", "x_habits_kompf"],
+          "strength": "strong",
+          "support": [
+            { "key": "x_habits_vila", "quote": "planning for a fat intake reduction seems to be more powerful for men than for women (β = -.623; p = .025)" },
+            { "key": "x_habits_peng", "quote": "we found that planning strategies were more effective among patients, males" },
+            { "key": "x_habits_kompf", "quote": "22 papers yielded 24 studies. ... Implementation intentions are an effective behavior change technique for individuals who have preexisting intentions and strong self-efficacy." }
+          ]
+        },
+        {
+          "text": "Research on keeping a change for years is thin. A review of 100 behaviour theories noted that programmes achieve temporary change but lasting change is rarely attained. A review of 15 long-term studies found habit and activity linked in both directions, so which comes first is still unclear.",
+          "cites": ["x_habits_kwasnicka", "x_habits_feil"],
+          "strength": "moderate",
+          "support": [
+            { "key": "x_habits_kwasnicka", "quote": "Behaviour change interventions are effective in supporting individuals in achieving temporary behaviour change. Behaviour change maintenance, however, is rarely attained. ... One hundred and seventeen behaviour theories were identified, of which 100 met the inclusion criteria." },
+            { "key": "x_habits_feil", "quote": "fifteen studies with different study designs were included. ... This review revealed a bidirectional relationship between habit and physical activity. Whether habit predicts physical activity or vice versa is still unclear." }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "Everyday temptations: an experience sampling study of desire, conflict, and self-control",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22149456/",
+      "why_not": "The abstract describes desire episodes in 205 adults but gives no figure on how people with high self-control avoid temptation, so it could not back the friction claim it was opened for."
+    },
+    {
+      "title": "Triggers of lapse and relapse of diet and exercise in behavioral weight loss",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31033215/",
+      "why_not": "Mainly a scale development study in a weight-loss trial; the exercise findings were not clear enough in the abstract to support a claim about resuming after a lapse."
+    }
+  ]
+}

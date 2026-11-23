@@ -1,0 +1,770 @@
+{
+  "id": "climbing",
+  "sources": {
+    "x_climbing_mermier": {
+      "title": "Energy expenditure and physiological responses during indoor rock climbing",
+      "publisher": "British Journal of Sports Medicine, 1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9298558/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "14 experienced climbers on three indoor routes. Heart rate rose to 74 to 85% of predicted maximum and energy expenditure was similar to running at 8 to 11 minutes per mile."
+    },
+    "x_climbing_bertuzzi": {
+      "title": "Energy system contributions in indoor rock climbing",
+      "publisher": "European Journal of Applied Physiology, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17602238/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "6 elite and 7 recreational climbers. The main energy systems were aerobic and anaerobic alactic; on the easy route the metabolic cost was 40.3 kJ in elite against 60.1 kJ in recreational climbers."
+    },
+    "x_climbing_dasilva": {
+      "title": "Forearm blood flow and vascular conductance improve after 18 weeks of bouldering training in novice climbers",
+      "publisher": "Frontiers in Sports and Active Living, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42306128/",
+      "kind": "journal",
+      "country": "BR",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "27 novice climbers against 26 controls. 18 weeks of bouldering improved handgrip strength (median 5.7% left, 3.8% right), hangboard time (23.8%) and forearm vascular function."
+    },
+    "x_climbing_gassner": {
+      "title": "The therapeutic effects of climbing: a systematic review and meta-analysis",
+      "publisher": "PM&R, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36031691/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "18 trials, 568 patients with neurological, orthopaedic, psychiatric and paediatric conditions. Significant improvement in the physical dimension; improvements in mental and social dimensions were not statistically significant."
+    },
+    "x_climbing_luttenberger": {
+      "title": "Bouldering psychotherapy is not inferior to cognitive behavioural therapy in the group treatment of depression: a randomized controlled trial",
+      "publisher": "British Journal of Clinical Psychology, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34791669/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "156 outpatients with depression, 10 weeks. Both groups moved from moderate to mild symptoms (MADRS -8.06 bouldering, -5.99 CBT); bouldering psychotherapy was non-inferior, with effects maintained at 12 months."
+    },
+    "x_climbing_kornhuber": {
+      "title": "WISE-Therapy (What's Important: Schedule and Engage) and bouldering psychotherapy for depression: a randomized clinical trial",
+      "publisher": "BMC Medicine, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204537/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "128 adults. Bouldering psychotherapy reduced depression scores 4.2 points more than treatment as usual (d = 0.48); response 29.7% against 21.1%."
+    },
+    "x_climbing_larsson": {
+      "title": "Effectiveness of indoor rock climbing and bouldering as treatment for depression: a systematic review",
+      "publisher": "BMC Psychiatry, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40988014/",
+      "kind": "journal",
+      "country": "SE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "7 studies, 471 participants, all in Germany or Austria. Bouldering with mindfulness reduced depression from moderate to mild; four weeks of top-rope climbing also helped but did not exceed the clinically important difference. Calls for trials that isolate climbing from co-interventions."
+    },
+    "x_climbing_stelzle": {
+      "title": "Injuries and overuse syndromes due to rock climbing on artificial walls (in German)",
+      "publisher": "Sportverletzung Sportschaden, 2000",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11199402/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Interviews with 314 indoor climbers. Injuries and overuse rose with performance level; experienced climbers injured finger tendons and pulleys, beginners had skin injuries and lower-limb sprains from falling. Recommends teaching beginners falling technique and full crash-mat cover."
+    },
+    "x_climbing_schoffl13": {
+      "title": "Acute injury risk and severity in indoor climbing: a prospective analysis of 515,337 indoor climbing wall visits in 5 years",
+      "publisher": "Wilderness and Environmental Medicine, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23877045/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "515,337 visits to a Stuttgart gym, 30 acute injuries, 0.02 injuries per 1,000 hours, no deaths. 6 while bouldering, 16 lead climbing, 7 top roping; bouldering injuries were mostly falls onto the mat."
+    },
+    "x_climbing_schoffl10": {
+      "title": "Evaluation of injury and fatality risk in rock and ice climbing",
+      "publisher": "Sports Medicine, 2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20632737/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "More than 400 injury studies compared per 1,000 hours. Indoor climbing ranked the lowest in terms of injuries of all sports assessed."
+    },
+    "x_climbing_auer": {
+      "title": "Indoor bouldering: a prospective injury evaluation",
+      "publisher": "Wilderness and Environmental Medicine, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33966976/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "507 boulderers followed 12 months; 44% had 305 injuries, 78% the mildest grade, 63% upper extremity. Lower-limb injuries were more severe and linked to falling (OR 2.92) and jumping off the wall (OR 4.39). No evaluated preventive measure had a significant protective effect."
+    },
+    "x_climbing_neuhof": {
+      "title": "Injury risk evaluation in sport climbing",
+      "publisher": "International Journal of Sports Medicine, 2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21913158/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "1,962 climbers, 699 injuries, 0.2 per 1,000 hours, 74.4% minor. Years of experience, difficulty level and weekly climbing time were correlated with injury rate."
+    },
+    "x_climbing_woollings": {
+      "title": "Risk factors for injury in sport climbing and bouldering: a systematic review of the literature",
+      "publisher": "British Journal of Sports Medicine, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26009554/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "19 studies. Age, years of experience, highest grade, high climbing intensity and lead climbing are potential risk factors; results on prevention measures remain inconclusive."
+    },
+    "x_climbing_manjunathan": {
+      "title": "Climbing pulley injuries: evaluation, treatment and prevention",
+      "publisher": "Current Sports Medicine Reports, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42241601/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. Finger pulley injuries account for up to 20% of climbing injuries and result from supra-maximal loads on the tendon-pulley system, most notably during crimp gripping."
+    },
+    "x_climbing_schweizer": {
+      "title": "Biomechanical properties of the crimp grip position in rock climbers",
+      "publisher": "Journal of Biomechanics, 2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11165286/",
+      "kind": "journal",
+      "country": "CH",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "16 fingers of four people measured. In the crimp the A2 pulley was loaded about 3 times the fingertip force, up to 116 N; bowstringing was less in the slope grip."
+    },
+    "x_climbing_uiaa": {
+      "title": "UIAA Medical Commission factsheet on sport climbing",
+      "publisher": "International Climbing and Mountaineering Federation (UIAA) Medical Commission, undated",
+      "url": "https://theuiaa.org/documents/safety/UIAA_Medical_SportClimbing.pdf",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "Campus board training only for veteran climbers of about 8 to 10 years; crimping holds create the most potential for injury; overuse injuries mostly fingers, elbows and shoulders, many from muscle imbalance neglecting the rotator cuff or forearm extensors; correct training of complementary muscle groups can generally prevent them; warm up at the start and stretch forearms and fingers at the end."
+    },
+    "x_climbing_saeterbakken": {
+      "title": "The connection between resistance training, climbing performance, and injury prevention",
+      "publisher": "Sports Medicine Open, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38240903/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Narrative review. Fingers and shoulders are the most frequent injury locations; fingerboard and campus board training should be limited in lower-graded climbers."
+    },
+    "x_climbing_hermans": {
+      "title": "The effects of 10 weeks hangboard training on climbing specific maximal strength, explosive strength, and finger endurance",
+      "publisher": "Frontiers in Sports and Active Living, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35571743/",
+      "kind": "journal",
+      "country": "NO",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "35 intermediate to advanced climbers randomised. Two 48-minute hangboard sessions a week for 10 weeks gave a 17% gain in peak force on a 23 mm rung."
+    },
+    "x_climbing_mundry": {
+      "title": "Hangboard training in advanced climbers: a randomized controlled trial",
+      "publisher": "Scientific Reports, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34188125/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "30 intermediate to advanced climbers randomised. An 8-week protocol adding weight improved overall grip strength more than regular climbing (effect size 0.36)."
+    },
+    "x_climbing_denhengst": {
+      "title": "Finger, hand and wrist injuries in climbers: insights from climber and provider surveys",
+      "publisher": "BMJ Open Sport and Exercise Medicine, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41948423/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Cross-sectional survey of 745 recreational climbers; 77% reported an injury, most often fingers or hands. Injury odds were higher in males, climbers with 4 or more years of experience and those reporting fingerboard use."
+    },
+    "x_climbing_kornienko": {
+      "title": "Hangboard training as a preventive strategy for upper extremity pathologies in rock climbers",
+      "publisher": "Sports Health, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42801271/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Clinical review and expert opinion, level 4. Biomechanical rationale supports hangboarding for injury prevention, but randomised trials are needed to confirm its protective effects."
+    },
+    "x_climbing_wong": {
+      "title": "Strength profiles of shoulder rotators in healthy sport climbers and nonclimbers",
+      "publisher": "Journal of Athletic Training, 2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19771292/",
+      "kind": "journal",
+      "country": "HK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "31 sport climbers and 27 non-climbers. Climbers' external to internal rotation work ratios were below 1 (0.79), against 1.03 in non-climbers; the clinical implication has yet to be examined."
+    },
+    "x_climbing_kozin": {
+      "title": "Application of closed kinematic chain exercises with eccentric and strength exercises for the shoulder injuries prevention in student rock climbers: a randomized controlled trial",
+      "publisher": "Acta of Bioengineering and Biomechanics, 2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34846050/",
+      "kind": "journal",
+      "country": "UA",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "84 male amateur student climbers. Shoulder injury rate per 1,000 exposures was 3.182 in controls against 0.5 with the closed-chain, eccentric and strength programme."
+    },
+    "x_climbing_gronhaug": {
+      "title": "Painfully ignorant? Impact of gender and aim of training on injuries in climbing",
+      "publisher": "BMJ Open Sport and Exercise Medicine, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39081465/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "International survey of 1,513 climbers; 50.3% had an injury in the past 12 months. The most common injuries were to the shoulders in women and the fingers in men."
+    },
+    "x_climbing_muller": {
+      "title": "Characteristics of bouldering injuries based on 430 patients presented to an urban emergency department",
+      "publisher": "Injury, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35144805/",
+      "kind": "journal",
+      "country": "DE",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "430 patients at a Munich trauma centre over ten years. Ankle 36.7% of injuries; 61.1% lower extremity; 19.9% needed surgery."
+    },
+    "x_climbing_jemmett": {
+      "title": "Bouldering-related trauma: injury patterns and operative burden over 10 years at a UK major trauma centre",
+      "publisher": "Injury, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42155532/",
+      "kind": "journal",
+      "country": "UK",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "176 patients; average fall height 2.9 m; lower limb 62% of injuries; ankle fractures 40%; 24% needed an operation."
+    },
+    "x_climbing_josephsen": {
+      "title": "Injuries in bouldering: a prospective study",
+      "publisher": "Wilderness and Environmental Medicine, 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18076293/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Indoor and outdoor boulderers over one year. Finger and ankle injuries were common; traditional preventative measures were ineffective."
+    },
+    "x_climbing_fradkin": {
+      "title": "Does warming up prevent injury in sport? The evidence from randomised controlled trials",
+      "publisher": "Journal of Science and Medicine in Sport, 2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16679062/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Five high-quality trials; three found warm-up reduced injury risk and two did not. Insufficient evidence to endorse or discontinue routine warm-up, but the weight of evidence favours a decreased risk."
+    },
+    "x_climbing_han": {
+      "title": "Comparing the effectiveness of 10-minute dynamic stretching, vibration rolling, and climbing-specific warm-ups on exercise performances in rock climbers",
+      "publisher": "Journal of Sports Science and Medicine, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40046228/",
+      "kind": "journal",
+      "country": "TW",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Crossover study, 22 recreational climbers. All three 10-minute warm-ups improved shoulder range of motion and dynamic stability and raised elbow flexor and shoulder extensor strength, but not finger flexor strength."
+    },
+    "x_climbing_lee": {
+      "title": "Prevalence of upper extremity volleyball injuries within different adult age groups: a comprehensive analysis of national data from 2013-2022",
+      "publisher": "Orthopaedic Journal of Sports Medicine, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39640182/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "US emergency department surveillance, a national estimate of 41,164 adult volleyball upper extremity injuries. Fingers 33.2%, shoulders 28.9%, wrists 16%."
+    },
+    "x_climbing_hlebs": {
+      "title": "Survey of injuries among Slovenian sport climbers",
+      "publisher": "Journal of Sports Medicine and Physical Fitness, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41661162/",
+      "kind": "journal",
+      "country": "SI",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "191 climbers, 5.2 injuries per 1,000 climbing hours. Injury count correlated weakly with weekly climbing hours (rho 0.20); fingers 50%, shoulders 32%, elbows 16% of upper extremity injuries."
+    }
+  },
+  "sections": [
+    {
+      "heading": "What it asks and what it gives",
+      "paragraphs": [
+        {
+          "text": "Climbing works the heart as well as the arms. In a small study of 14 experienced climbers, indoor climbing raised heart rate to 74 to 85% of predicted maximum, with energy use similar to running at 8 to 11 minutes per mile.",
+          "cites": [
+            "x_climbing_mermier"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_mermier",
+              "quote": "Fourteen experienced climbers (nine men, five women) performed three climbing trials on an indoor climbing wall. ... During the three trials, HR increased to 74-85% of predicted maximal values and energy expenditure was similar to that reported for running at a moderate pace (8-11 minutes per mile)."
+            }
+          ]
+        },
+        {
+          "text": "Most climbing energy comes from steady aerobic work and from the fast system that powers efforts of a few seconds. In a study of 13 climbers, recreational climbers used about 60 kJ on an easy route that cost elite climbers about 40 kJ, so smooth technique saves effort.",
+          "cites": [
+            "x_climbing_bertuzzi"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_bertuzzi",
+              "quote": "On the easy route, the metabolic cost was significantly lower in EC [40.3 (6.5) kJ] than in RC [60.1 (8.8) kJ] (P < 0.05). ... These results indicate that the main energy systems required during indoor rock climbing are the aerobic and anaerobic alactic systems. In addition, climbing economy seems to be more important for the performance of these athletes than improved energy metabolism."
+            }
+          ]
+        },
+        {
+          "text": "Beginners gain grip strength from bouldering alone. In a Brazilian study, 27 newcomers who bouldered for 18 weeks improved grip strength, hang time and forearm blood flow more than 26 controls. A meta-analysis of 18 trials of climbing as therapy, in 568 patients, also found a significant physical benefit.",
+          "cites": [
+            "x_climbing_dasilva",
+            "x_climbing_gassner"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_dasilva",
+              "quote": "We enrolled 26 controls and 27 novice climbers. ... Novice climbers showed greater delta improvement in left-hand [5.7 (IQR: -1.6-17.2) vs. -4.1 (IQR: -8.0-1.9) %; p = 0.001], right-hand grip strength [3.8 (IQR: -1.3-13.6) vs. -0.9 (IQR: -6.4-4.5) %; p = 0.011], and hangboard time [23.8 (IQR: 5.1-68.7) vs. 1.8 (IQR: -21.7-13.9) %; p = 0.005]. ... an 18-week bouldering program improved handgrip strength, hangboard time and vascular function in participants without prior climbing experience"
+            },
+            {
+              "key": "x_climbing_gassner",
+              "quote": "18 trials involving 568 patients were included. ... The meta-analysis showed a statistically significant improvement in the physical dimension favoring the climbing group."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Climbing and mood",
+      "paragraphs": [
+        {
+          "text": "Bouldering combined with psychotherapy eased depression as much as standard group therapy in a German trial. Among 156 outpatients, 10 weeks of bouldering psychotherapy moved symptoms from moderate to mild, matched group cognitive behavioural therapy and kept its benefit for at least 12 months.",
+          "cites": [
+            "x_climbing_luttenberger"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_luttenberger",
+              "quote": "156 outpatients meeting the criteria of a depressive episode ... In both groups, depressive symptoms improved significantly by an average of one severity level, moving from moderate to mild depressive symptoms after therapy ... Group BPT was found to be equally as effective as group CBT. Positive effects were maintained until at least 12 months after the end of therapy."
+            }
+          ]
+        },
+        {
+          "text": "A second German trial found a benefit against usual care. In 128 adults, bouldering psychotherapy cut depression scores by 4.2 points more than treatment as usual, a moderate effect. Response rates were 29.7% with bouldering against 21.1% in the control group.",
+          "cites": [
+            "x_climbing_kornhuber"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_kornhuber",
+              "quote": "128 adults were randomly assigned to WISE-T (44), BPT (40), or TAU (44). ... BPT: -4.2 points, 95%-CI [-8.2 to -0.3], P = .037, d = 0.48). Response rates were 35.3% for WISE-T, 29.7% for BPT, and 21.1% for controls."
+            }
+          ]
+        },
+        {
+          "text": "These results come from therapy groups, not casual climbing. A Swedish review of 7 studies with 471 people, all in Germany or Austria, called for trials that separate climbing from the therapy around it. Low mood lasting weeks calls for a doctor; climbing can add to treatment, not replace it.",
+          "cites": [
+            "x_climbing_larsson"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_larsson",
+              "quote": "seven studies (reported in 10 articles) including 471 participants, met PICO-criteria. Included studies were conducted between 2015 and 2023, in Germany/Austria. ... further high-quality trials are needed to isolate the effects of rock climbing from co-interventions and to compare it with established treatments such as antidepressants and aerobic exercise."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "How beginners get hurt",
+      "paragraphs": [
+        {
+          "text": "Beginners and experienced climbers tend to get hurt in different ways. In interviews with 314 German indoor climbers, beginners mostly had skin injuries and leg sprains from falling. Experienced climbers more often hurt finger tendons and pulleys on small holds.",
+          "cites": [
+            "x_climbing_stelzle"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_stelzle",
+              "quote": "314 climbers of both sexes and all degrees of climbing abilities were individually interviewed at five different indoor climbing arenas ... Experienced climbers often suffered from injuries to the finger flexor tendons (n = 42) and the finger flexor pulleys (n = 37) while holding small grips. Beginners sustained skin injuries (n = 26) and joint distortions (n = 22) of the lower limb while falling."
+            }
+          ]
+        },
+        {
+          "text": "Serious acute injuries in climbing gyms are uncommon. A German gym logged 515,337 visits over five years and 30 acute injuries, 0.02 per 1,000 hours, with no deaths. A review of more than 400 injury studies ranked indoor climbing lowest of all sports assessed.",
+          "cites": [
+            "x_climbing_schoffl13",
+            "x_climbing_schoffl10"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_schoffl13",
+              "quote": "During a 5-year period (2007-2011), 515,337 visits to the climbing wall were registered ... Thirty climbing injuries were recorded ... with no fatalities. The overall injury rate was 0.02 injuries per 1000 hours of climbing activities."
+            },
+            {
+              "key": "x_climbing_schoffl10",
+              "quote": ">400 sport-specific injury studies were analysed ... indoor climbing ranked the lowest in terms of injuries of all sports assessed."
+            }
+          ]
+        },
+        {
+          "text": "Minor injuries are common in bouldering when climbers report every one. In a 12-month study of 507 indoor boulderers who reported monthly, 44% had at least one injury, though 78% of the 305 injuries were the mildest grade. The two studies counted injuries differently, so their rates cannot be compared directly.",
+          "cites": [
+            "x_climbing_auer"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_auer",
+              "quote": "followed by monthly injury questionnaires including injury location and injury severity over a period of 12 mo. RESULTS: Out of 507 boulderers, 222 (44%) sustained 305 injuries. Of those, 78% (n=238) were classified as Union Internationale de Associations d'Alpinisme (UIAA) 1"
+            }
+          ]
+        },
+        {
+          "text": "Risk tends to rise with experience, grade and hours. A survey of 1,962 sport climbers found 0.2 injuries per 1,000 hours, linked to years climbing, difficulty and weekly time. A review of 19 studies added lead climbing and high intensity as possible risk factors.",
+          "cites": [
+            "x_climbing_neuhof",
+            "x_climbing_woollings"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_neuhof",
+              "quote": "A total number of 1962 climbers reported 699 injuries, which is equivalent to 0.2 injuries per 1 000 h of sport participation. ... Years of climbing experience (p<0.01), difficulty level (p<0.01), climbing time per week during summer (p<0.01) and winter (p<0.01) months were correlated with the injury rate."
+            },
+            {
+              "key": "x_climbing_woollings",
+              "quote": "19 studies met the inclusion criteria ... Age, increasing years of climbing experience, highest climbing grade achieved (skill level), high climbing intensity score (CIS) and participating in lead climbing are potential risk factors."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fingers",
+      "paragraphs": [
+        {
+          "text": "The pulleys are bands of tissue that hold the finger tendons to the bone. A 2026 review puts pulley injuries at up to 20% of climbing injuries, most notably from crimping, where the middle finger joint bends sharply. In a small study, the crimp loaded the main pulley with about three times the fingertip force.",
+          "cites": [
+            "x_climbing_schweizer",
+            "x_climbing_manjunathan"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_schweizer",
+              "quote": "Thereby the proximal interphalangeal (PIP) joints are flexed about 90 degrees and the distal interphalangeal joints are hyperextended maximally. ... All measurements of 16 fingers of four subjects were made in vivo. The largest amount of bowstringing was caused by the flexor digitorum profundus tendon in the crimp grip position being less using slope grip position (PIP joint extended). ... was loaded about 3 times the force applied at the fingertip during crimp grip position."
+            },
+            {
+              "key": "x_climbing_manjunathan",
+              "quote": "finger pulley injuries, which account for up to 20% of all climbing injuries. These injuries result from sport-specific gripping techniques that place supra-maximal loads on the flexor tendon-pulley system, most notably during crimp gripping."
+            }
+          ]
+        },
+        {
+          "text": "Expert bodies advise beginners to leave intense finger training for later. The UIAA Medical Commission, part of the international climbing federation, reserves campus board training for climbers with about 8 to 10 years of experience. A Norwegian-led review says fingerboard training should be limited in lower-graded climbers. Both are expert opinion.",
+          "cites": [
+            "x_climbing_uiaa",
+            "x_climbing_saeterbakken"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_climbing_uiaa",
+              "quote": "If any campus board training is done, it should only be undertaken by veteran climbers (i.e. climbing around 8 to 10 years)"
+            },
+            {
+              "key": "x_climbing_saeterbakken",
+              "quote": "Due to the high mechanical stress and load on the finger flexors, fingerboard and campus board training should be limited in lower-graded climbers."
+            }
+          ]
+        },
+        {
+          "text": "Hangboard trials so far have tested intermediate and advanced climbers, not beginners. In Norway, 35 such climbers gained 17% in peak finger force after 10 weeks of two weekly sessions. In Germany, 30 climbers on an 8-week weighted plan gained more grip strength than controls.",
+          "cites": [
+            "x_climbing_hermans",
+            "x_climbing_mundry"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_hermans",
+              "quote": "In total, 35 intermediate- to advanced-level climbers (8 women and 27 men) were randomized ... The HBT program consisted of two sessions of 48 min per week ... At post-test, the HBT group demonstrated 17, 18, 28, 10, 11, and 12% improvement in peak force"
+            },
+            {
+              "key": "x_climbing_mundry",
+              "quote": "We prospectively analyzed 30 intermediate to advanced climbing athletes ... An 8-week training protocol with increasing weights (HW) significantly improved overall grip strength more than a regular climbing training without the use of a hangboard."
+            }
+          ]
+        },
+        {
+          "text": "Whether finger training prevents injury is not known. In a survey of 745 recreational climbers, fingerboard users had higher odds of injury, though a survey cannot show the board caused it. A 2026 clinical review argues for hangboarding as prevention but says randomised trials are still needed.",
+          "cites": [
+            "x_climbing_denhengst",
+            "x_climbing_kornienko"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_denhengst",
+              "quote": "Among 745 recreational climbers, 77% reported ≥1 injury ... Injury odds were higher among males, climbers with 4-10 or >11 years of experience, and those reporting fingerboard use."
+            },
+            {
+              "key": "x_climbing_kornienko",
+              "quote": "While biomechanical rationale supports hangboarding as a potential injury-prevention tool, further research is needed to confirm its protective effects and guide optimal training parameters through randomized controlled trials."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Shoulders and elbows",
+      "paragraphs": [
+        {
+          "text": "The UIAA Medical Commission links many climbing overuse injuries to muscle imbalance. In its view, pulling muscles grow while the rotator cuff, the small muscles that steady the shoulder, and the forearm muscles that open the hand are neglected. It advises training the complementary muscles. This is expert opinion.",
+          "cites": [
+            "x_climbing_uiaa"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_climbing_uiaa",
+              "quote": "Many overuse injuries are the result of muscle imbalances such as over development of some muscles, while neglecting other muscles like shoulder rotator cuff or forearm extensor muscles. ... Correct training of all relevant and complementary muscle groups involved in climbing can generally prevent overuse injuries."
+            }
+          ]
+        },
+        {
+          "text": "Climbers do show a shift in shoulder strength balance. In a Hong Kong study, 31 experienced sport climbers had weaker outward rotation compared with inward rotation than 27 non-climbers. The authors said its clinical meaning has yet to be examined.",
+          "cites": [
+            "x_climbing_wong"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_wong",
+              "quote": "Thirty-one experienced sport climbers and 27 nonclimbers. ... In the climbers, the conventional work ratios were smaller than 1 for con ER:IR (0.79) and ecc ER:IR (0.88), whereas for the nonclimbers, the ratios were 1.03 and 1.13, respectively. ... The clinical implication of this strength difference in shoulder IR and ER in climbers has yet to be examined."
+            }
+          ]
+        },
+        {
+          "text": "One small trial tested a shoulder programme for climbers. Among 84 male student climbers in Ukraine, closed-chain exercises, where the hand pushes against a fixed surface, plus slow lowering and strength work went with fewer shoulder injuries, 0.5 against 3.2 per 1,000 exposures. One trial cannot settle the question.",
+          "cites": [
+            "x_climbing_kozin"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_kozin",
+              "quote": "Participants in this study were 84 male amateur climbing students, aged 18-19 ... The program included exercises that are performed in a closed kinematic chain in combination with exercises that are performed in eccentric mode and strength exercises. ... Injury rate per 1000 AEs recorded of all shoulder injuries in the control group was 3.182, in the intervention group was 0.5, P < 0.001."
+            }
+          ]
+        },
+        {
+          "text": "Where climbers get hurt differs by sex. In an international survey of 1,513 climbers, half had an injury in the past year. Shoulders were the most common site in women and fingers in men, which the authors linked partly to training aims and climbing style.",
+          "cites": [
+            "x_climbing_gronhaug"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_gronhaug",
+              "quote": "The survey received 1513 responses (877 men, 427 women and 9 not reporting gender), of which 50.3% (n=665; 51.4% men and 48.0% women) had experienced an injury in the past 12 months. ... The most common injuries were to the shoulders (women) and fingers (men). ... The gender differences may be affected by the aim for training and the style of climbing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Falls and landings",
+      "paragraphs": [
+        {
+          "text": "Bouldering injuries that reach hospital are mostly to the legs. At a Munich trauma centre, 61% of injuries in 430 patients were to the lower limbs, most often the ankle. At a UK trauma centre, ankle fractures made up 40% of 176 cases after an average fall of 2.9 metres.",
+          "cites": [
+            "x_climbing_muller",
+            "x_climbing_jemmett"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_muller",
+              "quote": "A total of 430 patients with 447 acute injuries were identified. ... The most common anatomical region affected was ankle (36.7%) ... The majority of 273 (61.1%) injuries were located at the lower extremities."
+            },
+            {
+              "key": "x_climbing_jemmett",
+              "quote": "A total of 176 patients were identified (mean age 29 years; 51% male). The average reported fall height was 2.9 m. Lower limb injuries predominated, accounting for 62% of all injuries, with ankle fractures representing the most common diagnosis (40%)."
+            }
+          ]
+        },
+        {
+          "text": "Jumping off the wall was linked to the more serious leg injuries in bouldering. In the German 12-month study, leg injuries were more severe and were tied to jumping off the wall and to falling. No preventive measure studied showed a clear protective effect, in line with an earlier US study.",
+          "cites": [
+            "x_climbing_auer",
+            "x_climbing_josephsen"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_auer",
+              "quote": "Injuries of the lower extremities accounted for 23% (n=71) but were more often classified as UIAA≥2 (P=0.0071; odds ratio [OR] 2.23; 95% CI 1.23-4.04) and were more often caused by falling (P=0.0005; OR 2.92; 95% CI 1.57-5.42) and jumping off the wall (P<0.0001; OR 4.39; 95% CI 2.25-8.56) than injuries of other body locations. There was no statistically significant protective effect of the evaluated potential preventive measures."
+            },
+            {
+              "key": "x_climbing_josephsen",
+              "quote": "Traditional preventative measures were ineffective, and there were few differences between indoor and outdoor boulderers."
+            }
+          ]
+        },
+        {
+          "text": "Teaching falling technique and full mat cover are recommended, but untested. The German interview study blamed beginners’ falls partly on missing fall technique and gaps between crash mats, and called for instruction for beginners. No trial of fall training was found for this article.",
+          "cites": [
+            "x_climbing_stelzle"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_stelzle",
+              "quote": "Reasons are a lack of experience in the techniques of belaying and falling as well as incomplete covering of the ground with crash mats. ... Further prevention could be provided by a well-based instruction of beginners, especially in techniques of belaying and falling. The ground of climbing walls should always be completely covered by sufficient crash mats."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Bouldering or ropes to start",
+      "paragraphs": [
+        {
+          "text": "Bouldering means short climbs over thick mats with no rope. In top roping the rope runs from an anchor above, so falls are short. In lead climbing the rope is clipped in on the way up, so falls are longer. This is plain description.",
+          "cites": [],
+          "strength": null,
+          "support": []
+        },
+        {
+          "text": "Each style carries its own pattern of risk. In the German gym study, 6 acute injuries happened while bouldering, 16 while lead climbing and 7 while top roping, and bouldering injuries were mostly falls onto the mat. A review of overuse injuries linked bouldering to higher overuse risk.",
+          "cites": [
+            "x_climbing_schoffl13",
+            "quarmby"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_schoffl13",
+              "quote": "Acute injuries happened in 6 cases while bouldering, in 16 cases while lead climbing, in 7 cases while top roping, and in 1 case as a third person (not climbing or belaying) while watching another climber. Bouldering injuries were mostly the result of falls onto the mat"
+            },
+            {
+              "key": "quarmby",
+              "quote": "Risk rose with climbing intensity, bouldering, low grip or finger strength, crimp grip and previous injury."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Warming up",
+      "paragraphs": [
+        {
+          "text": "Warming up is sensible, but its power to prevent injury is not proven. A review of five good-quality trials across sports found three where a warm-up lowered injury risk and two where it did not. The authors judged that the weight of evidence favours a lower risk.",
+          "cites": [
+            "x_climbing_fradkin"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_fradkin",
+              "quote": "Five studies, all of high quality (7-9 (mean=8) out of 11) ... Three of the studies found that performing a warm-up prior to performance significantly reduced the injury risk, and the other two studies found that warming up was not effective in significantly reducing the number of injuries. ... However, the weight of evidence is in favour of a decreased risk of injury."
+            }
+          ]
+        },
+        {
+          "text": "Short warm-ups prepare the shoulders, but not the fingers, for climbing. In a Taiwanese crossover study of 22 recreational climbers, three different 10-minute warm-ups all improved shoulder range of motion and stability and raised elbow and shoulder strength. None of them raised finger strength.",
+          "cites": [
+            "x_climbing_han"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_han",
+              "quote": "22 recreational rock climbers without musculoskeletal diseases. ... Each warm-up session lasted 10 minutes. ... all three warm-up methods significantly enhanced range of motion (ROM) of shoulder flexion, internal rotation, external rotation, overhead flexibility, and dynamic stability (p < 0.05). ... All warm-ups increased the maximal muscle strength of the elbow flexors and shoulder extensors, but did not in finger flexors."
+            }
+          ]
+        },
+        {
+          "text": "The UIAA Medical Commission advises a proper warm-up at the start of a session and stretching at the end, from elbow to fingertip, without overstretching single finger joints. A few easy climbs at the start is one simple way to warm the fingers.",
+          "cites": [
+            "x_climbing_uiaa"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_climbing_uiaa",
+              "quote": "a proper warm up at the beginning of the session and warm down with stretching at end of climb session - including the forearms and fingers - will aid recovery, maintain proper limb functioning, and help prevent injury. ... The whole musculo-tendinous unit from elbow to finger tip needs to be stretched not just the fingers. Over stretching of individual joints of the fingers is discouraged"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Fitting it around volleyball",
+      "paragraphs": [
+        {
+          "text": "Volleyball already loads the fingers, shoulders and ankles that climbing uses. In US emergency data on adult volleyball arm injuries, fingers made up 33% and shoulders 29%. Ankle sprains are the commonest acute volleyball injury, up to half of all injuries.",
+          "cites": [
+            "x_climbing_lee",
+            "vbreview"
+          ],
+          "strength": "moderate",
+          "support": [
+            {
+              "key": "x_climbing_lee",
+              "quote": "A weighted NE of 41,164 volleyball-related upper extremity injuries occurred in the study period. ... The most injured body parts of all age groups were fingers (33.2%), shoulders (28.9%), and wrists (16%)."
+            },
+            {
+              "key": "vbreview",
+              "quote": "Ankle sprains are the commonest acute injury, up to half of all injuries"
+            }
+          ]
+        },
+        {
+          "text": "Spacing climbing away from volleyball nights is an inference, not a tested plan. Both sports load the fingers, shoulders and ankles, and injuries rose with weekly climbing hours in a Slovenian survey of 191 climbers. Climbing on other days, keeping early months easy and climbing down rather than jumping would limit the overlap.",
+          "cites": [
+            "x_climbing_lee",
+            "x_climbing_auer",
+            "x_climbing_hlebs"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_climbing_lee",
+              "quote": "Our study demonstrated that adult populations are at risk for volleyball-related upper extremity injuries, specifically affecting the finger, wrist, and shoulder."
+            },
+            {
+              "key": "x_climbing_auer",
+              "quote": "were more often caused by falling (P=0.0005; OR 2.92; 95% CI 1.57-5.42) and jumping off the wall (P<0.0001; OR 4.39; 95% CI 2.25-8.56)"
+            },
+            {
+              "key": "x_climbing_hlebs",
+              "quote": "A descriptive cross-sectional online survey was conducted among 191 Slovenian sport climbers ... The number of injuries correlated weakly with weekly climbing hours (ρ=0.20; P=0.005)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "The psychology of rock climbing: a systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39389518/",
+      "why_not": "About psychology and performance in climbers (flow, confidence, risk handling), not mental health outcomes for beginners; nothing in it fitted a section without overreaching."
+    },
+    {
+      "title": "Prospective analysis of injury demographics, distribution, severity and risk factors in adolescent climbers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39995613/",
+      "why_not": "Covers climbers under 18 with growth-plate finger injuries; the reader is an adult."
+    },
+    {
+      "title": "Epidemiology of common injuries in the volleyball athlete",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37014607/",
+      "why_not": "Narrative review whose list of common volleyball injuries duplicated the stronger surveillance data and the existing volleyball source already cited."
+    }
+  ]
+}
