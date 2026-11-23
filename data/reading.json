@@ -189,6 +189,242 @@
       "strength": null
      }
     ]
+   },
+   {
+    "heading": "Fibre, whole grains and beans in practice",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Fibre targets differ by country. The UK asks adults for 30 g a day; they average about 20 g. Japan's 2020 reference intakes set 21 g for men aged 18 to 64 and 18 g for women. China asks that 50 to 150 g of daily cereals be whole grains and mixed beans.",
+      "cites": [
+       12,
+       13,
+       14
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "The health evidence on grains concerns whole grains. In 45 prospective studies, each extra 90 g a day, about two slices of wholegrain bread and a bowl of cereal, was linked to 19% less coronary heart disease and a 17% lower death rate. Refined grains showed little link. Germany's guide adds that whole grains keep people full longer.",
+      "cites": [
+       15,
+       16
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Beans, lentils and chickpeas are filling. In nine short feeding trials, meals with them were rated 31% more filling, though people ate no less at the next meal. In 21 trials with 940 people, about one serving a day brought 0.34 kg more weight loss over six weeks. The NHS suggests adding them to stews, curries and salads.",
+      "cites": [
+       17,
+       18,
+       12
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Protein through the day",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Muscle responds to protein meal by meal. In a week-long study of eight adults, about 30 g at each of three meals raised 24-hour muscle protein building by 25% over the same total eaten mostly at dinner. A later review called the wider evidence on spreading protein limited and inconsistent.",
+      "cites": [
+       19,
+       20
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Total protein has clearer support. Across 49 trials with 1,863 people doing resistance training, extra protein added about 0.3 kg of lean mass, with no further gain above about 1.6 g per kg of body weight daily. The effect was larger in trained lifters and smaller with age. A protein food at each meal covers both points without counting.",
+      "cites": [
+       21
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "What ultra-processed means",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Ultra-processed is a category from the NOVA system, which sorts foods by processing. A product counts if its ingredient list includes substances rarely used in home kitchens, such as hydrogenated oils, or additives that make it more appealing, such as flavours, colours, emulsifiers and sweeteners.",
+      "cites": [
+       22
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Large observational studies link ultra-processed food with worse health. An umbrella review of 45 pooled analyses, covering about 9.9 million people, found higher intake associated with 32 outcomes, including a 21% higher death rate. It rated 41 of the 45 analyses as low or very low quality.",
+      "cites": [
+       23
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Trials point the same way but leave the reason open. A 2026 review of ten trials found more weight gain and faster eating on ultra-processed diets, but people ate more only when those diets were denser in energy, with low certainty. In an English trial of 55 adults, with both diets following national guidelines, the less processed one brought about twice the weight loss.",
+      "cites": [
+       24,
+       25
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Scientists disagree on whether processing itself is the problem. The UK's scientific advisers called the links concerning in 2023 but urged caution, citing possible confounding and overlap with existing advice. A published debate agreed that processing affects health but split on whether the NOVA label adds anything beyond nutrients.",
+      "cites": [
+       26,
+       27
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Sugary drinks and alcohol",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Sugary drinks are linked to weight gain in cohorts and trials. In cohorts of 174,252 adults, each extra daily serving went with 0.12 to 0.22 kg more gain a year; in trials, adults given sugary drinks gained 0.85 kg. In 17 cohorts, a daily serving was linked to 13% more type 2 diabetes after allowing for body fat.",
+      "cites": [
+       28,
+       29
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Diet drinks and juice are not simple swaps. The WHO advised in 2023 against non-sugar sweeteners for weight control, finding no long-term benefit for body fat; the advice excludes people with diabetes. The NHS limits juice and smoothies to 150 ml a day combined. Germany's guide does not recommend sugar-sweetened or alcoholic drinks.",
+      "cites": [
+       30,
+       31,
+       16
+      ],
+      "strength": "guideline"
+     },
+     {
+      "text": "Several health authorities decline to name a safe amount of alcohol. The WHO's European office said in 2023 that no amount is free of health effects; the German Nutrition Society said in 2024 that none is health-promoting and safe. China calls alcohol no basic part of a daily diet, and Korea advises restraint.",
+      "cites": [
+       32,
+       33,
+       14,
+       34
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Speed, attention, company and reach",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Eating more slowly reduces how much is eaten at that meal. Across 22 experiments, slower eating led to lower intake with no extra hunger up to three and a half hours later. In 23 observational studies, fast eaters had a body mass index 1.78 units higher and about twice the odds of obesity.",
+      "cites": [
+       35,
+       36
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Eating while distracted leads to eating more, both then and later. A review of 24 experiments found a moderate increase during the distracted meal and a larger one at the next. Recalling a recent meal lowered later intake. Meals eaten away from the screen use both findings.",
+      "cites": [
+       37
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Eating with friends is not a way to eat less. A review of 42 studies found strong evidence that people eat more with friends than alone, with no such effect among strangers. Germany's guide still calls eating in company beneficial, so shared meals have value, just not for eating less.",
+      "cites": [
+       38,
+       16
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Distance matters as well as portion size. A Cochrane review found that food placed farther away was eaten less, a moderate effect across 12 studies with 1,098 people, though certainty was low and most tests were lab-based. Snacks kept in a cupboard away from the desk apply the idea.",
+      "cites": [
+       39
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Breakfast, timing and late-night eating",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Breakfast is not a proven weight-loss tool. In 13 randomised trials, people assigned breakfast ate more over the day than those assigned to skip it, and ended 0.44 kg heavier. The trials were short and at risk of bias. Whether to eat breakfast can reasonably follow appetite and routine.",
+      "cites": [
+       40
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Eating the same food later made people hungrier in one controlled trial. Sixteen adults with overweight or obesity ate identical meals on two schedules, the later one shifted about four hours and ending two and a half hours before bed. It doubled the odds of hunger and lowered energy used while awake. The study was small and short.",
+      "cites": [
+       41
+      ],
+      "strength": "weak"
+     },
+     {
+      "text": "Longer trials suggest a small benefit from eating earlier in the day. A review of 29 trials with 2,485 people, each at least 12 weeks long, found about 1.75 kg more weight loss when more food came earlier in the day. The authors called the effects small and uncertain, with high risk of bias in 22 trials.",
+      "cites": [
+       42
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Some patterns of overeating call for professional help. The NHS describes binge eating disorder as regularly eating a lot of food in a short time until uncomfortably full, often alone or in secret, with guilt or shame afterwards. It advises seeing a doctor as soon as possible if this sounds familiar.",
+      "cites": [
+       43
+      ],
+      "strength": "guideline"
+     }
+    ]
+   },
+   {
+    "heading": "Eating patterns that have been tested",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "The Mediterranean diet has been tested in a large randomised trial. In Spain, 7,447 adults aged 55 to 80 at high cardiovascular risk were followed for a median of 4.8 years. Heart attack, stroke or cardiovascular death struck 3.8% and 3.4% of the olive oil and nut groups, against 4.4% on low-fat advice. A Cochrane review found little or no effect on total deaths.",
+      "cites": [
+       44,
+       45
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Nordic and Japanese patterns rest mainly on observational studies. In 15 cohorts with over a million people, the closest followers of a Nordic pattern had 7% less cardiovascular disease, with low certainty. Nine studies linked a Japanese-style diet to 17% lower cardiovascular death rates, though most measured diets in the 1980s and 1990s.",
+      "cites": [
+       46,
+       47
+      ],
+      "strength": "strong"
+     }
+    ]
+   },
+   {
+    "heading": "Limits and realistic expectations",
+    "deeper": true,
+    "paragraphs": [
+     {
+      "text": "Studies that ask people what they ate get answers that run low. In five US studies checked against biological markers, people under-reported energy intake by 28% on food questionnaires and 15% on a one-day recall, more so at higher body mass index. Even defenders of these methods warn against treating it as true intake.",
+      "cites": [
+       48,
+       49
+      ],
+      "strength": "strong"
+     },
+     {
+      "text": "Falling short of the guidelines is normal, even in countries known for their food. Japan's health plan aimed for 350 g of vegetables a day, against an average of 282 g, and for 80% of people to eat a staple, main and side dish more than twice a day, against 68.1%. In Korea, the share eating 500 g of fruit and vegetables a day has fallen since 2015.",
+      "cites": [
+       50,
+       34
+      ],
+      "strength": "guideline"
+     }
+    ]
    }
   ],
   "sources": [
@@ -279,6 +515,318 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/17556681/",
     "kind": "journal",
     "country": "US"
+   },
+   {
+    "n": 12,
+    "title": "How to get more fibre into your diet",
+    "publisher": "NHS (UK National Health Service), page last reviewed 2026",
+    "url": "https://www.nhs.uk/live-well/eat-well/digestive-health/how-to-get-more-fibre-into-your-diet/",
+    "kind": "authority",
+    "country": "GB"
+   },
+   {
+    "n": 13,
+    "title": "Dietary Reference Intakes for Japanese (2020): overview",
+    "publisher": "Ministry of Health, Labour and Welfare, Japan, 2019",
+    "url": "https://www.mhlw.go.jp/content/001151422.pdf",
+    "kind": "authority",
+    "country": "JP"
+   },
+   {
+    "n": 14,
+    "title": "Revision and explanation of Chinese Food Guide Pagoda and Plate (2022)",
+    "publisher": "Chinese Center for Disease Control and Prevention, 2022",
+    "url": "https://en.chinacdc.cn/health_topics/nutrition_health/202206/t20220622_259773.html",
+    "kind": "authority",
+    "country": "CN"
+   },
+   {
+    "n": 15,
+    "title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies",
+    "publisher": "The BMJ, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27301975/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 16,
+    "title": "Food-Based Dietary Guidelines for Germany: Eat and drink well",
+    "publisher": "German Nutrition Society (DGE), 2024",
+    "url": "https://www.dge.de/english/fbdg/",
+    "kind": "authority",
+    "country": "DE"
+   },
+   {
+    "n": 17,
+    "title": "Dietary pulses, satiety and food intake: a systematic review and meta-analysis of acute feeding trials",
+    "publisher": "Obesity, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24820437/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 18,
+    "title": "Effects of dietary pulse consumption on body weight: a systematic review and meta-analysis of randomized controlled trials",
+    "publisher": "American Journal of Clinical Nutrition, 2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27030531/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 19,
+    "title": "Dietary protein distribution positively influences 24-h muscle protein synthesis in healthy adults",
+    "publisher": "Journal of Nutrition, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24477298/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 20,
+    "title": "Protein distribution and muscle-related outcomes: does the evidence support the concept?",
+    "publisher": "Nutrients, 2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32429355/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 21,
+    "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+    "publisher": "British Journal of Sports Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 22,
+    "title": "Ultra-processed foods: what they are and how to identify them",
+    "publisher": "Public Health Nutrition, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30744710/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 23,
+    "title": "Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses",
+    "publisher": "The BMJ, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38418082/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 24,
+    "title": "A systematic review and meta-analysis of randomized controlled trials examining the effect of ultra-processed food on energy intake and weight gain",
+    "publisher": "Critical Reviews in Food Science and Nutrition, 2026",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42746678/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 25,
+    "title": "Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial",
+    "publisher": "Nature Medicine, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40760353/",
+    "kind": "journal",
+    "country": "GB"
+   },
+   {
+    "n": 26,
+    "title": "SACN statement on processed foods and health: summary report",
+    "publisher": "Scientific Advisory Committee on Nutrition, UK Government, 2023",
+    "url": "https://www.gov.uk/government/publications/sacn-statement-on-processed-foods-and-health/sacn-statement-on-processed-foods-and-health-summary-report",
+    "kind": "authority",
+    "country": "GB"
+   },
+   {
+    "n": 27,
+    "title": "Does the concept of \"ultra-processed foods\" help inform dietary guidelines, beyond conventional classification systems? Debate consensus",
+    "publisher": "American Journal of Clinical Nutrition, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36253965/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 28,
+    "title": "Sugar-sweetened beverages and weight gain in children and adults: a systematic review and meta-analysis",
+    "publisher": "American Journal of Clinical Nutrition, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23966427/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 29,
+    "title": "Consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation of population attributable fraction",
+    "publisher": "The BMJ, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26199070/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 30,
+    "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline",
+    "publisher": "World Health Organization, 2023",
+    "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 31,
+    "title": "5 A Day: what counts?",
+    "publisher": "NHS (UK National Health Service)",
+    "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/5-a-day-what-counts/",
+    "kind": "authority",
+    "country": "GB"
+   },
+   {
+    "n": 32,
+    "title": "No level of alcohol consumption is safe for our health",
+    "publisher": "World Health Organization Regional Office for Europe, 2023",
+    "url": "https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health",
+    "kind": "authority",
+    "country": "INT"
+   },
+   {
+    "n": 33,
+    "title": "Alcohol consumption in Germany, health and social consequences and derivation of recommendations for action: DGE position statement",
+    "publisher": "German Nutrition Society (DGE), 2024",
+    "url": "https://www.dge.de/wissenschaft/stellungnahmen-und-positionspapiere/positionen/alcohol/",
+    "kind": "authority",
+    "country": "DE"
+   },
+   {
+    "n": 34,
+    "title": "\"Less salty, less sweet, less greasy\": Dietary Guidelines for Koreans (government policy briefing, in Korean)",
+    "publisher": "Korea.kr policy briefing for the Ministry of Health and Welfare, Ministry of Agriculture, Food and Rural Affairs and Ministry of Food and Drug Safety, 2021",
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148886239",
+    "kind": "authority",
+    "country": "KR"
+   },
+   {
+    "n": 35,
+    "title": "A systematic review and meta-analysis examining the effect of eating rate on energy intake and hunger",
+    "publisher": "American Journal of Clinical Nutrition, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24847856/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 36,
+    "title": "Association between eating rate and obesity: a systematic review and meta-analysis",
+    "publisher": "International Journal of Obesity, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26100137/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 37,
+    "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating",
+    "publisher": "American Journal of Clinical Nutrition, 2013",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23446890/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 38,
+    "title": "A systematic review and meta-analysis of the social facilitation of eating",
+    "publisher": "American Journal of Clinical Nutrition, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31435639/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 39,
+    "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+    "publisher": "Cochrane Database of Systematic Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 40,
+    "title": "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials",
+    "publisher": "The BMJ, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30700403/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 41,
+    "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+    "publisher": "Cell Metabolism, 2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10184753/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 42,
+    "title": "Meal timing and anthropometric and metabolic outcomes: a systematic review and meta-analysis",
+    "publisher": "JAMA Network Open, 2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39485353/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 43,
+    "title": "Binge eating disorder: overview",
+    "publisher": "NHS (UK National Health Service)",
+    "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+    "kind": "authority",
+    "country": "GB"
+   },
+   {
+    "n": 44,
+    "title": "Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts",
+    "publisher": "New England Journal of Medicine, 2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/",
+    "kind": "journal",
+    "country": "ES"
+   },
+   {
+    "n": 45,
+    "title": "Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease",
+    "publisher": "Cochrane Database of Systematic Reviews, 2019",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30864165/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 46,
+    "title": "Nordic dietary patterns and cardiometabolic outcomes: a systematic review and meta-analysis of prospective cohort studies and randomised controlled trials",
+    "publisher": "Diabetologia, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36008559/",
+    "kind": "journal",
+    "country": "INT"
+   },
+   {
+    "n": 47,
+    "title": "Japanese-style diet and cardiovascular disease mortality: a systematic review and meta-analysis of prospective cohort studies",
+    "publisher": "Nutrients, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35631146/",
+    "kind": "journal",
+    "country": "JP"
+   },
+   {
+    "n": 48,
+    "title": "Pooled results from 5 validation studies of dietary self-report instruments using recovery biomarkers for energy and protein intake",
+    "publisher": "American Journal of Epidemiology, 2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24918187/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 49,
+    "title": "Addressing current criticism regarding the value of self-report dietary data",
+    "publisher": "Journal of Nutrition, 2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26468491/",
+    "kind": "journal",
+    "country": "US"
+   },
+   {
+    "n": 50,
+    "title": "Health Japan 21 (the second term): list of targets",
+    "publisher": "National Institutes of Biomedical Innovation, Health and Nutrition, Japan",
+    "url": "https://www.nibn.go.jp/eiken/kenkounippon21/en/kenkounippon21/mokuhyou.html",
+    "kind": "authority",
+    "country": "JP"
    }
   ]
  },

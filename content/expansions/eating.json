@@ -1,0 +1,965 @@
+{
+  "id": "eating",
+  "sources": {
+    "x_eating_nhsfibre": {
+      "title": "How to get more fibre into your diet",
+      "publisher": "NHS (UK National Health Service), page last reviewed 2026",
+      "url": "https://www.nhs.uk/live-well/eat-well/digestive-health/how-to-get-more-fibre-into-your-diet/",
+      "kind": "authority",
+      "country": "GB",
+      "how": "page opened",
+      "says": "Government guidelines say fibre intake should increase to 30 g a day; most adults eat an average of about 20 g. Tips include wholegrain breads and cereals, potatoes with skins, and adding pulses such as beans, lentils or chickpeas to stews, curries and salads."
+    },
+    "x_eating_jpdri": {
+      "title": "Dietary Reference Intakes for Japanese (2020): overview",
+      "publisher": "Ministry of Health, Labour and Welfare, Japan, 2019",
+      "url": "https://www.mhlw.go.jp/content/001151422.pdf",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "Tentative dietary goal for dietary fibre: 21 g a day for men and 18 g for women aged 18 to 64. The 2020 edition applies from fiscal year 2020 to 2024."
+    },
+    "x_eating_cnpagoda": {
+      "title": "Revision and explanation of Chinese Food Guide Pagoda and Plate (2022)",
+      "publisher": "Chinese Center for Disease Control and Prevention, 2022",
+      "url": "https://en.chinacdc.cn/health_topics/nutrition_health/202206/t20220622_259773.html",
+      "kind": "authority",
+      "country": "CN",
+      "how": "page opened",
+      "says": "A total daily intake of 200 to 300 g of cereals is recommended, of which whole grains and legumes (mixed beans) should make up 50 to 150 g. Alcohol and added sugar are not a basic part of a daily diet."
+    },
+    "x_eating_aune": {
+      "title": "Whole grain consumption and risk of cardiovascular disease, cancer, and all cause and cause specific mortality: systematic review and dose-response meta-analysis of prospective studies",
+      "publisher": "The BMJ, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27301975/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "45 prospective studies. Per 90 g a day of whole grains (three servings, for example two slices of bread and one bowl of cereal): relative risk 0.81 for coronary heart disease and 0.83 for all-cause mortality. Little evidence of an association with refined grains, white rice, total rice or total grains."
+    },
+    "x_eating_li": {
+      "title": "Dietary pulses, satiety and food intake: a systematic review and meta-analysis of acute feeding trials",
+      "publisher": "Obesity, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24820437/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Nine acute trials. Pulses (beans, peas, chickpeas, lentils) produced 31% greater satiety than controls without affecting second meal intake."
+    },
+    "x_eating_kim": {
+      "title": "Effects of dietary pulse consumption on body weight: a systematic review and meta-analysis of randomized controlled trials",
+      "publisher": "American Journal of Clinical Nutrition, 2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27030531/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "21 trials, 940 participants. Diets containing pulses (median 132 g a day, about one serving) gave a weight reduction of 0.34 kg against diets without them over a median of 6 weeks."
+    },
+    "x_eating_mamerow": {
+      "title": "Dietary protein distribution positively influences 24-h muscle protein synthesis in healthy adults",
+      "publisher": "Journal of Nutrition, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24477298/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Seven-day crossover feeding study in 8 healthy adults. Protein spread evenly (about 30 g at each of three meals) gave a 24-hour muscle protein synthesis rate 25% higher than the same protein skewed toward dinner (about 11, 16 and 63 g)."
+    },
+    "x_eating_hudson": {
+      "title": "Protein distribution and muscle-related outcomes: does the evidence support the concept?",
+      "publisher": "Nutrients, 2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32429355/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Review. Per meal, muscle protein synthesis has a saturable dose relationship with protein eaten. Evidence that an \"optimal\" distribution improves muscle outcomes is limited and inconsistent."
+    },
+    "x_eating_morton": {
+      "title": "A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults",
+      "publisher": "British Journal of Sports Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "49 trials, 1,863 participants. Extra protein during resistance training added 0.30 kg of fat-free mass; no further gains beyond total protein intakes of 1.62 g per kg a day. Effect reduced with increasing age and larger in resistance-trained people."
+    },
+    "x_eating_monteiro": {
+      "title": "Ultra-processed foods: what they are and how to identify them",
+      "publisher": "Public Health Nutrition, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30744710/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Commentary by the authors of the NOVA classification. A product is ultra-processed if its ingredient list contains food substances never or rarely used in kitchens (such as hydrogenated oils, hydrolysed proteins) or additives designed to make it palatable or more appealing (such as flavours, colours, emulsifiers, sweeteners)."
+    },
+    "x_eating_lane": {
+      "title": "Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses",
+      "publisher": "The BMJ, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38418082/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "45 pooled analyses of observational studies, 9,888,373 participants. Direct associations with 32 (71%) health parameters; all-cause mortality risk ratio 1.21. 22 pooled analyses rated low quality, 19 very low and four moderate."
+    },
+    "x_eating_robinsonupf": {
+      "title": "A systematic review and meta-analysis of randomized controlled trials examining the effect of ultra-processed food on energy intake and weight gain",
+      "publisher": "Critical Reviews in Food Science and Nutrition, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42746678/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Ten randomised trials. Weight gain (SMD 0.65) and eating rate (SMD 0.96) were greater in ultra-processed arms. Effects on energy intake depended on whether the ultra-processed diet was higher (SMD 0.71) or similar (SMD 0.02) in energy density. Evidential certainty is low."
+    },
+    "x_eating_dicken": {
+      "title": "Ultraprocessed or minimally processed diets following healthy dietary guidelines on weight and cardiometabolic health: a randomized, crossover trial",
+      "publisher": "Nature Medicine, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40760353/",
+      "kind": "journal",
+      "country": "GB",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "55 adults in England, two 8-week diets eaten freely, both following the UK Eatwell Guide. Weight change was -2.06% on the minimally processed diet and -1.05% on the ultra-processed diet; difference -1.01 percentage points."
+    },
+    "x_eating_sacn": {
+      "title": "SACN statement on processed foods and health: summary report",
+      "publisher": "Scientific Advisory Committee on Nutrition, UK Government, 2023",
+      "url": "https://www.gov.uk/government/publications/sacn-statement-on-processed-foods-and-health/sacn-statement-on-processed-foods-and-health-summary-report",
+      "kind": "authority",
+      "country": "GB",
+      "how": "page opened",
+      "says": "The associations between higher (ultra-) processed food intake and adverse health outcomes are concerning, but NOVA's limitations, possible confounding and the possibility that they are covered by existing UK advice mean the evidence must be treated with caution."
+    },
+    "x_eating_astrup": {
+      "title": "Does the concept of \"ultra-processed foods\" help inform dietary guidelines, beyond conventional classification systems? Debate consensus",
+      "publisher": "American Journal of Clinical Nutrition, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36253965/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Both debaters agree that food processing vitally affects human health. They disagree on whether ultra-processing as defined by NOVA adds value beyond conventional nutrient metrics."
+    },
+    "x_eating_malik": {
+      "title": "Sugar-sweetened beverages and weight gain in children and adults: a systematic review and meta-analysis",
+      "publisher": "American Journal of Clinical Nutrition, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23966427/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "In adults: 7 cohort studies (174,252 people) and 5 trials (292 people). One daily serving increment was associated with 0.12 to 0.22 kg weight gain over 1 year; trials adding sugar-sweetened beverages showed a 0.85 kg increase in body weight."
+    },
+    "x_eating_imamura": {
+      "title": "Consumption of sugar sweetened beverages, artificially sweetened beverages, and fruit juice and incidence of type 2 diabetes: systematic review, meta-analysis, and estimation of population attributable fraction",
+      "publisher": "The BMJ, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26199070/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Sugar sweetened beverages were associated with a greater incidence of type 2 diabetes: 18% per serving a day, and 13% after adjustment for adiposity."
+    },
+    "x_eating_whonss": {
+      "title": "WHO advises not to use non-sugar sweeteners for weight control in newly released guideline",
+      "publisher": "World Health Organization, 2023",
+      "url": "https://www.who.int/news/item/15-05-2023-who-advises-not-to-use-non-sugar-sweeteners-for-weight-control-in-newly-released-guideline",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "WHO recommends against non-sugar sweeteners to control body weight; its review suggests no long-term benefit in reducing body fat. The recommendation applies to all people except those with pre-existing diabetes."
+    },
+    "x_eating_nhs5aday": {
+      "title": "5 A Day: what counts?",
+      "publisher": "NHS (UK National Health Service)",
+      "url": "https://www.nhs.uk/live-well/eat-well/5-a-day/5-a-day-what-counts/",
+      "kind": "authority",
+      "country": "GB",
+      "how": "page opened",
+      "says": "Limit fruit juice, vegetable juice and smoothies to a combined total of 150 ml a day."
+    },
+    "x_eating_dge": {
+      "title": "Food-Based Dietary Guidelines for Germany: Eat and drink well",
+      "publisher": "German Nutrition Society (DGE), 2024",
+      "url": "https://www.dge.de/english/fbdg/",
+      "kind": "authority",
+      "country": "DE",
+      "how": "page opened",
+      "says": "Sugar-sweetened and alcoholic beverages are not to be recommended. Whole-grain foods keep you satiated longer. Eating slowly and consciously promotes the feeling of satiation; eating in company is beneficial."
+    },
+    "x_eating_whoalcohol": {
+      "title": "No level of alcohol consumption is safe for our health",
+      "publisher": "World Health Organization Regional Office for Europe, 2023",
+      "url": "https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health",
+      "kind": "authority",
+      "country": "INT",
+      "how": "page opened",
+      "says": "There is no safe amount that does not affect health. Alcohol causes at least seven types of cancer."
+    },
+    "x_eating_dgealcohol": {
+      "title": "Alcohol consumption in Germany, health and social consequences and derivation of recommendations for action: DGE position statement",
+      "publisher": "German Nutrition Society (DGE), 2024",
+      "url": "https://www.dge.de/wissenschaft/stellungnahmen-und-positionspapiere/positionen/alcohol/",
+      "kind": "authority",
+      "country": "DE",
+      "how": "page opened",
+      "says": "No quantity of alcohol can be considered health-promoting and safe; the DGE recommends avoiding alcoholic beverages."
+    },
+    "x_eating_kr2021": {
+      "title": "\"Less salty, less sweet, less greasy\": Dietary Guidelines for Koreans (government policy briefing, in Korean)",
+      "publisher": "Korea.kr policy briefing for the Ministry of Health and Welfare, Ministry of Agriculture, Food and Rural Affairs and Ministry of Food and Drug Safety, 2021",
+      "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148886239",
+      "kind": "authority",
+      "country": "KR",
+      "how": "page opened",
+      "says": "The eating-habit guidelines are to avoid overeating and move more, eat breakfast and restrain drinking. The share of people eating the recommended 500 g or more of fruit and vegetables a day has fallen since 2015."
+    },
+    "x_eating_robinsonrate": {
+      "title": "A systematic review and meta-analysis examining the effect of eating rate on energy intake and hunger",
+      "publisher": "American Journal of Clinical Nutrition, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24847856/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "22 studies. A slower eating rate was associated with lower energy intake than a faster rate (SMD 0.45). No significant relation between eating rate and hunger at the end of the meal or up to 3.5 hours later."
+    },
+    "x_eating_ohkuma": {
+      "title": "Association between eating rate and obesity: a systematic review and meta-analysis",
+      "publisher": "International Journal of Obesity, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26100137/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "23 studies. People who ate quickly had a BMI 1.78 units higher than those who ate slowly; pooled odds ratio for obesity 2.15."
+    },
+    "x_eating_robinsonattn": {
+      "title": "Eating attentively: a systematic review and meta-analysis of the effect of food intake memory and awareness on eating",
+      "publisher": "American Journal of Clinical Nutrition, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23446890/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies. Distracted eating increased immediate intake (SMD 0.39) and later intake more (SMD 0.76). Enhancing memory of food eaten reduced later intake (SMD 0.40)."
+    },
+    "x_eating_ruddock": {
+      "title": "A systematic review and meta-analysis of the social facilitation of eating",
+      "publisher": "American Journal of Clinical Nutrition, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31435639/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "42 studies. Strong evidence that people select and eat more with friends than alone (SMD 0.76); no evidence of the effect with strangers or acquaintances."
+    },
+    "x_eating_hollandsprox": {
+      "title": "Altering the availability or proximity of food, alcohol, and tobacco products to change their selection and consumption",
+      "publisher": "Cochrane Database of Systematic Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31482606/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "24 studies, 14 in laboratory settings. Food placed farther away gave a moderate reduction in consumption (SMD -0.60; 12 studies, 1,098 people; low certainty). Fewer options gave a large reduction in selection (SMD -1.13; 3 studies, 154 people)."
+    },
+    "x_eating_sievert": {
+      "title": "Effect of breakfast on weight and energy intake: systematic review and meta-analysis of randomised controlled trials",
+      "publisher": "The BMJ, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30700403/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "13 trials. A small difference in weight favoured participants who skipped breakfast (0.44 kg); those assigned to breakfast had a higher total daily energy intake. Trials had short follow-up (mean seven weeks for weight) and were at high or unclear risk of bias."
+    },
+    "x_eating_vujovic": {
+      "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity",
+      "publisher": "Cell Metabolism, 2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10184753/",
+      "kind": "journal",
+      "country": "US",
+      "how": "page opened",
+      "says": "Randomised crossover laboratory trial; 16 participants with overweight or obesity (5 women). Identical meals delayed by 250 minutes, the last meal 2 h 30 min before bedtime, doubled the odds of being hungry (odds ratio 2.02) and decreased waketime energy expenditure. Study duration and sample size are limited."
+    },
+    "x_eating_liu": {
+      "title": "Meal timing and anthropometric and metabolic outcomes: a systematic review and meta-analysis",
+      "publisher": "JAMA Network Open, 2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39485353/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "29 randomised trials, 2,485 people. Time-restricted eating: -1.37 kg against control. Earlier distribution of the day's intake: -1.75 kg. Effect sizes small and of uncertain clinical importance; high risk-of-bias concerns for 22 studies."
+    },
+    "x_eating_nhsbinge": {
+      "title": "Binge eating disorder: overview",
+      "publisher": "NHS (UK National Health Service)",
+      "url": "https://www.nhs.uk/mental-health/conditions/binge-eating/overview/",
+      "kind": "authority",
+      "country": "GB",
+      "how": "page opened",
+      "says": "Binge eating disorder involves regularly eating a lot of food over a short period until uncomfortably full; signs include eating when not hungry, eating alone or secretly, and guilt or shame afterwards. Anyone who thinks they may have it should see a GP as soon as they can."
+    },
+    "x_eating_predimed": {
+      "title": "Primary prevention of cardiovascular disease with a Mediterranean diet supplemented with extra-virgin olive oil or nuts",
+      "publisher": "New England Journal of Medicine, 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/",
+      "kind": "journal",
+      "country": "ES",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "7,447 Spanish adults aged 55 to 80 at high cardiovascular risk, median follow-up 4.8 years. Major cardiovascular events: 3.8% (olive oil group), 3.4% (nuts group), 4.4% (control, advice to reduce fat). Republished after the original report was withdrawn over protocol deviations."
+    },
+    "x_eating_rees": {
+      "title": "Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease",
+      "publisher": "Cochrane Database of Systematic Reviews, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30864165/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Low-quality evidence of little or no effect of the PREDIMED intervention on cardiovascular mortality (hazard ratio 0.81) or total mortality (hazard ratio 1.0) over 4.8 years."
+    },
+    "x_eating_massara": {
+      "title": "Nordic dietary patterns and cardiometabolic outcomes: a systematic review and meta-analysis of prospective cohort studies and randomised controlled trials",
+      "publisher": "Diabetologia, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36008559/",
+      "kind": "journal",
+      "country": "INT",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "15 prospective cohort studies (1,057,176 people). Highest against lowest adherence: relative risk 0.93 for total cardiovascular disease incidence. Certainty low."
+    },
+    "x_eating_shirota": {
+      "title": "Japanese-style diet and cardiovascular disease mortality: a systematic review and meta-analysis of prospective cohort studies",
+      "publisher": "Nutrients, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35631146/",
+      "kind": "journal",
+      "country": "JP",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Nine articles on the Japanese-style diet (469,190 people). Higher adherence: pooled risk ratio 0.83 for cardiovascular disease mortality. Most studies ran their diet surveys between 1980 and the 1990s."
+    },
+    "x_eating_freedman": {
+      "title": "Pooled results from 5 validation studies of dietary self-report instruments using recovery biomarkers for energy and protein intake",
+      "publisher": "American Journal of Epidemiology, 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24918187/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Average under-reporting of energy intake was 28% with a food frequency questionnaire and 15% with a single 24-hour recall; body mass index strongly predicts under-reporting."
+    },
+    "x_eating_subar": {
+      "title": "Addressing current criticism regarding the value of self-report dietary data",
+      "publisher": "Journal of Nutrition, 2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26468491/",
+      "kind": "journal",
+      "country": "US",
+      "how": "PubMed record read through the NCBI E-utilities API",
+      "says": "Commentary defending self-report dietary data, with recommendations including: do not use self-reported energy intake as a measure of true energy intake."
+    },
+    "x_eating_jphj21": {
+      "title": "Health Japan 21 (the second term): list of targets",
+      "publisher": "National Institutes of Biomedical Innovation, Health and Nutrition, Japan",
+      "url": "https://www.nibn.go.jp/eiken/kenkounippon21/en/kenkounippon21/mokuhyou.html",
+      "kind": "authority",
+      "country": "JP",
+      "how": "page opened",
+      "says": "Targets for 2022: 80% of people eating a balanced diet with staple food, main dish and side dish more than twice a day (68.1% in 2011); mean daily vegetable intake 350 g (282 g at baseline)."
+    }
+  },
+  "sections": [
+    {
+      "heading": "Fibre, whole grains and beans in practice",
+      "paragraphs": [
+        {
+          "text": "Fibre targets differ by country. The UK asks adults for 30 g a day; they average about 20 g. Japan's 2020 reference intakes set 21 g for men aged 18 to 64 and 18 g for women. China asks that 50 to 150 g of daily cereals be whole grains and mixed beans.",
+          "cites": [
+            "x_eating_nhsfibre",
+            "x_eating_jpdri",
+            "x_eating_cnpagoda"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_nhsfibre",
+              "quote": "Government guidelines say our dietary fibre intake should increase to 30g a day, as part of a healthy balanced diet . As most adults are only eating an average of about 20g day, we need to find ways of increasing our intake."
+            },
+            {
+              "key": "x_eating_jpdri",
+              "quote": "DRIs for Dietary Fiber (g/day) ... 18-29 years 21 18 ... 30-49 years 21 18 ... 50-64 years 21 18"
+            },
+            {
+              "key": "x_eating_cnpagoda",
+              "quote": "A total daily intake of 200-300g of cereals, of which whole grains and legumes should make up 50-150g and tubers 50-100g, is recommended."
+            }
+          ]
+        },
+        {
+          "text": "The health evidence on grains concerns whole grains. In 45 prospective studies, each extra 90 g a day, about two slices of wholegrain bread and a bowl of cereal, was linked to 19% less coronary heart disease and a 17% lower death rate. Refined grains showed little link. Germany's guide adds that whole grains keep people full longer.",
+          "cites": [
+            "x_eating_aune",
+            "x_eating_dge"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_aune",
+              "quote": "45 studies (64 publications) were included. The summary relative risks per 90 g/day increase in whole grain intake (90 g is equivalent to three servings-for example, two slices of bread and one bowl of cereal or one and a half pieces of pita bread made from whole grains) was 0.81 (95% confidence interval 0.75 to 0.87; I(2)=9%, n=7 studies) for coronary heart disease ... 0.83 (0.77 to 0.90; I(2)=83%, n=11) for all causes ... there was little evidence of an association with refined grains, white rice, total rice, or total grains."
+            },
+            {
+              "key": "x_eating_dge",
+              "quote": "Whole-grain foods will keep you satiated longer, and they contain more vitamins and minerals than white flour products."
+            }
+          ]
+        },
+        {
+          "text": "Beans, lentils and chickpeas are filling. In nine short feeding trials, meals with them were rated 31% more filling, though people ate no less at the next meal. In 21 trials with 940 people, about one serving a day brought 0.34 kg more weight loss over six weeks. The NHS suggests adding them to stews, curries and salads.",
+          "cites": [
+            "x_eating_li",
+            "x_eating_kim",
+            "x_eating_nhsfibre"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_li",
+              "quote": "Nine trials met the eligibility criteria. Dietary pulses produced a 31% greater satiety incremental area under the curve (IAUC) (RoM = 1.31, 95% CI: 1.09 to 1.58, P = 0.004; Phet = 0.96; I(2) = 0%) without affecting second meal intake"
+            },
+            {
+              "key": "x_eating_kim",
+              "quote": "Findings from 21 trials (n = 940 participants) were included in the meta-analysis. The pooled analysis showed an overall significant weight reduction of -0.34 kg (95% CI: -0.63, -0.04 kg; P = 0.03) in diets containing dietary pulses (median intake of 132 g/d or ∼1 serving/d) compared with diets without a dietary pulse intervention over a median duration of 6 wk."
+            },
+            {
+              "key": "x_eating_nhsfibre",
+              "quote": "Add pulses like beans, lentils or chickpeas to stews, curries and salads."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Protein through the day",
+      "paragraphs": [
+        {
+          "text": "Muscle responds to protein meal by meal. In a week-long study of eight adults, about 30 g at each of three meals raised 24-hour muscle protein building by 25% over the same total eaten mostly at dinner. A later review called the wider evidence on spreading protein limited and inconsistent.",
+          "cites": [
+            "x_eating_mamerow",
+            "x_eating_hudson"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_eating_mamerow",
+              "quote": "distributed evenly (EVEN; 31.5 ± 1.3, 29.9 ± 1.6, and 32.7 ± 1.6 g protein, respectively) or skewed (SKEW; 10.7 ± 0.8, 16.0 ± 0.5, and 63.4 ± 3.7 g protein, respectively). ... The 24-h mixed muscle protein fractional synthesis rate was 25% higher in the EVEN (0.075 ± 0.006%/h) vs. the SKEW (0.056 ± 0.006%/h) protein distribution groups (P = 0.003)."
+            },
+            {
+              "key": "x_eating_hudson",
+              "quote": "The current evidence on the efficacy of consuming an \"optimal\" protein distribution to favorably influence skeletal muscle-related changes is limited and inconsistent."
+            }
+          ]
+        },
+        {
+          "text": "Total protein has clearer support. Across 49 trials with 1,863 people doing resistance training, extra protein added about 0.3 kg of lean mass, with no further gain above about 1.6 g per kg of body weight daily. The effect was larger in trained lifters and smaller with age. A protein food at each meal covers both points without counting.",
+          "cites": [
+            "x_eating_morton"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_morton",
+              "quote": "Data from 49 studies with 1863 participants showed that dietary protein supplementation significantly (all p<0.05) increased changes (means (95% CI)) in: strength-one-repetition-maximum (2.49 kg (0.64, 4.33)), FFM (0.30 kg (0.09, 0.52)) ... The impact of protein supplementation on gains in FFM was reduced with increasing age (-0.01 kg (-0.02,-0.00), p=0.002) and was more effective in resistance-trained individuals (0.75 kg (0.09, 1.40), p=0.03). Protein supplementation beyond total protein intakes of 1.62 g/kg/day resulted in no further RET-induced gains in FFM."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "What ultra-processed means",
+      "paragraphs": [
+        {
+          "text": "Ultra-processed is a category from the NOVA system, which sorts foods by processing. A product counts if its ingredient list includes substances rarely used in home kitchens, such as hydrogenated oils, or additives that make it more appealing, such as flavours, colours, emulsifiers and sweeteners.",
+          "cites": [
+            "x_eating_monteiro"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_eating_monteiro",
+              "quote": "A practical way to identify an ultra-processed product is to check to see if its list of ingredients contains at least one item characteristic of the NOVA ultra-processed food group, which is to say, either food substances never or rarely used in kitchens (such as high-fructose corn syrup, hydrogenated or interesterified oils, and hydrolysed proteins), or classes of additives designed to make the final product palatable or more appealing (such as flavours, flavour enhancers, colours, emulsifiers, emulsifying salts, sweeteners, thickeners, and anti-foaming, bulking, carbonating, foaming, gelling and glazing agents)."
+            }
+          ]
+        },
+        {
+          "text": "Large observational studies link ultra-processed food with worse health. An umbrella review of 45 pooled analyses, covering about 9.9 million people, found higher intake associated with 32 outcomes, including a 21% higher death rate. It rated 41 of the 45 analyses as low or very low quality.",
+          "cites": [
+            "x_eating_lane"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_lane",
+              "quote": "The search identified 45 unique pooled analyses, including 13 dose-response associations and 32 non-dose-response associations (n=9 888 373). Overall, direct associations were found between exposure to ultra-processed foods and 32 (71%) health parameters ... higher risks of incident all cause mortality (risk ratio 1.21, 1.15 to 1.27; low) ... Overall, using the GRADE framework, 22 pooled analyses were rated as low quality, with 19 rated as very low quality and four rated as moderate quality."
+            }
+          ]
+        },
+        {
+          "text": "Trials point the same way but leave the reason open. A 2026 review of ten trials found more weight gain and faster eating on ultra-processed diets, but people ate more only when those diets were denser in energy, with low certainty. In an English trial of 55 adults, with both diets following national guidelines, the less processed one brought about twice the weight loss.",
+          "cites": [
+            "x_eating_robinsonupf",
+            "x_eating_dicken"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_robinsonupf",
+              "quote": "Ten eligible studies were included. ... Weight gain (SMD = 0.65) and eating rate (SMD = 0.96) were significantly greater in UPF trial arms. ... Effects on energy intake varied if UPF diets were higher (SMD = 0.71) or similar (SMD = 0.02) in energy density than LPF diets. UPFs may increase energy intake and body weight, although results may be explained by energy density of foods used in RCTs to date and evidential certainty is low."
+            },
+            {
+              "key": "x_eating_dicken",
+              "quote": "MPF (%WC, -2.06 (95% confidence interval (CI), -2.99, -1.13) and UPF (%WC, -1.05 (95% CI, -1.98, -0.13)) resulted in weight loss, with significantly greater %WC on MPF (Δ%WC, -1.01 (95% CI, -1.87, -0.14), P = 0.024"
+            }
+          ]
+        },
+        {
+          "text": "Scientists disagree on whether processing itself is the problem. The UK's scientific advisers called the links concerning in 2023 but urged caution, citing possible confounding and overlap with existing advice. A published debate agreed that processing affects health but split on whether the NOVA label adds anything beyond nutrients.",
+          "cites": [
+            "x_eating_sacn",
+            "x_eating_astrup"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_sacn",
+              "quote": "The observed associations between higher consumption of (ultra-) processed foods and adverse health outcomes are concerning – however, the limitations in the NOVA classification system, the potential for confounding, and the possibility that the observed adverse associations with (ultra-) processed foods are covered by existing UK dietary recommendations mean that the evidence to date needs to be treated with caution."
+            },
+            {
+              "key": "x_eating_astrup",
+              "quote": "The participants in this debate agree that food processing vitally affects human health ... They disagree on the significance of ultra-processing, as defined within the Nova food classification system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Sugary drinks and alcohol",
+      "paragraphs": [
+        {
+          "text": "Sugary drinks are linked to weight gain in cohorts and trials. In cohorts of 174,252 adults, each extra daily serving went with 0.12 to 0.22 kg more gain a year; in trials, adults given sugary drinks gained 0.85 kg. In 17 cohorts, a daily serving was linked to 13% more type 2 diabetes after allowing for body fat.",
+          "cites": [
+            "x_eating_malik",
+            "x_eating_imamura"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_malik",
+              "quote": "12 in adults (7 cohort studies, n = 174,252; 5 trials, n = 292). In cohort studies, one daily serving increment of SSBs was associated with ... 0.22 kg (95% CI: 0.09, 0.34 kg) and 0.12 kg (95% CI: 0.10, 0.14 kg) weight gain in adults over 1 y in random- and fixed-effects models, respectively. ... RCTs in adults showed increases in body weight when SSBs were added (random and fixed effects: 0.85 kg; 95% CI: 0.50, 1.20 kg)."
+            },
+            {
+              "key": "x_eating_imamura",
+              "quote": "Prespecified information was extracted from 17 cohorts"
+            },
+            {
+              "key": "x_eating_imamura",
+              "quote": "Higher consumption of sugar sweetened beverages was associated with a greater incidence of type 2 diabetes, by 18% per one serving/day (95% confidence interval 9% to 28%, I(2) for heterogeneity = 89%) and 13% (6% to 21%, I(2) = 79%) before and after adjustment for adiposity"
+            }
+          ]
+        },
+        {
+          "text": "Diet drinks and juice are not simple swaps. The WHO advised in 2023 against non-sugar sweeteners for weight control, finding no long-term benefit for body fat; the advice excludes people with diabetes. The NHS limits juice and smoothies to 150 ml a day combined. Germany's guide does not recommend sugar-sweetened or alcoholic drinks.",
+          "cites": [
+            "x_eating_whonss",
+            "x_eating_nhs5aday",
+            "x_eating_dge"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_whonss",
+              "quote": "recommends against the use of NSS to control body weight or reduce the risk of noncommunicable diseases (NCDs). The recommendation is based on the findings of a systematic review of the available evidence which suggests that use of NSS does not confer any long-term benefit in reducing body fat in adults or children."
+            },
+            {
+              "key": "x_eating_whonss",
+              "quote": "The recommendation applies to all people except individuals with pre-existing diabetes"
+            },
+            {
+              "key": "x_eating_nhs5aday",
+              "quote": "Limit the amount you drink to a combined total of 150ml a day."
+            },
+            {
+              "key": "x_eating_dge",
+              "quote": "Sugar-sweetened and alcoholic beverages are not to be recommended."
+            }
+          ]
+        },
+        {
+          "text": "Several health authorities decline to name a safe amount of alcohol. The WHO's European office said in 2023 that no amount is free of health effects; the German Nutrition Society said in 2024 that none is health-promoting and safe. China calls alcohol no basic part of a daily diet, and Korea advises restraint.",
+          "cites": [
+            "x_eating_whoalcohol",
+            "x_eating_dgealcohol",
+            "x_eating_cnpagoda",
+            "x_eating_kr2021"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_whoalcohol",
+              "quote": "there is no safe amount that does not affect health."
+            },
+            {
+              "key": "x_eating_dgealcohol",
+              "quote": "The findings indicate that no quantity of alcohol can be considered health-promoting and safe for consumption. Accordingly, the DGE recommends to avoid consuming alcoholic beverages."
+            },
+            {
+              "key": "x_eating_cnpagoda",
+              "quote": "Alcohol and added sugar are not a basic part of a daily diet and should be avoided when cooking and eating."
+            },
+            {
+              "key": "x_eating_kr2021",
+              "quote": "식생활 습관 관련 지침에서는 과식을 피하고 신체활동을 늘리기, 아침식사 하기, 술 절제하기 등 비만을 예방할 수 있는 수칙들을 제시했다."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Speed, attention, company and reach",
+      "paragraphs": [
+        {
+          "text": "Eating more slowly reduces how much is eaten at that meal. Across 22 experiments, slower eating led to lower intake with no extra hunger up to three and a half hours later. In 23 observational studies, fast eaters had a body mass index 1.78 units higher and about twice the odds of obesity.",
+          "cites": [
+            "x_eating_robinsonrate",
+            "x_eating_ohkuma"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_robinsonrate",
+              "quote": "We systematically reviewed studies that experimentally manipulated"
+            },
+            {
+              "key": "x_eating_robinsonrate",
+              "quote": "Twenty-two studies were eligible for inclusion. Evidence indicated that a slower eating rate was associated with lower energy intake in comparison to a faster eating rate (random-effects SMD: 0.45; 95% CI: 0.25, 0.65; P < 0.0001). ... There was no significant relation between eating rate and hunger at the end of the meal or up to 3.5 h later."
+            },
+            {
+              "key": "x_eating_ohkuma",
+              "quote": "We undertook a systematic review with a meta-analysis of published epidemiological studies ... Interventional studies or studies conducted using children as subjects were excluded."
+            },
+            {
+              "key": "x_eating_ohkuma",
+              "quote": "Data from 23 published studies were eligible for inclusion. The mean difference in body mass indices (BMIs) between individuals who ate quickly and those who ate slowly was 1.78 kg m(-2) (95% confidence interval (CI), 1.53-2.04 kg m(-2)). The pooled odds ratio of eating quickly on the presence of obesity was 2.15 (95% CI, 1.84-2.51)."
+            }
+          ]
+        },
+        {
+          "text": "Eating while distracted leads to eating more, both then and later. A review of 24 experiments found a moderate increase during the distracted meal and a larger one at the next. Recalling a recent meal lowered later intake. Meals eaten away from the screen use both findings.",
+          "cites": [
+            "x_eating_robinsonattn"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_robinsonattn",
+              "quote": "We systematically reviewed studies that examined experimentally the"
+            },
+            {
+              "key": "x_eating_robinsonattn",
+              "quote": "Twenty-four studies were reviewed. Evidence indicated that eating when distracted produced a moderate increase in immediate intake (SMD: 0.39; 95% CI: 0.25, 0.53) but increased later intake to a greater extent (SMD: 0.76; 95% CI: 0.45, 1.07). ... Enhancing memory of food consumed reduced later intake (SMD: 0.40; 95% CI: 0.12, 0.68)"
+            }
+          ]
+        },
+        {
+          "text": "Eating with friends is not a way to eat less. A review of 42 studies found strong evidence that people eat more with friends than alone, with no such effect among strangers. Germany's guide still calls eating in company beneficial, so shared meals have value, just not for eating less.",
+          "cites": [
+            "x_eating_ruddock",
+            "x_eating_dge"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_ruddock",
+              "quote": "We reviewed 42 studies. We found strong evidence that people select and eat more when eating with friends, compared with when they eat alone [Z = 5.32; P < 0.001; standardized mean difference (SMD) = 0.76; 95% CI: 0.48, 1.03]. The meta-analysis revealed no evidence for social facilitation across studies that had examined food intake when participants ate alone or with strangers/acquaintances"
+            },
+            {
+              "key": "x_eating_dge",
+              "quote": "Eating in company is beneficial."
+            }
+          ]
+        },
+        {
+          "text": "Distance matters as well as portion size. A Cochrane review found that food placed farther away was eaten less, a moderate effect across 12 studies with 1,098 people, though certainty was low and most tests were lab-based. Snacks kept in a cupboard away from the desk apply the idea.",
+          "cites": [
+            "x_eating_hollandsprox"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_hollandsprox",
+              "quote": "The majority were conducted in laboratory settings (14/24) ... meta-analysis of 15 comparisons from 12 studies (n = 1098) found that exposure to food placed farther away resulted in a moderate reduction in its consumption: SMD -0.60 (95% CI -0.84 to -0.36) (low certainty evidence)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Breakfast, timing and late-night eating",
+      "paragraphs": [
+        {
+          "text": "Breakfast is not a proven weight-loss tool. In 13 randomised trials, people assigned breakfast ate more over the day than those assigned to skip it, and ended 0.44 kg heavier. The trials were short and at risk of bias. Whether to eat breakfast can reasonably follow appetite and routine.",
+          "cites": [
+            "x_eating_sievert"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_sievert",
+              "quote": "Meta-analysis of the results found a small difference in weight favouring participants who skipped breakfast (mean difference 0.44 kg, 95% confidence interval 0.07 to 0.82), but there was some inconsistency across trial results (I2=43%). Participants assigned to breakfast had a higher total daily energy intake than those assigned to skip breakfast ... All of the included trials were at high or unclear risk of bias in at least one domain and had only short term follow-ups (mean period seven weeks for weight, two weeks for energy intake)."
+            }
+          ]
+        },
+        {
+          "text": "Eating the same food later made people hungrier in one controlled trial. Sixteen adults with overweight or obesity ate identical meals on two schedules, the later one shifted about four hours and ending two and a half hours before bed. It doubled the odds of hunger and lowered energy used while awake. The study was small and short.",
+          "cites": [
+            "x_eating_vujovic"
+          ],
+          "strength": "weak",
+          "support": [
+            {
+              "key": "x_eating_vujovic",
+              "quote": "Sixteen participants with overweight or obesity(mean±SD age: 37.3±2.8y; 5 women; BMI: 28.7±0.6kg/m 2 ), completed this study"
+            },
+            {
+              "key": "x_eating_vujovic",
+              "quote": "In the late eating protocol , subjects skipped breakfast and consumed identical meals at 5h10m, 9h20m, and 13h30m after waking (times similar to lunch, dinner, and supper, with the last meal occurring 2h30m before bedtime)."
+            },
+            {
+              "key": "x_eating_vujovic",
+              "quote": "Late eating doubled the odds of being hungry as compared to early eating (odds ratio 2.02, increasing hunger probability from ~10% to ~20%; p<0.0001"
+            },
+            {
+              "key": "x_eating_vujovic",
+              "quote": "late eating decreased waketime energy expenditure (p=0.002)"
+            },
+            {
+              "key": "x_eating_vujovic",
+              "quote": "Although the study duration and sample size are limited"
+            }
+          ]
+        },
+        {
+          "text": "Longer trials suggest a small benefit from eating earlier in the day. A review of 29 trials with 2,485 people, each at least 12 weeks long, found about 1.75 kg more weight loss when more food came earlier in the day. The authors called the effects small and uncertain, with high risk of bias in 22 trials.",
+          "cites": [
+            "x_eating_liu"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_liu",
+              "quote": "Sixty-nine reports of 29 randomized clinical trials including 2485 individuals ... There were some concerns of risk of bias for 7 studies and high concerns for 22 studies."
+            },
+            {
+              "key": "x_eating_liu",
+              "quote": "-1.75 kg; 95% CI, -2.37 to -1.13 kg"
+            },
+            {
+              "key": "x_eating_liu",
+              "quote": "the effect sizes found were small and of uncertain clinical importance."
+            }
+          ]
+        },
+        {
+          "text": "Some patterns of overeating call for professional help. The NHS describes binge eating disorder as regularly eating a lot of food in a short time until uncomfortably full, often alone or in secret, with guilt or shame afterwards. It advises seeing a doctor as soon as possible if this sounds familiar.",
+          "cites": [
+            "x_eating_nhsbinge"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_nhsbinge",
+              "quote": "Binge eating disorder involves regularly eating a lot of food over a short period of time until you're uncomfortably full."
+            },
+            {
+              "key": "x_eating_nhsbinge",
+              "quote": "eating alone or secretly"
+            },
+            {
+              "key": "x_eating_nhsbinge",
+              "quote": "You may feel guilty or ashamed after binge eating."
+            },
+            {
+              "key": "x_eating_nhsbinge",
+              "quote": "If you think you may have binge eating disorder, see a GP as soon as you can."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Eating patterns that have been tested",
+      "paragraphs": [
+        {
+          "text": "The Mediterranean diet has been tested in a large randomised trial. In Spain, 7,447 adults aged 55 to 80 at high cardiovascular risk were followed for a median of 4.8 years. Heart attack, stroke or cardiovascular death struck 3.8% and 3.4% of the olive oil and nut groups, against 4.4% on low-fat advice. A Cochrane review found little or no effect on total deaths.",
+          "cites": [
+            "x_eating_predimed",
+            "x_eating_rees"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_predimed",
+              "quote": "In a multicenter trial in Spain, we assigned 7447 participants (55 to 80 years of age, 57% women) who were at high cardiovascular risk"
+            },
+            {
+              "key": "x_eating_predimed",
+              "quote": "The primary end point was a major cardiovascular event (myocardial infarction, stroke, or death from cardiovascular causes). After a median follow-up of 4.8 years"
+            },
+            {
+              "key": "x_eating_predimed",
+              "quote": "A primary end-point event occurred in 288 participants; there were 96 events in the group assigned to a Mediterranean diet with extra-virgin olive oil (3.8%), 83 in the group assigned to a Mediterranean diet with nuts (3.4%), and 109 in the control group (4.4%)."
+            },
+            {
+              "key": "x_eating_rees",
+              "quote": "Low-quality evidence shows little or no effect of the PREDIMED (7747 randomised) intervention (advice to follow a Mediterranean diet plus supplemental extra-virgin olive oil or tree nuts) compared to a low-fat diet on CVD mortality (hazard ratio (HR) 0.81, 95% confidence interval (CI) 0.50 to 1.32) or total mortality (HR 1.0, 95% CI 0.81 to 1.24) over 4.8 years."
+            }
+          ]
+        },
+        {
+          "text": "Nordic and Japanese patterns rest mainly on observational studies. In 15 cohorts with over a million people, the closest followers of a Nordic pattern had 7% less cardiovascular disease, with low certainty. Nine studies linked a Japanese-style diet to 17% lower cardiovascular death rates, though most measured diets in the 1980s and 1990s.",
+          "cites": [
+            "x_eating_massara",
+            "x_eating_shirota"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_massara",
+              "quote": "We included 15 unique prospective cohort studies (n=1,057,176, with 41,708 cardiovascular events and 13,121 diabetes cases)"
+            },
+            {
+              "key": "x_eating_massara",
+              "quote": "total CVD incidence (RR for highest vs lowest adherence: 0.93 [95% CI 0.88, 0.99], p=0.01"
+            },
+            {
+              "key": "x_eating_massara",
+              "quote": "The certainty of the evidence was low for total CVD incidence and LDL-cholesterol"
+            },
+            {
+              "key": "x_eating_shirota",
+              "quote": "including 9 on the Japanese-style diet (n = 469,190)"
+            },
+            {
+              "key": "x_eating_shirota",
+              "quote": "With higher adherence to the Japanese-style diet, the pooled risk ratios (RRs) for CVD, stroke, heart disease/ischemic heart disease combined (HD/IHD) mortality were 0.83 (95% CI, 0.77-0.89"
+            },
+            {
+              "key": "x_eating_shirota",
+              "quote": "Most studies conducted diet surveys between 1980 and the 1990s."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Limits and realistic expectations",
+      "paragraphs": [
+        {
+          "text": "Studies that ask people what they ate get answers that run low. In five US studies checked against biological markers, people under-reported energy intake by 28% on food questionnaires and 15% on a one-day recall, more so at higher body mass index. Even defenders of these methods warn against treating it as true intake.",
+          "cites": [
+            "x_eating_freedman",
+            "x_eating_subar"
+          ],
+          "strength": "strong",
+          "support": [
+            {
+              "key": "x_eating_freedman",
+              "quote": "The average rate of under-reporting of energy intake was 28% with a FFQ and 15% with a single 24-hour recall, but the percentages were lower for protein."
+            },
+            {
+              "key": "x_eating_freedman",
+              "quote": "body mass index strongly predicts under-reporting of energy and protein intakes."
+            },
+            {
+              "key": "x_eating_subar",
+              "quote": "do not use self-reported energy intake as a measure of true energy intake"
+            }
+          ]
+        },
+        {
+          "text": "Falling short of the guidelines is normal, even in countries known for their food. Japan's health plan aimed for 350 g of vegetables a day, against an average of 282 g, and for 80% of people to eat a staple, main and side dish more than twice a day, against 68.1%. In Korea, the share eating 500 g of fruit and vegetables a day has fallen since 2015.",
+          "cites": [
+            "x_eating_jphj21",
+            "x_eating_kr2021"
+          ],
+          "strength": "guideline",
+          "support": [
+            {
+              "key": "x_eating_jphj21",
+              "quote": "(a) Increase in percentage of individuals who eat balanced diet with staple food, main dish and side dish more than twice a day 68.1% (2011) 80% (2022)"
+            },
+            {
+              "key": "x_eating_jphj21",
+              "quote": "Mean daily intake of vegetables 282g Mean daily intake of vegetables 350ｇ"
+            },
+            {
+              "key": "x_eating_kr2021",
+              "quote": "특히 만성질환 예방관리를 위한 과일·채소의 권고 섭취기준인 1일 500g 이상을 섭취하는 인구 비율은 2015년 이후로 감소하는 추세에 있으며, 젊은 성인의 과일·채소류 섭취량은 부족한 상황이다."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "title": "Is everything we eat associated with cancer? A systematic cookbook review (Am J Clin Nutr, 2013)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23193004/",
+      "why_not": "Holds up (72% of 264 single-study estimates claimed a cancer link, while meta-analyses averaged a null result), but cut to keep the article within its word limit."
+    },
+    {
+      "title": "Effect of alcohol consumption on food energy intake: a systematic review and meta-analysis (Br J Nutr, 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30630543/",
+      "why_not": "Holds up (22 studies, 701 adults aged 18 to 37; no compensation for the energy in alcoholic drinks), but cut to keep the article within its word limit."
+    },
+    {
+      "title": "The effects of increased protein intake on fullness: a meta-analysis and its limitations (J Acad Nutr Diet, 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26947338/",
+      "why_not": "Holds up, but it repeats the fullness point the article already makes from its existing protein review."
+    },
+    {
+      "title": "Legume consumption and risk of all-cause and cause-specific mortality: a systematic review and dose-response meta-analysis of prospective studies (Adv Nutr, 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36811595/",
+      "why_not": "Small association for all-cause mortality and none for cardiovascular or cancer mortality; the trial evidence on pulses was more useful in the space available."
+    },
+    {
+      "title": "Japanese diet and survival time: the Ohsaki Cohort 1994 study (Clin Nutr, 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30846323/",
+      "why_not": "Single cohort; the meta-analysis of Japanese cohorts was cited instead."
+    },
+    {
+      "title": "Influence of oral processing on appetite and food intake: a systematic review and meta-analysis (Appetite, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29408331/",
+      "why_not": "Supports the eating-speed finding but adds little beyond the eating-rate meta-analysis already cited."
+    },
+    {
+      "title": "Watching television while eating increases food intake: a systematic review and meta-analysis of experimental studies (Nutrients, 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39796600/",
+      "why_not": "Narrower than the distraction meta-analysis already cited, with a weaker overall result."
+    },
+    {
+      "title": "Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group (J Am Med Dir Assoc, 2013)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23867520/",
+      "why_not": "About adults over 65; not this reader, and citing it would mean stating a per-kg target for a different group."
+    },
+    {
+      "title": "Effect of a plant-based, low-fat diet versus an animal-based, ketogenic diet on ad libitum energy intake (Nat Med, 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33479499/",
+      "why_not": "Twenty inpatients for two weeks per diet; off the assigned angles, and its results are reported in a unit this article does not use."
+    },
+    {
+      "title": "Primary prevention of cardiovascular disease with a Mediterranean diet (N Engl J Med, 2013)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23432189/",
+      "why_not": "Original PREDIMED report, later withdrawn; the corrected 2018 republication was cited instead."
+    },
+    {
+      "title": "Food-based dietary guidelines: China (FAO)",
+      "url": "https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/china/en/",
+      "why_not": "Describes how the guidelines were developed and lists core messages without amounts; the China CDC page gives the amounts and was cited instead."
+    },
+    {
+      "title": "Guideline: sugars intake for adults and children (WHO publication page)",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "why_not": "The landing page describes the guideline without stating its limits; the existing WHO healthy diet fact sheet already covers them."
+    },
+    {
+      "title": "Dietary Reference Intakes for Japanese (2025 edition): report page",
+      "url": "https://www.mhlw.go.jp/stf/newpage_44138.html",
+      "why_not": "The 2025 edition exists, but the text of its carbohydrate and fibre chapter (https://www.mhlw.go.jp/content/10904750/001316464.pdf) could not be extracted, so its fibre values could not be checked; the 2020 English overview was cited and named as the 2020 edition."
+    }
+  ]
+}

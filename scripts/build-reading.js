@@ -475,16 +475,21 @@ function build(opts = {}) {
     }));
     return { id: a.id, texts: [...new Set(texts)] };
   });
-  const lines = [];
+  // Each article's lines are spread evenly across the year, so a long article does not cluster at the end.
   const seen = new Set();
-  for (let round = 0; perArticle.some((a) => a.texts.length > round); round++) {
-    for (const a of perArticle) {
-      const text = a.texts[round];
-      if (!text || text.length > 200 || seen.has(text)) continue;
-      seen.add(text);
-      lines.push({ text, by: '', page: a.id });
-    }
+  const pool = [];
+  perArticle.forEach((a, order) => {
+    const texts = a.texts.filter((text) => text.length <= 200 && !seen.has(text) && seen.add(text));
+    texts.forEach((text, i) => pool.push({ key: (i + 0.5) / texts.length, order, text, page: a.id }));
+  });
+  pool.sort((x, y) => x.key - y.key || x.order - y.order);
+  // Break up any remaining back-to-back pair from the same article by swapping in the next different one.
+  for (let i = 1; i < pool.length; i++) {
+    if (pool[i].page !== pool[i - 1].page) continue;
+    const j = pool.findIndex((p, k) => k > i && p.page !== pool[i - 1].page && (k + 1 >= pool.length || pool[k + 1].page !== pool[i].page));
+    if (j !== -1) { const tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp; }
   }
+  const lines = pool.map((p) => ({ text: p.text, by: '', page: p.page }));
 
   const used = [];
   out.forEach((a) => a._keys.forEach((k) => { if (used.indexOf(k) === -1) used.push(k); }));
