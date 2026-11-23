@@ -1,6 +1,6 @@
 [
  {
-  "text": "Fill about half of most plates with vegetables and fruit. Five portions a day is the common target.",
+  "text": "Eat vegetables and fruit at most meals. Five portions, or about 400 g a day, is the common target.",
   "by": "",
   "page": "eating"
  },
@@ -135,7 +135,7 @@
   "page": "weight"
  },
  {
-  "text": "Track with one tap and look back once a week. Heavy logging is what people quit.",
+  "text": "Track with one tap and look back once a week. Very few people keep up detailed logging.",
   "by": "",
   "page": "habits"
  },
@@ -260,7 +260,7 @@
   "page": "volleyball"
  },
  {
-  "text": "Climbing is muscle-strengthening activity, mostly for the pulling muscles and grip that volleyball does not train.",
+  "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
   "by": "",
   "page": "climbing"
  },
@@ -295,7 +295,7 @@
   "page": "strength"
  },
  {
-  "text": "Muscle does not change this much: a kilogram of it uses about 13 kcal a day at rest.",
+  "text": "Extra muscle changes resting calorie burn only a little, because a kilogram of muscle uses about 13 kcal a day at rest.",
   "by": "",
   "page": "weight"
  },
@@ -330,7 +330,7 @@
   "page": "walking"
  },
  {
-  "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
+  "text": "The WHO, China and Korea all limit salt, sugar and fat.",
   "by": "",
   "page": "eating"
  },
@@ -340,7 +340,7 @@
   "page": "energy"
  },
  {
-  "text": "Eating more when tired, or when the bag is open in front of you, is what the experiments show most people do.",
+  "text": "Eating more after a short night, or from a larger package, is what these experiments found on average.",
   "by": "",
   "page": "sleep-appetite"
  },
@@ -385,12 +385,12 @@
   "page": "walking"
  },
  {
-  "text": "Fish is in, and red and processed meat is limited.",
+  "text": "Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "Exercise is also an effective treatment for depression, which often sits behind low energy.",
+  "text": "Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low.",
   "by": "",
   "page": "energy"
  },
@@ -415,7 +415,7 @@
   "page": "injury"
  },
  {
-  "text": "Ankle sprains make up as much as half of volleyball injuries, and most happen to a previously sprained ankle.",
+  "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before.",
   "by": "",
   "page": "volleyball"
  },
@@ -435,7 +435,7 @@
   "page": "walking"
  },
  {
-  "text": "They also advise on how to eat, not only what.",
+  "text": "Fish is in, and red and processed meat is limited.",
   "by": "",
   "page": "eating"
  },
@@ -455,7 +455,7 @@
   "page": "weight"
  },
  {
-  "text": "Cramming your activity into one or two days is fine.",
+  "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
   "by": "",
   "page": "habits"
  },
@@ -485,12 +485,12 @@
   "page": "walking"
  },
  {
-  "text": "Japan builds the day on grain dishes such as rice, with vegetable dishes next and fish, egg and meat dishes after that.",
+  "text": "They also advise on how to eat, not only what.",
   "by": "",
   "page": "eating"
  },
  {
-  "text": "The WHO guideline says some activity is better than none and that sitting time should be reduced.",
+  "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
   "by": "",
   "page": "energy"
  },
@@ -510,7 +510,7 @@
   "page": "volleyball"
  },
  {
-  "text": "Your forearms will give out long before the rest of you.",
+  "text": "Experienced climbers tend to be lean with large forearms.",
   "by": "",
   "page": "climbing"
  },
@@ -525,7 +525,7 @@
   "page": "walking"
  },
  {
-  "text": "Germany leans furthest toward plants, adding legumes at least weekly, a small handful of nuts daily and whole grains.",
+  "text": "Japan builds the day on grain dishes such as rice, with vegetable dishes next and fish, egg and meat dishes after that.",
   "by": "",
   "page": "eating"
  },
@@ -540,11 +540,6 @@
   "page": "injury"
  },
  {
-  "text": "Experienced climbers tend to be lean with large forearms.",
-  "by": "",
-  "page": "climbing"
- },
- {
   "text": "Adults are advised to do muscle-strengthening activity on two days a week.",
   "by": "",
   "page": "strength-training"
@@ -555,7 +550,7 @@
   "page": "walking"
  },
  {
-  "text": "Every one of these food guides also includes physical activity.",
+  "text": "Germany leans furthest toward plants, adding legumes at least weekly, a small handful of nuts daily and whole grains.",
   "by": "",
   "page": "eating"
  },
@@ -570,9 +565,14 @@
   "page": "strength-training"
  },
  {
-  "text": "The WHO guideline counts all movement, says some is better than none, and sets no minimum bout length.",
+  "text": "The WHO guideline says some physical activity is better than none.",
   "by": "",
   "page": "walking"
+ },
+ {
+  "text": "Every one of these food guides also includes physical activity.",
+  "by": "",
+  "page": "eating"
  },
  {
   "text": "In Japan, 79,594 adults were followed for about 15 years.",

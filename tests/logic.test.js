@@ -179,3 +179,33 @@ test('planSession: a dumbbell move with no suitable weight starts on the lightes
   assert.equal(plan.find((r) => r.move.id === 'row').sets[0].weight, 50);
   assert.equal(plan.find((r) => r.move.id === 'squat').sets[0].weight, 0);
 });
+
+test('planSession: a one-set "Mark done" entry does not reset the next lift suggestion', () => {
+  const entries = [
+    { id: '2026-11-17_squat', date: '2026-11-17', moveId: 'squat', sets: sets([0, 8]) },
+    { id: '2026-11-16_squat', date: '2026-11-16', moveId: 'squat', sets: sets([30, 12], [30, 12], [30, 12]) },
+  ];
+  const squat = L.planSession(moves, { ...base, dumbbells: [30, 40] }, entries, today).find((r) => r.move.id === 'squat');
+  assert.deepEqual(squat.sets[0], { weight: 40, reps: 8 });
+  assert.equal(squat.last.date, '2026-11-16');
+});
+
+test('planSession: a move only ever marked done on Today still counts as first time in the log', () => {
+  const entries = [{ id: '2026-11-17_bridge', date: '2026-11-17', moveId: 'bridge', sets: sets([0, 10]) }];
+  const bridge = L.planSession(moves, base, entries, today).find((r) => r.move.id === 'bridge');
+  assert.equal(bridge.first, true);
+  assert.deepEqual(bridge.sets[0], { weight: 0, reps: 10 });
+});
+
+test('lastWeight: the weight of the most recent real session, ignoring Mark done and bodyweight', () => {
+  const entries = [
+    { id: 'c', date: '2026-11-18', moveId: 'row', sets: sets([0, 8]) },
+    { id: 'b', date: '2026-11-17', moveId: 'row', sets: sets([50, 8], [50, 8], [50, 7]) },
+    { id: 'a', date: '2026-11-10', moveId: 'row', sets: sets([30, 8], [30, 8]) },
+    { id: 'd', date: '2026-11-17', moveId: 'pushup', sets: sets([0, 8], [0, 8]) },
+  ];
+  assert.equal(L.lastWeight(entries, 'row'), 50);
+  assert.equal(L.lastWeight(entries, 'pushup'), null);
+  assert.equal(L.lastWeight(entries, 'hinge'), null);
+  assert.equal(L.lastWeight(undefined, 'row'), null);
+});

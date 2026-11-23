@@ -16,14 +16,14 @@ const S = {
   sit: ['Effect of frequent interruptions of prolonged sitting on self-perceived levels of energy, mood, food cravings and cognitive function', 'International Journal of Behavioral Nutrition and Physical Activity, 2016', pm(27809874), 'journal', 'US', API, 'Randomised crossover, 30 sedentary adults. Hourly 5-minute walks raised energy and vigor, improved mood, lowered fatigue and food cravings against 6 hours of sitting.'],
   aasm: ['Seven or more hours of sleep per night: a health necessity for adults', 'American Academy of Sleep Medicine and Sleep Research Society, 2015', 'https://aasm.org/seven-or-more-hours-of-sleep-per-night-a-health-necessity-for-adults/', 'authority', 'US', PAGE, 'Consensus of a 15-expert panel: adults should get seven or more hours of sleep a night.'],
   stadje: ['The differential diagnosis of tiredness: a systematic review', 'BMC Family Practice, 2016', pm(27765009), 'journal', 'INT', API, '26 studies. Anaemia 2.8%, malignancy 0.6%, serious somatic disease 4.3%, depression 18.5%.'],
-  noetel: ['Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials', 'The BMJ, 2024', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/', 'journal', 'INT', PAGE, '218 studies, 14,170 people. Walking or jogging g = -0.62; strength training g = -0.49. Confidence low for walking or jogging, very low for the rest.'],
+  noetel: ['Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials', 'The BMJ, 2024', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10870815/', 'journal', 'INT', PAGE, '218 studies, 14,170 people. Abstract states "Exercise is an effective treatment for depression." Walking or jogging g = -0.62; strength training g = -0.49. Confidence low for walking or jogging, very low for the rest.'],
   cdcsleep: ['Short sleep duration and sleep difficulties among adults: United States, 2024', 'US Centers for Disease Control and Prevention, National Center for Health Statistics, 2026', 'https://www.cdc.gov/nchs/products/databriefs/db559.htm', 'authority', 'US', PAGE, 'In 2024, 30.5% of adults slept less than 7 hours on average.'],
   alkhatib: ['The effects of partial sleep deprivation on energy balance: a systematic review and meta-analysis', 'European Journal of Clinical Nutrition, 2017', pm(27804960), 'journal', 'INT', API, '11 studies in the meta-analysis (172 people). Intake rose by 385 kcal (95% CI 252 to 517) with no significant change in energy expenditure.'],
-  hall: ['Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake', 'Cell Metabolism, 2019', pm(31105044), 'journal', 'US', API, '20 adults, 2 weeks on each diet. Intake was 508 kcal a day higher on the ultra-processed diet; +0.9 kg against -0.9 kg.'],
+  hall: ['Ultra-processed diets cause excess calorie intake and weight gain: an inpatient randomized controlled trial of ad libitum food intake', 'Cell Metabolism, 2019', pm(31105044), 'journal', 'US', API, '20 adults, 2 weeks on each diet. Meals were matched for presented calories, energy density, macronutrients, sugar, sodium and fiber. Intake was 508 kcal a day higher on the ultra-processed diet; +0.9 kg against -0.9 kg.'],
   hollands: ['Portion, package or tableware size for changing selection and consumption of food, alcohol and tobacco', 'Cochrane Database of Systematic Reviews, 2015', pm(26368271), 'journal', 'INT', API, '58 studies, 6,603 people. Larger sizes increased food eaten: SMD 0.38 overall, 0.46 in adults. Moderate-quality evidence.'],
   ello: ['Dietary energy density in the treatment of obesity: a year-long trial comparing 2 weight-loss diets', 'American Journal of Clinical Nutrition, 2007', pm(17556681), 'journal', 'US', API, '97 obese women. After a year, the group adding water-rich fruit and vegetables lost 7.9 kg against 6.4 kg and reported less hunger.'],
   johns: ['Diet or exercise interventions vs combined behavioral weight management programs: a systematic review and meta-analysis of direct comparisons', 'Journal of the Academy of Nutrition and Dietetics, 2014', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4180002/', 'journal', 'INT', PAGE, '8 trials, 1,022 people. Combined beat diet-only by 1.72 kg at 12 months and activity-only by 6.29 kg at 12 to 18 months.'],
-  acsm: ['Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults', 'American College of Sports Medicine position stand, 2009', pm(19127177), 'authority', 'US', API, '150 to 250 min a week prevents weight gain and gives only modest loss; more than 250 is associated with clinically significant loss. Resistance training does not enhance weight loss but may increase fat-free mass.'],
+  acsm: ['Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults', 'American College of Sports Medicine position stand, 2009', pm(19127177), 'authority', 'US', API, '150 to 250 min a week prevents weight gain and gives only modest loss; more than 250 is associated with clinically significant loss. Observational studies indicate weight maintenance after loss is improved above 250 min, with no well-designed trials to confirm it. Resistance training does not enhance weight loss but may increase fat-free mass and increase loss of fat mass, and is associated with reductions in health risk.'],
   comp: ['Does increased exercise or physical activity alter ad-libitum daily energy intake or macronutrient composition in healthy adults? A systematic review', 'PLoS One, 2014', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3893086', 'journal', 'INT', PAGE, 'States that exercise alone produces less of an energy deficit than predicted, with compensation through eating and other activity offered as reasons. Qualitative; gives no percentage.'],
   wing: ['Long-term weight loss maintenance', 'American Journal of Clinical Nutrition, 2005', pm(16002825), 'journal', 'US', API, 'About 20% of overweight people lose at least 10% and keep it off a year. Registry members report about an hour of activity a day, regular breakfast, self-weighing and consistent eating across the week.'],
   anderson: ['Long-term weight-loss maintenance: a meta-analysis of US studies', 'American Journal of Clinical Nutrition, 2001', pm(11684524), 'journal', 'US', API, '29 studies. Five years after a structured programme the average person kept off 3 kg, about 3% of starting weight.'],
@@ -42,7 +42,7 @@ const S = {
   helander: ['Factors related to sustained use of a free mobile app for dietary self-monitoring with photography and peer feedback: retrospective cohort study', 'Journal of Medical Internet Research, 2014', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4004142', 'journal', 'INT', PAGE, 'Of 189,770 users, 2.58% used the app actively (at least 10 pictures over at least a week).'],
   rhodes: ['Can the affective response to exercise predict future motives and physical activity behavior? A systematic review of published evidence', 'Annals of Behavioral Medicine, 2015', pm(25921307), 'journal', 'INT', API, '24 studies. Feeling better during moderate exercise was linked to future activity; how people felt afterwards was not.'],
   weekend: ['Association of the "weekend warrior" and other leisure-time physical activity patterns with all-cause and cause-specific mortality', 'JAMA Internal Medicine, 2022', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9257680', 'journal', 'US', PAGE, '350,978 adults. Weekend warriors had similar mortality to the regularly active: hazard ratio 1.08 (0.97 to 1.20).'],
-  paluch: ['Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts', 'The Lancet Public Health, 2022', pm(35247352), 'journal', 'INT', API, '47,471 adults. Risk falls with more steps until 6,000 to 8,000 a day at 60 and over, and 8,000 to 10,000 under 60. Quartile medians 3,553, 5,801, 7,842, 10,901; hazard ratios 0.60, 0.55, 0.47 against the lowest.'],
+  paluch: ['Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts', 'The Lancet Public Health, 2022', pm(35247352), 'journal', 'INT', API, '47,471 adults. States that 10,000 steps a day is widely promoted but there is little evidence to support it. Risk falls with more steps until 6,000 to 8,000 a day at 60 and over, and 8,000 to 10,000 under 60. Quartile medians 3,553, 5,801, 7,842, 10,901; hazard ratios 0.60, 0.55, 0.47 against the lowest.'],
   laranjo: ['Do smartphone applications and activity trackers increase physical activity in adults? Systematic review, meta-analysis and metaregression', 'British Journal of Sports Medicine, 2021', pm(33355160), 'journal', 'INT', API, '28 trials, 7,454 people. Small to moderate effect (0.350), about 1,850 steps a day; text messages and personalisation helped.'],
   vbreview: ['Strategies for the prevention of volleyball related injuries', 'British Journal of Sports Medicine, 2006', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC2564299', 'journal', 'INT', PAGE, 'Ankle sprains are the commonest acute injury, up to half of all injuries; up to 80% involve a previously injured ankle. Jumper\'s knee in about 40 to 50% of male indoor players. Shoulder pain 8 to 20% of injuries. Recommends balance-board training and landing technique.'],
   verhagen: ['The effect of a proprioceptive balance board training program for the prevention of ankle sprains: a prospective controlled trial', 'American Journal of Sports Medicine, 2004', pm(15310562), 'journal', 'NL', API, '116 volleyball teams (641 and 486 players). Fewer ankle sprains with balance-board training, significant only in players with a previous sprain. Overuse knee injuries rose in players with a history of knee injury.'],
@@ -60,7 +60,7 @@ const S = {
   cncdc: ['Eight key recommendations from Dietary Guidelines for Chinese Residents (2022)', 'Chinese Center for Disease Control and Prevention, 2022', 'https://en.chinacdc.cn/health_topics/nutrition_health/202206/t20220616_259702.html', 'authority', 'CN', PAGE, '12 foods a day and 25 a week; vegetables 300 to 500 g; fruit 200 to 350 g; milk 300 g; fish 300 to 500 g a week; salt under 5 g; added sugar under 50 g; water 1,500 to 1,700 ml; three regular meals; about 6,000 steps a day.'],
   faode: ['Food-based dietary guidelines: Germany', 'Food and Agriculture Organization of the United Nations, summarising the German Nutrition Society\'s "Eat and drink well" (2024)', 'https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/countries/germany/en/', 'authority', 'DE', PAGE, 'Twelve messages: water as the main drink (about 1.5 litres), at least five portions of fruit and vegetables, legumes weekly, a small handful of nuts daily, whole grains, vegetable oils, dairy daily, fish once or twice a week, meat and sausage no more than 300 g a week, eat slowly and enjoy, stay active.'],
   kurotani: ['Quality of diet and mortality among Japanese men and women: Japan Public Health Center based prospective study', 'The BMJ, 2016', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4804125', 'journal', 'JP', PAGE, '79,594 adults followed a median of 15 years. Highest against lowest adherence to the Spinning Top: hazard ratio 0.85 (0.79 to 0.91) for total mortality.'],
-  reynolds: ['Carbohydrate quality and human health: a series of systematic reviews and meta-analyses', 'The Lancet, 2019', pm(30638909), 'journal', 'INT', API, '185 prospective studies and 58 trials. Highest against lowest fibre eaters: 15 to 30% lower mortality and disease incidence; greatest benefit at 25 to 29 g a day. Certainty moderate for fibre.'],
+  reynolds: ['Carbohydrate quality and human health: a series of systematic reviews and meta-analyses', 'The Lancet, 2019', pm(30638909), 'journal', 'INT', API, '185 prospective studies and 58 trials. Highest against lowest fibre eaters: 15 to 30% lower all-cause and cardiovascular mortality and incidence of coronary heart disease, stroke, type 2 diabetes and colorectal cancer; greatest benefit at 25 to 29 g a day. Certainty moderate for fibre.'],
   leidy: ['The role of protein in weight loss and maintenance', 'American Journal of Clinical Nutrition, 2015', pm(25926512), 'journal', 'INT', API, 'Review. Modest satiety effect from higher-protein meals; suggests 1.2 to 1.6 g per kg a day with at least 25 to 30 g per meal; longer-term studies are limited and conflicting.'],
 };
 
@@ -72,7 +72,7 @@ const ARTICLES = [
     id: 'eating', kind: 'topic', title: 'Eating well',
     sources: ['whodiet', 'faojp', 'mhlw', 'faokr', 'cncdc', 'faode', 'kurotani', 'reynolds', 'leidy', 'hollands', 'ello'],
     bluf: [
-      g('Fill about half of most plates with vegetables and fruit. Five portions a day is the common target.', ['whodiet', 'faode', 'cncdc']),
+      g('Eat vegetables and fruit at most meals. Five portions, or about 400 g a day, is the common target.', ['whodiet', 'faode', 'cncdc']),
       g('Build a meal from a staple, a main and a side, mostly from plants, with fish once or twice a week.', ['faojp', 'faode', 'cncdc']),
       g('Make water or unsweetened tea your default drink.', ['faojp', 'faokr', 'faode']),
       g('Keep sweets, salty snacks and sugary drinks occasional, and serve them on a plate instead of eating from the package.', ['whodiet', 'faokr', 'hollands']),
@@ -81,7 +81,7 @@ const ARTICLES = [
     sections: [
       { heading: 'What the guidelines share', paragraphs: [
         p('Japan, South Korea, China, Germany and the World Health Organization all put plants at the centre. The WHO asks for at least 400 g of fruit and vegetables a day, Germany for at least five portions, and China for 300 to 500 g of vegetables plus 200 to 350 g of fruit.', ['whodiet', 'faode', 'cncdc'], 'guideline'),
-        p('All of them limit salt, sugar and fat. The WHO and China both set salt under 5 g a day and added or free sugar under about 50 g, and Korea tells people to choose foods lower in salt, sugar and fat.', ['whodiet', 'cncdc', 'faokr'], 'guideline'),
+        p('The WHO, China and Korea all limit salt, sugar and fat. The WHO and China both set salt under 5 g a day and added or free sugar under about 50 g, and Korea tells people to choose foods lower in salt, sugar and fat.', ['whodiet', 'cncdc', 'faokr'], 'guideline'),
         p('Water is the default drink everywhere: about 1.5 litres a day in Germany, 1,500 to 1,700 ml in China, plain water over sugary drinks in Korea, and water or tea in Japan.', ['faode', 'cncdc', 'faokr', 'faojp'], 'guideline'),
         p('Fish is in, and red and processed meat is limited. Germany suggests fish once or twice a week and no more than 300 g of meat and sausage a week. China suggests 300 to 500 g of fish a week. Japan asks for a mix of vegetables, beans and fish.', ['faode', 'cncdc', 'faojp'], 'guideline'),
         p('They also advise on how to eat, not only what. Korea says not to skip breakfast, to avoid overeating and to eat with family often. Germany says to eat slowly and enjoy it. Japan says to enjoy meals at regular hours, and China to keep three regular meals.', ['faokr', 'faode', 'faojp', 'cncdc'], 'guideline'),
@@ -118,12 +118,12 @@ const ARTICLES = [
         p('Across 81 randomised trials with 7,050 people, regular exercise reduced feelings of fatigue and raised feelings of energy and vitality. The effects were small to moderate.', ['wender'], 'strong'),
         p('In a six-week trial of 36 sedentary young adults with persistent fatigue, low-intensity exercise gave the better result for fatigue, and the gains did not depend on getting fitter. The trial was small.', ['puetz'], 'weak'),
         p('In a trial of 30 sedentary adults, a five-minute walk every hour raised energy, improved mood and reduced fatigue and food cravings compared with six hours of unbroken sitting.', ['sit'], 'weak'),
-        p('Exercise is also an effective treatment for depression, which often sits behind low energy. Across 218 trials, walking or jogging and strength training both helped, though the reviewers rated their confidence as low.', ['noetel'], 'moderate'),
+        p('Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low. Walking or jogging and strength training both helped.', ['noetel'], 'moderate'),
       ] },
       { heading: "What's normal", paragraphs: [
         p('Feeling tired is common. In 2024, three in ten US adults slept less than seven hours a night, which is below what sleep specialists recommend.', ['cdcsleep', 'aasm'], 'moderate'),
         p('Tiredness is rarely a sign of serious illness. Among people who saw a family doctor for it, 4.3% had a serious physical disease and 2.8% had anaemia, while 18.5% had depression.', ['stadje'], 'strong'),
-        p('The WHO guideline says some activity is better than none and that sitting time should be reduced. There is no minimum amount below which movement stops counting.', ['who'], 'guideline'),
+        p('The WHO guideline says some physical activity is better than none and that sitting time should be reduced.', ['who'], 'guideline'),
       ] },
     ],
   },
@@ -145,7 +145,7 @@ const ARTICLES = [
       ] },
       { heading: "What's normal", paragraphs: [
         p('Sleep specialists recommend seven or more hours a night for adults. Three in ten US adults get less.', ['aasm', 'cdcsleep'], 'guideline'),
-        p('Eating more when tired, or when the bag is open in front of you, is what the experiments show most people do. It is a predictable response to the situation, and the situation is the part you can change.', ['alkhatib', 'hollands'], 'strong'),
+        p('Eating more after a short night, or from a larger package, is what these experiments found on average. It is a common response to the situation, and the situation is the part you can change.', ['alkhatib', 'hollands'], 'strong'),
       ] },
     ],
   },
@@ -185,9 +185,9 @@ const ARTICLES = [
     sections: [
       { heading: 'Diet, exercise and the scale', paragraphs: [
         p('In trials that compared them directly, programmes combining diet and activity beat activity-only programmes by about 6.3 kg after 12 to 18 months, and beat diet-only programmes by about 1.7 kg at 12 months. Most of the weight loss comes from the diet side.', ['johns'], 'strong'),
-        p('The American College of Sports Medicine says 150 to 250 minutes of moderate activity a week prevents weight gain but produces only modest loss by itself, and that keeping weight off afterwards is helped by more than 250 minutes.', ['acsm'], 'guideline'),
+        p('The American College of Sports Medicine says 150 to 250 minutes of moderate activity a week prevents weight gain but produces only modest loss by itself, and that observational studies link more than 250 minutes to better weight maintenance, though no well-designed trial has tested it.', ['acsm'], 'guideline'),
         p('Exercise alone tends to produce a smaller energy deficit than the arithmetic predicts, partly because people eat a little more or move less for the rest of the day.', ['comp'], 'weak'),
-        p('Muscle does not change this much: a kilogram of it uses about 13 kcal a day at rest.', ['wang'], 'moderate'),
+        p('Extra muscle changes resting calorie burn only a little, because a kilogram of muscle uses about 13 kcal a day at rest.', ['wang'], 'moderate'),
       ] },
       { heading: 'Keeping it off', paragraphs: [
         p('About one in five people with overweight lose at least 10% of their weight and keep it off for a year. People in a US registry who have kept weight off for years report about an hour of activity a day, regular breakfast, weighing themselves, and eating the same way on weekends as on weekdays. They are a self-selected group, so these are habits they share and not proven causes.', ['wing'], 'weak'),
@@ -206,7 +206,7 @@ const ARTICLES = [
     bluf: [
       g('Give a new habit about two months before you judge whether it has stuck.', ['singh']),
       g('After a missed day, the only job is to do the next one.', ['milkman']),
-      g('Track with one tap and look back once a week. Heavy logging is what people quit.', ['michie', 'helander']),
+      g('Track with one tap and look back once a week. Very few people keep up detailed logging.', ['michie', 'helander']),
       g('Choose activity that feels good while you are doing it.', ['rhodes', 'teixeira']),
     ],
     sections: [
@@ -220,7 +220,7 @@ const ARTICLES = [
         p('Habits take longer than the popular 21 days. In the studies that timed it, the middle person took 59 to 66 days, and individuals ranged from 4 to 335 days. Most of these studies were rated at high risk of bias.', ['singh'], 'moderate'),
         p('Most nudges fade. In the gym experiment, only 8% of programmes still had a measurable effect after they ended.', ['milkman'], 'strong'),
         p('Dropping a tracking app is the norm. In one food-photo app, 2.58% of about 190,000 users kept using it actively.', ['helander'], 'moderate'),
-        p('Cramming your activity into one or two days is fine. In 350,978 adults, people who did so had similar death rates to people who spread the same activity across the week.', ['weekend'], 'moderate'),
+        p('People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.', ['weekend'], 'moderate'),
       ] },
     ],
   },
@@ -248,7 +248,7 @@ const ARTICLES = [
       ] },
       { heading: "What's normal", paragraphs: [
         p('Sore knees are common in volleyball. Jumper\'s knee affects about 40 to 50% of male indoor players, and shoulder pain accounts for 8 to 20% of injuries.', ['vbreview'], 'weak'),
-        p('Muscle soreness for a day or two after something new is expected. Pain inside a joint that is still there the next morning is the signal to back off and have it looked at.'),
+        p('A common rule of thumb, not taken from these sources: muscle soreness for a day or two after something new is expected, while pain inside a joint that is still there the next morning is a reason to back off and have it looked at.'),
       ] },
     ],
   },
@@ -263,14 +263,14 @@ const ARTICLES = [
     ],
     sections: [
       { heading: 'What it gives you', paragraphs: [
-        p('Health data on volleyball itself is thin. The largest study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.', ['oja'], 'moderate'),
+        p('Health data on volleyball itself is thin. A large study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.', ['oja'], 'moderate'),
         p('What can be said is that volleyball counts as activity. The WHO guideline is 150 to 300 minutes of moderate or 75 to 150 minutes of vigorous activity a week, and three nights of play goes a long way toward it.', ['who'], 'guideline'),
       ] },
       { heading: 'Jumping higher', paragraphs: [
         p('Across 14 randomised trials with 322 volleyball players, jump training improved vertical jump height.', ['plyo'], 'strong'),
       ] },
       { heading: 'Staying on court', paragraphs: [
-        p('Ankle sprains make up as much as half of volleyball injuries, and most happen to a previously sprained ankle. Balance-board training reduced them in a trial of 116 teams.', ['vbreview', 'verhagen'], 'moderate'),
+        p('Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before. Balance-board training reduced them in a trial of 116 teams.', ['vbreview', 'verhagen'], 'moderate'),
         p('Across sports, balance training lowers ankle sprain risk by about 40%.', ['ankle'], 'strong'),
       ] },
       { heading: "What's normal", paragraphs: [
@@ -289,7 +289,8 @@ const ARTICLES = [
     ],
     sections: [
       { heading: 'What it gives you', paragraphs: [
-        p('Climbing is muscle-strengthening activity, mostly for the pulling muscles and grip that volleyball does not train. Muscle-strengthening activity is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.', ['momma', 'who'], 'moderate'),
+        p('Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults. None of these studies looked at climbing itself.', ['momma', 'who'], 'moderate'),
+        p('Climbing loads the pulling muscles and the grip, which volleyball does not train. This is a description of the sport, not a study finding.'),
         p('Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.', ['climbdet'], 'moderate'),
       ] },
       { heading: 'Where people get hurt', paragraphs: [
@@ -298,7 +299,7 @@ const ARTICLES = [
         p('Balance training lowers ankle sprain risk by about 40% across sports, which matters for landing falls as much as for volleyball.', ['ankle'], 'strong'),
       ] },
       { heading: "What's normal", paragraphs: [
-        p('Your forearms will give out long before the rest of you. Grip endurance is the limiting factor the research identifies, and it is the last thing beginners have.', ['climbdet'], 'moderate'),
+        p('Expect your forearms to tire first. Hand and forearm strength and endurance are what the research rates as highly important for climbing.', ['climbdet'], 'moderate'),
         p('Experienced climbers tend to be lean with large forearms. That describes people who have climbed for years. It is not an entry requirement.', ['climbdet'], 'weak'),
       ] },
     ],
@@ -351,7 +352,7 @@ const ARTICLES = [
       ] },
       { heading: "What's normal", paragraphs: [
         p('In the cohorts above, the typical person in the middle of the range took between about 5,800 and 7,800 steps a day.', ['paluch'], 'strong'),
-        p('The WHO guideline counts all movement, says some is better than none, and sets no minimum bout length.', ['who'], 'guideline'),
+        p('The WHO guideline says some physical activity is better than none.', ['who'], 'guideline'),
       ] },
     ],
   },

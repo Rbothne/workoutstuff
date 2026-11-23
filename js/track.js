@@ -43,31 +43,33 @@
     vb.setAttribute('aria-pressed', played ? 'true' : 'false');
     vb.textContent = played ? 'Played volleyball today' : 'Played volleyball';
 
-    var week = $('week');
-    week.textContent = '';
+    // Counts active days only. Days with nothing logged are never shown.
     var now = new Date();
+    var active = 0;
     for (var i = 6; i >= 0; i--) {
       var key = OneMove.dateKey(new Date(now.getFullYear(), now.getMonth(), now.getDate() - i));
-      var any = entries.some(function (e) { return e.date === key; });
-      week.appendChild(el('i', any ? 'on' : ''));
+      if (entries.some(function (e) { return e.date === key; })) active++;
     }
+    $('week').textContent = active ? active + (active === 1 ? ' day' : ' days') + ' logged in the last 7' : '';
   }
 
   function toggleEntry(moveId, sets, keepIfBigger) {
     if (!store || busy) return;
     busy = true;
     var existing = entryFor(todayKey(), moveId);
-    var work;
-    if (existing) {
-      // A full lifting log for this move is never removed by the Today button.
-      work = keepIfBigger && existing.sets.length > 1 ? Promise.resolve() : store.remove(existing.id);
-    } else {
-      work = store.add({ date: todayKey(), moveId: moveId, sets: sets });
-    }
-    enqueue(function () { return work; }).then(refresh, refresh).then(function () {
+    var failed = false;
+    // The write starts inside the queue, so it waits for earlier writes and a thrown error cannot leave `busy` set.
+    enqueue(function () {
+      if (existing) {
+        // A full lifting log for this move is never removed by the Today button.
+        return keepIfBigger && existing.sets.length > 1 ? null : store.remove(existing.id);
+      }
+      return store.add({ date: todayKey(), moveId: moveId, sets: sets });
+    }).catch(function () { failed = true; }).then(refresh).then(function () {
       busy = false;
       sheet = null;
       paintAll();
+      if (failed) $('today-dose').textContent = "That didn't save. Check your connection or browser storage and tap again.";
     });
   }
 
@@ -109,6 +111,7 @@
     var root = $('log-root');
     var status = $('log-status');
     var moves = OneMoveApp.getMoves();
+    if (OneMoveApp.movesFailed()) { status.hidden = false; status.textContent = "Couldn't load the move list, so the log can't be shown. Reload to try again."; return; }
     if (!store || !moves.length) return;
     var settings = OneMoveApp.getSettings();
     if (!sheet) {
@@ -196,17 +199,20 @@
     var date = todayKey();
     var rows = sheet.filter(function (r) { return !r.skip; });
     var failed = false;
-    var chain = Promise.resolve();
-    rows.forEach(function (r) {
-      chain = chain.then(function () {
-        return store.add({ date: date, moveId: r.move.id, sets: r.sets });
-      }).catch(function () { failed = true; });
-    });
-    enqueue(function () { return chain; }).then(refresh, refresh).then(function () {
+    enqueue(function () {
+      // One write at a time, started inside the queue.
+      var chain = Promise.resolve();
+      rows.forEach(function (r) {
+        chain = chain.then(function () {
+          return store.add({ date: date, moveId: r.move.id, sets: r.sets });
+        }).catch(function () { failed = true; });
+      });
+      return chain;
+    }).catch(function () { failed = true; }).then(refresh).then(function () {
       busy = false;
-      sheet = null;
+      if (!failed) sheet = null; // on a failed save his edited numbers stay on screen
       paintAll();
-      if (failed) $('log-status').textContent = "Some of that didn't save. Check your connection and tap the button again.";
+      if (failed) $('log-status').textContent = "Some of that didn't save. Your numbers are still here. Check your connection and tap the button again.";
     });
   }
 
@@ -214,6 +220,7 @@
   function renderWeek() {
     var root = $('week-root');
     var moves = OneMoveApp.getMoves();
+    if (OneMoveApp.movesFailed()) { $('week-status').textContent = "Couldn't load the move list, so the week can't be shown. Reload to try again."; return; }
     if (!store || !moves.length) return;
     $('week-status').hidden = true;
     root.textContent = '';
@@ -263,6 +270,7 @@
   }
 
   function paintAll() {
+    OneMoveApp.setEntries(entries);
     paintToday();
     renderLog();
     renderWeek();

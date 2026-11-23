@@ -24,6 +24,8 @@
   }
 
   var moves = [];
+  var entries = [];
+  var movesFailed = false;
   var settings = read(SETTINGS_KEY, {});
   if (!Array.isArray(settings.equipment)) settings.equipment = [];
   if (!Array.isArray(settings.dumbbells)) settings.dumbbells = [];
@@ -113,8 +115,12 @@
       if (!bells.length) {
         lines.push(el('span', '', want));
       } else {
-        var fit = OneMove.suitableWeights(move, bells, null);
-        if (fit.length) {
+        var lastW = OneMove.lastWeight(entries, move.id);
+        var fit = OneMove.suitableWeights(move, bells, lastW);
+        if (lastW !== null) {
+          // His own log replaces the starting guess about what is light or heavy for him.
+          lines.push(el('span', '', want + ' You last used ' + lastW + ' lb.'));
+        } else if (fit.length) {
           lines.push(el('span', '', want + ' From yours: ' + fit.join(', ') + ' lb. (The light and medium cut-offs are a starting guess.)'));
         } else {
           lines.push(el('span', 'warn', 'Your lightest dumbbell is ' + bells[0] + ' lb, which is heavy for this move.'));
@@ -190,7 +196,11 @@
       renderToday();
       listeners.forEach(function (fn) { fn(); });
     })
-    .catch(function () { $('moves-error').hidden = false; });
+    .catch(function () {
+      movesFailed = true;
+      $('moves-error').hidden = false;
+      listeners.forEach(function (fn) { fn(); });
+    });
 
   window.OneMoveApp = {
     el: el,
@@ -198,6 +208,8 @@
     getMoves: function () { return moves; },
     getSettings: function () { return settings; },
     getTodayId: function () { return todayId; },
+    movesFailed: function () { return movesFailed; },
+    setEntries: function (list) { entries = list; if (moves.length) renderCards(); },
     onChange: function (fn) { listeners.push(fn); },
     // Called once the store is open: its settings replace the browser copy and later changes save to it.
     useStore: function (stored, save) {

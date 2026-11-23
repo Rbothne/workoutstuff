@@ -81,3 +81,22 @@ test('the eating article draws on Japan, Korea, China and Germany and sets no ca
   const text = JSON.stringify([eating.bluf, eating.sections]);
   assert.ok(!/kcal|calorie/i.test(text), 'eating article mentions calories');
 });
+
+// Wording that went beyond what the checked source said. Found in review; pinned so it does not return.
+test('articles do not carry the overclaims found in review', () => {
+  const text = JSON.stringify(load());
+  for (const phrase of [
+    'All of them limit', 'half of most plates', 'no minimum', 'Heavy logging is what people quit',
+    'The largest study', 'most happen to a previously', 'limiting factor', 'most people do',
+    'Climbing is muscle-strengthening activity',
+  ]) {
+    assert.ok(!text.includes(phrase), `still says: ${phrase}`);
+  }
+});
+
+test('a daily line never opens mid-thought', () => {
+  const lines = JSON.parse(fs.readFileSync(path.join(root, 'data', 'lines.json'), 'utf8'));
+  for (const l of lines) {
+    assert.ok(!/^(Muscle does not change this much|Cramming your activity|Your forearms will give out)/.test(l.text), l.text);
+  }
+});

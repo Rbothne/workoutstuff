@@ -63,6 +63,7 @@
         var pEl = el('p', '', para.text + ' ');
         if (para.cites.length) pEl.appendChild(cites(para.cites));
         if (para.strength) pEl.appendChild(el('span', 'ev ev-' + para.strength, LABEL[para.strength]));
+        else if (!para.cites.length) pEl.appendChild(el('span', 'ev ev-note', 'Not from a source'));
         sec.appendChild(pEl);
       });
       root.appendChild(sec);
@@ -83,7 +84,7 @@
       ol.appendChild(li);
     });
     src.appendChild(ol);
-    src.appendChild(el('p', 'note', 'Each link was opened and checked against the claim it supports. Evidence labels: strong means a meta-analysis or large trial, moderate a single trial or cohort, weak a small study or review, and official guideline a recommendation from a health authority.'));
+    src.appendChild(el('p', 'note', 'Each link was opened and checked against the claim it supports. A paragraph marked "not from a source" is context or a rule of thumb, not a finding. Evidence labels: strong means a meta-analysis or large trial, moderate a single trial or cohort, weak a small study or review, and official guideline a recommendation from a health authority.'));
     root.appendChild(src);
   }
 

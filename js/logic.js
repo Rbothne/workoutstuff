@@ -109,6 +109,17 @@
 
   var SETS_PER_MOVE = 3;
 
+  function isSession(entry) { return Array.isArray(entry.sets) && entry.sets.length > 1; }
+
+  // The weight he last really lifted for a move, or null if he never logged a weighted session of it.
+  function lastWeight(entries, moveId) {
+    var sessions = (entries || []).filter(function (e) { return e.moveId === moveId && isSession(e); })
+      .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+    if (!sessions.length) return null;
+    var w = Math.min.apply(null, sessions[0].sets.map(function (s) { return isFinite(s.weight) ? s.weight : 0; }));
+    return w > 0 ? w : null;
+  }
+
   // The day's lifting sheet: his routine, limited to what his equipment allows, each move pre-filled.
   function planSession(moves, settings, entries, todayKey) {
     var owned = settings.equipment.concat(settings.dumbbells.length ? ['dumbbells'] : []);
@@ -121,7 +132,8 @@
       var mine = (entries || []).filter(function (e) { return e.moveId === id; })
         .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
       var todays = mine.filter(function (e) { return e.date === todayKey; })[0];
-      var last = mine.filter(function (e) { return e.date < todayKey; })[0];
+      // A one-set entry is a "Mark done" tap on Today, not a lifting session, so it never sets the next suggestion.
+      var last = mine.filter(function (e) { return e.date < todayKey && isSession(e); })[0];
       var sets;
       if (todays) {
         sets = todays.sets.map(function (s) { return { weight: s.weight, reps: s.reps }; });
@@ -158,6 +170,7 @@
 
   return {
     planSession: planSession,
+    lastWeight: lastWeight,
     stepWeight: stepWeight,
     BARS: BARS,
     dateKey: dateKey,

@@ -5,7 +5,7 @@
   "title": "Eating well",
   "bluf": [
    {
-    "text": "Fill about half of most plates with vegetables and fruit. Five portions a day is the common target.",
+    "text": "Eat vegetables and fruit at most meals. Five portions, or about 400 g a day, is the common target.",
     "cites": [
      1,
      6,
@@ -59,7 +59,7 @@
       "strength": "guideline"
      },
      {
-      "text": "All of them limit salt, sugar and fat. The WHO and China both set salt under 5 g a day and added or free sugar under about 50 g, and Korea tells people to choose foods lower in salt, sugar and fat.",
+      "text": "The WHO, China and Korea all limit salt, sugar and fat. The WHO and China both set salt under 5 g a day and added or free sugar under about 50 g, and Korea tells people to choose foods lower in salt, sugar and fat.",
       "cites": [
        1,
        5,
@@ -336,7 +336,7 @@
       "strength": "weak"
      },
      {
-      "text": "Exercise is also an effective treatment for depression, which often sits behind low energy. Across 218 trials, walking or jogging and strength training both helped, though the reviewers rated their confidence as low.",
+      "text": "Exercise is also an effective treatment for depression, according to a review of 218 trials that rated its own confidence in the result as low. Walking or jogging and strength training both helped.",
       "cites": [
        7
       ],
@@ -363,7 +363,7 @@
       "strength": "strong"
      },
      {
-      "text": "The WHO guideline says some activity is better than none and that sitting time should be reduced. There is no minimum amount below which movement stops counting.",
+      "text": "The WHO guideline says some physical activity is better than none and that sitting time should be reduced.",
       "cites": [
        3
       ],
@@ -516,7 +516,7 @@
       "strength": "guideline"
      },
      {
-      "text": "Eating more when tired, or when the bag is open in front of you, is what the experiments show most people do. It is a predictable response to the situation, and the situation is the part you can change.",
+      "text": "Eating more after a short night, or from a larger package, is what these experiments found on average. It is a common response to the situation, and the situation is the part you can change.",
       "cites": [
        1,
        3
@@ -772,7 +772,7 @@
       "strength": "strong"
      },
      {
-      "text": "The American College of Sports Medicine says 150 to 250 minutes of moderate activity a week prevents weight gain but produces only modest loss by itself, and that keeping weight off afterwards is helped by more than 250 minutes.",
+      "text": "The American College of Sports Medicine says 150 to 250 minutes of moderate activity a week prevents weight gain but produces only modest loss by itself, and that observational studies link more than 250 minutes to better weight maintenance, though no well-designed trial has tested it.",
       "cites": [
        2
       ],
@@ -786,7 +786,7 @@
       "strength": "weak"
      },
      {
-      "text": "Muscle does not change this much: a kilogram of it uses about 13 kcal a day at rest.",
+      "text": "Extra muscle changes resting calorie burn only a little, because a kilogram of muscle uses about 13 kcal a day at rest.",
       "cites": [
        8
       ],
@@ -925,7 +925,7 @@
     ]
    },
    {
-    "text": "Track with one tap and look back once a week. Heavy logging is what people quit.",
+    "text": "Track with one tap and look back once a week. Very few people keep up detailed logging.",
     "cites": [
      3,
      5
@@ -998,7 +998,7 @@
       "strength": "moderate"
      },
      {
-      "text": "Cramming your activity into one or two days is fine. In 350,978 adults, people who did so had similar death rates to people who spread the same activity across the week.",
+      "text": "People who fit their weekly activity into one or two days had similar death rates to people who spread it across the week, in a study of 350,978 adults.",
       "cites": [
        7
       ],
@@ -1176,7 +1176,7 @@
       "strength": "weak"
      },
      {
-      "text": "Muscle soreness for a day or two after something new is expected. Pain inside a joint that is still there the next morning is the signal to back off and have it looked at.",
+      "text": "A common rule of thumb, not taken from these sources: muscle soreness for a day or two after something new is expected, while pain inside a joint that is still there the next morning is a reason to back off and have it looked at.",
       "cites": [],
       "strength": null
      }
@@ -1279,7 +1279,7 @@
     "heading": "What it gives you",
     "paragraphs": [
      {
-      "text": "Health data on volleyball itself is thin. The largest study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.",
+      "text": "Health data on volleyball itself is thin. A large study of specific sports followed 80,306 British adults across six activities, and volleyball was not one of them. It found lower death rates among people who played racquet sports, swam, did aerobics or cycled, and no clear link for running or football.",
       "cites": [
        2
       ],
@@ -1310,7 +1310,7 @@
     "heading": "Staying on court",
     "paragraphs": [
      {
-      "text": "Ankle sprains make up as much as half of volleyball injuries, and most happen to a previously sprained ankle. Balance-board training reduced them in a trial of 116 teams.",
+      "text": "Ankle sprains make up as much as half of volleyball injuries, and up to 80% involve an ankle that was sprained before. Balance-board training reduced them in a trial of 116 teams.",
       "cites": [
        3,
        4
@@ -1426,12 +1426,17 @@
     "heading": "What it gives you",
     "paragraphs": [
      {
-      "text": "Climbing is muscle-strengthening activity, mostly for the pulling muscles and grip that volleyball does not train. Muscle-strengthening activity is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults.",
+      "text": "Muscle-strengthening activity in general is linked to a 10 to 17% lower risk of early death and major disease, and the WHO recommends it regularly for all adults. None of these studies looked at climbing itself.",
       "cites": [
        5,
        4
       ],
       "strength": "moderate"
+     },
+     {
+      "text": "Climbing loads the pulling muscles and the grip, which volleyball does not train. This is a description of the sport, not a study finding.",
+      "cites": [],
+      "strength": null
      },
      {
       "text": "Success in climbing depends heavily on hand and forearm strength and endurance, which improve with training.",
@@ -1472,7 +1477,7 @@
     "heading": "What's normal",
     "paragraphs": [
      {
-      "text": "Your forearms will give out long before the rest of you. Grip endurance is the limiting factor the research identifies, and it is the last thing beginners have.",
+      "text": "Expect your forearms to tire first. Hand and forearm strength and endurance are what the research rates as highly important for climbing.",
       "cites": [
        3
       ],
@@ -1796,7 +1801,7 @@
       "strength": "strong"
      },
      {
-      "text": "The WHO guideline counts all movement, says some is better than none, and sets no minimum bout length.",
+      "text": "The WHO guideline says some physical activity is better than none.",
       "cites": [
        2
       ],

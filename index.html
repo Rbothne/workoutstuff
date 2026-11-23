@@ -56,9 +56,7 @@ button { font: 600 1rem var(--body); border-radius: 10px; padding: 12px 18px; cu
 .primary { background: var(--go); color: var(--go-fg); }
 .ghost { background: transparent; color: var(--fg); }
 .primary[aria-pressed="true"] { background: transparent; color: var(--go); }
-.week { display: flex; gap: 6px; align-items: center; margin-left: auto; }
-.week i { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line); }
-.week i.on { background: var(--go); border-color: var(--go); }
+.week { margin-left: auto; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; }
 
 .gear { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -117,6 +115,7 @@ h3.group { color: var(--muted); }
 .ev { display: inline-block; font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border: 1px solid var(--line); color: var(--muted); border-radius: 999px; padding: 0 8px; margin-left: 6px; white-space: nowrap; }
 .ev-strong, .ev-guideline { border-color: var(--go); color: var(--go); }
 .ev-weak, .ev-unverified { border-color: var(--feel); color: var(--feel); }
+.ev-note { border-style: dashed; }
 .sources { margin: 0; padding-left: 1.6em; display: flex; flex-direction: column; gap: 8px; font-size: .92rem; overflow-wrap: anywhere; }
 .sources .pub { color: var(--muted); }
 .ghost[aria-pressed="true"] { border-color: var(--go); color: var(--go); }
@@ -173,7 +172,7 @@ button:disabled { opacity: .55; cursor: default; }
         <button class="ghost" id="show" type="button">Show me how</button>
         <button class="primary" id="done" type="button" aria-pressed="false">Mark done</button>
         <button class="ghost" id="vball" type="button" aria-pressed="false">Played volleyball</button>
-        <div class="week" id="week" aria-label="Last seven days"></div>
+        <div class="week" id="week" aria-live="polite"></div>
       </div>
     </div>
     <div class="line" id="line" hidden>
@@ -246,7 +245,7 @@ button:disabled { opacity: .55; cursor: default; }
               <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
               <polyline class="b" points="228,72 226,122 258,124 256,158 270,158"/><polyline class="b" points="226,122 214,150 190,150 188,158"/><polyline class="b" points="228,78 234,116"/>
               <line class="m" x1="226" y1="122" x2="258" y2="124"/><circle class="z" cx="224" cy="124" r="7"/><circle class="hd" cx="228" cy="58" r="10"/>
-              <text class="f" x="272" y="120">front thigh</text><text class="f" x="212" y="114" text-anchor="end">glute</text>
+              <text class="f" x="316" y="146" text-anchor="end">front thigh</text><text class="f" x="212" y="114" text-anchor="end">glute</text>
             </svg>
             <figcaption>You go straight down like a lift, not forward like a lunge. Most of your weight stays on the front foot.</figcaption>
           </figure>
@@ -845,8 +844,8 @@ button:disabled { opacity: .55; cursor: default; }
           <figure>
             <svg viewBox="0 0 320 180" role="img" aria-label="A slumped stance with hips drifted forward and head ahead of the shoulders, beside a stacked stance with ear, shoulder, hip and ankle in one vertical line.">
               <line class="fl" x1="20" y1="161" x2="300" y2="161"/>
-              <polyline class="b" points="84,158 70,158 74,128 86,100 70,58"/><polyline class="b" points="70,62 78,102"/><circle class="hd" cx="82" cy="44" r="10"/>
-              <circle class="z" cx="82" cy="44" r="4"/><circle class="z" cx="70" cy="60" r="4"/><circle class="z" cx="86" cy="100" r="4"/><circle class="z" cx="70" cy="158" r="4"/>
+              <polyline class="b" points="84,158 70,158 74,128 86,100 70,58"/><polyline class="b" points="70,62 78,102"/><circle class="hd" cx="79" cy="47" r="10"/>
+              <circle class="z" cx="79" cy="47" r="4"/><circle class="z" cx="70" cy="60" r="4"/><circle class="z" cx="86" cy="100" r="4"/><circle class="z" cx="70" cy="158" r="4"/>
               <path class="b t" d="M140 100h20"/><path class="ah" d="M160 94l10 6-10 6z"/>
               <polyline class="b" points="254,158 240,158 240,128 240,100 240,54"/><polyline class="b" points="240,60 243,100"/><circle class="hd" cx="240" cy="40" r="10"/>
               <circle class="z" cx="240" cy="40" r="4"/><circle class="z" cx="240" cy="58" r="4"/><circle class="z" cx="240" cy="100" r="4"/><circle class="z" cx="240" cy="158" r="4"/>
@@ -917,7 +916,7 @@ button:disabled { opacity: .55; cursor: default; }
               <line class="b" x1="90" y1="158" x2="244" y2="126"/><polyline class="b t" points="244,126 254,78 236,74"/>
               <polyline class="b" points="176,48 170,96 182,116 186,138 198,136"/><polyline class="b" points="170,96 158,122 150,146 162,144"/>
               <polyline class="b" points="176,54 162,78"/><polyline class="b" points="176,54 192,74"/><circle class="hd" cx="178" cy="34" r="10"/>
-              <text x="120" y="176" text-anchor="middle">incline up</text><text x="262" y="110">hands off the rails</text>
+              <text x="120" y="176" text-anchor="middle">incline up</text><text x="316" y="58" text-anchor="end">hands off the rails</text>
             </svg>
             <figcaption>The brisk part is a pace where you could still talk in short sentences. Stay tall and let your arms swing.</figcaption>
           </figure>
