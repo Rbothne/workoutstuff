@@ -69,9 +69,9 @@ test('remove deletes an entry', async () => {
 
 test('settings start at the defaults and round-trip', async () => {
   const store = await Store.open({});
-  assert.deepEqual(await store.getSettings(), { equipment: [], dumbbells: [], routine: DEFAULT_ROUTINE });
+  assert.deepEqual(await store.getSettings(), { equipment: [], dumbbells: [], routine: DEFAULT_ROUTINE, prefs: {} });
   await store.setSettings({ equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'] });
-  assert.deepEqual(await store.getSettings(), { equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'] });
+  assert.deepEqual(await store.getSettings(), { equipment: ['bench'], dumbbells: [20, 50], routine: ['squat'], prefs: {} });
 });
 
 test('browser storage is used when there is no database, and survives reopening', async () => {

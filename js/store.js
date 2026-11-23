@@ -15,7 +15,20 @@
   var DB_TIMEOUT_MS = 10000;
 
   function defaults() {
-    return { equipment: [], dumbbells: [], routine: OneMove.DEFAULT_ROUTINE.slice() };
+    return { equipment: [], dumbbells: [], routine: OneMove.DEFAULT_ROUTINE.slice(), prefs: {} };
+  }
+  // Per-move preferences: the sets, reps and weight he last chose, and the day he chose them.
+  function cleanPrefs(p) {
+    var out = {};
+    if (!p || typeof p !== 'object') return out;
+    Object.keys(p).forEach(function (id) {
+      var x = p[id];
+      if (!x || typeof x !== 'object') return;
+      var ok = isFinite(x.sets) && x.sets >= 1 && x.sets <= 6 && isFinite(x.reps) && x.reps > 0
+        && isFinite(x.weight) && x.weight >= 0 && typeof x.date === 'string';
+      if (ok) out[id] = { sets: Math.round(x.sets), reps: x.reps, weight: x.weight, date: x.date };
+    });
+    return out;
   }
   function cleanSettings(s) {
     var d = defaults();
@@ -24,6 +37,7 @@
       equipment: Array.isArray(s.equipment) ? s.equipment.slice() : d.equipment,
       dumbbells: Array.isArray(s.dumbbells) ? s.dumbbells.slice() : d.dumbbells,
       routine: Array.isArray(s.routine) ? s.routine.slice() : d.routine,
+      prefs: cleanPrefs(s.prefs),
     };
   }
   function withId(entry) {

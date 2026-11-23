@@ -108,8 +108,66 @@
   }
 
   var SETS_PER_MOVE = 3;
+  var PURPOSES = ['Explosiveness', 'Strength', 'Endurance', 'Joint protection', 'Climbing', 'Mobility and posture'];
+  // Which articles explain each purpose, most relevant first.
+  var PURPOSE_READING = {
+    Strength: ['strength-training', 'strength'], Explosiveness: ['volleyball'], 'Joint protection': ['injury'],
+    Climbing: ['climbing'], Endurance: ['walking', 'energy'], 'Mobility and posture': ['injury'],
+  };
+  var READING_ORDER = ['strength-training', 'strength', 'climbing', 'volleyball', 'injury', 'walking', 'energy'];
 
-  function isSession(entry) { return Array.isArray(entry.sets) && entry.sets.length > 1; }
+  // A lift session: logged from Train (kind "lift"), or an older entry with more than one set.
+  // A "Mark done" tap on Today's move logs one set and a pass logs none; neither sets the next suggestion.
+  function isSession(entry) {
+    if (!Array.isArray(entry.sets) || entry.pass) return false;
+    return entry.kind === 'lift' ? entry.sets.length > 0 : entry.sets.length > 1;
+  }
+
+  function mainBar(move) {
+    var bars = Object.keys(move.credits || {}).filter(function (b) { return move.credits[b] === 1; });
+    return bars.length ? BARS.filter(function (b) { return bars.indexOf(b) !== -1; })[0] : null;
+  }
+
+  function replacementsFor(moves, moveId) {
+    var target = moves.filter(function (m) { return m.id === moveId; })[0];
+    var bar = target ? mainBar(target) : null;
+    if (!bar) return [];
+    return moves.filter(function (m) { return m.id !== moveId && m.id !== 'volleyball' && mainBar(m) === bar; });
+  }
+
+  function emptiestBars(credits, n) {
+    return BARS.slice().sort(function (a, b) { return (credits[a] || 0) - (credits[b] || 0) || BARS.indexOf(a) - BARS.indexOf(b); }).slice(0, n);
+  }
+
+  // Widths (0 to 1) of up to four layers: the first round of the target, then each extra round painted over it.
+  function barLayers(value, target) {
+    var layers = [];
+    var rounds = target > 0 ? value / target : 0;
+    for (var k = 0; k < 4 && rounds - k > 0; k++) layers.push(Math.round(Math.min(1, rounds - k) * 1000) / 1000);
+    return layers;
+  }
+
+  function relatedArticles(moves, routine) {
+    var byId = {};
+    moves.forEach(function (m) { byId[m.id] = m; });
+    var count = {};
+    (routine || []).forEach(function (id) {
+      var m = byId[id];
+      if (!m || !m.for) return;
+      var seen = {};
+      m.for.forEach(function (p) { (PURPOSE_READING[p] || []).forEach(function (a) { if (!seen[a]) { seen[a] = 1; count[a] = (count[a] || 0) + 1; } }); });
+    });
+    var ids = Object.keys(count).sort(function (a, b) { return count[b] - count[a] || READING_ORDER.indexOf(a) - READING_ORDER.indexOf(b); });
+    return ids.length ? ids.slice(0, 4) : ['habits', 'strength'];
+  }
+
+  function stepSets(n, dir) { return Math.max(1, Math.min(6, n + dir)); }
+
+  function movesForArticle(moves, articleId) {
+    return moves.filter(function (m) {
+      return m.id !== 'volleyball' && (m.for || []).some(function (p) { return (PURPOSE_READING[p] || []).indexOf(articleId) !== -1; });
+    });
+  }
 
   // The weight he last really lifted for a move, or null if he never logged a weighted session of it.
   function lastWeight(entries, moveId) {
@@ -121,24 +179,31 @@
   }
 
   // The day's lifting sheet: his routine, limited to what his equipment allows, each move pre-filled.
+  // His own choices stick: the set count he last chose always applies, and numbers he changed after his
+  // last session open as he left them. Once a newer session is logged, progression builds from it.
   function planSession(moves, settings, entries, todayKey) {
     var owned = settings.equipment.concat(settings.dumbbells.length ? ['dumbbells'] : []);
+    var prefsAll = settings.prefs || {};
     var visible = {};
     visibleMoves(moves, owned).forEach(function (m) { visible[m.id] = m; });
     var rows = [];
     settings.routine.forEach(function (id) {
       var move = visible[id];
       if (!move || !move.logged) return;
+      var pref = prefsAll[id] || null;
+      var count = pref && pref.sets ? pref.sets : SETS_PER_MOVE;
       var mine = (entries || []).filter(function (e) { return e.moveId === id; })
         .sort(function (a, b) { return a.date < b.date ? 1 : -1; });
       var todays = mine.filter(function (e) { return e.date === todayKey; })[0];
-      // A one-set entry is a "Mark done" tap on Today, not a lifting session, so it never sets the next suggestion.
       var last = mine.filter(function (e) { return e.date < todayKey && isSession(e); })[0];
+      var status = todays ? (todays.pass ? 'pass' : 'done') : null;
       var sets;
-      if (todays) {
+      if (status === 'done') {
         sets = todays.sets.map(function (s) { return { weight: s.weight, reps: s.reps }; });
       } else {
-        var next = last ? suggestNext(move, last.sets, settings.dumbbells) : null;
+        var next = null;
+        if (pref && (!last || pref.date > last.date)) next = { weight: pref.weight, reps: pref.reps };
+        else if (last) next = suggestNext(move, last.sets, settings.dumbbells);
         if (!next) {
           var start = 0;
           if (move.load && move.equipment.indexOf('dumbbells') !== -1 && settings.dumbbells.length) {
@@ -149,9 +214,9 @@
           next = { weight: start, reps: move.min };
         }
         sets = [];
-        for (var i = 0; i < SETS_PER_MOVE; i++) sets.push({ weight: next.weight, reps: next.reps });
+        for (var i = 0; i < count; i++) sets.push({ weight: next.weight, reps: next.reps });
       }
-      rows.push({ move: move, sets: sets, first: !last && !todays, done: !!todays, last: last || null });
+      rows.push({ move: move, sets: sets, status: status, first: !last && !todays, done: status === 'done', last: last || null });
     });
     return rows;
   }
@@ -169,6 +234,15 @@
   }
 
   return {
+    PURPOSES: PURPOSES,
+    mainBar: mainBar,
+    replacementsFor: replacementsFor,
+    emptiestBars: emptiestBars,
+    barLayers: barLayers,
+    relatedArticles: relatedArticles,
+    stepSets: stepSets,
+    movesForArticle: movesForArticle,
+    isSession: isSession,
     planSession: planSession,
     lastWeight: lastWeight,
     stepWeight: stepWeight,
