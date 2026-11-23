@@ -277,7 +277,7 @@
 
   // A fresh routine of the same length. Locked moves and anything logged or passed today stay in place.
   // The open slots first cover every muscle group his gear reaches, emptiest projected group first, then go
-  // to whichever group still looks emptiest. Within a group his favourites come first, and each new `turn`
+  // to whichever group still looks emptiest. Within a group his favourites come first, then staples, and each new `turn`
   // moves one along, so pressing again rotates through every move he could do.
   function generateRoutine(moves, settings, entries, today, turn) {
     turn = Math.max(0, Math.floor(turn || 0));
@@ -304,7 +304,7 @@
     var groups = {};
     BARS.forEach(function (b) {
       groups[b] = pool.filter(function (m) { return mainBar(m) === b; })
-        .sort(function (x, y) { return (fav[y.id] || 0) - (fav[x.id] || 0) || order[x.id] - order[y.id]; });
+        .sort(function (x, y) { return (fav[y.id] || 0) - (fav[x.id] || 0) || (y.staple ? 1 : 0) - (x.staple ? 1 : 0) || order[x.id] - order[y.id]; });
     });
 
     var proj = projectWeek(entries, moves, today);

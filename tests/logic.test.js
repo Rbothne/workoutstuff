@@ -111,7 +111,9 @@ test('nextMove: names the emptiest bar and a move that fills it', () => {
 test('nextMove: only suggests from the moves it is given', () => {
   const credits = { quads: 4, hips: 4, core: 4, push: 4, pull: 0, jump: 4 };
   const noGear = L.visibleMoves(moves, []);
-  assert.deepEqual(L.nextMove(credits, 4, noGear), { bar: 'pull', moveId: null });
+  assert.deepEqual(L.nextMove(credits, 4, noGear), { bar: 'pull', moveId: 'proney' });
+  const noPull = noGear.filter((m) => m.id !== 'proney');
+  assert.deepEqual(L.nextMove(credits, 4, noPull), { bar: 'pull', moveId: null });
 });
 
 const base = { equipment: [], dumbbells: [], routine: L.DEFAULT_ROUTINE };

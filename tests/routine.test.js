@@ -55,7 +55,7 @@ test('a generated routine keeps its length, uses only loggable moves his gear al
 test('a full routine trains every muscle group his gear can reach', () => {
   assert.deepEqual(new Set(bars(L.generateRoutine(moves, settings(), [], monday, 0))), new Set(L.BARS));
   const bare = L.generateRoutine(moves, settings({ dumbbells: [] }), [], monday, 0);
-  assert.deepEqual(new Set(bars(bare)), new Set(['quads', 'hips', 'core', 'push', 'jump']), 'no pull move needs nothing');
+  assert.deepEqual(new Set(bars(bare)), new Set(L.BARS), 'the prone Y raise covers pull with no equipment');
 });
 
 test('locked moves stay where they are', () => {
@@ -83,6 +83,11 @@ test('pressing it again rotates through every move he could do', () => {
 test('the first pick in each group is his favourite', () => {
   const out = L.generateRoutine(moves, settings(), [lift(daysBefore(2), 'sideplank'), lift(daysBefore(9), 'sideplank')], monday, 0);
   assert.ok(out.includes('sideplank'));
+});
+
+test('with no history every pick is a staple', () => {
+  const out = L.generateRoutine(moves, settings(), [], monday, 0);
+  for (const id of out) assert.ok(byId(id).staple, id);
 });
 
 test('a volleyball week steers a short routine to core, push and pull; a week without it starts from the legs', () => {

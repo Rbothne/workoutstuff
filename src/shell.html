@@ -96,6 +96,16 @@ button { font: inherit; color: inherit; }
 .pick .i { width: 1.2em; color: var(--muted); font-variant-numeric: tabular-nums; flex: none; }
 .pick .st { margin-left: auto; font-size: 12px; font-weight: 600; white-space: nowrap; }
 .pick .st.ok { color: var(--t1); } .pick .st.pass { color: var(--muted); font-weight: 500; }
+.pick .dot { width: 6px; height: 6px; border-radius: 50%; flex: none; align-self: center; margin-right: -2px; }
+.pick .dot.on { background: var(--t1); }
+.pick .stars { margin-left: auto; align-self: center; color: var(--muted); font-size: 9.5px; letter-spacing: 1px; font-weight: 400; white-space: nowrap; }
+.pick .stars + small { margin-left: 6px; }
+.chip.staples::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--t1); margin-right: 5px; vertical-align: 1px; }
+.chip.staples[aria-pressed="true"]::before { background: var(--go-fg); }
+.marks { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; }
+.marks .stars { color: var(--t3); letter-spacing: 1px; font-size: 13px; }
+.marks .stars .empty { color: var(--line); }
+.marks .staple { font-weight: 600; font-size: 12px; color: var(--t1); border: 1px solid var(--t1); border-radius: 999px; padding: 0 8px; }
 .list { display: flex; flex-direction: column; gap: 1px; margin: 0; padding: 0; list-style: none; }
 .rrow { display: flex; align-items: stretch; gap: 2px; }
 .rrow .pick { flex: 1 1 auto; min-width: 0; }

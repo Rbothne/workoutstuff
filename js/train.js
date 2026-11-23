@@ -9,6 +9,7 @@
   var BAR_NAME = { quads: 'quads', hips: 'glutes and hamstrings', core: 'core', push: 'push', pull: 'pull', jump: 'calves and jumping' };
   var CAT_LABEL = { legs: 'Legs', hips: 'Hips', core: 'Core', push: 'Push', pull: 'Pull', jump: 'Jump', mobility: 'Mobility', cardio: 'Cardio' };
   var CAT_ORDER = ['legs', 'hips', 'core', 'push', 'pull', 'jump', 'mobility', 'cardio'];
+  var DIFF_LABEL = { 1: 'Simple to learn', 2: 'Takes some practice', 3: 'Technical or high impact, learn it carefully' };
 
   var LOCK_SHUT = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="8" rx="1.5" fill="currentColor"/><path d="M5.2 7V5a2.8 2.8 0 0 1 5.6 0v2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>';
   var LOCK_OPEN = '<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3.8" y="7.8" width="8.4" height="6.4" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.2 7.8V5a2.8 2.8 0 0 1 5.4-1" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>';
@@ -23,6 +24,16 @@
   }
   function todayKey() { return OneMove.dateKey(new Date()); }
   function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
+  // Difficulty is about technique, not effort: one star is simple to learn, three is technical or high impact.
+  function stars(m, empties) {
+    var d = m.difficulty || 1;
+    var s = el('span', 'stars', '★'.repeat(d));
+    if (empties && d < 3) s.appendChild(el('span', 'empty', '★'.repeat(3 - d)));
+    s.setAttribute('role', 'img');
+    s.setAttribute('aria-label', 'Difficulty ' + d + ' of 3. ' + DIFF_LABEL[d]);
+    s.title = DIFF_LABEL[d];
+    return s;
+  }
 
   // ---------- state ----------
   var moves = [], byId = {}, articles = [], entries = [], settings = null, store = null;
@@ -336,9 +347,9 @@
 
   function renderPurposes() {
     var box = $('purposes'); box.textContent = '';
-    ['All'].concat(OneMove.PURPOSES).forEach(function (p) {
+    ['All', 'Staples'].concat(OneMove.PURPOSES).forEach(function (p) {
       var on = ui.purpose === p && !ui.bar && !ui.target;
-      var c = button('chip', p, function () { ui.purpose = p; ui.bar = null; ui.target = null; render(); });
+      var c = button(p === 'Staples' ? 'chip staples' : 'chip', p, function () { ui.purpose = p; ui.bar = null; ui.target = null; render(); });
       c.setAttribute('aria-pressed', on ? 'true' : 'false');
       box.appendChild(c);
     });
@@ -348,6 +359,7 @@
     var list;
     if (ui.target) list = OneMove.replacementsFor(moves, ui.target);
     else if (ui.bar) list = moves.filter(function (m) { return OneMove.mainBar(m) === ui.bar; });
+    else if (ui.purpose === 'Staples') list = moves.filter(function (m) { return m.staple; });
     else list = moves.filter(function (m) { return ui.purpose === 'All' || (m.for || []).indexOf(ui.purpose) !== -1; });
     return list.filter(function (m) { return m.id !== 'volleyball'; })
       .sort(function (a, b) { return CAT_ORDER.indexOf(a.category) - CAT_ORDER.indexOf(b.category); });
@@ -367,7 +379,10 @@
       if (m.category !== cat) { cat = m.category; box.appendChild(el('div', 'g', CAT_LABEL[cat] || cat)); }
       var p = button('pick' + (available(m) ? '' : ' off'), '', function () { clickBank(m.id); });
       p.dataset.sel = 'bank:' + m.id;
+      var dot = el('span', 'dot' + (m.staple ? ' on' : '')); if (m.staple) { dot.title = 'Staple'; dot.setAttribute('aria-label', 'Staple'); dot.setAttribute('role', 'img'); }
+      p.appendChild(dot);
       p.appendChild(document.createTextNode(m.name));
+      p.appendChild(stars(m));
       var extra = needs(m) || (inRoutine(m.id) ? 'in routine' : '');
       if (extra) p.appendChild(el('small', '', extra));
       box.appendChild(p);
@@ -420,6 +435,11 @@
     var row = sel.kind === 'routine' ? planRow(m.id) : null;
 
     var head = el('div', 'ex-head'); head.appendChild(el('h3', '', m.name));
+    var marks = el('span', 'marks');
+    if (m.staple) marks.appendChild(el('b', 'staple', 'Staple'));
+    marks.appendChild(stars(m, true));
+    marks.appendChild(el('span', 'muted', DIFF_LABEL[m.difficulty || 1]));
+    head.appendChild(marks);
     var dose = card && card.querySelector('summary .dose');
     head.appendChild(el('span', 'muted', sel.kind === 'today' ? (card ? card.dataset.dose : '') + '. That is the whole job for today.' : dose ? dose.textContent : ''));
     if (m.for && m.for.length) { var f = el('span', 'for', 'For:'); m.for.forEach(function (x) { f.appendChild(el('b', '', x)); }); head.appendChild(f); }
